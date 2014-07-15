@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fi">
+<head>
+	<meta charset="UTF-8">
+	<title>LEFFALUKKARI ! ! !</title>
+
+	<link rel="stylesheet" href="app.css">
+
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+	
+
+	<div ng-app="leffalukkari">
+		<h1>MOTHERLOVER</h1>
+		<div ng-controller="FilmListCtrl">
+			<table ng-repeat="(id, day) in data.days" id="{{ id }}">
+				<caption>{{day.label}}</caption>
+				<thead>
+					<th>klo</th>
+					<th ng-repeat="theater in theaters">{{theater}}</th>
+				</thead>
+				<tbody>
+					<tr ng-repeat="timeslot in day.timeslots">
+						<th>{{timeslot.label}}</th>
+						<td ng-repeat="theater in timeslot.theaters">
+							<div ng-repeat="screening in theater.screenings">{{screening.title}}</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+
+
+	</div>
+</body>
+</html>

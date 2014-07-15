@@ -1,0 +1,10 @@
+{
+	"timeslots": [10, 12, 14, 17, 19, 21],
+	"theaters": [
+		"Kino Tapiola",
+		"Tapiolasali",
+		"Louhisali",
+		"Bio Rex Sello 4",
+		"Bio Rex Sello 5"
+	]
+}
