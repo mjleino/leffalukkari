@@ -9,3 +9,7 @@ MEGA HOT SEXYNESS FOR YOUR EVENT NUGGETS
 ## Install dependencies
 
     npm install
+
+## Usage
+
+Type `npm start` and marvel in the prettiness! 
