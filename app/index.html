@@ -5,7 +5,10 @@
 	<title>LEFFALUKKARI ! ! !</title>
 
 	<link rel="stylesheet" href="app.css">
-
+	
+	<!--[if lte IE 7]>
+		<script src="/path/to/json2.js"></script>
+	<![endif]-->
 	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </head>
@@ -13,7 +16,7 @@
 
 	
 
-	<div ng-app="leffalukkari">
+	<div id="ng-app" ng-app="leffalukkari">
 		<h1>MOTHERLOVER</h1>
 		<div ng-controller="FilmListCtrl">
 			<table ng-repeat="day in data.days | orderObjectBy:'order'" id="{{ day.id }}">
@@ -26,7 +29,9 @@
 					<tr ng-repeat="timeslot in day.timeslots | orderObjectBy:'order'">
 						<th>{{timeslot.label}}</th>
 						<td ng-repeat="theater in timeslot.theaters | orderObjectBy:'order'">
-							<div ng-repeat="screening in theater.screenings">{{screening.title}}</div>
+							<div ng-repeat="screening in theater.screenings">
+								{{screening.title}}
+							</div>
 						</td>
 					</tr>
 				</tbody>
