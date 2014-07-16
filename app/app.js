@@ -13,9 +13,10 @@ app.controller("FilmListCtrl", function($scope, $http) {
 		// ultimate nuggetrium data format for easy viewing
 		var data = {"days": {}}
 		var theaterObject = {}
-		angular.forEach(config.theaters, function(theater){
+		angular.forEach(config.theaters, function(theater, i){
 			theaterObject[theater] = {
 				"label": theater,
+				"order": i,
 				"screenings": []
 			}
 		})
@@ -27,7 +28,6 @@ app.controller("FilmListCtrl", function($scope, $http) {
 			}
 		})
 		var dayObject = {
-			"label": "OVERWRITE ME",
 			"timeslots": angular.copy(timeslotsObject)
 		}
 
@@ -37,6 +37,8 @@ app.controller("FilmListCtrl", function($scope, $http) {
 			if (! (dateId in data.days)) {
 				data.days[dateId] = angular.copy(dayObject)
 				data.days[dateId].label = getDateLabel(new Date(screening.date))
+				data.days[dateId].id    = dateId
+				data.days[dateId].order = screening.date
 			}
 
 			var timeslot = getTimeslot(screening.time)
@@ -72,5 +74,19 @@ app.controller("FilmListCtrl", function($scope, $http) {
 		for (var i = 0; i < config.timeslots.length; i++)
 			if (i == config.timeslots.length-1 || h >= config.timeslots[i] && h < config.timeslots[i+1])
 				return config.timeslots[i]
+	}
+})
+
+app.filter("orderObjectBy", function() { /* source: http://justinklemm.com/angularjs-filter-ordering-objects-ngrepeat/ */
+	return function(items, field, reverse) {
+		var filtered = []
+		angular.forEach(items, function(item) {
+			filtered.push(item)
+		})
+		filtered.sort(function (a, b) {
+			return (a[field] > b[field] ? 1 : -1)
+		})
+		if(reverse) filtered.reverse()
+		return filtered
 	}
 })

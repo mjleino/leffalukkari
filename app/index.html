@@ -16,7 +16,7 @@
 	<div ng-app="leffalukkari">
 		<h1>MOTHERLOVER</h1>
 		<div ng-controller="FilmListCtrl">
-			<table ng-repeat="(id, day) in data.days" id="{{ id }}">
+			<table ng-repeat="day in data.days | orderObjectBy:'order'" id="{{ day.id }}">
 				<caption>{{day.label}}</caption>
 				<thead>
 					<th>klo</th>
@@ -32,9 +32,6 @@
 				</tbody>
 			</table>
 		</div>
-
-
-
 	</div>
 </body>
 </html>
