@@ -23,9 +23,9 @@
 					<th ng-repeat="theater in theaters">{{theater}}</th>
 				</thead>
 				<tbody>
-					<tr ng-repeat="timeslot in day.timeslots">
+					<tr ng-repeat="timeslot in day.timeslots | orderObjectBy:'order'">
 						<th>{{timeslot.label}}</th>
-						<td ng-repeat="theater in timeslot.theaters">
+						<td ng-repeat="theater in timeslot.theaters | orderObjectBy:'order'">
 							<div ng-repeat="screening in theater.screenings">{{screening.title}}</div>
 						</td>
 					</tr>

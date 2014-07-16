@@ -21,9 +21,10 @@ app.controller("FilmListCtrl", function($scope, $http) {
 			}
 		})
 		var timeslotsObject = {}
-		angular.forEach(config.timeslots, function(timeslot) {
+		angular.forEach(config.timeslots, function(timeslot, i) {
 			timeslotsObject[timeslot] = {
 				"label": timeslot,
+				"order": i,
 				"theaters": angular.copy(theaterObject)
 			}
 		})
