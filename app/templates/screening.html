@@ -1,0 +1,9 @@
+<section class="panel panel-default" ng-class="{special: screening.special}">
+	<address ng-if="screening.special">{{screening.theater}}</address>
+
+	<div class="panel-body screening-body">
+		<time datetime="{{screening.datetime}}">{{screening.time}}</time>
+
+		<h4>{{screening.title}}</h4>
+	</div>
+</section>

@@ -1,37 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="fi">
 <head>
-	<meta charset="UTF-8">
-	<title>LEFFALUKKARI ! ! !</title>
+	<meta charset="utf-8">
+	<title>Espoo Ciné 2015: LEFFALUKKARI</title>
 
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="cine.css"> -->
 	<link rel="stylesheet" href="app.css">
 	
-	<!--[if lte IE 7]>
-		<script src="/path/to/json2.js"></script>
-	<![endif]-->
 	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </head>
 <body>
-
+	<div id="ng-app" class="container" ng-app="leffalukkari">
+		<h1>ESPOO CINÉ 2015</h1>
 	
-
-	<div id="ng-app" ng-app="leffalukkari">
-		<h1>MOTHERLOVER</h1>
 		<div ng-controller="FilmListCtrl">
-			<table ng-repeat="day in data.days | orderObjectBy:'order'" id="{{ day.id }}">
+			<table ng-repeat="day in data.days | orderObjectBy:'order'" id="{{ day.id }}" class="table">
 				<caption>{{day.label}}</caption>
 				<thead>
-					<th>klo</th>
-					<th ng-repeat="theater in theaters">{{theater}}</th>
+					<tr>
+						<th>klo</th>
+						<th ng-repeat="theater in theaters">{{theater}}</th>
+					</tr>
 				</thead>
 				<tbody>
-					<tr ng-repeat="timeslot in day.timeslots | orderObjectBy:'order'">
+					<tr ng-if="timeslot.count" ng-repeat="timeslot in day.timeslots | orderObjectBy:'order'">
 						<th>{{timeslot.label}}</th>
 						<td ng-repeat="theater in timeslot.theaters | orderObjectBy:'order'">
-							<div ng-repeat="screening in theater.screenings">
-								{{screening.title}}
-							</div>
+							<screening ng-repeat="screening in theater.screenings | orderBy:'time'">
+							</screening>
 						</td>
 					</tr>
 				</tbody>

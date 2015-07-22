@@ -1,0 +1,51 @@
+/*
+      ❤❤❤❤❤           ❤❤❤❤❤
+  ❤❤❤❤❤❤❤❤❤❤❤❤     ❤❤❤❤❤❤❤❤❤❤❤❤
+ ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤ ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+❤❤❤ VXBZ ❤ www.viiksipojat.fi ❤❤❤
+❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+ ❤❤❤❤❤❤❤❤❤❤❤❤❤2015❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+  ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+    ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+      ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+        ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+          ❤❤❤❤❤❤❤❤❤❤❤❤❤
+            ❤❤❤❤❤❤❤❤❤
+             ❤❤❤❤❤❤❤
+              ❤❤❤❤❤
+                ❤
+*/
+
+th:first-child {
+	width: 5%;
+}
+
+th {
+	width: 15%;
+}
+
+caption {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 800;
+	color: #eee;
+	background-color: #111;
+	padding: 16px;
+
+	border-radius: 4px;
+}
+
+address {
+	margin: 0;
+	padding: 10px 4px;
+	background: black;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.screening-body {
+	padding: 8px;
+}

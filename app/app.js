@@ -2,6 +2,7 @@ var app = angular.module("leffalukkari", [])
 
 app.controller("FilmListCtrl", function($scope, $http) {
 	var config
+
 	$http.get("/app-data/config.json")
 	.then(function(result) {
 		config = result.data
@@ -9,11 +10,11 @@ app.controller("FilmListCtrl", function($scope, $http) {
 	})
 	.then(function(result) {
 		var screenings = result.data
-		
+
 		// ultimate nuggetrium data format for easy viewing
 		var data = {"days": {}}
 		var theaterObject = {}
-		angular.forEach(config.theaters, function(theater, i){
+		angular.forEach(config.theaters, function(theater, i) {
 			theaterObject[theater] = {
 				"label": theater,
 				"order": i,
@@ -25,6 +26,7 @@ app.controller("FilmListCtrl", function($scope, $http) {
 			timeslotsObject[timeslot] = {
 				"label": timeslot,
 				"order": i,
+				"count": 0,
 				"theaters": angular.copy(theaterObject)
 			}
 		})
@@ -34,23 +36,38 @@ app.controller("FilmListCtrl", function($scope, $http) {
 
 		// let's poop all the screenings to their proper boxes
 		angular.forEach(screenings, function(screening) {
-			var dateId = getDateId(new Date(screening.date))
+			var date = new Date(screening.date + "T" + screening.time)
+
+			// TODO: this maybe in screenings.json
+			screening.datetime = date.toISOString()
+
+			var dateId = getDateId(date)
 			if (! (dateId in data.days)) {
 				data.days[dateId] = angular.copy(dayObject)
-				data.days[dateId].label = getDateLabel(new Date(screening.date))
+				data.days[dateId].label = getDateLabel(date)
 				data.days[dateId].id    = dateId
 				data.days[dateId].order = screening.date
+			}
+
+			var theaterslot = screening.theater
+			if (config.theaters.indexOf(screening.theater) < 0) {
+				theaterslot = config.theaters[config.theaters.length-1]
+				screening.special = true
 			}
 
 			var timeslot = getTimeslot(screening.time)
 			data.days[dateId]
 			    .timeslots[timeslot]
-			    .theaters[screening.theater]
+			    .theaters[theaterslot]
 			    .screenings.push(screening)
+			data.days[dateId]
+			    .timeslots[timeslot]
+			    .count++
 		})
 
 		console.log(data)
 		$scope.data = data
+		GLOBAL_DATA = $scope.data
 		$scope.theaters = config.theaters
 	})
 
@@ -66,7 +83,7 @@ app.controller("FilmListCtrl", function($scope, $http) {
 		return weekdays[d.getDay()] + "-" + d.getDate()
 	}
 	function getDateLabel(d) {
-		var weekdays = ["Su", "Ma", "Tu", "Ke", "To", "Pe", "La"]
+		var weekdays = ["su", "ma", "tu", "ke", "to", "pe", "la"]
 		return weekdays[d.getDay()] + " " + d.getDate() + "." + (d.getMonth()+1) + "."
 	}
 	function getTimeslot(t) {
@@ -75,6 +92,12 @@ app.controller("FilmListCtrl", function($scope, $http) {
 		for (var i = 0; i < config.timeslots.length; i++)
 			if (i == config.timeslots.length-1 || h >= config.timeslots[i] && h < config.timeslots[i+1])
 				return config.timeslots[i]
+	}
+})
+
+app.directive("screening", function() {
+	return {
+		templateUrl: "templates/screening.html"
 	}
 })
 
