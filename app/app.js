@@ -5,7 +5,7 @@ app.controller("FilmListCtrl", function($scope, $http) {
 	$http.get("/app-data/config.json")
 	.then(function(result) {
 		config = result.data
-		return $http.get("/app-data/screenings.json")
+		return $http.get("/app-data/cine.json")
 	})
 	.then(function(result) {
 		var screenings = result.data
