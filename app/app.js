@@ -73,12 +73,6 @@ app.controller("FilmListCtrl", function($scope, $http) {
 		// scope is at: angular.element($("[ng-controller]")).scope()
 	})
 
-	$scope.fuckers = {
-		"2Matt": {type: "BOOGER", fucks: 12},
-		"1Ben": {type: "TITFACE", fucks: 2},
-		"3Dick": {type:"BOOZZZE", fucks: 555}
-	}
-
 	// HELPER FUNCTIONS ->
 	function getDateId(d) {
 		var weekdays = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
