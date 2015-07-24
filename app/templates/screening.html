@@ -4,6 +4,6 @@
 	<div class="panel-body screening-body">
 		<time datetime="{{screening.datetime}}">{{screening.time}}</time>
 
-		<h4>{{screening.title}}</h4>
+		<h4 ng-bind-html="screening.title | highlight:search.text"></h4>
 	</div>
 </section>

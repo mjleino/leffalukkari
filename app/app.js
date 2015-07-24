@@ -1,4 +1,4 @@
-var app = angular.module("leffalukkari", [])
+var app = angular.module("leffalukkari", ["ngSanitize"])
 
 app.controller("FilmListCtrl", function($scope, $http) {
 	var config
