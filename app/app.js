@@ -41,12 +41,14 @@ app.controller("FilmListCtrl", function($scope, $http) {
 			// TODO: this maybe in screenings.json
 			screening.datetime = date.toISOString()
 
-			var dateId = getDateId(date)
-			if (! (dateId in data.days)) {
-				data.days[dateId] = angular.copy(dayObject)
-				data.days[dateId].label = getDateLabel(date)
-				data.days[dateId].id    = dateId
-				data.days[dateId].order = screening.date
+			screening.dateId   = getDateId(date)
+			screening.timeslot = getTimeslot(screening.time)
+
+			if (! (screening.dateId in data.days)) {
+				data.days[screening.dateId] = angular.copy(dayObject)
+				data.days[screening.dateId].label = getDateLabel(date)
+				data.days[screening.dateId].id    = screening.dateId
+				data.days[screening.dateId].order = screening.date
 			}
 
 			var theaterslot = screening.theater
@@ -55,20 +57,20 @@ app.controller("FilmListCtrl", function($scope, $http) {
 				screening.special = true
 			}
 
-			var timeslot = getTimeslot(screening.time)
-			data.days[dateId]
-			    .timeslots[timeslot]
+			data.days[screening.dateId]
+			    .timeslots[screening.timeslot]
 			    .theaters[theaterslot]
 			    .screenings.push(screening)
-			data.days[dateId]
-			    .timeslots[timeslot]
+			data.days[screening.dateId]
+			    .timeslots[screening.timeslot]
 			    .count++
 		})
 
-		console.log(data)
+		console.log($scope, data)
 		$scope.data = data
-		GLOBAL_DATA = $scope.data
+		$scope.screenings = screenings
 		$scope.theaters = config.theaters
+		// scope is at: angular.element($("[ng-controller]")).scope()
 	})
 
 	$scope.fuckers = {
@@ -83,7 +85,7 @@ app.controller("FilmListCtrl", function($scope, $http) {
 		return weekdays[d.getDay()] + "-" + d.getDate()
 	}
 	function getDateLabel(d) {
-		var weekdays = ["su", "ma", "tu", "ke", "to", "pe", "la"]
+		var weekdays = ["su", "ma", "ti", "ke", "to", "pe", "la"]
 		return weekdays[d.getDay()] + " " + d.getDate() + "." + (d.getMonth()+1) + "."
 	}
 	function getTimeslot(t) {
@@ -101,7 +103,8 @@ app.directive("screening", function() {
 	}
 })
 
-app.filter("orderObjectBy", function() { /* source: http://justinklemm.com/angularjs-filter-ordering-objects-ngrepeat/ */
+// http://justinklemm.com/angularjs-filter-ordering-objects-ngrepeat/
+app.filter("orderObjectBy", function() {
 	return function(items, field, reverse) {
 		var filtered = []
 		angular.forEach(items, function(item) {
@@ -112,5 +115,26 @@ app.filter("orderObjectBy", function() { /* source: http://justinklemm.com/angul
 		})
 		if(reverse) filtered.reverse()
 		return filtered
+	}
+})
+
+app.filter("hasScreenings", function() {
+	return function(timeslots, search) {
+		console.log("hasScreenings", timeslots, search)
+		var filtered = []
+		angular.forEach(timeslots, function(timeslot) {
+			filtered.push(timeslot)
+		})
+
+		return filtered
+	}
+})
+
+// https://codeforgeek.com/2014/12/highlight-search-result-angular-filter/
+app.filter('highlight', function() {
+	return function(text, phrase) {
+		if (phrase) text = text.replace(new RegExp('('+phrase+')', 'gi'), '<b class="highlight">$1</b>')
+
+		return text
 	}
 })

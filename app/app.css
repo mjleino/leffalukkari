@@ -17,23 +17,42 @@
                 ❤
 */
 
+table {
+	table-layout: fixed;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
 th:first-child {
 	width: 5%;
+	/*font-size: 16px;*/
 }
 
-th {
+th, td {
 	width: 15%;
+	/*border: none !important;*/
 }
 
-caption {
-	font-size: 36px;
+td:empty {
+	border: 4px solid red;
+}
+
+caption, th.day {
+/*	font-size: 36px;
 	line-height: 36px;
-	font-weight: 800;
+*/	font-weight: 800;
 	color: #eee;
 	background-color: #111;
 	padding: 16px;
 
 	border-radius: 4px;
+}
+
+tbody {
+	border: none !important;
 }
 
 address {
@@ -48,4 +67,12 @@ address {
 
 .screening-body {
 	padding: 8px;
+}
+
+#etsi-elokuvaa {
+	margin-top: 20px;
+}
+
+.highlight {
+	background-color: #ff7;
 }

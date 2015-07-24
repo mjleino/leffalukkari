@@ -15,24 +15,41 @@
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </head>
+
 <body>
-	<div id="ng-app" class="container" ng-app="leffalukkari">
+	<div id="ng-app" class="container-fluid" ng-app="leffalukkari">
+		<!-- http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box -->
+		<aside id="etsi-elokuvaa" class="input-group has-feedback pull-right col-xs-4">
+			<input type="search" placeholder="Etsi elokuvaa…" class="form-control" aria-label="Etsi elokuvaa" ng-model="search.text">
+			<!-- <i class="glyphicon glyphicon-remove-circle form-control-feedback"></i> -->
+		</aside>
+
 		<h1>ESPOO CINÉ 2015</h1>
-	
-		<div ng-controller="FilmListCtrl">
-			<table ng-repeat="day in data.days | orderObjectBy:'order'" id="{{ day.id }}" class="table">
-				<caption>{{day.label}}</caption>
+
+		<div id="ng-controller" ng-controller="FilmListCtrl">
+<!-- 			<ul ng-repeat="day in data.days">
+				{{day.id}}
+				<li ng-repeat="screening in screenings | filter:{dateId:day.id, timeslot:17}">{{screening}}</li>
+			</ul>
+ -->
+			<table class="table">
+				<!-- <caption>{{day.label}}</caption> -->
 				<thead>
 					<tr>
 						<th>klo</th>
 						<th ng-repeat="theater in theaters">{{theater}}</th>
 					</tr>
 				</thead>
-				<tbody>
-					<tr ng-if="timeslot.count" ng-repeat="timeslot in day.timeslots | orderObjectBy:'order'">
+				<tbody ng-repeat="day in data.days | orderObjectBy:'order'" id="{{ day.id }}">
+					<tr>
+						<th class="day" colspan="7">
+							<h3>{{day.label}}</h3>
+						</th>
+					</tr>
+					<tr ng-show="(screenings | filter:{dateId:day.id, timeslot:timeslot.label} | filter:search.text).length" ng-repeat="timeslot in day.timeslots | orderObjectBy:'order'">
 						<th>{{timeslot.label}}</th>
 						<td ng-repeat="theater in timeslot.theaters | orderObjectBy:'order'">
-							<screening ng-repeat="screening in theater.screenings | orderBy:'time'">
+							<screening ng-repeat="screening in theater.screenings | filter:search.text | orderBy:'time'">
 							</screening>
 						</td>
 					</tr>
