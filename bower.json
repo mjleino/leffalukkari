@@ -1,11 +1,12 @@
 {
   "name": 			"leffalukkari",
-  "version": 		"0.1.0",
+  "version": 		"0.2.0",
   "private":		true,
   "dependencies":	{
   	"angular":		"1.x",
   	"jquery":		"3.x",
-  	"bootstrap":	"3.x"
+  	"bootstrap":	"3.x",
+	"angular-sanitize": "1.x"
   },
   "ignore": [
     "**/.*",
