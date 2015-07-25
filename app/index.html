@@ -19,9 +19,11 @@
 <body>
 	<div id="ng-app" class="container-fluid" ng-app="leffalukkari">
 		<!-- http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box -->
-		<aside id="etsi-elokuvaa" class="input-group has-feedback pull-right col-xs-4">
+		<aside id="search-film" class="input-group has-feedback pull-right col-xs-4">
 			<input type="search" placeholder="Etsi elokuvaa…" class="form-control" aria-label="Etsi elokuvaa" ng-model="search.text">
-			<!-- <i class="glyphicon glyphicon-remove-circle form-control-feedback"></i> -->
+			<i class="glyphicon glyphicon-remove-circle form-control-feedback"
+			   ng-class="{enabled: search.text}"
+			   ng-click="search.text = ''"></i>
 		</aside>
 
 		<h1>ESPOO CINÉ 2015</h1>

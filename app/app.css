@@ -26,6 +26,10 @@ table {
 	hyphens: auto;
 }
 
+tbody {
+	border: none !important;
+}
+
 th:first-child {
 	width: 5%;
 	/*font-size: 16px;*/
@@ -59,8 +63,40 @@ caption, th.day {
 	border-radius: 4px;
 }
 
-tbody {
-	border: none !important;
+th > time	{
+	word-wrap: normal;
+	line-height: 1;
+	font-size: 2.5em;
+	color: #ddd;
+}
+
+/* FILM SEARCH */
+
+#search-film {
+	margin-top: 20px;
+}
+
+#search-film > i {
+	color: #eee;
+}
+#search-film > i.enabled {
+	color: #555;
+}
+#search-film > i.enabled::before {
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+/* SCREENING STUFF */
+
+screening {
+	display: block;
+	position: relative;
+}
+
+.screening {
+	position: absolute;
+	width: 100%;
 }
 
 address {
@@ -80,28 +116,12 @@ address {
 	text-transform: uppercase;
 }
 
-#etsi-elokuvaa {
-	margin-top: 20px;
+.screening-body {
+	padding: 8px;
 }
 
 .highlight {
 	background-color: #ff7;
-}
-
-/* SCREENING STUFF */
-
-screening {
-	display: block;
-	position: relative;
-}
-
-.screening {
-	position: absolute;
-	width: 100%;
-}
-
-.screening-body {
-	padding: 8px;
 }
 
 .duration {
