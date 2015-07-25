@@ -45,7 +45,7 @@ app.controller("FilmListCtrl", function($scope, $http) {
 
 		// let's poop all the screenings to their proper boxes
 		angular.forEach(screenings, function(screening) {
-			var datetime         = new Date(screening.date + "T" + screening.time + "+03:00")
+			var datetime = new Date(screening.date + "T" + screening.time + "+03:00")
 
 			// TODO: this maybe in screenings.json
 			screening.datetime = datetime.toISOString()

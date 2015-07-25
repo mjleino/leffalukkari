@@ -2,14 +2,16 @@
 		 ng-class="{selected: screening.selected}" style="margin-top: {{ screening.timeslotBreaker }}px">
 	<address ng-if="screening.special">{{screening.theater}}</address>
 
-	<img src="{{screening.imageurl}}">
+	<!-- <img src="{{screening.imageurl}}"> -->
 
 	<div class="panel-body screening-body" style="height: {{ screening.duration }}px">
 		<time datetime="{{screening.datetime}}">{{screening.time}}</time>
 
 		<h4 ng-bind-html="screening.title | highlight:search.text"></h4>
 
-		<small class="muted number">{{screening.number}}</small>
-		<small class="muted duration">{{screening.duration}} min</small>
+		<small class="number">{{screening.number}}</small>
+		<small class="duration">
+			<time datetime="P{{screening.duration}}M">{{screening.duration}} min</time>
+		</small>
 	</div>
 </section>

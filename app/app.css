@@ -83,13 +83,17 @@ address {
 	padding: 8px;
 }
 
-.runtime {
+.duration {
 	position: absolute;
 	bottom: 0;
 	right: 6px;
 }
 
-.screening-number {
+small {
+	color: gray;
+}
+
+.number {
 	position: absolute;
 	bottom: 0;
 	left: 6px;
