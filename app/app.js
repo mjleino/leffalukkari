@@ -34,7 +34,7 @@ app.controller("FilmListCtrl", function($scope, $http) {
 		angular.forEach(config.timeslots, function(timeslot, i) {
 			timeslotsObject[timeslot] = {
 				"label": timeslot,
-				"order": i,
+				"time": (timeslot < 10 ? " " : "") + timeslot + ":00",
 				"count": 0,
 				"theaters": angular.copy(theaterObject)
 			}
@@ -60,7 +60,7 @@ app.controller("FilmListCtrl", function($scope, $http) {
 				data.days[screening.dateId] = angular.copy(dayObject)
 				data.days[screening.dateId].label = getDateLabel(datetime)
 				data.days[screening.dateId].id    = screening.dateId
-				data.days[screening.dateId].order = screening.datetime
+				data.days[screening.dateId].date  = screening.date
 			}
 
 			var theaterslot = screening.theater
@@ -112,33 +112,6 @@ app.controller("FilmListCtrl", function($scope, $http) {
 app.directive("screening", function() {
 	return {
 		templateUrl: "templates/screening.html"
-	}
-})
-
-// http://justinklemm.com/angularjs-filter-ordering-objects-ngrepeat/
-app.filter("orderObjectBy", function() {
-	return function(items, field, reverse) {
-		var filtered = []
-		angular.forEach(items, function(item) {
-			filtered.push(item)
-		})
-		filtered.sort(function (a, b) {
-			return (a[field] > b[field] ? 1 : -1)
-		})
-		if(reverse) filtered.reverse()
-		return filtered
-	}
-})
-
-app.filter("hasScreenings", function() {
-	return function(timeslots, search) {
-		console.log("hasScreenings", timeslots, search)
-		var filtered = []
-		angular.forEach(timeslots, function(timeslot) {
-			filtered.push(timeslot)
-		})
-
-		return filtered
 	}
 })
 
