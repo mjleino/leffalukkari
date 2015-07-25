@@ -6,8 +6,8 @@
     "director": "Ovašvili",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-21",
     "time": "17:15",
@@ -16,8 +16,8 @@
     "director": "Eibl-Eibesfeldt",
     "duration": 92,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-21",
     "time": "18:00",
@@ -25,9 +25,9 @@
     "title": "45 vuotta",
     "director": "Haigh",
     "duration": 93,
-    "subtitles": "",
-    "screening-number": "1/2",
-    "age-rating": "K7"
+    "subtitles": "fin & swe",
+    "number": "-",
+    "rating": "K7"
 }, {
     "date": "2015-08-21",
     "time": "19:00",
@@ -35,19 +35,19 @@
     "title": "45 vuotta",
     "director": "Haigh",
     "duration": 93,
-    "subtitles": "",
-    "screening-number": "2/2",
-    "age-rating": "K7"
+    "subtitles": "fin & swe",
+    "number": "1/1",
+    "rating": "K7"
 }, {
     "date": "2015-08-21",
     "time": "19:15",
     "theater": "Louhisali",
-    "title": "Ten Billion",
+    "title": "10 Billion",
     "director": "Webber",
     "duration": 83,
     "subtitles": "",
-    "screening-number": "1/3",
-    "age-rating": "S"
+    "number": "1/3",
+    "rating": "S"
 }, {
     "date": "2015-08-21",
     "time": "21:00",
@@ -56,8 +56,8 @@
     "director": "Rothwell",
     "duration": 115,
     "subtitles": "",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-21",
     "time": "21:15",
@@ -66,18 +66,18 @@
     "director": "Rühm",
     "duration": 87,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-22",
     "time": "11:00",
     "theater": "Tapiolasali",
     "title": "Superworld",
     "director": "Markovics",
-    "duration": 120,
+    "duration": 119,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K7"
+    "number": "1/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-22",
     "time": "11:15",
@@ -86,8 +86,8 @@
     "director": "Erwa",
     "duration": 98,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-22",
     "time": "12:15",
@@ -96,8 +96,8 @@
     "director": "Guzzanti",
     "duration": 108,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K7"
+    "number": "1/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-22",
     "time": "13:15",
@@ -106,8 +106,8 @@
     "director": "Cherpitel",
     "duration": 76,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K12"
+    "number": "1/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-22",
     "time": "13:15",
@@ -116,18 +116,18 @@
     "director": "Riklis",
     "duration": 105,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "S"
+    "number": "1/3",
+    "rating": "S"
 }, {
     "date": "2015-08-22",
     "time": "14:30",
     "theater": "Louhisali",
     "title": "Q.E.D.",
     "director": "Gruzsniczki",
-    "duration": 105,
+    "duration": 107,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K7"
+    "number": "1/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-22",
     "time": "15:00",
@@ -136,8 +136,8 @@
     "director": "Docter",
     "duration": 94,
     "subtitles": "fin & swe",
-    "screening-number": "1/1",
-    "age-rating": "K7"
+    "number": "1/1",
+    "rating": "K7"
 }, {
     "date": "2015-08-22",
     "time": "15:30",
@@ -146,8 +146,8 @@
     "director": "Matanić",
     "duration": 123,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-22",
     "time": "16:30",
@@ -156,8 +156,8 @@
     "director": "Călugăreanu",
     "duration": 80,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K7"
+    "number": "1/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-22",
     "time": "17:00",
@@ -166,8 +166,8 @@
     "director": "Vinterberg",
     "duration": 119,
     "subtitles": "fin & swe",
-    "screening-number": "1/1",
-    "age-rating": "K12"
+    "number": "1/1",
+    "rating": "K12"
 }, {
     "date": "2015-08-22",
     "time": "18:00",
@@ -176,8 +176,8 @@
     "director": "Nanau",
     "duration": 93,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-22",
     "time": "18:15",
@@ -186,8 +186,8 @@
     "director": "Al Malik",
     "duration": 96,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-22",
     "time": "19:15",
@@ -196,8 +196,8 @@
     "director": "Wulff",
     "duration": 52,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-22",
     "time": "20:00",
@@ -206,8 +206,8 @@
     "director": "Vermut",
     "duration": 127,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-22",
     "time": "20:15",
@@ -216,8 +216,8 @@
     "director": "Salmenperä",
     "duration": 85,
     "subtitles": "",
-    "screening-number": "1/1",
-    "age-rating": "K12"
+    "number": "1/1",
+    "rating": "K12"
 }, {
     "date": "2015-08-22",
     "time": "20:30",
@@ -226,8 +226,8 @@
     "director": "Seidl",
     "duration": 85,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K18"
+    "number": "1/2",
+    "rating": "K18"
 }, {
     "date": "2015-08-22",
     "time": "22:15",
@@ -236,8 +236,8 @@
     "director": "Franz & Fiala",
     "duration": 99,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K18"
+    "number": "1/2",
+    "rating": "K18"
 }, {
     "date": "2015-08-22",
     "time": "22:30",
@@ -246,8 +246,8 @@
     "director": "Flah",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K7"
+    "number": "1/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-22",
     "time": "22:30",
@@ -256,8 +256,8 @@
     "director": "Lacuesta",
     "duration": 100,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-23",
     "time": "11:30",
@@ -266,8 +266,8 @@
     "director": "useita ohjaajia",
     "duration": 84,
     "subtitles": "eng",
-    "screening-number": "1/1",
-    "age-rating": "K16"
+    "number": "1/1",
+    "rating": "K16"
 }, {
     "date": "2015-08-23",
     "time": "11:30",
@@ -276,8 +276,8 @@
     "director": "Korma",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K7"
+    "number": "1/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-23",
     "time": "12:00",
@@ -286,8 +286,8 @@
     "director": "Thórsson",
     "duration": 106,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-23",
     "time": "13:15",
@@ -296,8 +296,8 @@
     "director": "Schei",
     "duration": 78,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-23",
     "time": "13:15",
@@ -306,8 +306,8 @@
     "director": "Garano & Goenaga",
     "duration": 99,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K7"
+    "number": "1/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-23",
     "time": "14:15",
@@ -316,8 +316,8 @@
     "director": "Augusto",
     "duration": 112,
     "subtitles": "fin & swe",
-    "screening-number": "1/1",
-    "age-rating": "K16"
+    "number": "1/1",
+    "rating": "K16"
 }, {
     "date": "2015-08-23",
     "time": "15:00",
@@ -326,18 +326,18 @@
     "director": "Wenders",
     "duration": 100,
     "subtitles": "",
-    "screening-number": "1/2",
-    "age-rating": "K12"
+    "number": "1/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-23",
     "time": "15:15",
     "theater": "Louhisali",
     "title": "Sherry & the Mystery of Palo Cortado",
     "director": "López Linares",
-    "duration": 88,
+    "duration": 90,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "S"
+    "number": "1/3",
+    "rating": "S"
 }, {
     "date": "2015-08-23",
     "time": "16:45",
@@ -346,8 +346,8 @@
     "director": "Bercot",
     "duration": 120,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-23",
     "time": "17:15",
@@ -356,8 +356,8 @@
     "director": "Szumowska",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-23",
     "time": "17:15",
@@ -366,8 +366,8 @@
     "director": "De Matteo",
     "duration": 94,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-23",
     "time": "19:00",
@@ -376,8 +376,8 @@
     "director": "August",
     "duration": 98,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K7"
+    "number": "1/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-23",
     "time": "19:15",
@@ -386,8 +386,8 @@
     "director": "Tzumérkas",
     "duration": 83,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-23",
     "time": "19:15",
@@ -396,8 +396,8 @@
     "director": "Reid",
     "duration": 95,
     "subtitles": "",
-    "screening-number": "1/2",
-    "age-rating": "S"
+    "number": "1/2",
+    "rating": "S"
 }, {
     "date": "2015-08-23",
     "time": "21:00",
@@ -406,28 +406,28 @@
     "director": "Muntean",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-23",
     "time": "21:00",
     "theater": "Tapiolasali",
     "title": "Black Souls",
     "director": "Munzi",
-    "duration": 103,
+    "duration": 109,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K7"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-23",
     "time": "21:15",
     "theater": "Louhisali",
     "title": "Cub",
     "director": "Govaerts",
-    "duration": 90,
+    "duration": 85,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-24",
     "time": "15:00",
@@ -436,8 +436,8 @@
     "director": "Polak",
     "duration": 89,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-24",
     "time": "15:15",
@@ -446,8 +446,8 @@
     "director": "Qosja",
     "duration": 93,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-24",
     "time": "15:15",
@@ -456,8 +456,8 @@
     "director": "Castón",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-24",
     "time": "17:00",
@@ -466,8 +466,8 @@
     "director": "Nanau",
     "duration": 93,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-24",
     "time": "17:15",
@@ -476,8 +476,8 @@
     "director": "Eibl-Eibesfeldt",
     "duration": 92,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-24",
     "time": "17:15",
@@ -486,8 +486,8 @@
     "director": "Civeyrac",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-24",
     "time": "19:00",
@@ -496,8 +496,8 @@
     "director": "Comencini",
     "duration": 105,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-24",
     "time": "19:15",
@@ -506,18 +506,18 @@
     "director": "Nasser & Nasser",
     "duration": 84,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K7"
+    "number": "1/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-24",
     "time": "19:15",
     "theater": "Kino Tapiola",
     "title": "Fidelio: Alice’s Journey",
     "director": "Borleteau",
-    "duration": 95,
+    "duration": 97,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K16"
+    "number": "1/2",
+    "rating": "K16"
 }, {
     "date": "2015-08-24",
     "time": "21:00",
@@ -526,8 +526,8 @@
     "director": "Jaquemet",
     "duration": 110,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K16"
+    "number": "1/2",
+    "rating": "K16"
 }, {
     "date": "2015-08-24",
     "time": "21:15",
@@ -536,8 +536,8 @@
     "director": "Werenfels",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K16"
+    "number": "1/2",
+    "rating": "K16"
 }, {
     "date": "2015-08-24",
     "time": "21:15",
@@ -546,8 +546,8 @@
     "director": "Sewitsky",
     "duration": 102,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-25",
     "time": "09:00",
@@ -556,8 +556,8 @@
     "director": "",
     "duration": 25,
     "subtitles": "",
-    "screening-number": "1/8",
-    "age-rating": "S"
+    "number": "1/8",
+    "rating": "S"
 }, {
     "date": "2015-08-25",
     "time": "09:00",
@@ -566,8 +566,8 @@
     "director": "",
     "duration": 25,
     "subtitles": "",
-    "screening-number": "2/8",
-    "age-rating": "S"
+    "number": "2/8",
+    "rating": "S"
 }, {
     "date": "2015-08-25",
     "time": "09:30",
@@ -576,8 +576,8 @@
     "director": "Koivusalo",
     "duration": 72,
     "subtitles": "",
-    "screening-number": "1/1",
-    "age-rating": "S"
+    "number": "1/1",
+    "rating": "S"
 }, {
     "date": "2015-08-25",
     "time": "10:00",
@@ -586,8 +586,8 @@
     "director": "",
     "duration": 25,
     "subtitles": "",
-    "screening-number": "3/8",
-    "age-rating": "S"
+    "number": "3/8",
+    "rating": "S"
 }, {
     "date": "2015-08-25",
     "time": "10:00",
@@ -596,8 +596,8 @@
     "director": "",
     "duration": 25,
     "subtitles": "",
-    "screening-number": "4/8",
-    "age-rating": "S"
+    "number": "4/8",
+    "rating": "S"
 }, {
     "date": "2015-08-25",
     "time": "10:00",
@@ -606,8 +606,8 @@
     "director": "Jacobsen",
     "duration": 78,
     "subtitles": "fin",
-    "screening-number": "1/4",
-    "age-rating": "K7"
+    "number": "1/4",
+    "rating": "K7"
 }, {
     "date": "2015-08-25",
     "time": "11:00",
@@ -616,8 +616,8 @@
     "director": "De Sica",
     "duration": 93,
     "subtitles": "fin",
-    "screening-number": "1/1",
-    "age-rating": "S"
+    "number": "1/1",
+    "rating": "S"
 }, {
     "date": "2015-08-25",
     "time": "11:15",
@@ -626,8 +626,8 @@
     "director": "Boswell",
     "duration": 100,
     "subtitles": "fin",
-    "screening-number": "1/2",
-    "age-rating": "K7"
+    "number": "1/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-25",
     "time": "11:45",
@@ -636,8 +636,8 @@
     "director": "Salvatores",
     "duration": 100,
     "subtitles": "fin",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-25",
     "time": "14:00",
@@ -646,8 +646,8 @@
     "director": "",
     "duration": 180,
     "subtitles": "",
-    "screening-number": "",
-    "age-rating": ""
+    "number": "",
+    "rating": ""
 }, {
     "date": "2015-08-25",
     "time": "14:30",
@@ -656,8 +656,8 @@
     "director": "Ulk",
     "duration": 114,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-25",
     "time": "15:00",
@@ -666,8 +666,8 @@
     "director": "Korma",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K7"
+    "number": "2/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-25",
     "time": "15:15",
@@ -676,8 +676,8 @@
     "director": "August",
     "duration": 98,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K7"
+    "number": "2/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-25",
     "time": "15:30",
@@ -686,8 +686,8 @@
     "director": "Lilti",
     "duration": 102,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K7"
+    "number": "1/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-25",
     "time": "17:00",
@@ -696,8 +696,8 @@
     "director": "Lungulov",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K12"
+    "number": "1/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-25",
     "time": "17:00",
@@ -706,8 +706,8 @@
     "director": "Civeyrac",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-25",
     "time": "17:00",
@@ -716,18 +716,18 @@
     "director": "Garano & Goenaga",
     "duration": 99,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K7"
+    "number": "2/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-25",
     "time": "17:15",
     "theater": "Sello 5",
     "title": "Fidelio: Alice’s Journey",
     "director": "Borleteau",
-    "duration": 95,
+    "duration": 97,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K16"
+    "number": "2/2",
+    "rating": "K16"
 }, {
     "date": "2015-08-25",
     "time": "17:30",
@@ -736,8 +736,8 @@
     "director": "Blümner",
     "duration": 81,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-25",
     "time": "19:00",
@@ -746,8 +746,8 @@
     "director": "Longinotto",
     "duration": 73,
     "subtitles": "",
-    "screening-number": "1/3",
-    "age-rating": "S"
+    "number": "1/3",
+    "rating": "S"
 }, {
     "date": "2015-08-25",
     "time": "19:00",
@@ -756,8 +756,8 @@
     "director": "De Matteo",
     "duration": 94,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-25",
     "time": "19:00",
@@ -766,8 +766,8 @@
     "director": "Liberski",
     "duration": 100,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-25",
     "time": "19:15",
@@ -776,8 +776,8 @@
     "director": "Szumowska",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-25",
     "time": "19:15",
@@ -786,18 +786,18 @@
     "director": "Bellefroid",
     "duration": 94,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K7"
+    "number": "1/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-25",
     "time": "20:30",
     "theater": "Kino Tapiola",
     "title": "We Are Young. We Are Strong.",
     "director": "Qurbani",
-    "duration": 116,
+    "duration": 128,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K12"
+    "number": "1/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-25",
     "time": "21:00",
@@ -806,8 +806,8 @@
     "director": "Rønde",
     "duration": 104,
     "subtitles": "",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-25",
     "time": "21:00",
@@ -816,18 +816,18 @@
     "director": "Vermut",
     "duration": 127,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-25",
     "time": "21:15",
     "theater": "Sello 4",
     "title": "Black Souls",
     "director": "Munzi",
-    "duration": 103,
+    "duration": 109,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-25",
     "time": "21:15",
@@ -836,8 +836,8 @@
     "director": "Longinotto",
     "duration": 105,
     "subtitles": "",
-    "screening-number": "1/2",
-    "age-rating": "K16"
+    "number": "1/2",
+    "rating": "K16"
 }, {
     "date": "2015-08-26",
     "time": "09:00",
@@ -846,8 +846,8 @@
     "director": "",
     "duration": 25,
     "subtitles": "",
-    "screening-number": "5/8",
-    "age-rating": "S"
+    "number": "5/8",
+    "rating": "S"
 }, {
     "date": "2015-08-26",
     "time": "09:30",
@@ -856,8 +856,8 @@
     "director": "Komulainen",
     "duration": 84,
     "subtitles": "",
-    "screening-number": "1/1",
-    "age-rating": "K7"
+    "number": "1/1",
+    "rating": "K7"
 }, {
     "date": "2015-08-26",
     "time": "09:30",
@@ -865,9 +865,9 @@
     "title": "Nikkarisota",
     "director": "Rogaar",
     "duration": 87,
-    "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K7"
+    "subtitles": "fin",
+    "number": "1/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-26",
     "time": "10:00",
@@ -876,8 +876,8 @@
     "director": "",
     "duration": 25,
     "subtitles": "",
-    "screening-number": "6/8",
-    "age-rating": "S"
+    "number": "6/8",
+    "rating": "S"
 }, {
     "date": "2015-08-26",
     "time": "11:00",
@@ -885,9 +885,9 @@
     "title": "Lupaus",
     "director": "Kazejak",
     "duration": 97,
-    "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "subtitles": "fin",
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "11:15",
@@ -896,8 +896,8 @@
     "director": "",
     "duration": 95,
     "subtitles": "fin",
-    "screening-number": "1/2",
-    "age-rating": "K7"
+    "number": "1/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-26",
     "time": "11:15",
@@ -906,8 +906,8 @@
     "director": "Salvatores",
     "duration": 100,
     "subtitles": "fin",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "13:00",
@@ -915,9 +915,9 @@
     "title": "Viimeinen isku",
     "director": "Delaporte",
     "duration": 83,
-    "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K7"
+    "subtitles": "fin",
+    "number": "1/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-26",
     "time": "13:15",
@@ -926,8 +926,8 @@
     "director": "Laamo",
     "duration": 75,
     "subtitles": "",
-    "screening-number": "1/1",
-    "age-rating": "K12"
+    "number": "1/1",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "13:15",
@@ -936,8 +936,8 @@
     "director": "Illi (+ Soskolne & Reinikainen)",
     "duration": 105,
     "subtitles": "",
-    "screening-number": "1/1",
-    "age-rating": "K12"
+    "number": "1/1",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "15:00",
@@ -946,8 +946,8 @@
     "director": "Chiarini",
     "duration": 86,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "15:15",
@@ -956,8 +956,8 @@
     "director": "Thórsson",
     "duration": 106,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "15:30",
@@ -966,8 +966,8 @@
     "director": "Korma",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K7"
+    "number": "3/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-26",
     "time": "15:45",
@@ -976,8 +976,8 @@
     "director": "Vandendriessche & Hendrickx",
     "duration": 83,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K12"
+    "number": "1/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "16:30",
@@ -986,8 +986,8 @@
     "director": "Castón",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "17:00",
@@ -996,8 +996,8 @@
     "director": "Schei",
     "duration": 78,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-26",
     "time": "17:15",
@@ -1006,18 +1006,18 @@
     "director": "Nasser & Nasser",
     "duration": 84,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K7"
+    "number": "2/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-26",
     "time": "17:30",
     "theater": "Kino Tapiola",
     "title": "Sherry & the Mystery of Palo Cortado",
     "director": "López Linares",
-    "duration": 88,
+    "duration": 90,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "S"
+    "number": "2/3",
+    "rating": "S"
 }, {
     "date": "2015-08-26",
     "time": "17:30",
@@ -1026,8 +1026,8 @@
     "director": "Kent",
     "duration": 129,
     "subtitles": "swe",
-    "screening-number": "1/2",
-    "age-rating": "K12"
+    "number": "1/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "18:30",
@@ -1036,8 +1036,8 @@
     "director": "Campillo",
     "duration": 128,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K12"
+    "number": "1/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "18:45",
@@ -1046,8 +1046,8 @@
     "director": "Rothwell",
     "duration": 115,
     "subtitles": "",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "19:00",
@@ -1056,8 +1056,8 @@
     "director": "Riklis",
     "duration": 105,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "S"
+    "number": "2/3",
+    "rating": "S"
 }, {
     "date": "2015-08-26",
     "time": "19:15",
@@ -1066,8 +1066,8 @@
     "director": "Cherpitel",
     "duration": 76,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K12"
+    "number": "2/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-26",
     "time": "20:00",
@@ -1076,18 +1076,18 @@
     "director": "Wulff",
     "duration": 52,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-26",
     "time": "21:00",
     "theater": "Sello 4",
-    "title": "Ten Billion",
+    "title": "10 Billion",
     "director": "Webber",
     "duration": 83,
     "subtitles": "",
-    "screening-number": "2/3",
-    "age-rating": "S"
+    "number": "2/3",
+    "rating": "S"
 }, {
     "date": "2015-08-26",
     "time": "21:00",
@@ -1096,18 +1096,18 @@
     "director": "Taïeb",
     "duration": 87,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K16"
+    "number": "1/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-26",
     "time": "21:00",
     "theater": "Sello 5",
     "title": "Cub",
     "director": "Govaerts",
-    "duration": 90,
+    "duration": 85,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-26",
     "time": "21:00",
@@ -1116,8 +1116,8 @@
     "director": "Du Welz",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "1/3",
-    "age-rating": "K18"
+    "number": "1/3",
+    "rating": "K18"
 }, {
     "date": "2015-08-26",
     "time": "21:15",
@@ -1126,8 +1126,8 @@
     "director": "Seidl",
     "duration": 85,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K18"
+    "number": "2/2",
+    "rating": "K18"
 }, {
     "date": "2015-08-27",
     "time": "09:30",
@@ -1136,8 +1136,8 @@
     "director": "Jacobsen",
     "duration": 78,
     "subtitles": "fin",
-    "screening-number": "2/4",
-    "age-rating": "K7"
+    "number": "2/4",
+    "rating": "K7"
 }, {
     "date": "2015-08-27",
     "time": "09:30",
@@ -1146,8 +1146,8 @@
     "director": "Jacobsen",
     "duration": 78,
     "subtitles": "fin",
-    "screening-number": "3/4",
-    "age-rating": "K7"
+    "number": "3/4",
+    "rating": "K7"
 }, {
     "date": "2015-08-27",
     "time": "09:45",
@@ -1155,9 +1155,9 @@
     "title": "Nikkarisota",
     "director": "Rogaar",
     "duration": 87,
-    "subtitles": "eng",
-    "screening-number": "",
-    "age-rating": "K7"
+    "subtitles": "fin",
+    "number": "2/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-27",
     "time": "10:00",
@@ -1166,8 +1166,8 @@
     "director": "Boswell",
     "duration": 100,
     "subtitles": "fin",
-    "screening-number": "2/2",
-    "age-rating": "K7"
+    "number": "2/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-27",
     "time": "11:15",
@@ -1176,8 +1176,8 @@
     "director": "",
     "duration": 95,
     "subtitles": "fin",
-    "screening-number": "2/2",
-    "age-rating": "K7"
+    "number": "2/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-27",
     "time": "11:30",
@@ -1186,8 +1186,8 @@
     "director": "Delaporte",
     "duration": 83,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K7"
+    "number": "2/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-27",
     "time": "12:00",
@@ -1196,8 +1196,8 @@
     "director": "Salvatores",
     "duration": 100,
     "subtitles": "fin",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "13:15",
@@ -1205,9 +1205,9 @@
     "title": "Lupaus",
     "director": "Kazejak",
     "duration": 97,
-    "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "subtitles": "fin",
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "13:15",
@@ -1216,8 +1216,8 @@
     "director": "Pesonen",
     "duration": 90,
     "subtitles": "",
-    "screening-number": "1/1",
-    "age-rating": "K12"
+    "number": "1/1",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "15:00",
@@ -1226,8 +1226,8 @@
     "director": "Eibl-Eibesfeldt",
     "duration": 92,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "15:15",
@@ -1236,18 +1236,18 @@
     "director": "Schei",
     "duration": 78,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-27",
     "time": "15:15",
     "theater": "Tapiolasali",
-    "title": "Ten Billion",
+    "title": "10 Billion",
     "director": "Webber",
     "duration": 83,
     "subtitles": "",
-    "screening-number": "3/3",
-    "age-rating": "S"
+    "number": "3/3",
+    "rating": "S"
 }, {
     "date": "2015-08-27",
     "time": "16:30",
@@ -1256,8 +1256,8 @@
     "director": "Aladag",
     "duration": 103,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K12"
+    "number": "1/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "16:45",
@@ -1266,8 +1266,8 @@
     "director": "Rothwell",
     "duration": 115,
     "subtitles": "",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "17:00",
@@ -1276,8 +1276,8 @@
     "director": "Al Malik",
     "duration": 96,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "17:00",
@@ -1286,8 +1286,8 @@
     "director": "August",
     "duration": 98,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K7"
+    "number": "3/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-27",
     "time": "17:00",
@@ -1296,8 +1296,8 @@
     "director": "Green",
     "duration": 107,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "S"
+    "number": "1/2",
+    "rating": "S"
 }, {
     "date": "2015-08-27",
     "time": "18:30",
@@ -1306,8 +1306,8 @@
     "director": "Matanić",
     "duration": 123,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-27",
     "time": "19:00",
@@ -1316,8 +1316,8 @@
     "director": "Chiarini",
     "duration": 86,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "19:00",
@@ -1326,8 +1326,8 @@
     "director": "Liberski",
     "duration": 100,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "19:15",
@@ -1336,8 +1336,8 @@
     "director": "Vandendriessche & Hendrickx",
     "duration": 83,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K12"
+    "number": "2/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "19:15",
@@ -1346,8 +1346,8 @@
     "director": "Gertten",
     "duration": 91,
     "subtitles": "eng",
-    "screening-number": "1/1",
-    "age-rating": "K7"
+    "number": "1/1",
+    "rating": "K7"
 }, {
     "date": "2015-08-27",
     "time": "20:45",
@@ -1356,8 +1356,8 @@
     "director": "Guzzanti",
     "duration": 108,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K7"
+    "number": "2/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-27",
     "time": "21:00",
@@ -1366,8 +1366,8 @@
     "director": "Qosja",
     "duration": 93,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "21:00",
@@ -1376,18 +1376,18 @@
     "director": "Franz & Fiala",
     "duration": 99,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K18"
+    "number": "2/2",
+    "rating": "K18"
 }, {
     "date": "2015-08-27",
     "time": "21:00",
     "theater": "Tapiolasali",
     "title": "Black Souls",
     "director": "Munzi",
-    "duration": 103,
+    "duration": 109,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-27",
     "time": "21:15",
@@ -1396,8 +1396,8 @@
     "director": "Hausner",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K7"
+    "number": "1/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-27",
     "time": "22:00",
@@ -1406,8 +1406,8 @@
     "director": "Hallström",
     "duration": 120,
     "subtitles": "fin",
-    "screening-number": "1/1",
-    "age-rating": "K12"
+    "number": "1/1",
+    "rating": "K12"
 }, {
     "date": "2015-08-28",
     "time": "09:00",
@@ -1416,8 +1416,8 @@
     "director": "",
     "duration": 25,
     "subtitles": "",
-    "screening-number": "7/8",
-    "age-rating": "S"
+    "number": "7/8",
+    "rating": "S"
 }, {
     "date": "2015-08-28",
     "time": "10:00",
@@ -1426,8 +1426,8 @@
     "director": "Jacobsen",
     "duration": 78,
     "subtitles": "fin",
-    "screening-number": "4/4",
-    "age-rating": "K7"
+    "number": "4/4",
+    "rating": "K7"
 }, {
     "date": "2015-08-28",
     "time": "14:45",
@@ -1436,8 +1436,8 @@
     "director": "Ulk",
     "duration": 114,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-28",
     "time": "15:00",
@@ -1446,8 +1446,8 @@
     "director": "Castón",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-28",
     "time": "15:15",
@@ -1456,8 +1456,8 @@
     "director": "Nanau",
     "duration": 93,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-28",
     "time": "15:15",
@@ -1466,8 +1466,8 @@
     "director": "Porumboiu",
     "duration": 97,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "S"
+    "number": "1/2",
+    "rating": "S"
 }, {
     "date": "2015-08-28",
     "time": "15:30",
@@ -1476,8 +1476,8 @@
     "director": "Werenfels",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K16"
+    "number": "2/2",
+    "rating": "K16"
 }, {
     "date": "2015-08-28",
     "time": "16:45",
@@ -1486,8 +1486,8 @@
     "director": "Reid",
     "duration": 95,
     "subtitles": "",
-    "screening-number": "2/2",
-    "age-rating": "S"
+    "number": "2/2",
+    "rating": "S"
 }, {
     "date": "2015-08-28",
     "time": "17:00",
@@ -1496,8 +1496,8 @@
     "director": "Flah",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K7"
+    "number": "2/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-28",
     "time": "17:00",
@@ -1506,8 +1506,8 @@
     "director": "Riklis",
     "duration": 105,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "S"
+    "number": "3/3",
+    "rating": "S"
 }, {
     "date": "2015-08-28",
     "time": "17:15",
@@ -1516,8 +1516,8 @@
     "director": "Călugăreanu",
     "duration": 80,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K7"
+    "number": "2/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-28",
     "time": "17:15",
@@ -1526,8 +1526,8 @@
     "director": "Polak",
     "duration": 89,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-28",
     "time": "17:15",
@@ -1536,8 +1536,8 @@
     "director": "Komandarev",
     "duration": 115,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K12"
+    "number": "1/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-28",
     "time": "18:45",
@@ -1546,8 +1546,8 @@
     "director": "Lilti",
     "duration": 102,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K7"
+    "number": "2/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-28",
     "time": "19:00",
@@ -1556,8 +1556,8 @@
     "director": "Larivière",
     "duration": 97,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K16"
+    "number": "1/2",
+    "rating": "K16"
 }, {
     "date": "2015-08-28",
     "time": "19:00",
@@ -1566,8 +1566,8 @@
     "director": "Erwa",
     "duration": 98,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-28",
     "time": "19:00",
@@ -1576,8 +1576,8 @@
     "director": "Comencini",
     "duration": 105,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-28",
     "time": "19:00",
@@ -1586,8 +1586,8 @@
     "director": "Curtis",
     "duration": 109,
     "subtitles": "fin & swe",
-    "screening-number": "1/1",
-    "age-rating": "K12"
+    "number": "1/1",
+    "rating": "K12"
 }, {
     "date": "2015-08-28",
     "time": "19:30",
@@ -1596,8 +1596,8 @@
     "director": "Tzumérkas",
     "duration": 83,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-28",
     "time": "20:45",
@@ -1606,8 +1606,8 @@
     "director": "Lacuesta",
     "duration": 100,
     "subtitles": "eng",
-    "screening-number": "1/2",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-28",
     "time": "21:00",
@@ -1616,8 +1616,8 @@
     "director": "Rühm",
     "duration": 87,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-28",
     "time": "21:00",
@@ -1626,18 +1626,18 @@
     "director": "Žbanić",
     "duration": 90,
     "subtitles": "",
-    "screening-number": "1/3",
-    "age-rating": "K12"
+    "number": "1/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-28",
     "time": "21:00",
     "theater": "Kino Tapiola",
-    "title": "Kuherrus&shy;kuukausi&shy;murhaajat",
+    "title": "Kuherruskuukausimurhaajat",
     "director": "Kastle",
     "duration": 115,
     "subtitles": "fin",
-    "screening-number": "1/1",
-    "age-rating": "K16"
+    "number": "1/1",
+    "rating": "K16"
 }, {
     "date": "2015-08-28",
     "time": "21:15",
@@ -1646,8 +1646,8 @@
     "director": "Rønde",
     "duration": 104,
     "subtitles": "",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-28",
     "time": "23:00",
@@ -1656,8 +1656,8 @@
     "director": "Erwa",
     "duration": 98,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-28",
     "time": "23:15",
@@ -1666,8 +1666,8 @@
     "director": "Taïeb",
     "duration": 87,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-28",
     "time": "23:15",
@@ -1676,8 +1676,8 @@
     "director": "Du Welz",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K18"
+    "number": "2/3",
+    "rating": "K18"
 }, {
     "date": "2015-08-29",
     "time": "10:45",
@@ -1686,8 +1686,8 @@
     "director": "",
     "duration": 25,
     "subtitles": "",
-    "screening-number": "8/8",
-    "age-rating": "S"
+    "number": "8/8",
+    "rating": "S"
 }, {
     "date": "2015-08-29",
     "time": "11:30",
@@ -1696,8 +1696,8 @@
     "director": "Syrjä",
     "duration": 50,
     "subtitles": "fin",
-    "screening-number": "1/1",
-    "age-rating": "S"
+    "number": "1/1",
+    "rating": "S"
 }, {
     "date": "2015-08-29",
     "time": "12:00",
@@ -1706,8 +1706,8 @@
     "director": "Blümner",
     "duration": 81,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "12:00",
@@ -1716,8 +1716,8 @@
     "director": "Ulk",
     "duration": 114,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "12:15",
@@ -1726,8 +1726,8 @@
     "director": "Ovašvili",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "12:30",
@@ -1736,18 +1736,18 @@
     "director": "Kent",
     "duration": 129,
     "subtitles": "swe",
-    "screening-number": "2/2",
-    "age-rating": "K12"
+    "number": "2/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "12:45",
     "theater": "Louhisali",
     "title": "Superworld",
     "director": "Markovics",
-    "duration": 120,
+    "duration": 119,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K7"
+    "number": "2/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-29",
     "time": "13:00",
@@ -1755,9 +1755,9 @@
     "title": "Lupaus",
     "director": "Kazejak",
     "duration": 97,
-    "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "subtitles": "fin",
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "13:45",
@@ -1766,8 +1766,8 @@
     "director": "Lungulov",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K12"
+    "number": "2/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "14:00",
@@ -1776,18 +1776,18 @@
     "director": "Liberski",
     "duration": 100,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "14:15",
     "theater": "Kino Tapiola",
     "title": "Q.E.D.",
     "director": "Gruzsniczki",
-    "duration": 105,
+    "duration": 107,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K7"
+    "number": "2/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-29",
     "time": "15:00",
@@ -1795,9 +1795,9 @@
     "title": "Ingrid Bergman: omin sanoin",
     "director": "Björkman",
     "duration": 114,
-    "subtitles": "",
-    "screening-number": "1/1",
-    "age-rating": "S"
+    "subtitles": "fin",
+    "number": "1/1",
+    "rating": "S"
 }, {
     "date": "2015-08-29",
     "time": "15:15",
@@ -1806,8 +1806,8 @@
     "director": "Sewitsky",
     "duration": 102,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "15:15",
@@ -1816,8 +1816,8 @@
     "director": "Al Malik",
     "duration": 96,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "15:45",
@@ -1826,8 +1826,8 @@
     "director": "Szumowska",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-29",
     "time": "16:00",
@@ -1836,8 +1836,8 @@
     "director": "Thórsson",
     "duration": 106,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "16:30",
@@ -1846,8 +1846,8 @@
     "director": "Aladag",
     "duration": 103,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K12"
+    "number": "2/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "17:15",
@@ -1856,8 +1856,8 @@
     "director": "Călugăreanu",
     "duration": 80,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K7"
+    "number": "3/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-29",
     "time": "17:15",
@@ -1866,8 +1866,8 @@
     "director": "Porumboiu",
     "duration": 97,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "S"
+    "number": "2/2",
+    "rating": "S"
 }, {
     "date": "2015-08-29",
     "time": "17:30",
@@ -1876,8 +1876,8 @@
     "director": "Bercot",
     "duration": 120,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "-"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "17:45",
@@ -1886,8 +1886,8 @@
     "director": "Flah",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K7"
+    "number": "3/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-29",
     "time": "18:00",
@@ -1896,8 +1896,8 @@
     "director": "Wulff",
     "duration": 52,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-29",
     "time": "18:30",
@@ -1906,8 +1906,8 @@
     "director": "Longinotto",
     "duration": 73,
     "subtitles": "",
-    "screening-number": "2/3",
-    "age-rating": "S"
+    "number": "2/3",
+    "rating": "S"
 }, {
     "date": "2015-08-29",
     "time": "19:00",
@@ -1916,8 +1916,8 @@
     "director": "Rønde",
     "duration": 104,
     "subtitles": "",
-    "screening-number": "3/3",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-29",
     "time": "19:15",
@@ -1925,9 +1925,9 @@
     "title": "Love Island",
     "director": "Žbanić",
     "duration": 90,
-    "subtitles": "",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "subtitles": "eng",
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "19:15",
@@ -1936,8 +1936,8 @@
     "director": "Muntean",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K12"
+    "number": "2/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "19:30",
@@ -1946,8 +1946,8 @@
     "director": "Komandarev",
     "duration": 115,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K12"
+    "number": "2/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "20:00",
@@ -1956,8 +1956,8 @@
     "director": "Campillo",
     "duration": 128,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K12"
+    "number": "2/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "20:00",
@@ -1966,8 +1966,8 @@
     "director": "Ullmann",
     "duration": 129,
     "subtitles": "",
-    "screening-number": "1/2",
-    "age-rating": "K12"
+    "number": "1/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-29",
     "time": "21:00",
@@ -1976,8 +1976,8 @@
     "director": "Rühm",
     "duration": 87,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-29",
     "time": "21:00",
@@ -1986,8 +1986,8 @@
     "director": "Du Welz",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K18"
+    "number": "3/3",
+    "rating": "K18"
 }, {
     "date": "2015-08-29",
     "time": "21:45",
@@ -1996,8 +1996,8 @@
     "director": "Tzumérkas",
     "duration": 83,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-29",
     "time": "22:00",
@@ -2006,8 +2006,8 @@
     "director": "Curtiz",
     "duration": 102,
     "subtitles": "fin",
-    "screening-number": "1/1",
-    "age-rating": "S"
+    "number": "1/1",
+    "rating": "S"
 }, {
     "date": "2015-08-29",
     "time": "22:30",
@@ -2016,18 +2016,18 @@
     "director": "Lacuesta",
     "duration": 100,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-29",
     "time": "22:30",
     "theater": "Kino Tapiola",
     "title": "Cub",
     "director": "Govaerts",
-    "duration": 90,
+    "duration": 85,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-29",
     "time": "22:45",
@@ -2036,8 +2036,8 @@
     "director": "Taïeb",
     "duration": 87,
     "subtitles": "eng",
-    "screening-number": "2/3",
-    "age-rating": "K16"
+    "number": "2/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-30",
     "time": "11:45",
@@ -2046,8 +2046,8 @@
     "director": "Chiarini",
     "duration": 86,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "12:00",
@@ -2056,8 +2056,8 @@
     "director": "Jaquemet",
     "duration": 110,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K16"
+    "number": "2/2",
+    "rating": "K16"
 }, {
     "date": "2015-08-30",
     "time": "12:00",
@@ -2066,8 +2066,8 @@
     "director": "Blümner",
     "duration": 81,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "12:00",
@@ -2076,8 +2076,8 @@
     "director": "Ovašvili",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "12:15",
@@ -2086,8 +2086,8 @@
     "director": "Lilti",
     "duration": 102,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K7"
+    "number": "3/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-30",
     "time": "12:15",
@@ -2096,8 +2096,8 @@
     "director": "Nasser & Nasser",
     "duration": 84,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K7"
+    "number": "3/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-30",
     "time": "13:30",
@@ -2106,18 +2106,18 @@
     "director": "Comencini",
     "duration": 105,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "14:00",
     "theater": "Sello 4",
     "title": "Sherry & the Mystery of Palo Cortado",
     "director": "López Linares",
-    "duration": 88,
+    "duration": 90,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "S"
+    "number": "3/3",
+    "rating": "S"
 }, {
     "date": "2015-08-30",
     "time": "14:00",
@@ -2126,8 +2126,8 @@
     "director": "Sewitsky",
     "duration": 102,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "14:00",
@@ -2136,8 +2136,8 @@
     "director": "Hausner",
     "duration": 90,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K7"
+    "number": "2/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-30",
     "time": "14:00",
@@ -2146,8 +2146,8 @@
     "director": "Garano & Goenaga",
     "duration": 99,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K7"
+    "number": "3/3",
+    "rating": "K7"
 }, {
     "date": "2015-08-30",
     "time": "14:15",
@@ -2156,8 +2156,8 @@
     "director": "Longinotto",
     "duration": 73,
     "subtitles": "",
-    "screening-number": "3/3",
-    "age-rating": "S"
+    "number": "3/3",
+    "rating": "S"
 }, {
     "date": "2015-08-30",
     "time": "15:30",
@@ -2166,8 +2166,8 @@
     "director": "Wenders",
     "duration": 100,
     "subtitles": "",
-    "screening-number": "2/2",
-    "age-rating": "K12"
+    "number": "2/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "15:45",
@@ -2176,8 +2176,8 @@
     "director": "Žbanić",
     "duration": 90,
     "subtitles": "",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "15:45",
@@ -2186,8 +2186,8 @@
     "director": "De Matteo",
     "duration": 94,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "16:00",
@@ -2196,8 +2196,8 @@
     "director": "Civeyrac",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "16:00",
@@ -2206,8 +2206,8 @@
     "director": "Green",
     "duration": 107,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "S"
+    "number": "2/2",
+    "rating": "S"
 }, {
     "date": "2015-08-30",
     "time": "16:00",
@@ -2216,8 +2216,8 @@
     "director": "Bercot",
     "duration": 120,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "17:30",
@@ -2226,8 +2226,8 @@
     "director": "Vermut",
     "duration": 127,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-30",
     "time": "17:30",
@@ -2236,8 +2236,8 @@
     "director": "Ullmann",
     "duration": 129,
     "subtitles": "",
-    "screening-number": "1/1",
-    "age-rating": "K12"
+    "number": "2/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "17:45",
@@ -2246,8 +2246,8 @@
     "director": "Matanić",
     "duration": 123,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K16"
+    "number": "3/3",
+    "rating": "K16"
 }, {
     "date": "2015-08-30",
     "time": "18:00",
@@ -2256,8 +2256,8 @@
     "director": "Qosja",
     "duration": 93,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "18:15",
@@ -2266,8 +2266,8 @@
     "director": "Polak",
     "duration": 89,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "18:15",
@@ -2276,8 +2276,8 @@
     "director": "Bellefroid",
     "duration": 94,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K7"
+    "number": "2/2",
+    "rating": "K7"
 }, {
     "date": "2015-08-30",
     "time": "20:00",
@@ -2286,18 +2286,18 @@
     "director": "Greenaway",
     "duration": 105,
     "subtitles": "fin & swe",
-    "screening-number": "1/1",
-    "age-rating": "K16"
+    "number": "1/1",
+    "rating": "K16"
 }, {
     "date": "2015-08-30",
     "time": "20:00",
     "theater": "Sello 4",
     "title": "We Are Young. We Are Strong.",
     "director": "Qurbani",
-    "duration": 116,
+    "duration": 128,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K12"
+    "number": "2/2",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "20:15",
@@ -2306,8 +2306,8 @@
     "director": "Muntean",
     "duration": 95,
     "subtitles": "eng",
-    "screening-number": "3/3",
-    "age-rating": "K12"
+    "number": "3/3",
+    "rating": "K12"
 }, {
     "date": "2015-08-30",
     "time": "20:15",
@@ -2316,8 +2316,8 @@
     "director": "Larivière",
     "duration": 97,
     "subtitles": "eng",
-    "screening-number": "2/2",
-    "age-rating": "K16"
+    "number": "2/2",
+    "rating": "K16"
 }, {
     "date": "2015-08-30",
     "time": "20:15",
@@ -2326,6 +2326,6 @@
     "director": "Longinotto",
     "duration": 105,
     "subtitles": "",
-    "screening-number": "2/2",
-    "age-rating": "K16"
+    "number": "2/2",
+    "rating": "K16"
 } ]

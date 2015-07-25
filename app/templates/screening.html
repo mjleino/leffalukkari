@@ -2,9 +2,14 @@
 		 ng-class="{selected: screening.selected}">
 	<address ng-if="screening.special">{{screening.theater}}</address>
 
+	<img src="{{screening.imageurl}}">
+
 	<div class="panel-body screening-body">
 		<time datetime="{{screening.datetime}}">{{screening.time}}</time>
 
 		<h4 ng-bind-html="screening.title | highlight:search.text"></h4>
+
+		<small class="muted number">{{screening.number}}</small>
+		<small class="muted duration">{{screening.duration}} min</small>
 	</div>
 </section>

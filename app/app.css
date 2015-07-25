@@ -76,6 +76,18 @@ address {
 	padding: 8px;
 }
 
+.runtime {
+	position: absolute;
+	bottom: 0;
+	right: 6px;
+}
+
+.screening-number {
+	position: absolute;
+	bottom: 0;
+	left: 6px;
+}
+
 .selected {
 	background-color: #C0F0C0 !important;
 }
