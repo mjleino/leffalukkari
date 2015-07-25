@@ -36,8 +36,16 @@ th, td {
 	/*border: none !important;*/
 }
 
-td:empty {
-	border: 4px solid red;
+th.slot9 {
+	height: 60px;
+}
+
+th.slot8, th.slot10, th.slot12, th.slot17, th.slot19 {
+	height: 120px;
+}
+
+th.slot14, th.slot21 {
+	height: 180px;
 }
 
 caption, th.day {
@@ -56,8 +64,15 @@ tbody {
 }
 
 address {
+	/* NOTE: how about these in real life ? */
+	position: absolute;
+	top: -34px;
+	width: 100%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	
 	margin: 0;
-	padding: 10px 4px;
+	padding: 8px 4px;
 	background: black;
 	color: white;
 	font-weight: bold;
@@ -75,8 +90,14 @@ address {
 
 /* SCREENING STUFF */
 
-.screening {
+screening {
+	display: block;
 	position: relative;
+}
+
+.screening {
+	position: absolute;
+	width: 100%;
 }
 
 .screening-body {

@@ -53,8 +53,10 @@ app.controller("FilmListCtrl", function($scope, $http) {
 			screening.dateId   = getDateId(datetime)
 			screening.timeslot = getTimeslot(screening.time)
 
-			var timeslotdatetime = new Date(screening.date+"T"+screening.timeslot+":00+03:00")
-			screening.timeslotBreaker = (datetime-timeslotdatetime)/1000/60 // FUCKYEAH
+			var timeslotdatetime = new Date(datetime)
+			timeslotdatetime.setHours(screening.timeslot)
+			timeslotdatetime.setMinutes(0)
+			screening.timeslotdiff = (datetime-timeslotdatetime)/1000/60 // FUCKYEAH
 
 			if (! (screening.dateId in data.days)) {
 				data.days[screening.dateId] = angular.copy(dayObject)
