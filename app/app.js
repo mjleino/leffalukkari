@@ -45,19 +45,22 @@ app.controller("FilmListCtrl", function($scope, $http) {
 
 		// let's poop all the screenings to their proper boxes
 		angular.forEach(screenings, function(screening) {
-			var date = new Date(screening.date + "T" + screening.time)
+			var datetime         = new Date(screening.date + "T" + screening.time + "+03:00")
 
 			// TODO: this maybe in screenings.json
-			screening.datetime = date.toISOString()
+			screening.datetime = datetime.toISOString()
 
-			screening.dateId   = getDateId(date)
+			screening.dateId   = getDateId(datetime)
 			screening.timeslot = getTimeslot(screening.time)
+
+			var timeslotdatetime = new Date(screening.date+"T"+screening.timeslot+":00+03:00")
+			screening.timeslotBreaker = (datetime-timeslotdatetime)/1000/60 // FUCKYEAH
 
 			if (! (screening.dateId in data.days)) {
 				data.days[screening.dateId] = angular.copy(dayObject)
-				data.days[screening.dateId].label = getDateLabel(date)
+				data.days[screening.dateId].label = getDateLabel(datetime)
 				data.days[screening.dateId].id    = screening.dateId
-				data.days[screening.dateId].order = screening.date
+				data.days[screening.dateId].order = screening.datetime
 			}
 
 			var theaterslot = screening.theater

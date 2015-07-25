@@ -71,6 +71,13 @@ address {
 
 .highlight {
 	background-color: #ff7;
+}
+
+/* SCREENING STUFF */
+
+.screening {
+	position: relative;
+}
 
 .screening-body {
 	padding: 8px;
