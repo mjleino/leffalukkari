@@ -38,13 +38,17 @@
 				<tbody ng-repeat="day in data.days" id="{{ day.id }}">
 					<tr>
 						<th class="day" colspan="7">
-							<h3>{{day.label}}</h3>
+							<h3>
+								<time datetime="{{ day.date }}">{{day.label}}</time>
+							</h3>
 						</th>
 					</tr>
-						<th>{{timeslot.label}}</th>
 					<!-- TODO: optimize this -->
 					<tr ng-show="(screenings | filter:{dateId:day.id, timeslot:timeslot.label} | filter:search.text).length"
 						ng-repeat="timeslot in day.timeslots">
+						<th class="slot{{ timeslot.label }}">
+							<time datetime="{{ timeslot.time}}">{{ timeslot.label }}</time>
+						</th>
 						<td ng-repeat="theater in timeslot.theaters">
 							<screening ng-repeat="screening in theater.screenings | filter:search.text | orderBy:'time'">
 							</screening>
