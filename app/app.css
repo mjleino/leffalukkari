@@ -65,14 +65,17 @@ address {
 	text-transform: uppercase;
 }
 
-.screening-body {
-	padding: 8px;
-}
-
 #etsi-elokuvaa {
 	margin-top: 20px;
 }
 
 .highlight {
 	background-color: #ff7;
+
+.screening-body {
+	padding: 8px;
+}
+
+.selected {
+	background-color: #C0F0C0 !important;
 }

@@ -82,6 +82,12 @@ app.controller("FilmListCtrl", function($scope, $http) {
 		// scope is at: angular.element($("[ng-controller]")).scope()
 	})
 
+	// BEHAVIOUR FUNCTIONS
+	$scope.showKlik = function(screening) {
+		console.log(screening)
+		screening.selected = !screening.selected
+	}
+
 	// HELPER FUNCTIONS ->
 	function getDateId(d) {
 		var weekdays = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]

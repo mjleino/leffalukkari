@@ -1,4 +1,5 @@
-<section class="panel panel-default" ng-class="{special: screening.special}">
+<section class="screening panel panel-default" ng-click="showKlik(screening); $event.preventDefault()" class="{special: screening.special}"
+		 ng-class="{selected: screening.selected}">
 	<address ng-if="screening.special">{{screening.theater}}</address>
 
 	<div class="panel-body screening-body">
