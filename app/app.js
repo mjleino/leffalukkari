@@ -1,3 +1,12 @@
+if(!window.console){ window.console = {log: function(){} }; }
+console.log("\
+	   _ _ _        _             _       _      _             _ _       \n\
+__   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
+\\ \\ / / | | |/ / __| | '_ \\ / _ \\| |/ _` | __|  | |/ _` | '_ \\| | __/ _ \\\n\
+ \\ V /| | |   <\\__ \\ | |_) | (_) | | (_| | |_   | | (_| | | | | | ||  __/\n\
+  \\_/ |_|_|_|\\_\\___/_| .__/ \\___// |\\__,_|\\__|  |_|\\__, |_| |_|_|\\__\\___|\n\
+					 |_|       |__/                |___/                 ")
+
 var app = angular.module("leffalukkari", ["ngSanitize"])
 
 app.controller("FilmListCtrl", function($scope, $http) {
