@@ -41,7 +41,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 			}
 		})
 		var dayObject = {
-			"timeslots": angular.copy(timeslotsObject)
+			"timeslots": { } //angular.copy(timeslotsObject)
 		}
 
 		// let's poop all the screenings to their proper boxes
@@ -64,16 +64,19 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 				data.days[screening.dateId].id    = screening.dateId
 				data.days[screening.dateId].date  = screening.date
 			}
+			if (! (screening.timeslot in data.days[screening.dateId].timeslots)) {
+				data.days[screening.dateId].timeslots[screening.timeslot] 
+					= angular.copy(timeslotsObject[screening.timeslot])
+			}
 
-			var theaterslot = screening.theater
 			if (config.theaters.indexOf(screening.theater) < 0) {
-				theaterslot = config.theaters[config.theaters.length-1]
+				screening.theater = config.theaters[config.theaters.length-1]
 				screening.special = true
 			}
 
 			data.days[screening.dateId]
 				.timeslots[screening.timeslot]
-				.theaters[theaterslot]
+				.theaters[screening.theater]
 				.screenings.push(screening)
 			data.days[screening.dateId]
 				.timeslots[screening.timeslot]
@@ -81,6 +84,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 		})
 
 		// console.log($scope, data)
+		DATA = data
 		$scope.data = data
 		$scope.screenings = screenings
 		$scope.theaters = config.theaters

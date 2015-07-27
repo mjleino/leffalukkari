@@ -61,10 +61,11 @@
 						</th>
 					</tr>
 					<!-- TODO: optimize this -->
-					<tr ng-show="(screenings | filter:{dateId:day.id, timeslot:timeslot.label} | filter:{title: search.text}).length"
-						ng-repeat="timeslot in day.timeslots" ng-repeat-end>
-						<th class="slot slot{{ timeslot.label }}">
-							<time datetime="{{ timeslot.time}}">{{ timeslot.label }}</time>
+					<!-- ng-show="(screenings | filter:{dateId:day.id, timeslot:slot} | filter:{title: search.text}).length" -->
+					<tr 
+						ng-repeat="(slot, timeslot) in day.timeslots" ng-repeat-end>
+						<th class="slot slot{{ slot }}">
+							<time datetime="{{ timeslot.time}}">{{ slot }}</time>
 						</th>
 						<td ng-repeat="theater in timeslot.theaters">
 							<screening ng-repeat="screening in theater.screenings | filter:search.text | orderBy:'time'">
