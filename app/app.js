@@ -72,12 +72,12 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $ancho
 			}
 
 			data.days[screening.dateId]
-			    .timeslots[screening.timeslot]
-			    .theaters[theaterslot]
-			    .screenings.push(screening)
+				.timeslots[screening.timeslot]
+				.theaters[theaterslot]
+				.screenings.push(screening)
 			data.days[screening.dateId]
-			    .timeslots[screening.timeslot]
-			    .count++
+				.timeslots[screening.timeslot]
+				.count++
 		})
 
 		// console.log($scope, data)
