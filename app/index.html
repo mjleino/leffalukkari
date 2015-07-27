@@ -13,6 +13,7 @@
 	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 	<script type="text/javascript" src="bower_components/angular-i18n/angular-locale_fi-fi.js"></script>
 	<script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-scroll/angular-scroll.min.js"></script>
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </head>
@@ -36,8 +37,8 @@
 						<th colspan="7">
 							<nav id="day-nav">
 								<ul class="nav nav-pills nav-justified nav-condensed">
-									<li ng-repeat="day in data.days" ng-class="{active: $first}">
-										<a href="#{{ day.id }}" ng-click="scrollTo(day.id); $event.preventDefault()">
+									<li ng-repeat="day in data.days" ng-class="{active: $first}" du-scroll-container="FilmListBody">
+										<a href="#{{ day.id }}" du-smooth-scroll>
 											<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
 										</a>
 									</li>

@@ -7,9 +7,9 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
   \\_/ |_|_|_|\\_\\___/_| .__/ \\___// |\\__,_|\\__|  |_|\\__, |_| |_|_|\\__\\___|\n\
 					 |_|       |__/                |___/                 ")
 
-var app = angular.module("leffalukkari", ["ngSanitize"])
+var app = angular.module("leffalukkari", ["ngSanitize", "duScroll"])
 
-app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $anchorScroll) {
+app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 	$scope.now = new Date()
 
 	$http.get("/app-data/config.json")
@@ -111,6 +111,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $ancho
 			if (! containsDate($scope.now, $scope.data.days)) return
 
 			// console.log("YO!! scrolling in today")
+			// TODO scrollTo DEPRECATED 
 			$scope.scrollTo(getDateId($scope.now))
 
 			$timeout(function() {
