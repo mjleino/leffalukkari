@@ -37,8 +37,9 @@
 						<th ng-repeat="theater in theaters">{{theater}}</th>
 					</tr>
 				</thead>
-				<tbody ng-repeat="day in data.days" id="{{ day.id }}">
-					<tr>
+				<!-- TODO: think about this -->
+				<tbody id="FilmListBody" data-spy="scroll" data-target="#day-nav" data-offset="150">
+					<tr id="{{ day.id }}" ng-repeat-start="day in data.days">
 						<th class="day" colspan="7">
 							<h3>
 								<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
@@ -46,9 +47,9 @@
 						</th>
 					</tr>
 					<!-- TODO: optimize this -->
-					<tr ng-show="(screenings | filter:{dateId:day.id, timeslot:timeslot.label} | filter:search.text).length"
-						ng-repeat="timeslot in day.timeslots">
-						<th class="slot{{ timeslot.label }}">
+					<tr ng-show="(screenings | filter:{dateId:day.id, timeslot:timeslot.label} | filter:{title: search.text}).length"
+						ng-repeat="timeslot in day.timeslots" ng-repeat-end>
+						<th class="slot slot{{ timeslot.label }}">
 							<time datetime="{{ timeslot.time}}">{{ timeslot.label }}</time>
 						</th>
 						<td ng-repeat="theater in timeslot.theaters">

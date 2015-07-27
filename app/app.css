@@ -30,6 +30,24 @@ tbody {
 	border: none !important;
 }
 
+/* TEMP SOLUTION */
+/* http://stackoverflow.com/questions/19559197/how-to-make-scrollable-table-with-fixed-headers-using-css */
+table {
+	width: 100%;
+}
+table thead, table tbody {
+	display: block;
+	width: 100%;
+}
+table tbody {
+	overflow: auto;
+	height: 80vh;
+}
+table tr {
+	width: 100%;
+	display: table;
+}
+
 th:first-child {
 	width: 5%;
 	/*font-size: 16px;*/
