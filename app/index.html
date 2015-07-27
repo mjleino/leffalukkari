@@ -33,6 +33,19 @@
 				<!-- <caption>{{day.label}}</caption> -->
 				<thead>
 					<tr>
+						<th colspan="7">
+							<nav id="day-nav">
+								<ul class="nav nav-pills nav-justified nav-condensed">
+									<li ng-repeat="day in data.days" ng-class="{active: $first}">
+										<a href="#{{ day.id }}" ng-click="scrollTo(day.id); $event.preventDefault()">
+											<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</th>
+					</tr>
+					<tr>
 						<th>klo</th>
 						<th ng-repeat="theater in theaters">{{theater}}</th>
 					</tr>

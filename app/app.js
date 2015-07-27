@@ -9,7 +9,8 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
 
 var app = angular.module("leffalukkari", ["ngSanitize"])
 
-app.controller("FilmListCtrl", function($scope, $http) {
+app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $anchorScroll) {
+	$scope.now = new Date()
 
 	$http.get("/app-data/config.json")
 	.then(function(result) {
@@ -93,11 +94,46 @@ app.controller("FilmListCtrl", function($scope, $http) {
 		screening.selected = !screening.selected
 	}
 
-	// HELPER FUNCTIONS ->
+	// https://github.com/angular/angular.js/issues/4608
+	$scope.scrollTo = function(hash) {
+		$timeout(function () {
+			// $location.hash(hash)
+			$anchorScroll(hash)
+		})
+	}
+
+	// observe final tbody so we know when table has loaded
+	$scope.$watch(
+		function () {
+			return document.getElementById('su-30')
+		}, function(value, old) {
+			if (! value) return
+			if (! containsDate($scope.now, $scope.data.days)) return
+
+			// console.log("YO!! scrolling in today")
+			$scope.scrollTo(getDateId($scope.now))
+
+			$timeout(function() {
+				$("[data-spy]").scrollspy('refresh')
+			})
+		}
+	)
+
+	// HELPER FUNCTIONS
+
 	function getDateId(d) {
 		return $filter('date')(d, 'EEE-dd')
 	}
+
+	function containsDate(date, days) {
+		var today = $filter('date')(date, 'yyyy-MM-dd')
+		for (d in days) {
+			// console.log(today, "vs", days[d].date)
+			if (today == days[d].date) return true
+		}
+		return false
 	}
+
 	function getTimeslot(t) {
 		var timeslots = $scope.config.timeslots
 		// if t < 1st timeslot, ALL HELL BREAKS LOOSE
