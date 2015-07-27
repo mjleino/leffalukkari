@@ -12,10 +12,10 @@ var app = angular.module("leffalukkari", ["ngSanitize", "duScroll"])
 app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 	$scope.now = new Date()
 
-	$http.get("/app-data/config.json")
+	$http.get("data/config.json")
 	.then(function(result) {
 		$scope.config = result.data
-		return $http.get("/app-data/cine.json")
+		return $http.get("data/cine.json")
 	})
 	.then(function(result) {
 		var screenings = result.data
