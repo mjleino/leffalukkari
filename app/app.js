@@ -3,22 +3,22 @@ console.log("\
 	   _ _ _        _             _       _      _             _ _       \n\
 __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
 \\ \\ / / | | |/ / __| | '_ \\ / _ \\| |/ _` | __|  | |/ _` | '_ \\| | __/ _ \\\n\
- \\ V /| | |   <\\__ \\ | |_) | (_) | | (_| | |_   | | (_| | | | | | ||  __/\n\
+ \\ V /| | |    \\__ \\ | |_) | (_) | | (_| | |_   | | (_| | | | | | ||  __/\n\
   \\_/ |_|_|_|\\_\\___/_| .__/ \\___// |\\__,_|\\__|  |_|\\__, |_| |_|_|\\__\\___|\n\
 					 |_|       |__/                |___/                 ")
 
 var app = angular.module("leffalukkari", ["ngSanitize"])
 
 app.controller("FilmListCtrl", function($scope, $http) {
-	var config
 
 	$http.get("/app-data/config.json")
 	.then(function(result) {
-		config = result.data
+		$scope.config = result.data
 		return $http.get("/app-data/cine.json")
 	})
 	.then(function(result) {
 		var screenings = result.data
+		var config = $scope.config
 
 		// ultimate nuggetrium data format for easy viewing
 		var data = {"days": {}}
@@ -60,7 +60,6 @@ app.controller("FilmListCtrl", function($scope, $http) {
 
 			if (! (screening.dateId in data.days)) {
 				data.days[screening.dateId] = angular.copy(dayObject)
-				data.days[screening.dateId].label = getDateLabel(datetime)
 				data.days[screening.dateId].id    = screening.dateId
 				data.days[screening.dateId].date  = screening.date
 			}
@@ -80,7 +79,7 @@ app.controller("FilmListCtrl", function($scope, $http) {
 			    .count++
 		})
 
-		console.log($scope, data)
+		// console.log($scope, data)
 		$scope.data = data
 		$scope.screenings = screenings
 		$scope.theaters = config.theaters
@@ -88,6 +87,7 @@ app.controller("FilmListCtrl", function($scope, $http) {
 	})
 
 	// BEHAVIOUR FUNCTIONS
+
 	$scope.showKlik = function(screening) {
 		console.log(screening)
 		screening.selected = !screening.selected
@@ -95,19 +95,16 @@ app.controller("FilmListCtrl", function($scope, $http) {
 
 	// HELPER FUNCTIONS ->
 	function getDateId(d) {
-		var weekdays = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"]
-		return weekdays[d.getDay()] + "-" + d.getDate()
+		return $filter('date')(d, 'EEE-dd')
 	}
-	function getDateLabel(d) {
-		var weekdays = ["su", "ma", "ti", "ke", "to", "pe", "la"]
-		return weekdays[d.getDay()] + " " + d.getDate() + "." + (d.getMonth()+1) + "."
 	}
 	function getTimeslot(t) {
+		var timeslots = $scope.config.timeslots
 		// if t < 1st timeslot, ALL HELL BREAKS LOOSE
 		var h = parseInt(t.substring(0, 2), 10)
-		for (var i = 0; i < config.timeslots.length; i++)
-			if (i == config.timeslots.length-1 || h >= config.timeslots[i] && h < config.timeslots[i+1])
-				return config.timeslots[i]
+		for (var i = 0; i < timeslots.length; i++)
+			if (i == timeslots.length-1 || h >= timeslots[i] && h < timeslots[i+1])
+				return timeslots[i]
 	}
 })
 

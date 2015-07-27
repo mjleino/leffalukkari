@@ -9,9 +9,10 @@
 	<!-- <link rel="stylesheet" href="cine.css"> -->
 	<link rel="stylesheet" href="app.css">
 
-	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
-	<script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-i18n/angular-locale_fi-fi.js"></script>
+	<script type="text/javascript" src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
 	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </head>
@@ -28,8 +29,7 @@
 
 		<h1>ESPOO CINÉ 2015</h1>
 
-		<div id="ng-controller" ng-controller="FilmListCtrl">
-			<table class="table">
+			<table id="ng-controller" ng-controller="FilmListCtrl" class="table">
 				<!-- <caption>{{day.label}}</caption> -->
 				<thead>
 					<tr>
@@ -41,7 +41,7 @@
 					<tr>
 						<th class="day" colspan="7">
 							<h3>
-								<time datetime="{{ day.date }}">{{day.label}}</time>
+								<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
 							</h3>
 						</th>
 					</tr>
@@ -58,7 +58,6 @@
 					</tr>
 				</tbody>
 			</table>
-		</div>
 	</div>
 </body>
 </html>
