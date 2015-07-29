@@ -5,11 +5,14 @@
   "devDependencies": {
     "bower": "1.x",
     "grunt": "0.x",
+    "grunt-bower-task": "^0.4.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
     "http-server": "0.x"
   },
   "scripts": {
     "postinstall": "node_modules/bower/bin/bower install",
-    "prestart": "npm install",
+    "prestart": "npm install && grunt",
     "start": "node_modules/http-server/bin/http-server & open http://localhost:8080/app/"
   }
 }
