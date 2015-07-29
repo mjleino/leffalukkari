@@ -1,14 +1,15 @@
 {
-	"version":	"0.2.0",
-	"name":		"leffalukkari",
-	"private":	true,
-	"devDependencies": {
-		"bower":		"1.x",
-		"http-server":	"0.x"
-	},
-	"scripts": {
-		"postinstall":	"node_modules/bower/bin/bower install",
-		"prestart":		"npm install",
-		"start":		"node_modules/http-server/bin/http-server & open http://localhost:8080/app/"
-	}
+  "version": "0.2.0",
+  "name": "leffalukkari",
+  "private": true,
+  "devDependencies": {
+    "bower": "1.x",
+    "grunt": "0.x",
+    "http-server": "0.x"
+  },
+  "scripts": {
+    "postinstall": "node_modules/bower/bin/bower install",
+    "prestart": "npm install",
+    "start": "node_modules/http-server/bin/http-server & open http://localhost:8080/app/"
+  }
 }
