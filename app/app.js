@@ -69,14 +69,12 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 					= angular.copy(timeslotsObject[screening.timeslot])
 			}
 
-			if (config.theaters.indexOf(screening.theater) < 0) {
-				screening.theater = config.theaters[config.theaters.length-1]
+			if (config.theaters.indexOf(screening.theater) < 0)
 				screening.special = true
-			}
 
 			data.days[screening.dateId]
 				.timeslots[screening.timeslot]
-				.theaters[screening.theater]
+				.theaters[screening.special ? config.theaters[config.theaters.length-1] : screening.theater]
 				.screenings.push(screening)
 			data.days[screening.dateId]
 				.timeslots[screening.timeslot]
