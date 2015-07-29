@@ -15,6 +15,23 @@ module.exports = (grunt) ->
           install: false
           layout: "byType"
 
+    copy:
+      bootstrap:
+        files: [
+          {
+            expand: true
+            cwd: 'app/bower_components/bootstrap/dist/css/'
+            src: 'bootstrap.min.css'
+            dest: 'app/css/'
+          }
+          {
+            expand: true
+            cwd: 'app/bower_components/bootstrap/dist/fonts'
+            src: '*'
+            dest: 'app/fonts/'
+          }
+        ]
+
     concat:
       js:
         dest: 'app/js/jq-angular-bootstrap.min.js'
@@ -23,6 +40,7 @@ module.exports = (grunt) ->
           'app/bower_components/angular/angular.min.js'
           'app/bower_components/angular-sanitize/angular-sanitize.min.js'
           'app/bower_components/angular-scroll/angular-scroll.min.js'
+          'app/bower_components/angular-i18n/angular-locale_fi-fi.js'
           'app/bower_components/bootstrap/dist/js/bootstrap.min.js'
         ]
 
