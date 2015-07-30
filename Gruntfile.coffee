@@ -34,14 +34,12 @@ module.exports = (grunt) ->
 
     concat:
       js:
-        dest: 'app/js/jq-angular-bootstrap.min.js'
+        dest: 'app/js/angular-etc.min.js'
         src: [
-          'app/bower_components/jquery/dist/jquery.min.js'
           'app/bower_components/angular/angular.min.js'
           'app/bower_components/angular-sanitize/angular-sanitize.min.js'
           'app/bower_components/angular-scroll/angular-scroll.min.js'
           'app/bower_components/angular-i18n/angular-locale_fi-fi.js'
-          'app/bower_components/bootstrap/dist/js/bootstrap.min.js'
         ]
 
       dist:

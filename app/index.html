@@ -5,11 +5,11 @@
 	<meta charset="utf-8">
 	<title>Espoo Ciné 2015: LEFFALUKKARI</title>
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="http://www.espoocine.fi/2015/fi/StyleSheet/51.css">
 	<link rel="stylesheet" href="css/vxxb.css">
 
-	<script type="text/javascript" src="js/jq-angular-bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/angular-etc.min.js"></script>
 	<script type="text/javascript" src="js/vxxb.js"></script>
 </head>
 
@@ -19,18 +19,15 @@
 		<h1>ESPOO CINÉ 2015</h1>
 
 		<nav id="day-nav">
-			<ul class="nav nav-pills nav-condensed" du-scroll-container="FilmListBody">
+			<ul du-scroll-container="FilmListBody">
 				<li ng-repeat="day in data.days" ng-class="{active: $first}"
 					du-scrollspy="{{ day.id }}">
 					<a href="#{{ day.id }}" du-smooth-scroll>
 						<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
 					</a>
 				</li>
-				<li id="search-film" class="input-group has-feedback">
-					<input type="search" placeholder="Etsi elokuvaa…" class="form-control" aria-label="Etsi elokuvaa" ng-model="search.text">
-					<i class="glyphicon glyphicon-remove-circle form-control-feedback"
-					   ng-class="{enabled: search.text}"
-					   ng-click="search.text = ''"></i>
+				<li id="search-film">
+					<input id="search" type="search" placeholder="Etsi elokuvaa…" aria-label="Etsi elokuvaa" ng-model="search.text">
 				</li>
 			</ul>
 		</nav>
@@ -45,17 +42,17 @@
 			</thead>
 			<!-- TODO: think about this -->
 			<tbody id="FilmListBody">
-				<tr id="{{ day.id }}" ng-repeat-start="day in data.days">
-					<th class="day" colspan="7">
+				<tr id="{{ day.id }}" class="day" ng-repeat-start="day in data.days">
+					<th colspan="7">
 						<h3>
 							<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
 						</h3>
 					</th>
 				</tr>
 				<!-- TODO: optimize this -->
-				<tr ng-show="(screenings | filter:{dateId:day.id, timeslot:slot} | filter:{title: search.text}).length"
+				<tr class="slot" ng-show="(screenings | filter:{dateId:day.id, timeslot:slot} | filter:{title: search.text}).length"
 					ng-repeat="(slot, timeslot) in day.timeslots" ng-repeat-end>
-					<th class="slot slot{{ slot }}">
+					<th class="slot{{ slot }}">
 						<time datetime="{{ timeslot.time}}">{{ slot }}</time>
 					</th>
 					<td ng-repeat="theater in timeslot.theaters">

@@ -62,15 +62,22 @@ th, td {
 	padding: 8px;
 	vertical-align: top;
 	border-top: 1px solid #ddd;
-	/*border: none !important;*/
+}
+
+table > tbody > tr:first-child > th {
+	/*border: none;*/
 }
 
 table > thead > tr > th {
+	border-top: none;
 	border-bottom: 2px solid #ddd;
 }
 
-table tr:first-child>td, table tr:first-child>th {
-	border-top: 0;
+tr.slot > th > time {
+	word-wrap: normal;
+	line-height: 1;
+	font-size: 2.5em;
+	color: #ddd;
 }
 
 th.slot9 {
@@ -87,52 +94,64 @@ th.slot14, th.slot21 {
 
 /* column spanning headers */
 
-.nav-condensed > li > a {
-	padding: 8px;
-}
-
-caption, tbody>tr>th.day {
+caption, tbody > tr.day > th {
 /*	font-size: 36px;
 	line-height: 36px;
 */	font-weight: 800;
 	color: #eee;
 	background-color: #111;
 	padding: 20px 16px;
-
 	border-radius: 4px;
+	border-top: none;
 }
 
-th.day > h3 {
+tr.day > th > h3 {
 	margin: 0;
 }
 
-.slot > time {
-	word-wrap: normal;
-	line-height: 1;
-	font-size: 2.5em;
-	color: #ddd;
+tr.day + tr > th, tr.day + tr > td {
+	border-top: none;
+}
+
+/* DAY NAVIGATION */
+
+nav > ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+nav > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav > ul > li {
+	float: left;
+	position: relative;
+	display: block;
+}
+
+nav > ul > li > a {
+	padding: 8px;
+	border-radius: 4px;
+}
+
+nav > ul > li > a:hover {
+	text-decoration: none;
+	background-color: #eee;
+}
+
+nav > ul > li.active > a {
+	color: #fff;
+	background-color: #337ab7;
 }
 
 /* FILM SEARCH */
 
 #search-film {
 	margin-left: 16px;
-}
-
-.nav-justified #search-film {
 	vertical-align: bottom;
-	width: 4%;
-}
-
-#search-film > i {
-	color: #eee;
-}
-#search-film > i.enabled {
-	color: #555;
-}
-#search-film > i.enabled::before {
-	cursor: pointer;
-	pointer-events: auto;
 }
 
 /* SCREENING STUFF */
