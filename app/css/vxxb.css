@@ -18,8 +18,12 @@
 */
 
 table {
+	border-spacing: 0;
+	border-collapse: collapse;
+
 	table-layout: fixed;
 	word-wrap: break-word;
+
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
@@ -55,7 +59,18 @@ th:first-child {
 
 th, td {
 	width: 15%;
+	padding: 8px;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
 	/*border: none !important;*/
+}
+
+table > thead > tr > th {
+	border-bottom: 2px solid #ddd;
+}
+
+table tr:first-child>td, table tr:first-child>th {
+	border-top: 0;
 }
 
 th.slot9 {
@@ -130,16 +145,24 @@ screening {
 .screening {
 	position: absolute;
 	width: 100%;
+
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 
 address {
 	/* NOTE: how about these in real life ? */
-	position: absolute;
+/*	position: absolute;
 	top: -34px;
 	width: 100%;
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
-	
+*/
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+
 	margin: 0;
 	padding: 8px 4px;
 	background: black;

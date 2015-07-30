@@ -1,10 +1,10 @@
-<section class="screening panel panel-default" ng-click="showKlik(screening); $event.preventDefault()" class="{special: screening.special}"
+<section class="screening" ng-click="showKlik(screening); $event.preventDefault()" class="{special: screening.special}"
 		 ng-class="{selected: screening.selected}" style="top: {{ screening.timeslotdiff }}px">
 	<address ng-if="screening.special">{{screening.theater}}</address>
 
 	<!-- <img src="{{screening.imageurl}}"> -->
 
-	<div class="panel-body screening-body" style="height: {{ screening.duration }}px">
+	<div class="screening-body" style="height: {{ screening.duration }}px">
 		<time datetime="{{screening.datetime}}">{{screening.time}}</time>
 
 		<h4 ng-bind-html="screening.title | highlight:search.text"></h4>
