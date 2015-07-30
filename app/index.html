@@ -19,8 +19,9 @@
 		<h1>ESPOO CINÉ 2015</h1>
 
 		<nav id="day-nav">
-			<ul class="nav nav-pills nav-justified nav-condensed">
-				<li ng-repeat="day in data.days" ng-class="{active: $first}" du-scroll-container="FilmListBody">
+			<ul class="nav nav-pills nav-condensed" du-scroll-container="FilmListBody">
+				<li ng-repeat="day in data.days" ng-class="{active: $first}"
+					du-scrollspy="{{ day.id }}">
 					<a href="#{{ day.id }}" du-smooth-scroll>
 						<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
 					</a>
@@ -43,7 +44,7 @@
 				</tr>
 			</thead>
 			<!-- TODO: think about this -->
-			<tbody id="FilmListBody" data-spy="scroll" data-target="#day-nav" data-offset="150">
+			<tbody id="FilmListBody">
 				<tr id="{{ day.id }}" ng-repeat-start="day in data.days">
 					<th class="day" colspan="7">
 						<h3>

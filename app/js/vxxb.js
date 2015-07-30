@@ -9,6 +9,8 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
 
 var app = angular.module("leffalukkari", ["ngSanitize", "duScroll"])
 
+app.value('duScrollGreedy', true)
+
 app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 	$scope.now = new Date()
 
