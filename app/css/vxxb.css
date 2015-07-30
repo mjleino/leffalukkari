@@ -73,7 +73,7 @@ th.slot14, th.slot21 {
 /* column spanning headers */
 
 .nav-condensed > li > a {
-	padding: 2px 4px
+	padding: 8px;
 }
 
 caption, tbody>tr>th.day {
@@ -101,7 +101,12 @@ th.day > h3 {
 /* FILM SEARCH */
 
 #search-film {
-	margin-top: 20px;
+	margin-left: 16px;
+}
+
+.nav-justified #search-film {
+	vertical-align: bottom;
+	width: 4%;
 }
 
 #search-film > i {

@@ -14,33 +14,29 @@
 </head>
 
 <body>
-	<div id="ng-app" class="container-fluid" ng-app="leffalukkari">
+	<div id="ng-controller" ng-app="leffalukkari" ng-controller="FilmListCtrl" class="container-fluid">
 		<!-- http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box -->
-		<aside id="search-film" class="input-group has-feedback pull-right col-xs-4">
-			<input type="search" placeholder="Etsi elokuvaa…" class="form-control" aria-label="Etsi elokuvaa" ng-model="search.text">
-			<i class="glyphicon glyphicon-remove-circle form-control-feedback"
-			   ng-class="{enabled: search.text}"
-			   ng-click="search.text = ''"></i>
-		</aside>
-
 		<h1>ESPOO CINÉ 2015</h1>
 
-		<table id="ng-controller" ng-controller="FilmListCtrl" class="table">
+		<nav id="day-nav">
+			<ul class="nav nav-pills nav-justified nav-condensed">
+				<li ng-repeat="day in data.days" ng-class="{active: $first}" du-scroll-container="FilmListBody">
+					<a href="#{{ day.id }}" du-smooth-scroll>
+						<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
+					</a>
+				</li>
+				<li id="search-film" class="input-group has-feedback">
+					<input type="search" placeholder="Etsi elokuvaa…" class="form-control" aria-label="Etsi elokuvaa" ng-model="search.text">
+					<i class="glyphicon glyphicon-remove-circle form-control-feedback"
+					   ng-class="{enabled: search.text}"
+					   ng-click="search.text = ''"></i>
+				</li>
+			</ul>
+		</nav>
+
+		<table id="FilmList" class="table">
 			<!-- <caption>{{day.label}}</caption> -->
 			<thead>
-				<tr>
-					<th colspan="7">
-						<nav id="day-nav">
-							<ul class="nav nav-pills nav-justified nav-condensed">
-								<li ng-repeat="day in data.days" ng-class="{active: $first}" du-scroll-container="FilmListBody">
-									<a href="#{{ day.id }}" du-smooth-scroll>
-										<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
-									</a>
-								</li>
-							</ul>
-						</nav>
-					</th>
-				</tr>
 				<tr>
 					<th>klo</th>
 					<th ng-repeat="theater in theaters">{{theater}}</th>
