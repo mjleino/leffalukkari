@@ -15,23 +15,6 @@ module.exports = (grunt) ->
           install: false
           layout: "byType"
 
-    copy:
-      bootstrap:
-        files: [
-          {
-            expand: true
-            cwd: 'app/bower_components/bootstrap/dist/css/'
-            src: 'bootstrap.min.css'
-            dest: 'app/css/'
-          }
-          {
-            expand: true
-            cwd: 'app/bower_components/bootstrap/dist/fonts'
-            src: '*'
-            dest: 'app/fonts/'
-          }
-        ]
-
     concat:
       js:
         dest: 'app/js/angular-etc.min.js'
@@ -44,7 +27,7 @@ module.exports = (grunt) ->
 
       dist:
         src: ['app/bower_components/**/*.min.js']
-        dest: 'dist/<%= pkg.name %>.js'
+        dest: 'dist/<%= pkg.name %>.min.js'
 
 
   grunt.registerTask "default", [
