@@ -14,7 +14,7 @@
 </head>
 
 <body>
-	<div id="ng-controller" ng-app="leffalukkari" ng-controller="FilmListCtrl" class="container-fluid">
+	<div id="ng-controller" ng-app="leffalukkari" ng-controller="FilmListCtrl">
 		<!-- http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box -->
 		<h1>ESPOO CINÉ 2015</h1>
 
@@ -33,7 +33,6 @@
 		</nav>
 
 		<table id="FilmList">
-			<!-- <caption>{{day.label}}</caption> -->
 			<thead>
 				<tr>
 					<th>klo</th>
@@ -44,16 +43,18 @@
 			<tbody id="FilmListBody">
 				<tr id="{{ day.id }}" class="day" ng-repeat-start="day in data.days">
 					<th colspan="7">
-						<h3>
+						<h2>
 							<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
-						</h3>
+						</h2>
 					</th>
 				</tr>
 				<!-- TODO: optimize this -->
 				<tr class="slot" ng-show="(screenings | filter:{dateId:day.id, timeslot:slot} | filter:{title: search.text}).length"
 					ng-repeat="(slot, timeslot) in day.timeslots" ng-repeat-end>
-					<th class="slot{{ slot }}">
-						<time datetime="{{ timeslot.time}}">{{ slot }}</time>
+					<th class="slot{{ slot }}" ng-class="{slot23: $last && timeslot.duration > 160}">
+						<h2>
+							<time datetime="{{ timeslot.time}}">{{ slot }}</time>
+						</h2>
 					</th>
 					<td ng-repeat="theater in timeslot.theaters">
 						<screening ng-repeat="screening in theater.screenings | filter:search.text | orderBy:'time'">

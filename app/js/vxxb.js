@@ -30,7 +30,6 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 		angular.forEach(config.theaters, function(theater, i) {
 			theaterObject[theater] = {
 				"label": theater,
-				"order": i,
 				"screenings": []
 			}
 		})
@@ -38,29 +37,29 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 		angular.forEach(config.timeslots, function(timeslot, i) {
 			timeslotsObject[timeslot] = {
 				"label": timeslot,
-				"time": (timeslot < 10 ? " " : "") + timeslot + ":00",
+				"time": (timeslot < 10 ? "0" : "") + timeslot + ":00",
+				"theaters": angular.copy(theaterObject),
 				"count": 0,
-				"theaters": angular.copy(theaterObject)
+				"duration": 0
 			}
 		})
 		var dayObject = {
-			"timeslots": { } //angular.copy(timeslotsObject)
+			"timeslots": { }
 		}
 
 		// let's poop all the screenings to their proper boxes
 		angular.forEach(screenings, function(screening) {
 			var datetime = new Date(screening.date + "T" + screening.time + "+03:00")
 
-			// TODO: this maybe in screenings.json
+			// TODO: datetime maybe in screenings.json
 			screening.datetime = datetime.toISOString()
-
 			screening.dateId   = getDateId(datetime)
 			screening.timeslot = getTimeslot(screening.time)
 
 			var timeslotdatetime = new Date(datetime)
 			timeslotdatetime.setHours(screening.timeslot)
 			timeslotdatetime.setMinutes(0)
-			screening.timeslotdiff = (datetime-timeslotdatetime)/1000/60 // FUCKYEAH
+			screening.timeslotdiff = (datetime-timeslotdatetime)/1000/60
 
 			if (! (screening.dateId in data.days)) {
 				data.days[screening.dateId] = angular.copy(dayObject)
@@ -79,9 +78,13 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 				.timeslots[screening.timeslot]
 				.theaters[screening.special ? config.theaters[config.theaters.length-1] : screening.theater]
 				.screenings.push(screening)
-			data.days[screening.dateId]
-				.timeslots[screening.timeslot]
-				.count++
+
+			var timeslotduration = screening.timeslotdiff + screening.duration
+			console.log(timeslotduration)
+			if (timeslotduration > data.days[screening.dateId].timeslots[screening.timeslot].duration)
+				data.days[screening.dateId].timeslots[screening.timeslot].duration = timeslotduration
+
+			data.days[screening.dateId].timeslots[screening.timeslot].count++
 		})
 
 		// console.log($scope, data)
@@ -159,7 +162,7 @@ app.directive("screening", function() {
 // https://codeforgeek.com/2014/12/highlight-search-result-angular-filter/
 app.filter('highlight', function() {
 	return function(text, phrase) {
-		if (phrase) text = text.replace(new RegExp('('+phrase+')', 'gi'), '<b class="highlight">$1</b>')
+		if (phrase) text = text.replace(new RegExp('('+phrase+')', 'gi'), '<mark>$1</mark>')
 
 		return text
 	}

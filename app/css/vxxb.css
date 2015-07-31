@@ -17,6 +17,10 @@
                 ❤
 */
 
+body {
+	margin: 1em;
+}
+
 table {
 	border-spacing: 0;
 	border-collapse: collapse;
@@ -59,7 +63,7 @@ th:first-child {
 
 th, td {
 	width: 15%;
-	padding: 8px;
+	padding: 6px 8px;
 	vertical-align: top;
 	border-top: 1px solid #ddd;
 }
@@ -73,10 +77,9 @@ table > thead > tr > th {
 	border-bottom: 2px solid #ddd;
 }
 
-tr.slot > th > time {
+tr.slot > th > h2 {
 	word-wrap: normal;
-	line-height: 1;
-	font-size: 2.5em;
+	font-size: 2em;
 	color: #ddd;
 }
 
@@ -92,20 +95,29 @@ th.slot14, th.slot21 {
 	height: 180px;
 }
 
+th.slot21.slot23 {
+	height: 240px;
+}
+
 /* column spanning headers */
 
-caption, tbody > tr.day > th {
+tbody > tr.day > th {
 /*	font-size: 36px;
 	line-height: 36px;
 */	font-weight: 800;
 	color: #eee;
 	background-color: #111;
-	padding: 20px 16px;
+	padding: 20px 16px 16px;
 	border-radius: 4px;
 	border-top: none;
 }
 
-tr.day > th > h3 {
+tbody > tr.day:first-child > th {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+tr.day > th > h2 {
 	margin: 0;
 }
 
@@ -154,6 +166,10 @@ nav > ul > li.active > a {
 	vertical-align: bottom;
 }
 
+mark {
+	background-color: #ff7;
+}
+
 /* SCREENING STUFF */
 
 screening {
@@ -173,19 +189,23 @@ screening {
 	box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 
-address {
-	/* NOTE: how about these in real life ? */
-/*	position: absolute;
+.screening > address {
+	/* special theater above timeslot */
+	/* position: absolute;
 	top: -34px;
-	width: 100%;
-*/
+	width: 100%; */
+
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 
+	padding: 4px 4px 3px;
 	margin: 0;
-	padding: 8px 4px;
+
 	background: black;
 	color: white;
+
+	font-size: 0.82em;
+	font-style: normal;
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
@@ -193,10 +213,6 @@ address {
 
 .screening-body {
 	padding: 8px;
-}
-
-.highlight {
-	background-color: #ff7;
 }
 
 .duration {
