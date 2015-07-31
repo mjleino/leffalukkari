@@ -14,9 +14,6 @@
 
 <body>
 	<div id="ng-controller" ng-app="leffalukkari" ng-controller="FilmListCtrl">
-		<!-- http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box -->
-		<h1>ESPOO CINÉ 2015</h1>
-
 		<nav id="day-nav">
 			<ul du-scroll-container="FilmListBody">
 				<li ng-repeat="day in data.days" ng-class="{active: $first}"

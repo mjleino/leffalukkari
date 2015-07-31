@@ -17,11 +17,7 @@
                 ❤
 */
 
-body {
-	margin: 1em;
-}
-
-table {
+table#FilmList {
 	border-spacing: 0;
 	border-collapse: collapse;
 
@@ -34,50 +30,33 @@ table {
 	hyphens: auto;
 }
 
-tbody {
+table#FilmList > tbody {
 	border: none !important;
 }
 
-/* TEMP SOLUTION */
-/* http://stackoverflow.com/questions/19559197/how-to-make-scrollable-table-with-fixed-headers-using-css */
-table {
-	width: 100%;
-}
-table thead, table tbody {
-	display: block;
-	width: 100%;
-}
-table tbody {
-	overflow: auto;
-	height: 80vh;
-}
-table tr {
-	width: 100%;
-	display: table;
-}
-
-th:first-child {
+table#FilmList th:first-child {
 	width: 5%;
 	/*font-size: 16px;*/
 }
 
-th, td {
+table#FilmList th,
+table#FilmList td {
 	width: 15%;
 	padding: 6px 8px;
 	vertical-align: top;
 	border-top: 1px solid #ddd;
 }
 
-table > tbody > tr:first-child > th {
+table#FilmList > tbody > tr:first-child > th {
 	/*border: none;*/
 }
 
-table > thead > tr > th {
+table#FilmList > thead > tr > th {
 	border-top: none;
 	border-bottom: 2px solid #ddd;
 }
 
-tr.slot > th > h2 {
+table#FilmList tr.slot > th > h2 {
 	word-wrap: normal;
 	font-size: 2em;
 	color: #ddd;
@@ -99,9 +78,31 @@ th.slot21.slot23 {
 	height: 240px;
 }
 
+/* TEMP SOLUTION FIXED HEADERS */
+/* http://stackoverflow.com/questions/19559197/how-to-make-scrollable-table-with-fixed-headers-using-css */
+
+table#FilmList {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+table#FilmList > thead,
+table#FilmList > tbody {
+	display: block;
+	width: 100%;
+}
+table#FilmList > tbody {
+	overflow: auto;
+	height: 80vh;
+}
+table#FilmList tr {
+	width: 100%;
+	display: table;
+}
+
 /* column spanning headers */
 
-tbody > tr.day > th {
+table#FilmList > tbody > tr.day > th {
 /*	font-size: 36px;
 	line-height: 36px;
 */	font-weight: 800;
@@ -112,16 +113,17 @@ tbody > tr.day > th {
 	border-top: none;
 }
 
-tbody > tr.day:first-child > th {
+table#FilmList > tbody > tr.day:first-child > th {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }
 
-tr.day > th > h2 {
+table#FilmList > tbody > tr.day > th > h2 {
 	margin: 0;
 }
 
-tr.day + tr > th, tr.day + tr > td {
+table#FilmList > tbody > tr.day + tr > th,
+table#FilmList > tbody > tr.day + tr > td {
 	border-top: none;
 }
 
