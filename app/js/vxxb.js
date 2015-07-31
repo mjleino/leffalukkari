@@ -15,26 +15,22 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()
 
-	$http.get("data/config.json")
+	$http.get("data/cinedata.json")
 	.then(function(result) {
-		$scope.config = result.data
-		return $http.get("data/cine.json")
-	})
-	.then(function(result) {
-		var screenings = result.data
-		var config = $scope.config
+		$scope.screenings = result.data.screenings
+		$scope.config = result.data.config
 
 		// ultimate nuggetrium data format for easy viewing
 		var data = {"days": {}}
 		var theaterObject = {}
-		angular.forEach(config.theaters, function(theater, i) {
+		angular.forEach($scope.config.theaters, function(theater, i) {
 			theaterObject[theater] = {
 				"label": theater,
 				"screenings": []
 			}
 		})
 		var timeslotsObject = {}
-		angular.forEach(config.timeslots, function(timeslot, i) {
+		angular.forEach($scope.config.timeslots, function(timeslot, i) {
 			timeslotsObject[timeslot] = {
 				"label": timeslot,
 				"time": (timeslot < 10 ? "0" : "") + timeslot + ":00",
@@ -48,7 +44,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 		}
 
 		// let's poop all the screenings to their proper boxes
-		angular.forEach(screenings, function(screening) {
+		angular.forEach($scope.screenings, function(screening) {
 			var datetime = new Date(screening.date + "T" + screening.time + "+03:00")
 
 			// TODO: datetime maybe in screenings.json
@@ -71,16 +67,15 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 					= angular.copy(timeslotsObject[screening.timeslot])
 			}
 
-			if (config.theaters.indexOf(screening.theater) < 0)
+			if ($scope.config.theaters.indexOf(screening.theater) < 0)
 				screening.special = true
 
 			data.days[screening.dateId]
 				.timeslots[screening.timeslot]
-				.theaters[screening.special ? config.theaters[config.theaters.length-1] : screening.theater]
+				.theaters[screening.special ? $scope.config.theaters[$scope.config.theaters.length-1] : screening.theater]
 				.screenings.push(screening)
 
 			var timeslotduration = screening.timeslotdiff + screening.duration
-			console.log(timeslotduration)
 			if (timeslotduration > data.days[screening.dateId].timeslots[screening.timeslot].duration)
 				data.days[screening.dateId].timeslots[screening.timeslot].duration = timeslotduration
 
@@ -90,8 +85,6 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 		// console.log($scope, data)
 		DATA = data
 		$scope.data = data
-		$scope.screenings = screenings
-		$scope.theaters = config.theaters
 		// scope is at: angular.element($("[ng-controller]")).scope()
 	})
 

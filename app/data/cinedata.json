@@ -1,0 +1,2350 @@
+{
+"config": {
+	"timeslots": [8, 10, 12, 14, 17, 19, 21],
+	"theaters": [
+		"Kino Tapiola",
+		"Tapiolasali",
+		"Louhisali",
+		"Sello 4",
+		"Sello 5",
+		"Muut"
+	],
+	"others": [
+		"Kannusali",
+		"Sellosali",
+		"WeeGee",
+		"Aurinkoterassi"
+	]
+},
+"screenings": [ {
+	"date": "2015-08-21",
+	"time": "17:00",
+	"theater": "Tapiolasali",
+	"title": "Corn Island",
+	"director": "Ovašvili",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-21",
+	"time": "17:15",
+	"theater": "Louhisali",
+	"title": "The Spiderwebhouse",
+	"director": "Eibl-Eibesfeldt",
+	"duration": 92,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-21",
+	"time": "18:00",
+	"theater": "Kino Tapiola",
+	"title": "45 vuotta",
+	"director": "Haigh",
+	"duration": 93,
+	"subtitles": "fin & swe",
+	"number": "-",
+	"rating": "K7"
+}, {
+	"date": "2015-08-21",
+	"time": "19:00",
+	"theater": "Tapiolasali",
+	"title": "45 vuotta",
+	"director": "Haigh",
+	"duration": 93,
+	"subtitles": "fin & swe",
+	"number": "1/1",
+	"rating": "K7"
+}, {
+	"date": "2015-08-21",
+	"time": "19:15",
+	"theater": "Louhisali",
+	"title": "10 Billion",
+	"director": "Webber",
+	"duration": 83,
+	"subtitles": "",
+	"number": "1/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-21",
+	"time": "21:00",
+	"theater": "Louhisali",
+	"title": "How to Change the World",
+	"director": "Rothwell",
+	"duration": 115,
+	"subtitles": "",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-21",
+	"time": "21:15",
+	"theater": "Tapiolasali",
+	"title": "Therapy for a Vampire",
+	"director": "Rühm",
+	"duration": 87,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-22",
+	"time": "11:00",
+	"theater": "Tapiolasali",
+	"title": "Superworld",
+	"director": "Markovics",
+	"duration": 119,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-22",
+	"time": "11:15",
+	"theater": "Kino Tapiola",
+	"title": "HomeSick (DE)",
+	"director": "Erwa",
+	"duration": 98,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-22",
+	"time": "12:15",
+	"theater": "Louhisali",
+	"title": "The State-Mafia Pact",
+	"director": "Guzzanti",
+	"duration": 108,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-22",
+	"time": "13:15",
+	"theater": "Tapiolasali",
+	"title": "Eva & Leon",
+	"director": "Cherpitel",
+	"duration": 76,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-22",
+	"time": "13:15",
+	"theater": "Kino Tapiola",
+	"title": "Dancing Arabs",
+	"director": "Riklis",
+	"duration": 105,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-22",
+	"time": "14:30",
+	"theater": "Louhisali",
+	"title": "Q.E.D.",
+	"director": "Gruzsniczki",
+	"duration": 107,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-22",
+	"time": "15:00",
+	"theater": "Tapiolasali",
+	"title": "Inside Out – mielen sopukoissa",
+	"director": "Docter",
+	"duration": 94,
+	"subtitles": "fin & swe",
+	"number": "1/1",
+	"rating": "K7"
+}, {
+	"date": "2015-08-22",
+	"time": "15:30",
+	"theater": "Kino Tapiola",
+	"title": "The High Sun",
+	"director": "Matanić",
+	"duration": 123,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-22",
+	"time": "16:30",
+	"theater": "Louhisali",
+	"title": "Chuck Norris vs Communism",
+	"director": "Călugăreanu",
+	"duration": 80,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-22",
+	"time": "17:00",
+	"theater": "Tapiolasali",
+	"title": "Kaukana maailman menosta",
+	"director": "Vinterberg",
+	"duration": 119,
+	"subtitles": "fin & swe",
+	"number": "1/1",
+	"rating": "K12"
+}, {
+	"date": "2015-08-22",
+	"time": "18:00",
+	"theater": "Kino Tapiola",
+	"title": "Toto and His Sisters",
+	"director": "Nanau",
+	"duration": 93,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-22",
+	"time": "18:15",
+	"theater": "Louhisali",
+	"title": "May Allah Bless France!",
+	"director": "Al Malik",
+	"duration": 96,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-22",
+	"time": "19:15",
+	"theater": "Tapiolasali",
+	"title": "Ulrich Seidl – A Director at Work",
+	"director": "Wulff",
+	"duration": 52,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-22",
+	"time": "20:00",
+	"theater": "Kino Tapiola",
+	"title": "Magical Girl",
+	"director": "Vermut",
+	"duration": 127,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-22",
+	"time": "20:15",
+	"theater": "Louhisali",
+	"title": "Häiriötekijä",
+	"director": "Salmenperä",
+	"duration": 85,
+	"subtitles": "",
+	"number": "1/1",
+	"rating": "K12"
+}, {
+	"date": "2015-08-22",
+	"time": "20:30",
+	"theater": "Tapiolasali",
+	"title": "In the Basement",
+	"director": "Seidl",
+	"duration": 85,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K18"
+}, {
+	"date": "2015-08-22",
+	"time": "22:15",
+	"theater": "Louhisali",
+	"title": "Goodnight Mommy",
+	"director": "Franz & Fiala",
+	"duration": 99,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K18"
+}, {
+	"date": "2015-08-22",
+	"time": "22:30",
+	"theater": "Kino Tapiola",
+	"title": "Easy Sex, Sad Movies",
+	"director": "Flah",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-22",
+	"time": "22:30",
+	"theater": "Tapiolasali",
+	"title": "Dying Beyond Their Means",
+	"director": "Lacuesta",
+	"duration": 102,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-23",
+	"time": "11:30",
+	"theater": "Kino Tapiola",
+	"title": "Pohjoismaiset lyhärit",
+	"director": "useita ohjaajia",
+	"duration": 84,
+	"subtitles": "eng",
+	"number": "1/1",
+	"rating": "K16"
+}, {
+	"date": "2015-08-23",
+	"time": "11:30",
+	"theater": "Louhisali",
+	"title": "Next to Her",
+	"director": "Korma",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-23",
+	"time": "12:00",
+	"theater": "Tapiolasali",
+	"title": "The Grandad",
+	"director": "Thórsson",
+	"duration": 106,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-23",
+	"time": "13:15",
+	"theater": "Kino Tapiola",
+	"title": "Drone",
+	"director": "Schei",
+	"duration": 78,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-23",
+	"time": "13:15",
+	"theater": "Louhisali",
+	"title": "Flowers",
+	"director": "Garano & Goenaga",
+	"duration": 99,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-23",
+	"time": "14:15",
+	"theater": "Tapiolasali",
+	"title": "Paulo Coelho – sanojen alkemisti",
+	"director": "Augusto",
+	"duration": 112,
+	"subtitles": "fin & swe",
+	"number": "1/1",
+	"rating": "K16"
+}, {
+	"date": "2015-08-23",
+	"time": "15:00",
+	"theater": "Kino Tapiola",
+	"title": "Every Thing Will Be Fine (3D)",
+	"director": "Wenders",
+	"duration": 100,
+	"subtitles": "",
+	"number": "1/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-23",
+	"time": "15:15",
+	"theater": "Louhisali",
+	"title": "Sherry & the Mystery of Palo Cortado",
+	"director": "López Linares",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-23",
+	"time": "16:45",
+	"theater": "Tapiolasali",
+	"title": "Standing Tall",
+	"director": "Bercot",
+	"duration": 120,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-23",
+	"time": "17:15",
+	"theater": "Louhisali",
+	"title": "Body",
+	"director": "Szumowska",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-23",
+	"time": "17:15",
+	"theater": "Kino Tapiola",
+	"title": "The Dinner",
+	"director": "De Matteo",
+	"duration": 94,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-23",
+	"time": "19:00",
+	"theater": "Tapiolasali",
+	"title": "Silent Heart",
+	"director": "August",
+	"duration": 98,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-23",
+	"time": "19:15",
+	"theater": "Kino Tapiola",
+	"title": "A Blast",
+	"director": "Tzumérkas",
+	"duration": 83,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-23",
+	"time": "19:15",
+	"theater": "Louhisali",
+	"title": "Between Dog and Wolf: The New Model Army Story",
+	"director": "Reid",
+	"duration": 95,
+	"subtitles": "",
+	"number": "1/2",
+	"rating": "S"
+}, {
+	"date": "2015-08-23",
+	"time": "21:00",
+	"theater": "Kino Tapiola",
+	"title": "One Floor Below",
+	"director": "Muntean",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-23",
+	"time": "21:00",
+	"theater": "Tapiolasali",
+	"title": "Black Souls",
+	"director": "Munzi",
+	"duration": 109,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-23",
+	"time": "21:15",
+	"theater": "Louhisali",
+	"title": "Cub",
+	"director": "Govaerts",
+	"duration": 85,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-24",
+	"time": "15:00",
+	"theater": "Tapiolasali",
+	"title": "Zurich",
+	"director": "Polak",
+	"duration": 89,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-24",
+	"time": "15:15",
+	"theater": "Louhisali",
+	"title": "Three Windows and a Hanging",
+	"director": "Qosja",
+	"duration": 93,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-24",
+	"time": "15:15",
+	"theater": "Kino Tapiola",
+	"title": "The Silly Ones and the Stupid Ones",
+	"director": "Castón",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-24",
+	"time": "17:00",
+	"theater": "Tapiolasali",
+	"title": "Toto and His Sisters",
+	"director": "Nanau",
+	"duration": 93,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-24",
+	"time": "17:15",
+	"theater": "Kino Tapiola",
+	"title": "The Spiderwebhouse",
+	"director": "Eibl-Eibesfeldt",
+	"duration": 92,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-24",
+	"time": "17:15",
+	"theater": "Louhisali",
+	"title": "My Friend Victoria",
+	"director": "Civeyrac",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-24",
+	"time": "19:00",
+	"theater": "Tapiolasali",
+	"title": "Latin Lover",
+	"director": "Comencini",
+	"duration": 105,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-24",
+	"time": "19:15",
+	"theater": "Louhisali",
+	"title": "Dégradé",
+	"director": "Nasser & Nasser",
+	"duration": 84,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-24",
+	"time": "19:15",
+	"theater": "Kino Tapiola",
+	"title": "Fidelio: Alice’s Journey",
+	"director": "Borleteau",
+	"duration": 97,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K16"
+}, {
+	"date": "2015-08-24",
+	"time": "21:00",
+	"theater": "Louhisali",
+	"title": "Chrieg",
+	"director": "Jaquemet",
+	"duration": 110,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K16"
+}, {
+	"date": "2015-08-24",
+	"time": "21:15",
+	"theater": "Kino Tapiola",
+	"title": "Dora or The Sexual Neuroses of Our Parents",
+	"director": "Werenfels",
+	"duration": 92,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K16"
+}, {
+	"date": "2015-08-24",
+	"time": "21:15",
+	"theater": "Tapiolasali",
+	"title": "Homesick (NO)",
+	"director": "Sewitsky",
+	"duration": 102,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-25",
+	"time": "09:00",
+	"theater": "Louhisali",
+	"title": "Animaatioita pienimmille",
+	"director": "",
+	"duration": 25,
+	"subtitles": "",
+	"number": "1/8",
+	"rating": "S"
+}, {
+	"date": "2015-08-25",
+	"time": "09:00",
+	"theater": "Sellosali",
+	"title": "Animaatioita pienimmille",
+	"director": "",
+	"duration": 25,
+	"subtitles": "",
+	"number": "2/8",
+	"rating": "S"
+}, {
+	"date": "2015-08-25",
+	"time": "09:30",
+	"theater": "Tapiolasali",
+	"title": "Risto Räppääjä ja Sevillan saituri",
+	"director": "Koivusalo",
+	"duration": 72,
+	"subtitles": "",
+	"number": "1/1",
+	"rating": "S"
+}, {
+	"date": "2015-08-25",
+	"time": "10:00",
+	"theater": "Louhisali",
+	"title": "Animaatioita pienimmille",
+	"director": "",
+	"duration": 25,
+	"subtitles": "",
+	"number": "3/8",
+	"rating": "S"
+}, {
+	"date": "2015-08-25",
+	"time": "10:00",
+	"theater": "Sellosali",
+	"title": "Animaatioita pienimmille",
+	"director": "",
+	"duration": 25,
+	"subtitles": "",
+	"number": "4/8",
+	"rating": "S"
+}, {
+	"date": "2015-08-25",
+	"time": "10:00",
+	"theater": "Kino Tapiola",
+	"title": "Matka Sulkakuninkaan maahan",
+	"director": "Jacobsen",
+	"duration": 78,
+	"subtitles": "fin",
+	"number": "1/4",
+	"rating": "K7"
+}, {
+	"date": "2015-08-25",
+	"time": "11:00",
+	"theater": "Louhisali",
+	"title": "Polkupyörävaras",
+	"director": "De Sica",
+	"duration": 93,
+	"subtitles": "fin",
+	"number": "1/1",
+	"rating": "S"
+}, {
+	"date": "2015-08-25",
+	"time": "11:15",
+	"theater": "Tapiolasali",
+	"title": "Labyrinthus",
+	"director": "Boswell",
+	"duration": 100,
+	"subtitles": "fin",
+	"number": "1/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-25",
+	"time": "11:45",
+	"theater": "Kino Tapiola",
+	"title": "Näkymätön poika",
+	"director": "Salvatores",
+	"duration": 100,
+	"subtitles": "fin",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-25",
+	"time": "14:00",
+	"theater": "Kino Tapiola",
+	"title": "Elokuvaseminaari",
+	"director": "",
+	"duration": 180,
+	"subtitles": "",
+	"number": "",
+	"rating": ""
+}, {
+	"date": "2015-08-25",
+	"time": "14:30",
+	"theater": "Tapiolasali",
+	"title": "Zero Point",
+	"director": "Ulk",
+	"duration": 114,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-25",
+	"time": "15:00",
+	"theater": "Sello 4",
+	"title": "Next to Her",
+	"director": "Korma",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-25",
+	"time": "15:15",
+	"theater": "Sello 5",
+	"title": "Silent Heart",
+	"director": "August",
+	"duration": 98,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-25",
+	"time": "15:30",
+	"theater": "Louhisali",
+	"title": "Hippocrates",
+	"director": "Lilti",
+	"duration": 102,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-25",
+	"time": "17:00",
+	"theater": "Tapiolasali",
+	"title": "Monument to Michael Jackson",
+	"director": "Lungulov",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-25",
+	"time": "17:00",
+	"theater": "Sello 4",
+	"title": "My Friend Victoria",
+	"director": "Civeyrac",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-25",
+	"time": "17:00",
+	"theater": "Kino Tapiola",
+	"title": "Flowers",
+	"director": "Garano & Goenaga",
+	"duration": 99,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-25",
+	"time": "17:15",
+	"theater": "Sello 5",
+	"title": "Fidelio: Alice’s Journey",
+	"director": "Borleteau",
+	"duration": 97,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K16"
+}, {
+	"date": "2015-08-25",
+	"time": "17:30",
+	"theater": "Louhisali",
+	"title": "Parcours d'amour",
+	"director": "Blümner",
+	"duration": 81,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-25",
+	"time": "19:00",
+	"theater": "Kino Tapiola",
+	"title": "Love Is All: 100 Years of Love & Courtship",
+	"director": "Longinotto",
+	"duration": 73,
+	"subtitles": "",
+	"number": "1/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-25",
+	"time": "19:00",
+	"theater": "Sello 5",
+	"title": "The Dinner",
+	"director": "De Matteo",
+	"duration": 94,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-25",
+	"time": "19:00",
+	"theater": "Tapiolasali",
+	"title": "Tokyo Fiancée",
+	"director": "Liberski",
+	"duration": 100,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-25",
+	"time": "19:15",
+	"theater": "Louhisali",
+	"title": "Body",
+	"director": "Szumowska",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-25",
+	"time": "19:15",
+	"theater": "Sello 4",
+	"title": "Melody",
+	"director": "Bellefroid",
+	"duration": 94,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-25",
+	"time": "20:30",
+	"theater": "Kino Tapiola",
+	"title": "We Are Young. We Are Strong.",
+	"director": "Qurbani",
+	"duration": 128,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-25",
+	"time": "21:00",
+	"theater": "Sello 5",
+	"title": "Bridgend",
+	"director": "Rønde",
+	"duration": 109,
+	"subtitles": "",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-25",
+	"time": "21:00",
+	"theater": "Tapiolasali",
+	"title": "Magical Girl",
+	"director": "Vermut",
+	"duration": 127,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-25",
+	"time": "21:15",
+	"theater": "Sello 4",
+	"title": "Black Souls",
+	"director": "Munzi",
+	"duration": 109,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-25",
+	"time": "21:15",
+	"theater": "Louhisali",
+	"title": "Dreamcatcher",
+	"director": "Longinotto",
+	"duration": 105,
+	"subtitles": "",
+	"number": "1/2",
+	"rating": "K16"
+}, {
+	"date": "2015-08-26",
+	"time": "09:00",
+	"theater": "Louhisali",
+	"title": "Animaatioita pienimmille",
+	"director": "",
+	"duration": 25,
+	"subtitles": "",
+	"number": "5/8",
+	"rating": "S"
+}, {
+	"date": "2015-08-26",
+	"time": "09:30",
+	"theater": "Tapiolasali",
+	"title": "Me Rosvolat",
+	"director": "Komulainen",
+	"duration": 84,
+	"subtitles": "",
+	"number": "1/1",
+	"rating": "K7"
+}, {
+	"date": "2015-08-26",
+	"time": "09:30",
+	"theater": "Kino Tapiola",
+	"title": "Nikkarisota",
+	"director": "Rogaar",
+	"duration": 87,
+	"subtitles": "fin",
+	"number": "1/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-26",
+	"time": "10:00",
+	"theater": "Louhisali",
+	"title": "Animaatioita pienimmille",
+	"director": "",
+	"duration": 25,
+	"subtitles": "",
+	"number": "6/8",
+	"rating": "S"
+}, {
+	"date": "2015-08-26",
+	"time": "11:00",
+	"theater": "Louhisali",
+	"title": "Lupaus",
+	"director": "Kazejak",
+	"duration": 97,
+	"subtitles": "fin",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "11:15",
+	"theater": "Kino Tapiola",
+	"title": "AFF-lyhärit",
+	"director": "",
+	"duration": 95,
+	"subtitles": "fin",
+	"number": "1/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-26",
+	"time": "11:15",
+	"theater": "Tapiolasali",
+	"title": "Näkymätön poika",
+	"director": "Salvatores",
+	"duration": 100,
+	"subtitles": "fin",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "13:00",
+	"theater": "Louhisali",
+	"title": "Viimeinen isku",
+	"director": "Delaporte",
+	"duration": 83,
+	"subtitles": "fin",
+	"number": "1/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-26",
+	"time": "13:15",
+	"theater": "Tapiolasali",
+	"title": "Matka minuksi",
+	"director": "Laamo",
+	"duration": 75,
+	"subtitles": "",
+	"number": "1/1",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "13:15",
+	"theater": "Kino Tapiola",
+	"title": "Toiset tytöt (+ Tuolla puolen)",
+	"director": "Illi (+ Soskolne & Reinikainen)",
+	"duration": 105,
+	"subtitles": "",
+	"number": "1/1",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "15:00",
+	"theater": "Sello 4",
+	"title": "Short Skin",
+	"director": "Chiarini",
+	"duration": 86,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "15:15",
+	"theater": "Kino Tapiola",
+	"title": "The Grandad",
+	"director": "Thórsson",
+	"duration": 106,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "15:30",
+	"theater": "Sello 5",
+	"title": "Next to Her",
+	"director": "Korma",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-26",
+	"time": "15:45",
+	"theater": "Tapiolasali",
+	"title": "Drift",
+	"director": "Vandendriessche & Hendrickx",
+	"duration": 83,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "16:30",
+	"theater": "Louhisali",
+	"title": "The Silly Ones and the Stupid Ones",
+	"director": "Castón",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "17:00",
+	"theater": "Sello 4",
+	"title": "Drone",
+	"director": "Schei",
+	"duration": 78,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-26",
+	"time": "17:15",
+	"theater": "Sello 5",
+	"title": "Dégradé",
+	"director": "Nasser & Nasser",
+	"duration": 84,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-26",
+	"time": "17:30",
+	"theater": "Kino Tapiola",
+	"title": "Sherry & the Mystery of Palo Cortado",
+	"director": "López Linares",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-26",
+	"time": "17:30",
+	"theater": "Tapiolasali",
+	"title": "Testament of Youth",
+	"director": "Kent",
+	"duration": 129,
+	"subtitles": "swe",
+	"number": "1/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "18:30",
+	"theater": "Louhisali",
+	"title": "Eastern Boys",
+	"director": "Campillo",
+	"duration": 128,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "18:45",
+	"theater": "Sello 4",
+	"title": "How to Change the World",
+	"director": "Rothwell",
+	"duration": 115,
+	"subtitles": "",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "19:00",
+	"theater": "Sello 5",
+	"title": "Dancing Arabs",
+	"director": "Riklis",
+	"duration": 105,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-26",
+	"time": "19:15",
+	"theater": "Kino Tapiola",
+	"title": "Eva & Leon",
+	"director": "Cherpitel",
+	"duration": 76,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-26",
+	"time": "20:00",
+	"theater": "Tapiolasali",
+	"title": "Ulrich Seidl – A Director at Work",
+	"director": "Wulff",
+	"duration": 52,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-26",
+	"time": "21:00",
+	"theater": "Sello 4",
+	"title": "10 Billion",
+	"director": "Webber",
+	"duration": 83,
+	"subtitles": "",
+	"number": "2/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-26",
+	"time": "21:00",
+	"theater": "Kino Tapiola",
+	"title": "Stand",
+	"director": "Taïeb",
+	"duration": 87,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-26",
+	"time": "21:00",
+	"theater": "Sello 5",
+	"title": "Cub",
+	"director": "Govaerts",
+	"duration": 85,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-26",
+	"time": "21:00",
+	"theater": "Louhisali",
+	"title": "Alleluia",
+	"director": "Du Welz",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "1/3",
+	"rating": "K18"
+}, {
+	"date": "2015-08-26",
+	"time": "21:15",
+	"theater": "Tapiolasali",
+	"title": "In the Basement",
+	"director": "Seidl",
+	"duration": 85,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K18"
+}, {
+	"date": "2015-08-27",
+	"time": "09:30",
+	"theater": "Tapiolasali",
+	"title": "Matka Sulkakuninkaan maahan",
+	"director": "Jacobsen",
+	"duration": 78,
+	"subtitles": "fin",
+	"number": "2/4",
+	"rating": "K7"
+}, {
+	"date": "2015-08-27",
+	"time": "09:30",
+	"theater": "Sellosali",
+	"title": "Matka Sulkakuninkaan maahan",
+	"director": "Jacobsen",
+	"duration": 78,
+	"subtitles": "fin",
+	"number": "3/4",
+	"rating": "K7"
+}, {
+	"date": "2015-08-27",
+	"time": "09:45",
+	"theater": "Louhisali",
+	"title": "Nikkarisota",
+	"director": "Rogaar",
+	"duration": 87,
+	"subtitles": "fin",
+	"number": "2/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-27",
+	"time": "10:00",
+	"theater": "Kino Tapiola",
+	"title": "Labyrinthus",
+	"director": "Boswell",
+	"duration": 100,
+	"subtitles": "fin",
+	"number": "2/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-27",
+	"time": "11:15",
+	"theater": "Tapiolasali",
+	"title": "AFF-lyhärit",
+	"director": "",
+	"duration": 95,
+	"subtitles": "fin",
+	"number": "2/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-27",
+	"time": "11:30",
+	"theater": "Louhisali",
+	"title": "Viimeinen isku",
+	"director": "Delaporte",
+	"duration": 83,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-27",
+	"time": "12:00",
+	"theater": "Kino Tapiola",
+	"title": "Näkymätön poika",
+	"director": "Salvatores",
+	"duration": 100,
+	"subtitles": "fin",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "13:15",
+	"theater": "Louhisali",
+	"title": "Lupaus",
+	"director": "Kazejak",
+	"duration": 97,
+	"subtitles": "fin",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "13:15",
+	"theater": "Tapiolasali",
+	"title": "Päin seinää",
+	"director": "Pesonen",
+	"duration": 90,
+	"subtitles": "",
+	"number": "1/1",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "15:00",
+	"theater": "Kino Tapiola",
+	"title": "The Spiderwebhouse",
+	"director": "Eibl-Eibesfeldt",
+	"duration": 92,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "15:15",
+	"theater": "Louhisali",
+	"title": "Drone",
+	"director": "Schei",
+	"duration": 78,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-27",
+	"time": "15:15",
+	"theater": "Tapiolasali",
+	"title": "10 Billion",
+	"director": "Webber",
+	"duration": 83,
+	"subtitles": "",
+	"number": "3/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-27",
+	"time": "16:30",
+	"theater": "Sello 5",
+	"title": "Inbetween Worlds",
+	"director": "Aladag",
+	"duration": 103,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "16:45",
+	"theater": "Louhisali",
+	"title": "How to Change the World",
+	"director": "Rothwell",
+	"duration": 115,
+	"subtitles": "",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "17:00",
+	"theater": "Sello 4",
+	"title": "May Allah Bless France!",
+	"director": "Al Malik",
+	"duration": 96,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "17:00",
+	"theater": "Tapiolasali",
+	"title": "Silent Heart",
+	"director": "August",
+	"duration": 98,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-27",
+	"time": "17:00",
+	"theater": "Kino Tapiola",
+	"title": "La sapienza",
+	"director": "Green",
+	"duration": 107,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "S"
+}, {
+	"date": "2015-08-27",
+	"time": "18:30",
+	"theater": "Sello 5",
+	"title": "The High Sun",
+	"director": "Matanić",
+	"duration": 123,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-27",
+	"time": "19:00",
+	"theater": "Sello 4",
+	"title": "Short Skin",
+	"director": "Chiarini",
+	"duration": 86,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "19:00",
+	"theater": "Tapiolasali",
+	"title": "Tokyo Fiancée",
+	"director": "Liberski",
+	"duration": 100,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "19:15",
+	"theater": "Kino Tapiola",
+	"title": "Drift",
+	"director": "Vandendriessche & Hendrickx",
+	"duration": 83,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "19:15",
+	"theater": "Louhisali",
+	"title": "Bikes vs Cars",
+	"director": "Gertten",
+	"duration": 91,
+	"subtitles": "eng",
+	"number": "1/1",
+	"rating": "K7"
+}, {
+	"date": "2015-08-27",
+	"time": "20:45",
+	"theater": "Sello 4",
+	"title": "The State-Mafia Pact",
+	"director": "Guzzanti",
+	"duration": 108,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-27",
+	"time": "21:00",
+	"theater": "Kino Tapiola",
+	"title": "Three Windows and a Hanging",
+	"director": "Qosja",
+	"duration": 93,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "21:00",
+	"theater": "Sello 5",
+	"title": "Goodnight Mommy",
+	"director": "Franz & Fiala",
+	"duration": 99,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K18"
+}, {
+	"date": "2015-08-27",
+	"time": "21:00",
+	"theater": "Tapiolasali",
+	"title": "Black Souls",
+	"director": "Munzi",
+	"duration": 109,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-27",
+	"time": "21:15",
+	"theater": "Louhisali",
+	"title": "Amour fou",
+	"director": "Hausner",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-27",
+	"time": "22:00",
+	"theater": "WeeGee",
+	"title": "Pieni suklaapuoti",
+	"director": "Hallström",
+	"duration": 120,
+	"subtitles": "fin",
+	"number": "1/1",
+	"rating": "K12"
+}, {
+	"date": "2015-08-28",
+	"time": "09:00",
+	"theater": "Kannusali",
+	"title": "Animaatioita pienimmille",
+	"director": "",
+	"duration": 25,
+	"subtitles": "",
+	"number": "7/8",
+	"rating": "S"
+}, {
+	"date": "2015-08-28",
+	"time": "10:00",
+	"theater": "Kannusali",
+	"title": "Matka Sulkakuninkaan maahan",
+	"director": "Jacobsen",
+	"duration": 78,
+	"subtitles": "fin",
+	"number": "4/4",
+	"rating": "K7"
+}, {
+	"date": "2015-08-28",
+	"time": "14:45",
+	"theater": "Kannusali",
+	"title": "Zero Point",
+	"director": "Ulk",
+	"duration": 114,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-28",
+	"time": "15:00",
+	"theater": "Tapiolasali",
+	"title": "The Silly Ones and the Stupid Ones",
+	"director": "Castón",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-28",
+	"time": "15:15",
+	"theater": "Louhisali",
+	"title": "Toto and His Sisters",
+	"director": "Nanau",
+	"duration": 93,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-28",
+	"time": "15:15",
+	"theater": "Kino Tapiola",
+	"title": "The Second Game",
+	"director": "Porumboiu",
+	"duration": 97,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "S"
+}, {
+	"date": "2015-08-28",
+	"time": "15:30",
+	"theater": "Sello 5",
+	"title": "Dora or The Sexual Neuroses of Our Parents",
+	"director": "Werenfels",
+	"duration": 92,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K16"
+}, {
+	"date": "2015-08-28",
+	"time": "16:45",
+	"theater": "Sello 4",
+	"title": "Between Dog and Wolf: The New Model Army Story",
+	"director": "Reid",
+	"duration": 95,
+	"subtitles": "",
+	"number": "2/2",
+	"rating": "S"
+}, {
+	"date": "2015-08-28",
+	"time": "17:00",
+	"theater": "Tapiolasali",
+	"title": "Easy Sex, Sad Movies",
+	"director": "Flah",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-28",
+	"time": "17:00",
+	"theater": "Kannusali",
+	"title": "Dancing Arabs",
+	"director": "Riklis",
+	"duration": 105,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-28",
+	"time": "17:15",
+	"theater": "Sello 5",
+	"title": "Chuck Norris vs Communism",
+	"director": "Călugăreanu",
+	"duration": 80,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-28",
+	"time": "17:15",
+	"theater": "Kino Tapiola",
+	"title": "Zurich",
+	"director": "Polak",
+	"duration": 89,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-28",
+	"time": "17:15",
+	"theater": "Louhisali",
+	"title": "The Judgement",
+	"director": "Komandarev",
+	"duration": 115,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-28",
+	"time": "18:45",
+	"theater": "Sello 4",
+	"title": "Hippocrates",
+	"director": "Lilti",
+	"duration": 102,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-28",
+	"time": "19:00",
+	"theater": "Kino Tapiola",
+	"title": "I Am a Soldier",
+	"director": "Larivière",
+	"duration": 97,
+	"subtitles": "eng",
+	"number": "1/2",
+	"rating": "K16"
+}, {
+	"date": "2015-08-28",
+	"time": "19:00",
+	"theater": "Kannusali",
+	"title": "HomeSick (DE)",
+	"director": "Erwa",
+	"duration": 98,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-28",
+	"time": "19:00",
+	"theater": "Sello 5",
+	"title": "Latin Lover",
+	"director": "Comencini",
+	"duration": 105,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-28",
+	"time": "19:00",
+	"theater": "Tapiolasali",
+	"title": "Kultainen nainen",
+	"director": "Curtis",
+	"duration": 109,
+	"subtitles": "fin & swe",
+	"number": "1/1",
+	"rating": "K12"
+}, {
+	"date": "2015-08-28",
+	"time": "19:30",
+	"theater": "Louhisali",
+	"title": "A Blast",
+	"director": "Tzumérkas",
+	"duration": 83,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-28",
+	"time": "20:45",
+	"theater": "Sello 4",
+	"title": "Dying Beyond Their Means",
+	"director": "Lacuesta",
+	"duration": 102,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-28",
+	"time": "21:00",
+	"theater": "Sello 5",
+	"title": "Therapy for a Vampire",
+	"director": "Rühm",
+	"duration": 87,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-28",
+	"time": "21:00",
+	"theater": "Tapiolasali",
+	"title": "Love Island",
+	"director": "Žbanić",
+	"duration": 90,
+	"subtitles": "",
+	"number": "1/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-28",
+	"time": "21:00",
+	"theater": "Kino Tapiola",
+	"title": "Kuherruskuukausimurhaajat",
+	"director": "Kastle",
+	"duration": 115,
+	"subtitles": "fin",
+	"number": "1/1",
+	"rating": "K16"
+}, {
+	"date": "2015-08-28",
+	"time": "21:15",
+	"theater": "Louhisali",
+	"title": "Bridgend",
+	"director": "Rønde",
+	"duration": 109,
+	"subtitles": "",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-28",
+	"time": "23:00",
+	"theater": "Tapiolasali",
+	"title": "HomeSick (DE)",
+	"director": "Erwa",
+	"duration": 98,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-28",
+	"time": "23:15",
+	"theater": "Louhisali",
+	"title": "Stand",
+	"director": "Taïeb",
+	"duration": 87,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-28",
+	"time": "23:15",
+	"theater": "Kino Tapiola",
+	"title": "Alleluia",
+	"director": "Du Welz",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K18"
+}, {
+	"date": "2015-08-29",
+	"time": "10:45",
+	"theater": "Louhisali",
+	"title": "Animaatioita pienimmille",
+	"director": "",
+	"duration": 25,
+	"subtitles": "",
+	"number": "8/8",
+	"rating": "S"
+}, {
+	"date": "2015-08-29",
+	"time": "11:30",
+	"theater": "Louhisali",
+	"title": "Ella & Aleksi – yllätyssynttärit",
+	"director": "Syrjä",
+	"duration": 50,
+	"subtitles": "fin",
+	"number": "1/1",
+	"rating": "S"
+}, {
+	"date": "2015-08-29",
+	"time": "12:00",
+	"theater": "Sello 4",
+	"title": "Parcours d'amour",
+	"director": "Blümner",
+	"duration": 81,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "12:00",
+	"theater": "Kino Tapiola",
+	"title": "Zero Point",
+	"director": "Ulk",
+	"duration": 114,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "12:15",
+	"theater": "Sello 5",
+	"title": "Corn Island",
+	"director": "Ovašvili",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "12:30",
+	"theater": "Tapiolasali",
+	"title": "Testament of Youth",
+	"director": "Kent",
+	"duration": 129,
+	"subtitles": "swe",
+	"number": "2/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "12:45",
+	"theater": "Louhisali",
+	"title": "Superworld",
+	"director": "Markovics",
+	"duration": 119,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-29",
+	"time": "13:00",
+	"theater": "Kannusali",
+	"title": "Lupaus",
+	"director": "Kazejak",
+	"duration": 97,
+	"subtitles": "fin",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "13:45",
+	"theater": "Sello 4",
+	"title": "Monument to Michael Jackson",
+	"director": "Lungulov",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "14:00",
+	"theater": "Sello 5",
+	"title": "Tokyo Fiancée",
+	"director": "Liberski",
+	"duration": 100,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "14:15",
+	"theater": "Kino Tapiola",
+	"title": "Q.E.D.",
+	"director": "Gruzsniczki",
+	"duration": 107,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-29",
+	"time": "15:00",
+	"theater": "Louhisali",
+	"title": "Ingrid Bergman: omin sanoin",
+	"director": "Björkman",
+	"duration": 114,
+	"subtitles": "fin",
+	"number": "1/1",
+	"rating": "S"
+}, {
+	"date": "2015-08-29",
+	"time": "15:15",
+	"theater": "Tapiolasali",
+	"title": "Homesick (NO)",
+	"director": "Sewitsky",
+	"duration": 102,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "15:15",
+	"theater": "Kannusali",
+	"title": "May Allah Bless France!",
+	"director": "Al Malik",
+	"duration": 96,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "15:45",
+	"theater": "Sello 4",
+	"title": "Body",
+	"director": "Szumowska",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-29",
+	"time": "16:00",
+	"theater": "Sello 5",
+	"title": "The Grandad",
+	"director": "Thórsson",
+	"duration": 106,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "16:30",
+	"theater": "Kino Tapiola",
+	"title": "Inbetween Worlds",
+	"director": "Aladag",
+	"duration": 103,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "17:15",
+	"theater": "Kannusali",
+	"title": "Chuck Norris vs Communism",
+	"director": "Călugăreanu",
+	"duration": 80,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-29",
+	"time": "17:15",
+	"theater": "Louhisali",
+	"title": "The Second Game",
+	"director": "Porumboiu",
+	"duration": 97,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "S"
+}, {
+	"date": "2015-08-29",
+	"time": "17:30",
+	"theater": "Tapiolasali",
+	"title": "Standing Tall",
+	"director": "Bercot",
+	"duration": 120,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "17:45",
+	"theater": "Sello 4",
+	"title": "Easy Sex, Sad Movies",
+	"director": "Flah",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-29",
+	"time": "18:00",
+	"theater": "Sello 5",
+	"title": "Ulrich Seidl – A Director at Work",
+	"director": "Wulff",
+	"duration": 52,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-29",
+	"time": "18:30",
+	"theater": "Kino Tapiola",
+	"title": "Love Is All: 100 Years of Love & Courtship",
+	"director": "Longinotto",
+	"duration": 73,
+	"subtitles": "",
+	"number": "2/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-29",
+	"time": "19:00",
+	"theater": "Kannusali",
+	"title": "Bridgend",
+	"director": "Rønde",
+	"duration": 109,
+	"subtitles": "",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-29",
+	"time": "19:15",
+	"theater": "Louhisali",
+	"title": "Love Island",
+	"director": "Žbanić",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "19:15",
+	"theater": "Sello 5",
+	"title": "One Floor Below",
+	"director": "Muntean",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "19:30",
+	"theater": "Sello 4",
+	"title": "The Judgement",
+	"director": "Komandarev",
+	"duration": 115,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "20:00",
+	"theater": "Kino Tapiola",
+	"title": "Eastern Boys",
+	"director": "Campillo",
+	"duration": 128,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "20:00",
+	"theater": "Tapiolasali",
+	"title": "Miss Julie",
+	"director": "Ullmann",
+	"duration": 129,
+	"subtitles": "",
+	"number": "1/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-29",
+	"time": "21:00",
+	"theater": "Louhisali",
+	"title": "Therapy for a Vampire",
+	"director": "Rühm",
+	"duration": 87,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-29",
+	"time": "21:00",
+	"theater": "Sello 5",
+	"title": "Alleluia",
+	"director": "Du Welz",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K18"
+}, {
+	"date": "2015-08-29",
+	"time": "21:45",
+	"theater": "Sello 4",
+	"title": "A Blast",
+	"director": "Tzumérkas",
+	"duration": 83,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-29",
+	"time": "22:00",
+	"theater": "Aurinkoterassi",
+	"title": "Casablanca",
+	"director": "Curtiz",
+	"duration": 102,
+	"subtitles": "fin",
+	"number": "1/1",
+	"rating": "S"
+}, {
+	"date": "2015-08-29",
+	"time": "22:30",
+	"theater": "Tapiolasali",
+	"title": "Dying Beyond Their Means",
+	"director": "Lacuesta",
+	"duration": 102,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-29",
+	"time": "22:30",
+	"theater": "Kino Tapiola",
+	"title": "Cub",
+	"director": "Govaerts",
+	"duration": 85,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-29",
+	"time": "22:45",
+	"theater": "Louhisali",
+	"title": "Stand",
+	"director": "Taïeb",
+	"duration": 87,
+	"subtitles": "eng",
+	"number": "2/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-30",
+	"time": "11:45",
+	"theater": "Tapiolasali",
+	"title": "Short Skin",
+	"director": "Chiarini",
+	"duration": 86,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "12:00",
+	"theater": "Sello 5",
+	"title": "Chrieg",
+	"director": "Jaquemet",
+	"duration": 110,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K16"
+}, {
+	"date": "2015-08-30",
+	"time": "12:00",
+	"theater": "Kannusali",
+	"title": "Parcours d'amour",
+	"director": "Blümner",
+	"duration": 81,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "12:00",
+	"theater": "Kino Tapiola",
+	"title": "Corn Island",
+	"director": "Ovašvili",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "12:15",
+	"theater": "Louhisali",
+	"title": "Hippocrates",
+	"director": "Lilti",
+	"duration": 102,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-30",
+	"time": "12:15",
+	"theater": "Sello 4",
+	"title": "Dégradé",
+	"director": "Nasser & Nasser",
+	"duration": 84,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-30",
+	"time": "13:30",
+	"theater": "Tapiolasali",
+	"title": "Latin Lover",
+	"director": "Comencini",
+	"duration": 105,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "14:00",
+	"theater": "Sello 4",
+	"title": "Sherry & the Mystery of Palo Cortado",
+	"director": "López Linares",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-30",
+	"time": "14:00",
+	"theater": "Kannusali",
+	"title": "Homesick (NO)",
+	"director": "Sewitsky",
+	"duration": 102,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "14:00",
+	"theater": "Kino Tapiola",
+	"title": "Amour fou",
+	"director": "Hausner",
+	"duration": 90,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-30",
+	"time": "14:00",
+	"theater": "Sello 5",
+	"title": "Flowers",
+	"director": "Garano & Goenaga",
+	"duration": 99,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K7"
+}, {
+	"date": "2015-08-30",
+	"time": "14:15",
+	"theater": "Louhisali",
+	"title": "Love Is All: 100 Years of Love & Courtship",
+	"director": "Longinotto",
+	"duration": 73,
+	"subtitles": "",
+	"number": "3/3",
+	"rating": "S"
+}, {
+	"date": "2015-08-30",
+	"time": "15:30",
+	"theater": "Tapiolasali",
+	"title": "Every Thing Will Be Fine (2D)",
+	"director": "Wenders",
+	"duration": 100,
+	"subtitles": "",
+	"number": "2/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "15:45",
+	"theater": "Sello 4",
+	"title": "Love Island",
+	"director": "Žbanić",
+	"duration": 90,
+	"subtitles": "",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "15:45",
+	"theater": "Louhisali",
+	"title": "The Dinner",
+	"director": "De Matteo",
+	"duration": 94,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "16:00",
+	"theater": "Kannusali",
+	"title": "My Friend Victoria",
+	"director": "Civeyrac",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "16:00",
+	"theater": "Kino Tapiola",
+	"title": "La sapienza",
+	"director": "Green",
+	"duration": 107,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "S"
+}, {
+	"date": "2015-08-30",
+	"time": "16:00",
+	"theater": "Sello 5",
+	"title": "Standing Tall",
+	"director": "Bercot",
+	"duration": 120,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "17:30",
+	"theater": "Sello 4",
+	"title": "Magical Girl",
+	"director": "Vermut",
+	"duration": 127,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-30",
+	"time": "17:30",
+	"theater": "Tapiolasali",
+	"title": "Miss Julie",
+	"director": "Ullmann",
+	"duration": 129,
+	"subtitles": "",
+	"number": "2/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "17:45",
+	"theater": "Louhisali",
+	"title": "The High Sun",
+	"director": "Matanić",
+	"duration": 123,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K16"
+}, {
+	"date": "2015-08-30",
+	"time": "18:00",
+	"theater": "Kannusali",
+	"title": "Three Windows and a Hanging",
+	"director": "Qosja",
+	"duration": 93,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "18:15",
+	"theater": "Sello 5",
+	"title": "Zurich",
+	"director": "Polak",
+	"duration": 89,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "18:15",
+	"theater": "Kino Tapiola",
+	"title": "Melody",
+	"director": "Bellefroid",
+	"duration": 94,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K7"
+}, {
+	"date": "2015-08-30",
+	"time": "20:00",
+	"theater": "Tapiolasali",
+	"title": "Eisenstein in Guanajuato",
+	"director": "Greenaway",
+	"duration": 105,
+	"subtitles": "fin & swe",
+	"number": "1/1",
+	"rating": "K16"
+}, {
+	"date": "2015-08-30",
+	"time": "20:00",
+	"theater": "Sello 4",
+	"title": "We Are Young. We Are Strong.",
+	"director": "Qurbani",
+	"duration": 128,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "20:15",
+	"theater": "Sello 5",
+	"title": "One Floor Below",
+	"director": "Muntean",
+	"duration": 95,
+	"subtitles": "eng",
+	"number": "3/3",
+	"rating": "K12"
+}, {
+	"date": "2015-08-30",
+	"time": "20:15",
+	"theater": "Louhisali",
+	"title": "I Am a Soldier",
+	"director": "Larivière",
+	"duration": 97,
+	"subtitles": "eng",
+	"number": "2/2",
+	"rating": "K16"
+}, {
+	"date": "2015-08-30",
+	"time": "20:15",
+	"theater": "Kino Tapiola",
+	"title": "Dreamcatcher",
+	"director": "Longinotto",
+	"duration": 105,
+	"subtitles": "",
+	"number": "2/2",
+	"rating": "K16"
+} ]
+}
