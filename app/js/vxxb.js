@@ -12,6 +12,7 @@ var app = angular.module("leffalukkari", ["ngSanitize", "duScroll"])
 app.value('duScrollGreedy', true)
 
 app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
+	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()
 
 	$http.get("data/config.json")
