@@ -58,19 +58,19 @@ table#FilmList tr.slot > th > h2 {
 }
 
 th.slot9 {
-	height: 120px;
+	height: 90px;
 }
 
 th.slot8, th.slot10, th.slot12, th.slot17, th.slot19 {
-	height: 240px;
+	height: 180px;
 }
 
 th.slot14, th.slot21 {
-	height: 360px;
+	height: 270px;
 }
 
 th.slot21.slot23 {
-	height: 480px;
+	height: 360px;
 }
 
 /* TEMP SOLUTION FIXED HEADERS */
