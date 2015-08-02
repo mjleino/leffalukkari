@@ -163,7 +163,9 @@ nav > ul > li.active > a {
 }
 
 mark {
-	background-color: #ff7;
+	background-color: #e74011;
+	padding-top: inherit;
+	padding-bottom: inherit;
 }
 
 /* SCREENING STUFF */
