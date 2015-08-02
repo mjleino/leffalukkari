@@ -63,19 +63,19 @@ table#FilmList tr.slot > th > h2 {
 }
 
 th.slot9 {
-	height: 60px;
-}
-
-th.slot8, th.slot10, th.slot12, th.slot17, th.slot19 {
 	height: 120px;
 }
 
+th.slot8, th.slot10, th.slot12, th.slot17, th.slot19 {
+	height: 240px;
+}
+
 th.slot14, th.slot21 {
-	height: 180px;
+	height: 360px;
 }
 
 th.slot21.slot23 {
-	height: 240px;
+	height: 480px;
 }
 
 /* TEMP SOLUTION FIXED HEADERS */
@@ -191,6 +191,11 @@ screening {
 	box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
 
+.screening:hover {
+	cursor: pointer;
+	z-index: 2;
+}
+
 .screening > address {
 	/* special theater above timeslot */
 	/* position: absolute;
@@ -211,6 +216,10 @@ screening {
 	font-weight: bold;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+.screening > img {
+	width: 100%;
 }
 
 .screening-body {
