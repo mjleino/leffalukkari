@@ -190,8 +190,8 @@ screening {
 }
 
 .screening:hover {
-	cursor: pointer;
-	z-index: 2;
+	/*cursor: pointer;*/
+	/*z-index: 2;*/
 }
 
 .screening.selected {
@@ -243,12 +243,12 @@ screening {
 }
 
 .screening>.top > time,
-.screening>.top > h3 > span,
+.screening>.top > h3 > a,
 .screening>.bottom > small {
 	background-color: white;
 	padding: 0px 2px;
 }
-.screening>.top > h3 > span {
+.screening>.top > h3 > a {
 	padding: 3px 2px 0px;
 	box-decoration-break: clone;
 	-webkit-box-decoration-break: clone;
