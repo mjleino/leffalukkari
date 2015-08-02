@@ -45,11 +45,11 @@
 					</th>
 				</tr>
 				<!-- TODO: optimize this -->
-				<tr class="slot" ng-show="(screenings | filter:{dateId:day.id, timeslot:slot} | filter:{title: search.text}).length"
+				<tr class="slot" ng-show="!search.text || (screenings | filter:{dateId:day.id, timeslot:slot, title: search.text}).length"
 					ng-repeat="(slot, timeslot) in day.timeslots" ng-repeat-end>
 					<th class="slot{{ slot }}" ng-class="{slot23: $last && timeslot.duration > 160}">
 						<h2>
-							<time datetime="{{ timeslot.time}}">{{ slot }}</time>
+							<time datetime="{{ timeslot.time }}">{{ slot }}</time>
 						</h2>
 					</th>
 					<td ng-repeat="theater in timeslot.theaters">

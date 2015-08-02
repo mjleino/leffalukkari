@@ -82,6 +82,9 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 			data.days[screening.dateId].timeslots[screening.timeslot].count++
 		})
 
+		// POST-PROCESS HACKS
+		data.days["ti-25"].timeslots[12] = angular.copy(timeslotsObject[12])
+
 		// console.log($scope, data)
 		DATA = data
 		$scope.data = data
