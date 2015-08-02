@@ -30,13 +30,8 @@ table#FilmList {
 	hyphens: auto;
 }
 
-table#FilmList > tbody {
-	border: none !important;
-}
-
 table#FilmList th:first-child {
 	width: 5%;
-	/*font-size: 16px;*/
 }
 
 table#FilmList th,
@@ -47,13 +42,13 @@ table#FilmList td {
 	border-top: 1px solid #ddd;
 }
 
-table#FilmList > tbody > tr:first-child > th {
-	/*border: none;*/
-}
-
 table#FilmList > thead > tr > th {
 	border-top: none;
 	border-bottom: 2px solid #ddd;
+}
+
+table#FilmList > thead > tr > th > h2 {
+	margin: 0;
 }
 
 table#FilmList tr.slot > th > h2 {
@@ -80,7 +75,6 @@ th.slot21.slot23 {
 
 /* TEMP SOLUTION FIXED HEADERS */
 /* http://stackoverflow.com/questions/19559197/how-to-make-scrollable-table-with-fixed-headers-using-css */
-
 table#FilmList {
 	width: 100%;
 	position: absolute;
@@ -183,17 +177,29 @@ screening {
 	position: absolute;
 	width: 100%;
 
-	margin-bottom: 20px;
 	background-color: #fff;
-	border: 1px solid #ddd;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	/*border: 1px solid #ddd;*/
 	border-radius: 4px;
-	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
-	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 1px #ccc;
+	-moz-box-shadow: 0 1px 1px #ccc;
+	box-shadow: 0 1px 1px #ccc;
 }
 
 .screening:hover {
 	cursor: pointer;
 	z-index: 2;
+}
+
+.screening.selected {
+	/* cine: #e74011 */
+	/*background-color: #58E711;*/
+	-webkit-box-shadow: 0 0 4px 6px #e74011;
+	-moz-box-shadow: 0 0 4px 6px #e74011;
+	box-shadow: 0 0 4px 6px #e74011;
 }
 
 .screening > address {
@@ -223,13 +229,25 @@ screening {
 }
 
 .screening-body {
-	padding: 8px;
+	padding: 4px;
+
+	box-sizing: border-box;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
 }
 
-.duration {
-	position: absolute;
-	bottom: 0;
-	right: 6px;
+.screening-body > time,
+.screening-body > h3 > span,
+.screening-body > small {
+	background-color: white;
+	padding: 0px 2px;
+}
+
+.screening-body > h3 > span {
+	padding: 3px 2px 0px;
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
 }
 
 small {
@@ -237,11 +255,10 @@ small {
 }
 
 .number {
-	position: absolute;
-	bottom: 0;
-	left: 6px;
+	clear: both;
+	float: left;
 }
 
-.selected {
-	background-color: #C0F0C0 !important;
+.duration {
+	float: right;
 }
