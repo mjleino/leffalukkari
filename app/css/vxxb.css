@@ -238,7 +238,7 @@ screening {
 	width: 100%;
 }
 .screening>.top {
-	top: 0;
+	/*top: 0;*/
 }
 .screening>.bottom {
 	bottom: 0;
