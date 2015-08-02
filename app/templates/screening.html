@@ -9,13 +9,15 @@
 
 	<!-- <img src="Image/{{screening.img}}.jpg"> -->
 
-	<div class="screening-body">
+	<div class="top">
 		<time datetime="{{screening.datetime}}">{{screening.time}}</time>
 
 		<h3>
 			<span ng-bind-html="screening.title | highlight:search.text"></span>
 		</h3>
+	</div>
 
+	<div class="bottom">
 		<small class="number">{{screening.number}}</small>
 		<small class="duration">
 			<time datetime="P{{screening.duration}}M">{{screening.duration}} min</time>

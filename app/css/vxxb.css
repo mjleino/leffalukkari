@@ -228,23 +228,27 @@ screening {
 	width: 100%;
 }
 
-.screening-body {
+.screening>.top, .screening>.bottom {
 	padding: 4px;
 
 	box-sizing: border-box;
 	position: absolute;
 	width: 100%;
+}
+.screening>.top {
+	top: 0;
+}
+.screening>.bottom {
 	bottom: 0;
 }
 
-.screening-body > time,
-.screening-body > h3 > span,
-.screening-body > small {
+.screening>.top > time,
+.screening>.top > h3 > span,
+.screening>.bottom > small {
 	background-color: white;
 	padding: 0px 2px;
 }
-
-.screening-body > h3 > span {
+.screening>.top > h3 > span {
 	padding: 3px 2px 0px;
 	box-decoration-break: clone;
 	-webkit-box-decoration-break: clone;
