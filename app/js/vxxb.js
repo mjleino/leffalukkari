@@ -1,3 +1,5 @@
+"use strict";
+
 if(!window.console){ window.console = {log: function(){} }; }
 console.log("\
 	   _ _ _        _             _       _      _             _ _       \n\
@@ -86,7 +88,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 		data.days["ti-25"].timeslots[12] = angular.copy(timeslotsObject[12])
 
 		// console.log($scope, data)
-		DATA = data
+		window.DATA = data
 		$scope.data = data
 		// scope is at: angular.element($("[ng-controller]")).scope()
 	})
@@ -132,7 +134,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 
 	function containsDate(date, days) {
 		var today = $filter('date')(date, 'yyyy-MM-dd')
-		for (d in days) {
+		for (var d in days) {
 			// console.log(today, "vs", days[d].date)
 			if (today == days[d].date) return true
 		}
