@@ -9,13 +9,17 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
   \\_/ |_|_|_|\\_\\___/_| .__/ \\___// |\\__,_|\\__|  |_|\\__, |_| |_|_|\\__\\___|\n\
 					 |_|       |__/                |___/                 ")
 
-var app = angular.module("leffalukkari", ["ngSanitize", "duScroll"])
+var app = angular.module("leffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
 
 app.value('duScrollGreedy', true)
 
-app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
+app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $localStorage) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()
+
+	$scope.$storage = $localStorage.$default({
+		selected: { }
+	})
 
 	$http.get("data/cinedata.json")
 	.then(function(result) {
@@ -49,8 +53,8 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 		angular.forEach($scope.screenings, function(screening) {
 			var datetime = new Date(screening.date + "T" + screening.time + "+03:00")
 
-			// TODO: datetime maybe in screenings.json
-			screening.datetime = datetime.toISOString()
+			screening.id       = getScreeningId(screening)
+			screening.datetime = datetime.toISOString() // could be in data.json
 			screening.dateId   = getDateId(datetime)
 			screening.timeslot = getTimeslot(screening.time)
 
@@ -87,7 +91,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 		// POST-PROCESS HACKS
 		data.days["ti-25"].timeslots[12] = angular.copy(timeslotsObject[12])
 
-		// console.log($scope, data)
+		// console.log("LOADING DONE", data)
 		window.DATA = data
 		$scope.data = data
 		// scope is at: angular.element($("[ng-controller]")).scope()
@@ -97,7 +101,9 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 
 	$scope.showKlik = function(screening) {
 		console.log(screening)
-		screening.selected = !screening.selected
+		if (screening.id in $scope.$storage.selected)
+			delete $scope.$storage.selected[screening.id]
+		else $scope.$storage.selected[screening.id] = Date.now()
 	}
 
 	// https://github.com/angular/angular.js/issues/4608
@@ -128,6 +134,10 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 
 	// HELPER FUNCTIONS
 
+	function getScreeningId(screening) {
+		return [screening.url, screening.number.split("/")[0]].join("-")
+	}
+
 	function getDateId(d) {
 		return $filter('date')(d, 'EEE-dd')
 	}
@@ -150,6 +160,8 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout) {
 				return timeslots[i]
 	}
 })
+
+// DIRECTIVE & FILTER
 
 app.directive("screening", function() {
 	return {

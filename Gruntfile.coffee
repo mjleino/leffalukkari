@@ -23,6 +23,7 @@ module.exports = (grunt) ->
           'app/bower_components/angular-sanitize/angular-sanitize.min.js'
           'app/bower_components/angular-scroll/angular-scroll.min.js'
           'app/bower_components/angular-i18n/angular-locale_fi-fi.js'
+          'app/bower_components/ngstorage/ngStorage.min.js'
         ]
 
       dist:

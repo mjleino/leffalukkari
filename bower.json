@@ -6,7 +6,8 @@
     "angular": "1.x",
     "angular-sanitize": "1.x",
     "angular-i18n": "1.x",
-    "angular-scroll": "0.x"
+    "angular-scroll": "0.x",
+    "ngstorage": "0.x"
   },
   "ignore": [
     "**/.*",
