@@ -17,6 +17,12 @@
                 ❤
 */
 
+#viiksipojat {
+	display: none;
+	margin-top: 1.5em;
+	color: #777;
+}
+
 table#FilmList {
 	border-spacing: 0;
 	border-collapse: collapse;
