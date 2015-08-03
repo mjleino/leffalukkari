@@ -163,6 +163,7 @@ nav > ul > li.active > a {
 }
 
 mark {
+	color: white;
 	background-color: #e74011;
 	padding-top: inherit;
 	padding-bottom: inherit;
@@ -257,7 +258,7 @@ screening {
 }
 
 small {
-	color: gray;
+	color: #555;
 }
 
 .number {
