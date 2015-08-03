@@ -101,9 +101,12 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 
 	$scope.showKlik = function(screening) {
 		console.log(screening)
+
 		if (screening.id in $scope.$storage.selected)
 			delete $scope.$storage.selected[screening.id]
 		else $scope.$storage.selected[screening.id] = Date.now()
+
+		ga('send', 'event', $scope.$storage.selected[screening.id] ? 'klik' : 'unklik', screening.id)
 	}
 
 	// https://github.com/angular/angular.js/issues/4608
