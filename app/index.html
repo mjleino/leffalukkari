@@ -19,7 +19,7 @@
 				<li ng-repeat="day in data.days" ng-class="{active: $first}"
 					du-scrollspy="{{ day.id }}">
 					<a href="#{{ day.id }}" du-smooth-scroll>
-						<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
+						<time datetime="{{ day.date }}">{{ day.date | date:"EEE d" }}</time>
 					</a>
 				</li>
 				<li id="search-film">
