@@ -184,3 +184,13 @@ app.filter('count', function() {
 		return obj.length
 	}
 })
+
+app.filter('timeslotNugger', function() {
+	return function(timeslot) {
+		var ids = [ ]
+		angular.forEach(timeslot.theaters, function(theater) {
+			ids = ids.concat(theater)
+		})
+		return ids
+	}
+})

@@ -54,8 +54,7 @@
 						</h2>
 					</th>
 				</tr>
-				<!-- TODO: optimize this -->
-				<tr class="slot" ng-show="(data.screenings | filter:{dateId:day.id, timeslot:slot, title: search.text} | filter:myFestivalCheck).length"
+				<tr class="slot" ng-show="(timeslot | timeslotNugger | filter:myFestivalCheck | filter:search.text).length"
 					ng-repeat="(slot, timeslot) in day.timeslots" ng-repeat-end>
 					<th class="slot{{ slot }}" ng-class="{slot23: $last && timeslot.duration > 160}">
 						<h2>
@@ -63,7 +62,7 @@
 						</h2>
 					</th>
 					<td ng-repeat="theater in timeslot.theaters">
-						<screening ng-repeat="screeningId in theater | filter:myFestivalCheck | filter:search.text" ng-init="screening=data.screeningsById[screeningId]">
+						<screening ng-repeat="screeningId in theater | filter:myFestivalCheck | filter:search.text track by screeningId" ng-init="screening=data.screeningsById[screeningId]">
 						</screening>
 					</td>
 				</tr>
