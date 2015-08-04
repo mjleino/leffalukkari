@@ -45,12 +45,12 @@ table#FilmList td {
 	width: 15%;
 	padding: 6px 8px;
 	vertical-align: top;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #777;
 }
 
 table#FilmList > thead > tr > th {
 	border-top: none;
-	border-bottom: 2px solid #ddd;
+	border-bottom: 2px solid #777;
 }
 
 table#FilmList > thead > tr > th > h2 {
@@ -60,7 +60,7 @@ table#FilmList > thead > tr > th > h2 {
 table#FilmList tr.slot > th > h2 {
 	word-wrap: normal;
 	font-size: 2em;
-	color: #ddd;
+	color: #777;
 }
 
 th.slot9 {
@@ -81,7 +81,7 @@ th.slot21.slot23 {
 
 /* TEMP SOLUTION FIXED HEADERS */
 /* http://stackoverflow.com/questions/19559197/how-to-make-scrollable-table-with-fixed-headers-using-css */
-table#FilmList {
+/*table#FilmList {
 	width: 100%;
 	position: absolute;
 	bottom: 0;
@@ -98,7 +98,7 @@ table#FilmList > tbody {
 table#FilmList tr {
 	width: 100%;
 	display: table;
-}
+}*/
 
 /* column spanning headers */
 
@@ -144,6 +144,7 @@ nav > ul > li {
 	float: left;
 	position: relative;
 	display: block;
+	margin-bottom: 1em;
 }
 
 nav > ul > li > a {
@@ -158,7 +159,7 @@ nav > ul > li > a:hover {
 
 nav > ul > li.active > a {
 	color: #fff;
-	background-color: #337ab7;
+	background-color: #e74011;
 }
 
 /* FILM SEARCH & MY FESTIVAL & FB SHARE */

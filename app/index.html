@@ -5,7 +5,8 @@
 	<meta charset="utf-8">
 	<title>Espoo Ciné 2015: LEFFALUKKARI</title>
 
-	<link rel="stylesheet" href="http://www.espoocine.fi/2015/fi/StyleSheet/51.css">
+	<!-- <link rel="stylesheet" href="http://www.espoocine.fi/2015/fi/StyleSheet/51.css"> -->
+	<link rel="stylesheet" href="css/cine.css">
 	<link rel="stylesheet" href="css/vxxb.css">
 
 	<script type="text/javascript" src="js/angular-etc.min.js"></script>
@@ -15,7 +16,7 @@
 <body>
 	<div id="ng-controller" ng-app="leffalukkari" ng-controller="FilmListCtrl">
 		<nav id="day-nav">
-			<ul du-scroll-container="FilmListBody">
+			<ul>
 				<li ng-repeat="day in data.days" ng-class="{active: $first}"
 					du-scrollspy="{{ day.id }}">
 					<a href="#{{ day.id }}" du-smooth-scroll>
@@ -45,8 +46,7 @@
 					</th>
 				</tr>
 			</thead>
-			<!-- TODO: think about this -->
-			<tbody id="FilmListBody">
+			<tbody>
 				<tr id="{{ day.id }}" class="day" ng-repeat-start="day in data.days">
 					<th colspan="7">
 						<h2>
