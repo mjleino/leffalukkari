@@ -25,6 +25,11 @@
 				<li id="search-film">
 					<input id="search" type="search" placeholder="Etsi elokuvaa…" aria-label="Etsi elokuvaa" ng-model="search.text">
 				</li>
+				<li id="fb-share">
+					<a href="#" title="jaa facebookiin! / share to faceobok!" ng-click="doFbShare(); $event.preventDefault();">
+						<img src="Image/facebook.png" alt="facebook logo">
+					</a>
+				</li>
 			</ul>
 		</nav>
 
@@ -72,6 +77,25 @@
 
 		  ga('create', 'UA-65899235-1', 'auto');
 		  ga('send', 'pageview');
+		</script>
+
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '1504498216507859',
+		      // status     : true,
+		      xfbml      : true,
+		      version    : 'v2.4'
+		    });
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
 		</script>
 	</div>
 </body>

@@ -161,7 +161,7 @@ nav > ul > li.active > a {
 	background-color: #337ab7;
 }
 
-/* FILM SEARCH */
+/* FILM SEARCH & FB SHARE */
 
 #search-film {
 	margin-left: 16px;
@@ -173,6 +173,19 @@ mark {
 	background-color: #e74011;
 	padding-top: inherit;
 	padding-bottom: inherit;
+}
+
+#fb-share {
+	float: right !important;
+	margin-right: 1em;
+}
+#fb-share > a {
+	padding: 0;
+	background-color: inherit;
+}
+#fb-share > a > img {
+	margin-top: -6px;
+	height: 32px;
 }
 
 /* SCREENING STUFF */
@@ -235,6 +248,17 @@ screening {
 
 .screening > img {
 	width: 100%;
+}
+
+.screening > img.fb {
+	position: absolute;
+	right: 0;
+	width: 20px;
+	/*animation: fadein 2s;*/
+}
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
 }
 
 .screening>.top, .screening>.bottom {

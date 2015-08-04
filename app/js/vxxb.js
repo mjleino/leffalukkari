@@ -20,6 +20,8 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 		selected: { }
 	})
 
+	fbShareCheck()
+
 	$http.get("data/cinedata.json")
 	.then(function(result) {
 		$scope.screenings = result.data.screenings
@@ -105,6 +107,41 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 		else $scope.$storage.selected[screening.id] = Date.now()
 
 		ga('send', 'event', $scope.$storage.selected[screening.id] ? 'klik' : 'unklik', screening.id)
+	$scope.doFbShare = function() {
+		console.log("FBSHARE", selected)
+		ga('send', 'event', 'click', 'fbshare')
+
+		var selected = Object.keys($scope.$storage.selected)
+
+		var titles = [ ]
+		$scope.screenings.forEach(function(screening) {
+			if ($scope.$storage.selected[screening.id])
+				titles.push(screening.title)
+		})
+
+		FB.ui({
+			method: 		'share',
+			picture: 		'http://www.espoocine.fi/2015/fi/Image/6884/etusivu.jpg',
+			// description: 	'Tule kanssani elokuviin ❤︎ Come with me to movies!',
+			description: 	titles.join(", "),
+			href: 			'http://demo.viiksipojat.fi/leffalukkari#share=' + selected.join(",")
+		}, function(response) {
+			// console.log("FB", response)
+		})
+	}
+
+	function fbShareCheck() {
+		$scope.fbshare = { }
+
+		if (location.hash.search(/^#share=/) < 0) return
+		
+		var ids = location.hash.split("=")[1].split(",")
+		ids.forEach(function(id) {
+			$scope.fbshare[id] = true
+		})
+
+		// location.hash = "#share" // META
+		// $scope.myFestival() // IGNITE
 	}
 
 	// https://github.com/angular/angular.js/issues/4608
