@@ -41,7 +41,7 @@
 			<thead>
 				<tr>
 					<th></th>
-					<th ng-repeat="theater in config.theaters">
+					<th ng-repeat="theater in data.config.theaters">
 						<h2>{{theater}}</h2>
 					</th>
 				</tr>
@@ -55,7 +55,7 @@
 					</th>
 				</tr>
 				<!-- TODO: optimize this -->
-				<tr class="slot" ng-show="(screenings | filter:{dateId:day.id, timeslot:slot, title: search.text} | filter:myFestivalCheck).length"
+				<tr class="slot" ng-show="(data.screenings | filter:{dateId:day.id, timeslot:slot, title: search.text} | filter:myFestivalCheck).length"
 					ng-repeat="(slot, timeslot) in day.timeslots" ng-repeat-end>
 					<th class="slot{{ slot }}" ng-class="{slot23: $last && timeslot.duration > 160}">
 						<h2>

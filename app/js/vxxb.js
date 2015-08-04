@@ -22,36 +22,37 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 
 	fbShareCheck()
 
+	// FETCH & PROCESS
 	$http.get("data/cinedata.json")
 	.then(function(result) {
-		$scope.screenings = result.data.screenings
-		$scope.config = result.data.config
-
 		// ultimate nuggetrium data format for easy viewing
-		var data = {"days": {}}
+		$scope.data = result.data
+		$scope.data.days = { }
+		var data = $scope.data
+
 		var theaterObject = {}
-		angular.forEach($scope.config.theaters, function(theater, i) {
+		angular.forEach(data.config.theaters, function(theater, i) {
 			theaterObject[theater] = {
-				"label": theater,
 				"screenings": []
 			}
 		})
+
 		var timeslotsObject = {}
-		angular.forEach($scope.config.timeslots, function(timeslot, i) {
+		angular.forEach(data.config.timeslots, function(timeslot, i) {
 			timeslotsObject[timeslot] = {
-				"label": timeslot,
 				"time": (timeslot < 10 ? "0" : "") + timeslot + ":00",
 				"theaters": angular.copy(theaterObject),
 				"count": 0,
 				"duration": 0
 			}
 		})
+
 		var dayObject = {
 			"timeslots": { }
 		}
 
 		// let's poop all the screenings to their proper boxes
-		angular.forEach($scope.screenings, function(screening) {
+		angular.forEach(data.screenings, function(screening) {
 			var datetime = new Date(screening.date + "T" + screening.time + "+03:00")
 
 			screening.id       = getScreeningId(screening)
@@ -73,12 +74,12 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 					= angular.copy(timeslotsObject[screening.timeslot])
 			}
 
-			if ($scope.config.theaters.indexOf(screening.theater) < 0)
+			if (data.config.theaters.indexOf(screening.theater) < 0)
 				screening.special = true
 
 			data.days[screening.dateId]
 				.timeslots[screening.timeslot]
-				.theaters[screening.special ? $scope.config.theaters[$scope.config.theaters.length-1] : screening.theater]
+				.theaters[screening.special ? data.config.theaters[data.config.theaters.length-1] : screening.theater]
 				.screenings.push(screening)
 
 			var timeslotduration = screening.timeslotdiff + screening.duration
@@ -91,9 +92,8 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 		// POST-PROCESS HACKS
 		data.days["ti-25"].timeslots[12] = angular.copy(timeslotsObject[12])
 
-		// console.log("LOADING DONE", data)
+		console.log("LOADING DONE", data)
 		window.DATA = data
-		$scope.data = data
 		// scope is at: angular.element($("[ng-controller]")).scope()
 	})
 
@@ -106,7 +106,9 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 			delete $scope.$storage.selected[screening.id]
 		else $scope.$storage.selected[screening.id] = Date.now()
 
-		ga('send', 'event', $scope.$storage.selected[screening.id] ? 'klik' : 'unklik', screening.id)
+		ga('send', 'event', $scope.$storage.selected[screening.id] ? 'select' : 'unselect', screening.id)
+	}
+
 	$scope.myFestival = function() {
 		$scope.search.myfestival = ! $scope.search.myfestival
 		ga('send', 'event', $scope.search.myfestival ? 'click' : 'unclick', 'myfestival')
@@ -131,7 +133,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 		var selected = Object.keys($scope.$storage.selected)
 
 		var titles = [ ]
-		$scope.screenings.forEach(function(screening) {
+		$scope.data.screenings.forEach(function(screening) {
 			if ($scope.$storage.selected[screening.id])
 				titles.push(screening.title)
 		})
@@ -207,7 +209,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 	}
 
 	function getTimeslot(t) {
-		var timeslots = $scope.config.timeslots
+		var timeslots = $scope.data.config.timeslots
 		// if t < 1st timeslot, ALL HELL BREAKS LOOSE
 		var h = parseInt(t.substring(0, 2), 10)
 		for (var i = 0; i < timeslots.length; i++)
