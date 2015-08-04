@@ -30,6 +30,9 @@
 						<img src="Image/facebook.png" alt="facebook logo">
 					</a>
 				</li>
+				<li id="my-festival" ng-class="{active: search.myfestival}">
+					<a href="#" title="my films" ng-click="myFestival(); $event.preventDefault();">Omat festarit</a>
+				</li>
 			</ul>
 		</nav>
 
@@ -52,7 +55,7 @@
 					</th>
 				</tr>
 				<!-- TODO: optimize this -->
-				<tr class="slot" ng-show="!search.text || (screenings | filter:{dateId:day.id, timeslot:slot, title: search.text}).length"
+				<tr class="slot" ng-show="(screenings | filter:{dateId:day.id, timeslot:slot, title: search.text} | filter:myFestivalCheck).length"
 					ng-repeat="(slot, timeslot) in day.timeslots" ng-repeat-end>
 					<th class="slot{{ slot }}" ng-class="{slot23: $last && timeslot.duration > 160}">
 						<h2>
@@ -60,7 +63,7 @@
 						</h2>
 					</th>
 					<td ng-repeat="theater in timeslot.theaters">
-						<screening ng-repeat="screening in theater.screenings | filter:search.text | orderBy:'time'">
+						<screening ng-repeat="screening in theater.screenings | filter:{title: search.text} | filter:myFestivalCheck | orderBy:'time'">
 						</screening>
 					</td>
 				</tr>

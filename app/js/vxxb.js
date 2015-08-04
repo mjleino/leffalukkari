@@ -107,6 +107,23 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 		else $scope.$storage.selected[screening.id] = Date.now()
 
 		ga('send', 'event', $scope.$storage.selected[screening.id] ? 'klik' : 'unklik', screening.id)
+	$scope.myFestival = function() {
+		$scope.search.myfestival = ! $scope.search.myfestival
+		ga('send', 'event', $scope.search.myfestival ? 'click' : 'unclick', 'myfestival')
+	}
+
+	$scope.myFestivalCheck = function(screening, index, array) {
+		if (! $scope.search.myfestival) {
+			delete $scope.selectedCopy
+			return true
+		}
+
+		// make a copy so films won't disappera when unclicked in my festival view
+		if (! $scope.selectedCopy) $scope.selectedCopy = angular.copy($scope.$storage.selected)
+
+		return $scope.selectedCopy[screening.id] || $scope.fbshare[screening.id]
+	}
+
 	$scope.doFbShare = function() {
 		console.log("FBSHARE", selected)
 		ga('send', 'event', 'click', 'fbshare')

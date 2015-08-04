@@ -161,7 +161,7 @@ nav > ul > li.active > a {
 	background-color: #337ab7;
 }
 
-/* FILM SEARCH & FB SHARE */
+/* FILM SEARCH & MY FESTIVAL & FB SHARE */
 
 #search-film {
 	margin-left: 16px;
@@ -175,7 +175,7 @@ mark {
 	padding-bottom: inherit;
 }
 
-#fb-share {
+#fb-share, #my-festival {
 	float: right !important;
 	margin-right: 1em;
 }
