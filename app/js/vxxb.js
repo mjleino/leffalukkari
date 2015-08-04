@@ -59,8 +59,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 			screening.timeslot = getTimeslot(screening.time)
 
 			var timeslotdatetime = new Date(datetime)
-			timeslotdatetime.setHours(screening.timeslot)
-			timeslotdatetime.setMinutes(0)
+			timeslotdatetime.setUTCHours(screening.timeslot-3, 0) // HOX -03:00
 			screening.timeslotdiff = (datetime-timeslotdatetime)/1000/60
 
 			if (! (screening.dateId in data.days)) {
