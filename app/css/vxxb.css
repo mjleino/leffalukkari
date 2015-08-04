@@ -100,25 +100,17 @@ table#FilmList tr {
 	display: table;
 }*/
 
-/* column spanning headers */
+/* COLUMN SPANNING HEADERS */
 
 table#FilmList > tbody > tr.day > th {
-/*	font-size: 36px;
-	line-height: 36px;
-*/	font-weight: 800;
 	color: #eee;
 	background-color: #111;
 	padding: 20px 16px 16px;
-	border-radius: 4px;
 	border-top: none;
 }
 
-table#FilmList > tbody > tr.day:first-child > th {
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
-}
-
 table#FilmList > tbody > tr.day > th > h2 {
+	font-size: 2em;
 	margin: 0;
 }
 
@@ -128,6 +120,11 @@ table#FilmList > tbody > tr.day + tr > td {
 }
 
 /* DAY NAVIGATION */
+
+nav {
+	/* from espoocine.fi/2015/fi/StyleSheet/51.css */
+	font-family: 'Cinecitta-Medium';
+}
 
 nav > ul {
 	padding-left: 0;
@@ -149,7 +146,6 @@ nav > ul > li {
 
 nav > ul > li > a {
 	padding: 8px;
-	border-radius: 4px;
 }
 
 nav > ul > li > a:hover {
@@ -166,7 +162,11 @@ nav > ul > li.active > a {
 
 #search-film {
 	margin-left: 16px;
-	vertical-align: bottom;
+    margin-top: -5px;
+}
+
+#search-film > input {
+    font-size: 110%;
 }
 
 mark {
@@ -178,15 +178,12 @@ mark {
 
 #fb-share, #my-festival {
 	float: right !important;
-	margin-right: 1em;
-}
-#fb-share > a {
-	padding: 0;
-	background-color: inherit;
+	/*margin-right: 1em;*/
 }
 #fb-share > a > img {
-	margin-top: -6px;
-	height: 32px;
+	padding-right: 8px;
+    margin-top: -3px;
+    height: 1.2em;
 }
 
 /* SCREENING STUFF */
@@ -207,7 +204,7 @@ screening {
 
 	/*border: 1px solid #ddd;*/
 	border-collapse: separate;
-	border-radius: 4px;
+	border-radius: 1px;
 	-webkit-box-shadow: 0 1px 1px #ccc;
 	-moz-box-shadow: 0 1px 1px #ccc;
 	box-shadow: 0 1px 1px #ccc;
@@ -232,20 +229,21 @@ screening {
 	top: -34px;
 	width: 100%; */
 
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
 
-	padding: 4px 4px 3px;
-	margin: 0;
+	padding: 8px 4px 6px;
 
 	background: black;
 	color: white;
 
 	font-size: 0.82em;
 	font-style: normal;
-	font-weight: bold;
 	text-align: center;
-	text-transform: uppercase;
+}
+
+.screening > address > h4 {
+	margin: 0;
 }
 
 .screening > img {
