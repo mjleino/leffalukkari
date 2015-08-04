@@ -32,7 +32,7 @@
 					</a>
 				</li>
 				<li id="my-festival" ng-class="{active: search.myfestival}">
-					<a href="#" title="my films" ng-click="myFestival(); $event.preventDefault();">Omat festarit</a>
+					<a href="#" title="my films" ng-click="myFestival(); $event.preventDefault();">Omat festarit ({{ $storage.selected | count }})</a>
 				</li>
 			</ul>
 		</nav>
@@ -63,7 +63,7 @@
 						</h2>
 					</th>
 					<td ng-repeat="theater in timeslot.theaters">
-						<screening ng-repeat="screening in theater.screenings | filter:{title: search.text} | filter:myFestivalCheck | orderBy:'time'">
+						<screening ng-repeat="screeningId in theater | filter:myFestivalCheck | filter:search.text" ng-init="screening=data.screeningsById[screeningId]">
 						</screening>
 					</td>
 				</tr>

@@ -25,76 +25,17 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 	// FETCH & PROCESS
 	$http.get("data/cinedata.json")
 	.then(function(result) {
-		// ultimate nuggetrium data format for easy viewing
 		$scope.data = result.data
-		$scope.data.days = { }
-		var data = $scope.data
 
-		var theaterObject = {}
-		angular.forEach(data.config.theaters, function(theater, i) {
-			theaterObject[theater] = {
-				"screenings": []
-			}
+		$scope.data.screeningsById = { }
+		$scope.data.screenings.forEach(function(screening) {
+			if (screening.id in $scope.data.screeningsById)
+				console.log("DUPLICATE SCREENING ID", screening.id)
+			$scope.data.screeningsById[screening.id] = screening
 		})
 
-		var timeslotsObject = {}
-		angular.forEach(data.config.timeslots, function(timeslot, i) {
-			timeslotsObject[timeslot] = {
-				"time": (timeslot < 10 ? "0" : "") + timeslot + ":00",
-				"theaters": angular.copy(theaterObject),
-				"count": 0,
-				"duration": 0
-			}
-		})
-
-		var dayObject = {
-			"timeslots": { }
-		}
-
-		// let's poop all the screenings to their proper boxes
-		angular.forEach(data.screenings, function(screening) {
-			var datetime = new Date(screening.date + "T" + screening.time + "+03:00")
-
-			screening.id       = getScreeningId(screening)
-			screening.datetime = datetime.toISOString() // could be in data.json
-			screening.dateId   = getDateId(datetime)
-			screening.timeslot = getTimeslot(screening.time)
-
-			var timeslotdatetime = new Date(datetime)
-			timeslotdatetime.setUTCHours(screening.timeslot-3, 0) // HOX -03:00
-			screening.timeslotdiff = (datetime-timeslotdatetime)/1000/60
-
-			if (! (screening.dateId in data.days)) {
-				data.days[screening.dateId] = angular.copy(dayObject)
-				data.days[screening.dateId].id    = screening.dateId
-				data.days[screening.dateId].date  = screening.date
-			}
-			if (! (screening.timeslot in data.days[screening.dateId].timeslots)) {
-				data.days[screening.dateId].timeslots[screening.timeslot] 
-					= angular.copy(timeslotsObject[screening.timeslot])
-			}
-
-			if (data.config.theaters.indexOf(screening.theater) < 0)
-				screening.special = true
-
-			data.days[screening.dateId]
-				.timeslots[screening.timeslot]
-				.theaters[screening.special ? data.config.theaters[data.config.theaters.length-1] : screening.theater]
-				.screenings.push(screening)
-
-			var timeslotduration = screening.timeslotdiff + screening.duration
-			if (timeslotduration > data.days[screening.dateId].timeslots[screening.timeslot].duration)
-				data.days[screening.dateId].timeslots[screening.timeslot].duration = timeslotduration
-
-			data.days[screening.dateId].timeslots[screening.timeslot].count++
-		})
-
-		// POST-PROCESS HACKS
-		data.days["ti-25"].timeslots[12] = angular.copy(timeslotsObject[12])
-
-		console.log("LOADING DONE", data)
-		window.DATA = data
-		// scope is at: angular.element($("[ng-controller]")).scope()
+		console.log("LOADING DONE", $scope.data)
+		window.DATA = $scope.data // DEBUGS
 	})
 
 	// BEHAVIOUR FUNCTIONS
@@ -114,28 +55,30 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 		ga('send', 'event', $scope.search.myfestival ? 'click' : 'unclick', 'myfestival')
 	}
 
-	$scope.myFestivalCheck = function(screening, index, array) {
+	$scope.myFestivalCheck = function(screeningOrId, index, array) {
 		if (! $scope.search.myfestival) {
 			delete $scope.selectedCopy
 			return true
 		}
 
-		// make a copy so films won't disappera when unclicked in my festival view
-		if (! $scope.selectedCopy) $scope.selectedCopy = angular.copy($scope.$storage.selected)
+		var id = angular.isObject(screeningOrId) ? screeningOrId.id : screeningOrId
 
-		return $scope.selectedCopy[screening.id] || $scope.fbshare[screening.id]
+		// make a copy so films won't disappera when unclicked in my festival view
+		if (! $scope.selectedCopy) {
+			$scope.selectedCopy = angular.copy($scope.$storage.selected)
+		}
+
+		return $scope.selectedCopy[id] || $scope.fbshare[id]
 	}
 
 	$scope.doFbShare = function() {
-		console.log("FBSHARE", selected)
+		console.log("FBSHARE", $scope.$storage.selected)
 		ga('send', 'event', 'click', 'fbshare')
 
 		var selected = Object.keys($scope.$storage.selected)
 
-		var titles = [ ]
-		$scope.data.screenings.forEach(function(screening) {
-			if ($scope.$storage.selected[screening.id])
-				titles.push(screening.title)
+		var titles = selected.map(function(id) {
+			return $scope.data.screeningsById[id].title
 		})
 
 		FB.ui({
@@ -232,5 +175,12 @@ app.filter('highlight', function() {
 		if (phrase) text = text.replace(new RegExp('('+phrase+')', 'gi'), '<mark>$1</mark>')
 
 		return text
+	}
+})
+
+app.filter('count', function() {
+	return function(obj) {
+		if (angular.isObject(obj)) return Object.keys(obj).length
+		return obj.length
 	}
 })

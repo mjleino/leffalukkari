@@ -206,6 +206,7 @@ screening {
 	background-repeat: no-repeat;
 
 	/*border: 1px solid #ddd;*/
+	border-collapse: separate;
 	border-radius: 4px;
 	-webkit-box-shadow: 0 1px 1px #ccc;
 	-moz-box-shadow: 0 1px 1px #ccc;
