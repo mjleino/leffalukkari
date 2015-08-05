@@ -62,7 +62,7 @@
 						</h2>
 					</th>
 					<td ng-repeat="theater in timeslot.theaters">
-						<screening ng-repeat="screeningId in theater | filter:myFestivalCheck | filter:search.text track by screeningId" ng-init="screening=data.screeningsById[screeningId]">
+						<screening ng-if="screeningId" ng-repeat="screeningId in theater | filter:myFestivalCheck | filter:search.text track by screeningId" ng-init="screening=data.screeningsById[screeningId]">
 						</screening>
 					</td>
 				</tr>

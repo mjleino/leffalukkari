@@ -4644,7 +4644,7 @@
 				"12": {
 					"time": "12:00",
 					"theaters": {
-						"Kino Tapiola": [],
+						"Kino Tapiola": [ null ],
 						"Tapiolasali": [],
 						"Louhisali": [],
 						"Sello 4": [],
@@ -5458,6 +5458,19 @@
 					},
 					"count": 5,
 					"duration": 188
+				},
+				"21": {
+					"time": "21:00",
+					"theaters": {
+						"Kino Tapiola": [ null ],
+						"Tapiolasali": [],
+						"Louhisali": [],
+						"Sello 4": [],
+						"Sello 5": [],
+						"Muut": []
+					},
+					"count": 0,
+					"duration": 0
 				}
 			},
 			"id": "su-30",
