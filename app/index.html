@@ -27,12 +27,12 @@
 					<input id="search" type="search" placeholder="Etsi elokuvaa…" aria-label="Etsi elokuvaa" ng-model="search.text">
 				</li>
 				<li id="fb-share">
-					<a href="#" title="jaa facebookiin! / share to faceobok!" ng-click="doFbShare(); $event.preventDefault();">
-						jaa <img src="Image/facebook.png" alt="facebook logo">
+					<a href="#" title="Jaa leffalukkarisi Facebookiin! / Share your festival to Faceobok!" ng-click="doFbShare(); $event.preventDefault();">
+						jaa <img src="Image/6237/facebook.png" alt="facebook logo">
 					</a>
 				</li>
 				<li id="my-festival" ng-class="{active: search.myfestival}">
-					<a href="#" title="my films" ng-click="myFestival(); $event.preventDefault();">Omat festarit ({{ $storage.selected | count }})</a>
+					<a href="#" title="My festival ({{ $storage.selected | count }} selected films)" ng-click="myFestival(); $event.preventDefault();">Omat festarit ({{ $storage.selected | count }})</a>
 				</li>
 			</ul>
 		</nav>
