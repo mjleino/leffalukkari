@@ -15,6 +15,10 @@
 
 <body>
 	<div id="ng-controller" ng-app="leffalukkari" ng-controller="FilmListCtrl">
+		<table id="FilmList">
+			<thead>
+				<tr>
+					<th colspan="7">
 		<nav id="day-nav">
 			<ul>
 				<li ng-repeat="day in data.days" ng-class="{active: $first}"
@@ -35,10 +39,9 @@
 					<a href="#" title="My festival ({{ $storage.selected | count }} selected films)" ng-click="myFestival(); $event.preventDefault();">Omat festarit ({{ $storage.selected | count }})</a>
 				</li>
 			</ul>
-		</nav>
-
-		<table id="FilmList">
-			<thead>
+		</nav>					
+					</th>
+				</tr>
 				<tr>
 					<th></th>
 					<th ng-repeat="theater in data.config.theaters">

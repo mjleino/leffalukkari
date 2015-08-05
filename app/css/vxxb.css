@@ -24,20 +24,17 @@
 }
 
 table#FilmList {
+	width: 100%;
 	border-spacing: 0;
 	border-collapse: collapse;
 
-	table-layout: fixed;
+	/*table-layout: fixed;*/
 	word-wrap: break-word;
 
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
-}
-
-table#FilmList th:first-child {
-	width: 5%;
 }
 
 table#FilmList th,
@@ -47,10 +44,29 @@ table#FilmList td {
 	vertical-align: top;
 	border-top: 1px solid #777;
 }
+table#FilmList th:first-child {
+	width: 5%;
+}
 
+table#FilmList > thead, table#FilmList > tbody {
+	display: table;
+	/*table-layout: fixed;*/
+	width: 100%;
+}
+
+table#FilmList > thead {
+	word-break: break-word; /* webkit */
+	border-bottom: 2px solid #777;
+	background-color: white;
+	position: fixed;
+	z-index: 7;
+}
 table#FilmList > thead > tr > th {
 	border-top: none;
-	border-bottom: 2px solid #777;
+}
+
+table#FilmList > tbody {
+	margin-top: 132px;
 }
 
 table#FilmList > thead > tr > th > h2 {
@@ -78,27 +94,6 @@ th.slot14, th.slot21 {
 th.slot21.slot23 {
 	height: 360px;
 }
-
-/* TEMP SOLUTION FIXED HEADERS */
-/* http://stackoverflow.com/questions/19559197/how-to-make-scrollable-table-with-fixed-headers-using-css */
-/*table#FilmList {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-}
-table#FilmList > thead,
-table#FilmList > tbody {
-	display: block;
-	width: 100%;
-}
-table#FilmList > tbody {
-	overflow: auto;
-	height: 80vh;
-}
-table#FilmList tr {
-	width: 100%;
-	display: table;
-}*/
 
 /* COLUMN SPANNING HEADERS */
 
