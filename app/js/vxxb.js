@@ -86,7 +86,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 			picture: 		'http://www.espoocine.fi/2015/fi/Image/6884/etusivu.jpg',
 			// description: 	'Tule kanssani elokuviin ❤︎ Come with me to movies!',
 			description: 	titles.join(", "),
-			href: 			'http://demo.viiksipojat.fi/leffalukkari#share=' + selected.join(",")
+			href: 			'http://www.espoocine.fi/2015/fi/ohjelmisto/leffalukkari/#share=' + selected.join(",")
 		}, function(response) {
 			// console.log("FB", response)
 		})
