@@ -35,6 +35,8 @@ table#FilmList {
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
 	hyphens: auto;
+
+	margin-top: 46px;
 }
 
 table#FilmList th,
@@ -48,29 +50,14 @@ table#FilmList th:first-child {
 	width: 5%;
 }
 
-table#FilmList > thead, table#FilmList > tbody {
-	display: table;
-	/*table-layout: fixed;*/
-	width: 100%;
-}
-
-table#FilmList > thead {
-	word-break: break-word; /* webkit */
-	border-bottom: 2px solid #777;
-	background-color: white;
-	position: fixed;
-	z-index: 7;
-}
-table#FilmList > thead > tr > th {
+table#FilmList tr.theater > th {
 	border-top: none;
+	border-bottom: 2px solid #777;
 }
 
-table#FilmList > tbody {
-	margin-top: 132px;
-}
-
-table#FilmList > thead > tr > th > h2 {
-	margin: 0;
+table#FilmList tr.theater > th > h2 {
+	margin-top: 0.5em;
+	margin-bottom: 0;
 }
 
 table#FilmList tr.slot > th > h2 {
@@ -109,19 +96,20 @@ table#FilmList > tbody > tr.day > th > h2 {
 	margin: 0;
 }
 
-table#FilmList > tbody > tr.day + tr > th,
-table#FilmList > tbody > tr.day + tr > td {
-	border-top: none;
-}
-
 /* DAY NAVIGATION */
 
 nav {
 	/* from espoocine.fi/2015/fi/StyleSheet/51.css */
 	font-family: 'Cinecitta-Medium';
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	z-index: 7;
+	top: 0;
 }
 
 nav > ul {
+	margin-bottom: 0;
 	padding-left: 0;
 	list-style: none;
 }

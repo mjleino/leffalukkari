@@ -10,8 +10,6 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
 
 var app = angular.module("leffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
 
-app.value('duScrollGreedy', true)
-
 app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $localStorage) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()

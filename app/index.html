@@ -15,15 +15,11 @@
 
 <body>
 	<div id="ng-controller" ng-app="leffalukkari" ng-controller="FilmListCtrl">
-		<table id="FilmList">
-			<thead>
-				<tr>
-					<th colspan="7">
 		<nav id="day-nav">
 			<ul>
-				<li ng-repeat="day in data.days" ng-class="{active: $first}"
-					du-scrollspy="{{ day.id }}">
-					<a href="#{{ day.id }}" du-smooth-scroll>
+				<li ng-repeat="day in data.days"
+					du-scrollspy="{{ day.id }}" offset="46">
+					<a href="#{{ day.id }}" du-smooth-scroll offset="46">
 						<time datetime="{{ day.date }}">{{ day.date | date:"EEE d" }}</time>
 					</a>
 				</li>
@@ -40,25 +36,25 @@
 				</li>
 			</ul>
 		</nav>					
-					</th>
-				</tr>
-				<tr>
-					<th></th>
-					<th ng-repeat="theater in data.config.theaters">
-						<h2>{{theater}}</h2>
-					</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr id="{{ day.id }}" class="day" ng-repeat-start="day in data.days">
+
+		<table id="FilmList">
+			<tbody id="{{ day.id }}" ng-repeat="day in data.days"
+				   ng-show="(data.screenings | filter:{ dateId: day.id, title: search.text} | filter:myFestivalCheck).length">
+				<tr class="day">
 					<th colspan="7">
 						<h2>
 							<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
 						</h2>
 					</th>
 				</tr>
+				<tr class="theater">
+					<th></th>
+					<th ng-repeat="theater in data.config.theaters">
+						<h2>{{theater}}</h2>
+					</th>
+				</tr>
 				<tr class="slot" ng-show="(timeslot | timeslotNugger | filter:myFestivalCheck | filter:search.text).length"
-					ng-repeat="(slot, timeslot) in day.timeslots" ng-repeat-end>
+					ng-repeat="(slot, timeslot) in day.timeslots">
 					<th class="slot{{ slot }}" ng-class="{slot23: $last && timeslot.duration > 160}">
 						<h2>
 							<time datetime="{{ timeslot.time }}">{{ slot }}</time>
