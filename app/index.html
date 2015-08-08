@@ -18,8 +18,8 @@
 		<nav id="day-nav">
 			<ul>
 				<li ng-repeat="day in data.days"
-					du-scrollspy="{{ day.id }}" offset="46">
-					<a href="#{{ day.id }}" du-smooth-scroll offset="46">
+					du-scrollspy="{{ day.id }}">
+					<a href="#{{ day.id }}" du-smooth-scroll>
 						<time datetime="{{ day.date }}">{{ day.date | date:"EEE d" }}</time>
 					</a>
 				</li>
