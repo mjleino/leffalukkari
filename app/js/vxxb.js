@@ -91,6 +91,7 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 			delete $scope.selectedCopy
 			return true
 		}
+		if (! screeningOrId) return false
 
 		var id = angular.isObject(screeningOrId) ? screeningOrId.id : screeningOrId
 
@@ -100,7 +101,7 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		}
 
 		return $scope.selectedCopy[id] || $scope.fbshare[id]
-		// || $scope.siblingIsSelected($scope.data.screeningsById[id])
+			|| $scope.siblingIsSelected($scope.data.screeningsById[id], $scope.selectedCopy)
 	}
 
 	$scope.doFbShare = function() {
@@ -139,13 +140,13 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 	}
 
 	// check if other screening(s) of this movie are selected
-	$scope.siblingIsSelected = function(screening) {
+	$scope.siblingIsSelected = function(screening, selectedStorage) {
 		var titleId = screening.id.substring(0, screening.id.length-1)
 		var numberTotal = screening.number.split("/") // is strings, all good
 		var me = numberTotal[0], total = numberTotal[1]
 
 		for (var n = 1; n <= total; n++) {
-			if (n != me && $scope.$storage.selected[titleId + n]) return true
+			if (n != me && (selectedStorage || $scope.$storage.selected)[titleId + n]) return true
 		}
 
 		return false
