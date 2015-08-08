@@ -312,3 +312,33 @@ screening {
 .screening .duration {
 	float: right;
 }
+
+/* HACKED SCREENING BOXES */
+
+.screening[id^="animaatioita-"] {
+	height: 78px !important;
+}
+.screening.special[id^="animaatioita-"] {
+	height: 88px !important;
+}
+.screening[id^="animaatioita-"] h3 {
+	margin-bottom: 4px;
+}
+
+.screening.special[id^="matka-sulkakuninkaan-maahan-"] h3 {
+	margin-bottom: 3px;
+}
+
+.screening[id^="ella-aleksi-yllatyssynttarit-"] {
+	top: 155px !important;
+}
+.screening[id^="ella-aleksi-yllatyssynttarit-"] h3 {
+	margin-bottom: 4px;
+}
+
+.screening[id^="ulrich-seidl-a-director-at-work-"] {
+	height: 92px !important;
+}
+.screening[id^="ulrich-seidl-a-director-at-work-"] h3 {
+	margin-bottom: 4px;
+}
