@@ -18,6 +18,7 @@
 */
 
 #viiksipojat {
+	margin-top: 2em;
 	margin-left: 4em;
 	margin-bottom: 1em;
 	color: #777;
@@ -80,6 +81,10 @@ th.slot14, th.slot21 {
 
 th.slot21.slot23 {
 	height: 360px;
+}
+
+tbody:last-child th.slot21 {
+	height: 180px;
 }
 
 /* COLUMN SPANNING HEADERS */
