@@ -54,9 +54,9 @@
 						<h3>{{ i18n.theaters[theater] || theater }}</h3>
 					</th>
 				</tr>
-				<tr class="slot" ng-show="(timeslot | timeslotnugger | filter:myFestivalCheck | filter:search.text).length"
-					ng-repeat="(slot, timeslot) in day.timeslots">
-					<th class="slot{{ slot }}" ng-class="{slot23: $last && timeslot.duration > 160}">
+				<tr class="slot" ng-repeat="(slot, timeslot) in day.timeslots"
+					ng-if="(timeslot | timeslotnugger | filter:myFestivalCheck | filter:search.text).length">
+					<th class="slot{{ slot }}" ng-style="{ height: timeslot.duration * 1.5 + 'px' }">
 						<h2>
 							<time datetime="{{ timeslot.time }}">{{ slot }}</time>
 						</h2>

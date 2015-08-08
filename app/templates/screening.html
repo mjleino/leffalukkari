@@ -31,7 +31,7 @@
 		</h3>
 
 		<small class="number">
-			<a href="#{{ screening | nextscreeningid }}" du-smooth-scroll>{{screening.number}}</a>
+			<a href="#{{ screening | nextscreeningid }}" ng-click="$event.stopPropagation()" du-smooth-scroll>{{screening.number}}</a>
 		</small>
 		<small class="duration">
 			<time datetime="P{{screening.duration}}M">{{screening.duration}} min</time>

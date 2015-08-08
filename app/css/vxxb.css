@@ -18,7 +18,7 @@
 */
 
 #viiksipojat {
-	margin-top: 2em;
+	margin-top: 4em;
 	margin-left: 4em;
 	margin-bottom: 1em;
 	color: #777;
@@ -67,24 +67,26 @@ table#FilmList tr.slot > th > h2 {
 
 /* TIMESLOT HEIGHTS */
 
-th.slot9 {
-	height: 90px;
+tr.slot:not(:last-child) > th.slot9 {
+	height: 90px !important;
 }
 
-th.slot8, th.slot10, th.slot12, th.slot17, th.slot19 {
-	height: 180px;
+tr.slot:not(:last-child) > th.slot8,
+tr.slot:not(:last-child) > th.slot10,
+tr.slot:not(:last-child) > th.slot12,
+tr.slot:not(:last-child) > th.slot17,
+tr.slot:not(:last-child) > th.slot19 {
+	height: 180px !important;
 }
 
-th.slot14, th.slot21 {
-	height: 270px;
+tr.slot:not(:last-child) > th.slot14,
+tr.slot:not(:last-child) > th.slot21 {
+	height: 270px !important;
 }
 
-th.slot21.slot23 {
-	height: 360px;
-}
-
-tbody:last-child th.slot21 {
-	height: 180px;
+/* last row has some space */
+tr.slot:last-child > th {
+	padding-bottom: 60px !important;
 }
 
 /* COLUMN SPANNING HEADERS */
