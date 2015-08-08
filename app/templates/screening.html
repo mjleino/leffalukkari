@@ -22,14 +22,14 @@
 	<div class="top">
 		<time title="{{ screening.datetime | date:'short':'+0300' }} {{ screening.theater }}"
 			  datetime="{{screening.datetime}}">{{screening.time}}</time>
+	</div>
 
+	<div class="bottom">
 		<h3>
 			<a href="http://www.espoocine.fi/2015/fi/ohjelmisto/elokuvat/{{ screening.url }}" target="_blank" ng-click="$event.stopPropagation()"
 			   ng-bind-html="screening.title | highlight:search.text"></a>
 		</h3>
-	</div>
 
-	<div class="bottom">
 		<small class="number">
 			<a href="#{{ screening | nextscreeningid }}" du-smooth-scroll>{{screening.number}}</a>
 		</small>
