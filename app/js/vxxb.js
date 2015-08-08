@@ -10,7 +10,7 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
 
 var app = angular.module("leffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
 
-app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $localStorage, $document) {
+app.controller("FilmListController", function($scope, $http, $filter, $timeout, $localStorage, $document) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()
 
@@ -77,6 +77,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 		ga('send', 'event', $scope.search.myfestival ? 'click' : 'unclick', 'myfestival')
 	}
 
+	// filter function checking if screening is selected or fb-shared
 	$scope.myFestivalCheck = function(screeningOrId, index, array) {
 		if (! $scope.search.myfestival) {
 			delete $scope.selectedCopy
@@ -114,6 +115,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 		})
 	}
 
+	// check if we arrived at a facebook share hash, init $scope.fbshare
 	function fbShareCheck() {
 		$scope.fbshare = { }
 
@@ -139,6 +141,7 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 	}
 
 	function containsDate(date, days) {
+		// NOTE: returns date according to local timezone
 		var today = $filter('date')(date, 'yyyy-MM-dd')
 		for (var d in days) {
 			// console.log(today, "vs", days[d].date)
@@ -181,7 +184,8 @@ app.filter('count', function() {
 	}
 })
 
-app.filter('timeslotNugger', function() {
+// merge timeslot.theaters.screening-ids into [ ids ]
+app.filter('timeslotnugger', function() {
 	return function(timeslot) {
 		var ids = [ ]
 		angular.forEach(timeslot.theaters, function(theater) {

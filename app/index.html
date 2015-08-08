@@ -14,7 +14,7 @@
 </head>
 
 <body>
-	<div id="ng-controller" ng-app="leffalukkari" ng-controller="FilmListCtrl">
+	<div id="ng-controller" ng-app="leffalukkari" ng-controller="FilmListController">
 		<nav id="day-nav">
 			<ul>
 				<li ng-repeat="day in data.days"
@@ -53,7 +53,7 @@
 						<h3>{{ theater }}</h3>
 					</th>
 				</tr>
-				<tr class="slot" ng-show="(timeslot | timeslotNugger | filter:myFestivalCheck | filter:search.text).length"
+				<tr class="slot" ng-show="(timeslot | timeslotnugger | filter:myFestivalCheck | filter:search.text).length"
 					ng-repeat="(slot, timeslot) in day.timeslots">
 					<th class="slot{{ slot }}" ng-class="{slot23: $last && timeslot.duration > 160}">
 						<h2>
