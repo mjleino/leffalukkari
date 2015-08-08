@@ -31,12 +31,10 @@ table#FilmList {
 	/*table-layout: fixed;*/
 	word-wrap: break-word;
 
-	-webkit-hyphens: auto;
+	/*-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
-	hyphens: auto;
-
-	margin-top: 46px;
+	hyphens: auto;*/
 }
 
 table#FilmList th,
@@ -55,7 +53,7 @@ table#FilmList tr.theater > th {
 	border-bottom: 2px solid #777;
 }
 
-table#FilmList tr.theater > th > h2 {
+table#FilmList tr.theater > th > h3 {
 	margin-top: 0.5em;
 	margin-bottom: 0;
 }
@@ -65,6 +63,8 @@ table#FilmList tr.slot > th > h2 {
 	font-size: 2em;
 	color: #777;
 }
+
+/* TIMESLOT HEIGHTS */
 
 th.slot9 {
 	height: 90px;
@@ -101,7 +101,8 @@ table#FilmList > tbody > tr.day > th > h2 {
 nav {
 	/* from espoocine.fi/2015/fi/StyleSheet/51.css */
 	font-family: 'Cinecitta-Medium';
-	background-color: white;
+	font-size: 13px;
+	background-color: #eee;
 	position: fixed;
 	width: 100%;
 	z-index: 7;
@@ -127,13 +128,16 @@ nav > ul > li {
 	margin-bottom: 1em;
 }
 
-nav > ul > li > a {
+nav > ul > li > a:link,
+nav > ul > li > a:visited {
 	padding: 8px;
+	color: black;
 }
 
 nav > ul > li > a:hover {
 	text-decoration: none;
-	background-color: #eee;
+	/*background-color: #fff;*/
+	color: #e74011;
 }
 
 nav > ul > li.active > a {
@@ -195,15 +199,31 @@ screening {
 
 .screening:hover {
 	/*cursor: pointer;*/
-	/*z-index: 2;*/
+}
+.screening.selected {
+/*	-webkit-box-shadow: 0 0 0px 6px #e74011;
+	-moz-box-shadow: 0 0 0px 6px #e74011;
+	box-shadow: 0 0 0px 6px #e74011; */
+}
+.screening:target {
+	-webkit-box-shadow: 0 0 8px 2px #ccc;
+	-moz-box-shadow: 0 0 8px 2px #ccc;
+	box-shadow: 0 0 8px 2px #ccc;
 }
 
-.screening.selected {
-	/* cine: #e74011 */
-	/*background-color: #58E711;*/
-	-webkit-box-shadow: 0 0 4px 6px #e74011;
-	-moz-box-shadow: 0 0 4px 6px #e74011;
-	box-shadow: 0 0 4px 6px #e74011;
+.screening > .full {
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+}
+.screening.selected-sibling > .full {
+	background-color: rgba(255,255,255, 0.7)
+}
+.screening:hover > .full {
+	background-color: rgba(0,0,0, 0.3)
+}
+.screening.selected > .full {
+	background-color: rgba(231,64,17, 0.5)
 }
 
 .screening > address {
@@ -229,12 +249,9 @@ screening {
 	margin: 0;
 }
 
-.screening > img {
-	width: 100%;
-}
-
 .screening > img.fb {
 	position: absolute;
+	z-index: 1;
 	right: 0;
 	width: 20px;
 	/*animation: fadein 2s;*/
@@ -258,27 +275,40 @@ screening {
 	bottom: 0;
 }
 
+.screening>.top > time {
+	/* let's go over film title */
+	position: relative;
+	z-index: 2;
+}
+
 .screening>.top > time,
-.screening>.top > h3 > a,
+.screening>.bottom > h3 > a,
 .screening>.bottom > small {
 	background-color: white;
 	padding: 0px 2px;
 }
-.screening>.top > h3 > a {
-	padding: 3px 2px 0px;
+.screening>.bottom > h3 > a {
+	/* HOX tää on aika tarkkaa että hover-alleviivaus näkyy ! */
+	padding: 2px 2px 0px;
 	box-decoration-break: clone;
 	-webkit-box-decoration-break: clone;
 }
+.screening>.bottom > small {
+	background-color: rgba(255,255,255,0.9);
+}
 
-small {
+.screening small {
 	color: #555;
 }
 
-.number {
+.screening .number {
 	clear: both;
 	float: left;
 }
+.screening .number > a {
+	color: inherit;
+}
 
-.duration {
+.screening .duration {
 	float: right;
 }

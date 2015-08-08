@@ -50,7 +50,7 @@
 				<tr class="theater">
 					<th></th>
 					<th ng-repeat="theater in data.config.theaters">
-						<h2>{{theater}}</h2>
+						<h3>{{ theater }}</h3>
 					</th>
 				</tr>
 				<tr class="slot" ng-show="(timeslot | timeslotNugger | filter:myFestivalCheck | filter:search.text).length"
