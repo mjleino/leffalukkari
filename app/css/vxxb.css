@@ -198,7 +198,7 @@ screening {
 
 	/*border: 1px solid #ddd;*/
 	border-collapse: separate;
-	border-radius: 1px;
+	/*border-radius: 1px;*/
 	-webkit-box-shadow: 0 1px 1px #ccc;
 	-moz-box-shadow: 0 1px 1px #ccc;
 	box-shadow: 0 1px 1px #ccc;
@@ -208,9 +208,9 @@ screening {
 	/*cursor: pointer;*/
 }
 .screening.selected {
-/*	-webkit-box-shadow: 0 0 0px 6px #e74011;
+	-webkit-box-shadow: 0 0 0px 6px #e74011;
 	-moz-box-shadow: 0 0 0px 6px #e74011;
-	box-shadow: 0 0 0px 6px #e74011; */
+	box-shadow: 0 0 0px 6px #e74011;
 }
 .screening:target {
 	-webkit-box-shadow: 0 0 8px 2px #ccc;
@@ -219,18 +219,20 @@ screening {
 }
 
 .screening > .full {
+	pointer-events: none;
 	position: absolute;
 	top: 0; bottom: 0;
 	left: 0; right: 0;
 }
 .screening.selected-sibling > .full {
-	background-color: rgba(255,255,255, 0.7)
+	background-color: rgba(255,255,255, 0.5);
+	z-index: 4;
 }
 .screening:hover > .full {
-	background-color: rgba(0,0,0, 0.3)
+	background-color: rgba(0,0,0, 0.3);
 }
 .screening.selected > .full {
-	background-color: rgba(231,64,17, 0.5)
+	background-color: rgba(231,64,17, 0.5);
 }
 
 .screening > address {
