@@ -20,7 +20,8 @@
 	<div class="full"></div>
 
 	<div class="top">
-		<time datetime="{{screening.datetime}}">{{screening.time}}</time>
+		<time title="{{ screening.datetime | date:'short':'+0300' }} {{ screening.theater }}"
+			  datetime="{{screening.datetime}}">{{screening.time}}</time>
 
 		<h3>
 			<a href="http://www.espoocine.fi/2015/fi/ohjelmisto/elokuvat/{{ screening.url }}" target="_blank" ng-click="$event.stopPropagation()"
