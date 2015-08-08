@@ -98,6 +98,7 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		}
 
 		return $scope.selectedCopy[id] || $scope.fbshare[id]
+		// || $scope.siblingIsSelected($scope.data.screeningsById[id])
 	}
 
 	$scope.doFbShare = function() {
@@ -134,6 +135,25 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 
 		// location.hash = "#share" // META
 		// $scope.myFestival() // IGNITE
+	}
+
+	// check if other screening(s) of this movie are selected
+	$scope.siblingIsSelected = function(screening) {
+		var titleId = screening.id.substring(0, screening.id.length-1)
+		var numberTotal = screening.number.split("/") // is strings, all good
+		var me = numberTotal[0], total = numberTotal[1]
+
+		for (var n = 1; n <= total; n++) {
+			if (n != me && $scope.$storage.selected[titleId + n]) return true
+		}
+
+		return false
+
+		// WHY NO WORK HUH ?
+		// while (next = $scope.data.screeningsById[ $filter('nextscreeningid')(next) ] != screening) {
+		// 	if ($scope.$storage.selected[next]) return true
+		// }
+		// return false
 	}
 
 	// HELPER FUNCTIONS
@@ -198,5 +218,15 @@ app.filter('timeslotnugger', function() {
 			ids = ids.concat(theater)
 		})
 		return ids
+	}
+})
+
+// fetch next screening id: 1/3 -> 2/3 -> 3/3 -> 1/3 -> …
+app.filter('nextscreeningid', function() {
+	return function(screening) {
+		var titleId = screening.id.substring(0, screening.id.length-1)
+		var numberTotal = screening.number.split("/")
+		var next = numberTotal[0] % numberTotal[1] + 1
+		return titleId + next
 	}
 })

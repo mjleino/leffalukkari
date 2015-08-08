@@ -1,5 +1,9 @@
-<section class="screening" ng-click="showKlik(screening)"
-		 ng-class="{special: screening.special, selected: $storage.selected[screening.id]}"
+<section class="screening" id="{{screening.id}}" ng-click="showKlik(screening)"
+		 ng-class="{
+		 	special: screening.special,
+		 	selected: $storage.selected[screening.id],
+		 	'selected-sibling': siblingIsSelected(screening)
+		 }"
 		 ng-style="{
 		 	'background-image': 'url(Image/' + screening.img + '.jpg)',
 		 	top: screening.timeslotdiff * 1.5 + 'px',
@@ -25,7 +29,9 @@
 	</div>
 
 	<div class="bottom">
-		<small class="number">{{screening.number}}</small>
+		<small class="number">
+			<a href="#{{ screening | nextscreeningid }}" du-smooth-scroll>{{screening.number}}</a>
+		</small>
 		<small class="duration">
 			<time datetime="P{{screening.duration}}M">{{screening.duration}} min</time>
 		</small>
