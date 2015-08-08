@@ -10,6 +10,10 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
 
 var app = angular.module("leffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
 
+app.config(['$compileProvider', function ($compileProvider) {
+	$compileProvider.debugInfoEnabled(false)
+}])
+
 app.value('duScrollOffset', 40)
 
 app.controller("FilmListController", function($scope, $http, $filter, $timeout, $localStorage, $document) {
