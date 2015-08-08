@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/vxxb.css">
 
 	<script type="text/javascript" src="js/angular-etc.min.js"></script>
+	<script type="text/javascript" src="js/angular-locale_fi-fi.js"></script>
 	<script type="text/javascript" src="js/vxxb.js"></script>
 </head>
 
@@ -24,15 +25,15 @@
 					</a>
 				</li>
 				<li id="search-film">
-					<input id="search" type="search" placeholder="Etsi elokuvaa…" aria-label="Etsi elokuvaa" ng-model="search.text">
+					<input id="search" type="search" placeholder="{{ i18n.searchfilm }}…" aria-label="{{ i18n.searchfilm }}" ng-model="search.text">
 				</li>
 				<li id="fb-share">
-					<a href="#" title="Jaa leffalukkarisi Facebookiin! / Share your festival to Faceobok!" ng-click="doFbShare(); $event.preventDefault();">
-						jaa <img src="Image/6237/facebook.png" alt="facebook logo">
+					<a href="#" title="{{ i18n.fbshare }}" ng-click="doFbShare(); $event.preventDefault();">
+						{{ i18n.share }} <img src="Image/6237/facebook.png" alt="facebook logo">
 					</a>
 				</li>
 				<li id="my-festival" ng-class="{active: search.myfestival}">
-					<a href="#" title="My festival ({{ $storage.selected | count }} selected films)" ng-click="myFestival(); $event.preventDefault();">Omat festarit ({{ $storage.selected | count }})</a>
+					<a href="#" title="{{ i18n.myfestival }} ({{ $storage.selected | count }} {{ i18n.selectedfilms }})" ng-click="myFestival(); $event.preventDefault();">{{ i18n.myfestival }} ({{ $storage.selected | count }})</a>
 				</li>
 			</ul>
 		</nav>					
@@ -50,7 +51,7 @@
 				<tr class="theater">
 					<th></th>
 					<th ng-repeat="theater in data.config.theaters">
-						<h3>{{ theater }}</h3>
+						<h3>{{ i18n.theaters[theater] || theater }}</h3>
 					</th>
 				</tr>
 				<tr class="slot" ng-show="(timeslot | timeslotnugger | filter:myFestivalCheck | filter:search.text).length"
@@ -68,7 +69,7 @@
 			</tbody>
 		</table>
 
-		<p id="viiksipojat">Leffalukkarin sinulle teki ❤︎:lla <a href="http://viiksipojat.fi" target="_blank" onclick="ga('send', 'event', 'click', 'viiksipojat.fi')">Viiksipojat</a>.</p>
+		<p id="viiksipojat">{{ i18n.viiksipojat }} <a href="http://viiksipojat.fi" target="_blank" onclick="ga('send', 'event', 'click', 'viiksipojat.fi')">Viiksipojat</a>.</p>
 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

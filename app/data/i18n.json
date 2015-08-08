@@ -1,0 +1,38 @@
+{
+	"i18n": {
+		"fi": {
+			"theaters": {
+				"Kino Tapiola": "Kino Tapiola",
+				"Tapiolasali": "Tapiolasali",
+				"Louhisali": "Louhisali",
+				"Sello 4": "Sello 4",
+				"Sello 5": "Sello 5",
+				"Muut": "Muut"
+			},
+			"searchfilm": "Etsi elokuvaa",
+			"share": "Jaa",
+			"fbshare": "Jaa leffalukkarisi Facebookiin!",
+			"fbshared": "Jaettu ystäväsi Facebookista",
+			"myfestival": "Omat festarit",
+			"selectedfilms": "valittua elokuvaa",
+			"viiksipojat": "Leffalukkarin sinulle teki ❤:lla"
+		},
+		"en": {
+			"theaters": {
+				"Kino Tapiola": "Kino Tapiola",
+				"Tapiolasali": "Tapiolasali",
+				"Louhisali": "Louhisali",
+				"Sello 4": "Sello 4",
+				"Sello 5": "Sello 5",
+				"Muut": "Others"
+			},
+			"searchfilm": "Search for film",
+			"share": "Share",
+			"fbshare": "Share your festival to Faceobok!",
+			"fbshared": "Shared from your friend's Facebook",
+			"myfestival": "My festival",
+			"selectedfilms": "selected films",
+			"viiksipojat": "Film scheduler made for you with ❤ by"
+		}
+	}
+}

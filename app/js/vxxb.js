@@ -16,7 +16,7 @@ app.config(['$compileProvider', function ($compileProvider) {
 
 app.value('duScrollOffset', 40)
 
-app.controller("FilmListController", function($scope, $http, $filter, $timeout, $localStorage, $document) {
+app.controller("FilmListController", function($scope, $http, $filter, $timeout, $localStorage, $document, $locale) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()
 
@@ -30,6 +30,8 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 	$http.get("data/cinedata.json")
 	.then(function(result) {
 		$scope.data = result.data
+		// $scope.i18n = $scope.data.i18n[document.documentElement.lang]
+		$scope.i18n = $scope.data.i18n[($locale.id.substring(0,2))]
 
 		$scope.data.screeningsById = { }
 		$scope.data.screenings.forEach(function(screening) {
