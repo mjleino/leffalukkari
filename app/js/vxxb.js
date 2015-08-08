@@ -10,7 +10,7 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
 
 var app = angular.module("leffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
 
-app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $localStorage) {
+app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $localStorage, $document) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()
 
@@ -36,7 +36,31 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 		window.DATA = $scope.data // DEBUGS
 	})
 
+	// observe final tbody so we know when table has loaded
+	$scope.$watch(
+		function () {
+			return document.getElementById('su-30')
+		}, function(value, old) {
+			if (! value) return
+			if (! containsDate($scope.now, $scope.data.days)) return
+
+			var today = getDateId($scope.now)
+			// var offset = parseInt(document.querySelector("a[href='#"+ today +"']").getAttribute("offset"))
+
+			// console.log("YO!! scrolling in today", today, offset)
+			$scope.scrollTo(today, offset)
+		}
+	)
+
 	// BEHAVIOUR FUNCTIONS
+
+	// https://github.com/angular/angular.js/issues/4608
+	$scope.scrollTo = function(hash, offset) {
+		$timeout(function () {
+			var target = document.getElementById(hash)
+			$document.scrollToElement(target, offset)
+		})
+	}
 
 	$scope.showKlik = function(screening) {
 		console.log(screening)
@@ -103,32 +127,6 @@ app.controller("FilmListCtrl", function($scope, $http, $filter, $timeout, $local
 		// location.hash = "#share" // META
 		// $scope.myFestival() // IGNITE
 	}
-
-	// https://github.com/angular/angular.js/issues/4608
-	$scope.scrollTo = function(hash) {
-		$timeout(function () {
-			// $location.hash(hash)
-			$anchorScroll(hash)
-		})
-	}
-
-	// observe final tbody so we know when table has loaded
-	$scope.$watch(
-		function () {
-			return document.getElementById('su-30')
-		}, function(value, old) {
-			if (! value) return
-			if (! containsDate($scope.now, $scope.data.days)) return
-
-			// console.log("YO!! scrolling in today")
-			// TODO scrollTo DEPRECATED 
-			$scope.scrollTo(getDateId($scope.now))
-
-			$timeout(function() {
-				$("[data-spy]").scrollspy('refresh')
-			})
-		}
-	)
 
 	// HELPER FUNCTIONS
 
