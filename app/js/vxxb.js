@@ -177,15 +177,6 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		}
 		return false
 	}
-
-	function getTimeslot(t) {
-		var timeslots = $scope.data.config.timeslots
-		// if t < 1st timeslot, ALL HELL BREAKS LOOSE
-		var h = parseInt(t.substring(0, 2), 10)
-		for (var i = 0; i < timeslots.length; i++)
-			if (i == timeslots.length-1 || h >= timeslots[i] && h < timeslots[i+1])
-				return timeslots[i]
-	}
 })
 
 // DIRECTIVE & FILTER
