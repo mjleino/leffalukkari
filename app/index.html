@@ -40,7 +40,7 @@
 
 		<table id="FilmList">
 			<tbody id="{{ day.id }}" ng-repeat="day in data.days"
-				   ng-show="(data.screenings | filter:{ dateId: day.id, title: search.text} | filter:myFestivalCheck).length">
+				   ng-show="(data.screenings | filter:{ dateId: day.id } | filter:myFestivalCheck | filter:searchCheck).length">
 				<tr class="day">
 					<th colspan="7">
 						<h2>
@@ -55,14 +55,14 @@
 					</th>
 				</tr>
 				<tr class="slot" ng-repeat="(slot, timeslot) in day.timeslots"
-					ng-if="(timeslot | timeslotnugger | filter:myFestivalCheck | filter:search.text).length">
+					ng-if="(timeslot | timeslotnugger | filter:myFestivalCheck | filter:searchCheck).length">
 					<th class="slot{{ slot }}" ng-style="{ height: timeslot.duration * 1.5 + 'px' }">
 						<h2>
 							<time datetime="{{ timeslot.time }}">{{ slot }}</time>
 						</h2>
 					</th>
 					<td ng-repeat="theater in timeslot.theaters">
-						<screening ng-if="screeningId" ng-repeat="screeningId in theater | filter:myFestivalCheck | filter:search.text track by screeningId" ng-init="screening=data.screeningsById[screeningId]">
+						<screening ng-if="screeningId" ng-repeat="screeningId in theater | filter:myFestivalCheck | filter:searchCheck track by screeningId" ng-init="screening=data.screeningsById[screeningId]">
 						</screening>
 					</td>
 				</tr>

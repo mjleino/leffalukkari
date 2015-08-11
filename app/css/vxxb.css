@@ -159,10 +159,6 @@ nav > ul > li.active > a {
     margin-top: -5px;
 }
 
-#search-film > input {
-    font-size: 110%;
-}
-
 mark {
 	color: white;
 	background-color: #e74011;

@@ -104,6 +104,23 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 			|| $scope.siblingIsSelected($scope.data.screeningsById[id], $scope.selectedCopy)
 	}
 
+	// filter function checking if search matches screening
+	$scope.searchCheck = function(screeningOrId, index, array) {
+		if (! $scope.search.text) {
+			return true
+		}
+		if (! screeningOrId) return false
+
+		var screening = angular.isObject(screeningOrId) ? screeningOrId : $scope.data.screeningsById[screeningOrId]
+		var searchers = $scope.search.text.toLowerCase().split(" ")
+		var searchee  = screening.title.toLowerCase()
+
+		for (var i=0; i<searchers.length; i++)
+			if (searchee.indexOf(searchers[i]) < 0) return false // AND
+
+		return true
+	}
+
 	$scope.doFbShare = function() {
 		console.log("FBSHARE", $scope.$storage.selected)
 		ga('send', 'event', 'click', 'fbshare')
@@ -190,7 +207,10 @@ app.directive("screening", function() {
 // https://codeforgeek.com/2014/12/highlight-search-result-angular-filter/
 app.filter('highlight', function() {
 	return function(text, phrase) {
-		if (phrase) text = text.replace(new RegExp('('+phrase+')', 'gi'), '<mark>$1</mark>')
+		if (! phrase) return text
+
+		var phrases = phrase.split(" ").join("|") // OR
+		text = text.replace(new RegExp('('+phrases+')', 'gi'), '<mark>$1</mark>')
 
 		return text
 	}
