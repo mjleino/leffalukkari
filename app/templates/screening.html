@@ -26,8 +26,10 @@
 
 	<div class="bottom">
 		<h3>
-			<a href="http://www.espoocine.fi/2015/fi/ohjelmisto/elokuvat/{{ screening.url }}" target="_blank" ng-click="$event.stopPropagation()"
-			   ng-bind-html="screening.title | highlight:search.text"></a>
+			<a href="http://www.espoocine.fi/2015/fi/ohjelmisto/elokuvat/{{ screening.url }}" target="_blank" ng-click="$event.stopPropagation()">
+				<span ng-if="search.text" ng-bind-html="screening.title | highlight:search.text"></span>
+				<span ng-if="! search.text" ng-bind="screening.title"></span>
+			</a>
 		</h3>
 
 		<small class="number">

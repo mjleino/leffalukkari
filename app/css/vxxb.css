@@ -298,6 +298,10 @@ screening {
 	box-decoration-break: clone;
 	-webkit-box-decoration-break: clone;
 }
+.screening>.bottom > h3 > a > span {
+	padding-top: inherit;
+	padding-bottom: inherit;
+}
 .screening>.bottom > small {
 	background-color: rgba(255,255,255,0.9);
 }
