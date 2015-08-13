@@ -20,7 +20,7 @@
 	<div class="full"></div>
 
 	<div class="top">
-		<time title="{{ screening.datetime | date:'short':'+0300' }} {{ screening.theater }}"
+		<time title="{{ screening.date | date:'EEE' }} {{ screening.datetime | date:'short':'+0300' }} {{ screening.theater }}"
 			  datetime="{{screening.datetime}}">{{screening.time}}</time>
 	</div>
 
