@@ -14,7 +14,7 @@ app.config(['$compileProvider', function ($compileProvider) {
 	$compileProvider.debugInfoEnabled(false)
 }])
 
-app.value('duScrollOffset', 40)
+app.value('duScrollOffset', 44)
 
 app.controller("FilmListController", function($scope, $http, $filter, $timeout, $localStorage, $document, $locale) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
@@ -52,10 +52,9 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 			if (! containsDate($scope.now, $scope.data.days)) return
 
 			var today = getDateId($scope.now)
-			// var offset = parseInt(document.querySelector("a[href='#"+ today +"']").getAttribute("offset"))
 
-			// console.log("YO!! scrolling in today", today, offset)
-			$scope.scrollTo(today, offset)
+			// console.log("YO!! scrolling in today", today)
+			$scope.scrollTo(today)
 		}
 	)
 
