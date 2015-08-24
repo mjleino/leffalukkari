@@ -107,13 +107,17 @@ table#FilmList > tbody > tr.day > th > h2 {
 
 nav {
 	/* from espoocine.fi/2015/fi/StyleSheet/51.css */
-	font-family: 'Cinecitta-Medium';
+	/*font-family: 'Cinecitta-Medium';*/
 	font-size: 13px;
 	background-color: #eee;
 	position: fixed;
 	width: 100%;
 	z-index: 7;
 	top: 0;
+}
+
+nav a {
+	font-family: 'Cinecitta-Medium';
 }
 
 nav > ul {
@@ -152,11 +156,11 @@ nav > ul > li.active > a {
 	background-color: #e74011;
 }
 
-/* FILM SEARCH & MY FESTIVAL & FB SHARE */
+/* FILM SEARCH & MY FESTIVAL & FB SHARE & HELP */
 
 #search-film {
 	margin-left: 16px;
-    margin-top: -5px;
+    margin-top: -2px;
 }
 
 mark {
@@ -166,14 +170,51 @@ mark {
 	padding-bottom: inherit;
 }
 
-#fb-share, #my-festival {
+#fb-share, #my-festival, #help {
 	float: right !important;
 	/*margin-right: 1em;*/
 }
+
 #fb-share > a > img {
-	padding-right: 8px;
-    margin-top: -3px;
+	padding-right: 2px;
+    margin-top: -1px;
     height: 1.2em;
+}
+
+#help {
+	margin-right: 8px;
+}
+
+#help > aside {
+	position: absolute;
+	z-index: 2;
+	top: 22px;
+	right: 0;
+	width: 240px;
+	background-color: #eee;
+	padding: 1em;
+	border-top: solid 4px #e74011;
+}
+#help:not(.active) > aside,
+#help.share > aside > section:not(.share),
+#help:not(.share) > aside > section.share {
+	display: none;
+}
+
+#help > aside > section > h2 {
+	margin: 0;
+}
+
+#help p {
+	margin-top: 0.7em;
+}
+
+#help.auto > aside > section > p > a {
+	animation: pulse 2s infinite alternate;
+}
+@keyframes pulse {
+	from { opacity: 1; }
+	to   { opacity: 0.5; }
 }
 
 /* SCREENING STUFF */

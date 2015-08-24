@@ -24,8 +24,6 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		selected: { }
 	})
 
-	fbShareCheck()
-
 	// FETCH & PROCESS
 	$http.get("data/cinedata.json")
 	.then(function(result) {
@@ -79,6 +77,12 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		else $scope.$storage.selected[screening.id] = Date.now()
 
 		ga('send', 'event', $scope.$storage.selected[screening.id] ? 'select' : 'unselect', screening.id)
+	}
+
+	$scope.help = function(first) {
+		$scope.search.help = !!first || ! $scope.search.help
+		$scope.$storage.helpShown = true
+		if (! first) ga('send', 'event', $scope.search.help ? 'click' : 'unclick', 'help')
 	}
 
 	$scope.myFestival = function() {
@@ -147,6 +151,7 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		$scope.fbshare = { }
 
 		if (location.hash.search(/^#share=/) < 0) return
+		$scope.search.fbshare = true
 		
 		var ids = location.hash.split("=")[1].split(",")
 		ids.forEach(function(id) {
@@ -155,6 +160,7 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 
 		// location.hash = "#share" // META
 		// $scope.myFestival() // IGNITE
+		$scope.help() // SHARING IS CARING
 	}
 
 	// check if other screening(s) of this movie are selected
@@ -175,6 +181,10 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		// }
 		// return false
 	}
+
+	// INIT FB SHARE & HELP
+	fbShareCheck()
+	if (! $scope.$storage.helpShown) $scope.help()
 
 	// HELPER FUNCTIONS
 
