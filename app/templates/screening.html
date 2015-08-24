@@ -5,10 +5,11 @@
 		 	'selected-sibling': siblingIsSelected(screening)
 		 }"
 		 ng-style="{
-		 	'background-image': 'url(Image/' + screening.img + '.jpg)',
 		 	top: screening.timeslotdiff * 1.5 + 'px',
 		 	height: screening.duration * 1.5 + 'px'
 		 }">
+
+	<div class="bg" ng-style="{ 'background-image': 'url(Image/' + screening.img + '.jpg)' }"></div>
 
 	<address ng-if="screening.special">
 		<h4>{{screening.theater}}</h4>

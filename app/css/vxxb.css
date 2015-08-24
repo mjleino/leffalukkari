@@ -188,18 +188,12 @@ screening {
 	width: 100%;
 
 	background-color: #fff;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 
-	/*border: 1px solid #ddd;*/
-	border-collapse: separate;
-	/*border-radius: 1px;*/
+	border-collapse: separate; /* IE */
 	-webkit-box-shadow: 0 1px 1px #ccc;
 	-moz-box-shadow: 0 1px 1px #ccc;
 	box-shadow: 0 1px 1px #ccc;
 }
-
 .screening:hover {
 	/*cursor: pointer;*/
 }
@@ -208,17 +202,20 @@ screening {
 	-moz-box-shadow: 0 0 0px 6px #e74011;
 	box-shadow: 0 0 0px 6px #e74011;
 }
-.screening:target {
-	-webkit-box-shadow: 0 0 8px 2px #ccc;
-	-moz-box-shadow: 0 0 8px 2px #ccc;
-	box-shadow: 0 0 8px 2px #ccc;
-}
 
-.screening > .full {
+.screening > .full, .screening > .bg {
 	pointer-events: none;
 	position: absolute;
 	top: 0; bottom: 0;
 	left: 0; right: 0;
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.screening.selected-sibling > .bg {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
 }
 .screening.selected-sibling > .full {
 	background-color: rgba(255,255,255, 0.5);
@@ -232,10 +229,7 @@ screening {
 }
 
 .screening > address {
-	/* special theater above timeslot */
-	/* position: absolute;
-	top: -34px;
-	width: 100%; */
+	position: relative;
 
 	border-top-left-radius: inherit;
 	border-top-right-radius: inherit;
