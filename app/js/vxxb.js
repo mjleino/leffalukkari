@@ -245,6 +245,23 @@ app.filter('timeslotnugger', function() {
 	}
 })
 
+// deep merge all arrays in object into 1-level array
+app.filter('digger', function() {
+	function deepshallow(obj) {
+		if (obj instanceof Array) return obj
+		if (! (obj instanceof Object) ) return undefined
+
+		var cat = []
+		for (var o in obj) {
+			var d = deepshallow(obj[o])
+			if (d) cat = cat.concat(d)
+		}
+
+		return cat
+	}
+	return deepshallow
+})
+
 // fetch next screening id: 1/3 -> 2/3 -> 3/3 -> 1/3 -> …
 app.filter('nextscreeningid', function() {
 	return function(screening) {
