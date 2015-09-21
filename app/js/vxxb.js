@@ -28,8 +28,9 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 	$http.get("data/cinedata.json")
 	.then(function(result) {
 		$scope.data = result.data
-		// $scope.i18n = $scope.data.i18n[document.documentElement.lang]
-		$scope.i18n = $scope.data.i18n[($locale.id.substring(0,2))]
+		// $scope.locale = document.documentElement.lang
+		$scope.locale = $locale.id.substring(0,2)
+		$scope.i18n = $scope.data.i18n[$scope.locale]
 		if ($locale != "fi-fi") document.querySelector("#viiksipojat > span").textContent = $scope.i18n.viiksipojat
 
 		$scope.data.screeningsById = { }
