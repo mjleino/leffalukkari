@@ -17,6 +17,10 @@
                 ❤
 */
 
+body {
+	padding-top: 44px;
+}
+
 #viiksipojat {
 	margin-top: 4em;
 	margin-left: 4em;
@@ -73,13 +77,13 @@ tr.slot:not(:last-child) > th.slot9 {
 
 tr.slot:not(:last-child) > th.slot8,
 tr.slot:not(:last-child) > th.slot10,
-tr.slot:not(:last-child) > th.slot12,
+tr.slot:not(:last-child) > th.slot15,
 tr.slot:not(:last-child) > th.slot17,
 tr.slot:not(:last-child) > th.slot19 {
 	height: 180px !important;
 }
 
-tr.slot:not(:last-child) > th.slot14,
+tr.slot:not(:last-child) > th.slot12,
 tr.slot:not(:last-child) > th.slot21 {
 	height: 270px !important;
 }
@@ -228,7 +232,7 @@ screening {
 	position: absolute;
 	width: 100%;
 
-	background-color: #fff;
+	background-color: #eee;
 
 	border-collapse: separate; /* IE */
 	-webkit-box-shadow: 0 1px 1px #ccc;
@@ -369,20 +373,11 @@ screening {
 	margin-bottom: 4px;
 }
 
-.screening.special[id^="matka-sulkakuninkaan-maahan-"] h3 {
-	margin-bottom: 3px;
-}
-
-.screening[id^="ella-aleksi-yllatyssynttarit-"] {
-	top: 155px !important;
-}
-.screening[id^="ella-aleksi-yllatyssynttarit-"] h3 {
-	margin-bottom: 4px;
-}
-
-.screening[id^="ulrich-seidl-a-director-at-work-"] {
-	height: 92px !important;
-}
-.screening[id^="ulrich-seidl-a-director-at-work-"] h3 {
-	margin-bottom: 4px;
+#animaatioita-lapsille-7,
+#animaatioita-lapsille-8,
+#animaatioita-lapsille-9,
+#animaatioita-lapsille-10,
+#animaatioita-lapsille-11,
+#animaatioita-lapsille-12 {
+	position: relative;
 }

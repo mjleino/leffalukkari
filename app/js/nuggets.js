@@ -109,6 +109,10 @@ app.controller("DataNuggetController", function($scope, $http) {
 			data.days[screening.dateId].timeslots[screening.timeslot].count++
 		})
 
+		// POST-PROCESS HACKS FOR EMPTY SLOTS
+		data.days["pe-26"].timeslots[12] = angular.copy(timeslotsObject[12])
+		data.days["pe-26"].timeslots[12].theaters[config.theaters[0]].push(null)
+
 		return data
 	}
 
