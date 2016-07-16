@@ -31,7 +31,7 @@ app.controller("DataNuggetController", function($scope, $http) {
 		window.DATA = $scope.data
 
 		console.log("DATA NUGGETS DONE", $scope.data)
-		console.log("try JSON.stringify(DATA) ! !")
+		console.log("try copy(DATA) or JSON.stringify(DATA) ! !")
 	})
 
 	// ultimate nuggetrium data format for easy pooping
@@ -41,7 +41,8 @@ app.controller("DataNuggetController", function($scope, $http) {
 			"config": config,
 			"i18n": i18n,
 			"screenings": screenings,
-			"days": { }
+			"days": { },
+			"slugs": { }
 		}
 
 		var theaterObject = {}
@@ -66,6 +67,7 @@ app.controller("DataNuggetController", function($scope, $http) {
 		// let's poop all the screenings to their proper boxes
 		angular.forEach(screenings, function(screening) {
 			var datetime = new Date(screening.date + "T" + screening.time + "+03:00")
+			// console.log(screening.title, datetime)
 
 			screening.id       = getScreeningId(screening)
 			screening.datetime = datetime.toISOString() // could be in data.json
@@ -75,6 +77,12 @@ app.controller("DataNuggetController", function($scope, $http) {
 			var timeslotdatetime = new Date(datetime)
 			timeslotdatetime.setUTCHours(screening.timeslot-3, 0) // HOX -03:00
 			screening.timeslotdiff = (datetime-timeslotdatetime)/1000/60
+
+			var slug = getMovieSlug(screening)
+			if (! (slug in data.slugs)) {
+				data.slugs[slug] = 0
+			}
+			data.slugs[slug]++
 
 			if (! (screening.dateId in data.days)) {
 				data.days[screening.dateId] = angular.copy(dayObject)
@@ -101,17 +109,17 @@ app.controller("DataNuggetController", function($scope, $http) {
 			data.days[screening.dateId].timeslots[screening.timeslot].count++
 		})
 
-		// POST-PROCESS HACKS
-		data.days["ti-25"].timeslots[12] = angular.copy(timeslotsObject[12])
-		data.days["su-30"].timeslots[21] = angular.copy(timeslotsObject[21])
-
 		return data
 	}
 
 	// HELPER FUNCTIONS
 
+	function getMovieSlug(screening) {
+		return screening.title.toLowerCase().replace(/[ ,\&\"\']/g, "-")
+	}
+
 	function getScreeningId(screening) {
-		return [screening.url, screening.number.split("/")[0]].join("-")
+		return [getMovieSlug(screening), screening.number.split("/")[0]].join("-")
 	}
 
 	function getDateId(date) {
