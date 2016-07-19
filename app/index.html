@@ -5,17 +5,16 @@
 	<meta charset="utf-8">
 	<title>Espoo Ciné 2016: LEFFALUKKARI</title>
 
-	<!-- <link rel="stylesheet" href="http://www.espoocine.fi/2015/fi/StyleSheet/51.css"> -->
 	<link rel="stylesheet" href="css/cine.css">
 	<link rel="stylesheet" href="css/vxxb.css">
 
-	<script type="text/javascript" src="js/angular-etc.min.js"></script>
-	<script type="text/javascript" src="js/angular-locale_fi-fi.js"></script>
+	<script type="text/javascript" src="js/dist/angular-etc.min.js"></script>
+	<script type="text/javascript" src="js/dist/angular-locale_fi-fi.js"></script>
 	<script type="text/javascript" src="js/vxxb.js"></script>
 </head>
 
 <body>
-	<div id="ng-controller" ng-app="leffalukkari" ng-controller="FilmListController">
+	<div id="ng-controller" ng-app="appLeffalukkari" ng-controller="FilmListController">
 		<nav id="day-nav">
 			<ul>
 				<li ng-repeat="day in data.days"

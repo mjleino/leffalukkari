@@ -8,7 +8,7 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
   \\_/ |_|_|_|\\_\\___/_| .__/ \\___// |\\__,_|\\__|  |_|\\__, |_| |_|_|\\__\\___|\n\
                      |_|       |__/                |___/                 ")
 
-var app = angular.module("leffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
+var app = angular.module("appLeffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
 
 app.config(['$compileProvider', function ($compileProvider) {
 	$compileProvider.debugInfoEnabled(false)

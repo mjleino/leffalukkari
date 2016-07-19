@@ -1,18 +1,21 @@
 {
-  "version": "0.8.0",
+  "version": "0.9.0",
   "name": "leffalukkari",
   "private": true,
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-i18n": "^1.5.7",
+    "angular-sanitize": "^1.5.7",
+    "angular-scroll": "^1.0.0",
+    "ngstorage": "^0.3.10"
+  },
   "devDependencies": {
-    "bower": "1.x",
-    "grunt": "0.x",
-    "grunt-bower-task": "^0.4.0",
-    "grunt-contrib-concat": "^0.5.1",
-    "grunt-contrib-copy": "^0.8.0",
-    "http-server": "0.x"
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "lite-server": "^2.2.2"
   },
   "scripts": {
-    "postinstall": "node_modules/bower/bin/bower install",
-    "prestart": "npm install && grunt",
-    "start": "node_modules/http-server/bin/http-server & open http://localhost:8080/app/"
+    "start": "npm run lite",
+    "lite": "lite-server"
   }
 }
