@@ -271,3 +271,12 @@ app.filter('nextscreeningid', function() {
 		return titleId + next
 	}
 })
+
+// starttime + duration -> datetime
+app.filter('endtime', function() {
+	return function(screening) {
+		var dt = new Date(screening.datetime)
+		dt.setMinutes(dt.getMinutes() + screening.duration)
+		return dt.toISOString()
+	}
+})
