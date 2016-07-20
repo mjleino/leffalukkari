@@ -273,6 +273,18 @@ screening {
 	background-color: rgba(231,64,17, 0.5);
 }
 
+.screening.target > .full {
+	animation: highlight 1.5s ease-in;
+}
+@keyframes highlight {
+	0% {
+		background-color: rgba(17,64,231, 0.5);
+	}
+	100% {
+		/*background-color: rgba(17,64,231, 0);*/
+	}
+}
+
 .screening > address {
 	position: relative;
 

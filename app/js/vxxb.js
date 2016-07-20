@@ -79,6 +79,10 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		ga('send', 'event', $scope.$storage.selected[screening.id] ? 'select' : 'unselect', screening.id)
 	}
 
+	$scope.numberKlik = function(screening) {
+		$scope.scrollTarget = $filter('nextscreeningid')(screening)
+	}
+
 	$scope.help = function(first) {
 		$scope.search.help = !!first || ! $scope.search.help
 		$scope.$storage.helpShown = true

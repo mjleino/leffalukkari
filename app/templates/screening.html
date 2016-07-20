@@ -2,7 +2,8 @@
 		 ng-class="{
 		 	special: screening.special,
 		 	selected: $storage.selected[screening.id],
-		 	'selected-sibling': siblingIsSelected(screening)
+		 	'selected-sibling': siblingIsSelected(screening),
+		 	target: screening.id == scrollTarget
 		 }"
 		 ng-style="{
 		 	top: screening.timeslotdiff * 1.5 + 'px',
@@ -34,7 +35,7 @@
 		</h3>
 
 		<small class="number">
-			<a href="#{{ screening | nextscreeningid }}" ng-click="$event.stopPropagation()" du-smooth-scroll>{{screening.number}}</a>
+			<a href="#{{ screening | nextscreeningid }}" ng-click="$event.stopPropagation(); numberKlik(screening)" du-smooth-scroll>{{screening.number}}</a>
 		</small>
 		<small class="duration">
 			<time datetime="P{{screening.duration}}M" title="{{screening | endtime | date:'shortTime':'+0300'}}">{{screening.duration}} min</time>
