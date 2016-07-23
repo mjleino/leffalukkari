@@ -9,7 +9,8 @@
     "number": "+1",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-11",
     "time": "20:15",
@@ -21,7 +22,34 @@
     "number": "+1",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
+}, {
+    "date": "2016-08-17",
+    "time": "17:30",
+    "theater": "Sheryl",
+    "title": "All About Them",
+    "director": "Bonnell",
+    "duration": 86,
+    "subtitles": "eng",
+    "number": "+1",
+    "rating": "K12",
+    "img": "#N/A",
+    "url": "#N/A",
+    "extraurl": ""
+}, {
+    "date": "2016-08-17",
+    "time": "19:15",
+    "theater": "Sheryl",
+    "title": "The Here After",
+    "director": "Horn",
+    "duration": 101,
+    "subtitles": "eng",
+    "number": "+1",
+    "rating": "K16",
+    "img": "#N/A",
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-18",
     "time": "18:00",
@@ -33,7 +61,8 @@
     "number": "+1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-19",
     "time": "17:00",
@@ -45,7 +74,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-19",
     "time": "17:30",
@@ -57,7 +87,8 @@
     "number": "1/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-19",
     "time": "18:00",
@@ -69,7 +100,8 @@
     "number": "1/1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": "x"
 }, {
     "date": "2016-08-19",
     "time": "19:00",
@@ -81,7 +113,8 @@
     "number": "1/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-19",
     "time": "19:30",
@@ -93,7 +126,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-19",
     "time": "21:00",
@@ -105,7 +139,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-19",
     "time": "21:15",
@@ -117,7 +152,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-19",
     "time": "21:15",
@@ -129,7 +165,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "13:00",
@@ -141,7 +178,8 @@
     "number": "1/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "13:00",
@@ -153,7 +191,8 @@
     "number": "1/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "13:15",
@@ -165,7 +204,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "15:00",
@@ -177,7 +217,8 @@
     "number": "1/2",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "15:00",
@@ -189,7 +230,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "15:15",
@@ -201,7 +243,8 @@
     "number": "1/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "17:00",
@@ -213,7 +256,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "17:00",
@@ -225,7 +269,8 @@
     "number": "1/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "17:15",
@@ -237,7 +282,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "19:00",
@@ -249,7 +295,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "19:00",
@@ -261,7 +308,8 @@
     "number": "1/1",
     "rating": "",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "19:15",
@@ -273,7 +321,8 @@
     "number": "1/1",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "19:30",
@@ -285,7 +334,8 @@
     "number": "+1",
     "rating": "K18",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "21:00",
@@ -297,7 +347,8 @@
     "number": "1/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "21:00",
@@ -309,7 +360,8 @@
     "number": "1/2",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-20",
     "time": "21:15",
@@ -321,7 +373,8 @@
     "number": "1/1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "12:00",
@@ -333,7 +386,8 @@
     "number": "1/2",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "13:00",
@@ -345,7 +399,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "13:15",
@@ -357,7 +412,8 @@
     "number": "1/1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "13:30",
@@ -369,7 +425,8 @@
     "number": "1/1",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "15:00",
@@ -381,7 +438,8 @@
     "number": "1/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "15:00",
@@ -393,7 +451,8 @@
     "number": "1/1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "15:15",
@@ -405,7 +464,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "17:00",
@@ -417,7 +477,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "17:00",
@@ -429,7 +490,8 @@
     "number": "1/1",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "17:15",
@@ -441,7 +503,8 @@
     "number": "1/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "18:00",
@@ -453,7 +516,8 @@
     "number": "+1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "19:00",
@@ -465,7 +529,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "19:00",
@@ -477,7 +542,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "19:15",
@@ -489,7 +555,8 @@
     "number": "1/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "21:00",
@@ -501,7 +568,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "21:00",
@@ -513,7 +581,8 @@
     "number": "1/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-21",
     "time": "21:15",
@@ -525,7 +594,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "15:00",
@@ -537,7 +607,8 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "15:00",
@@ -549,7 +620,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "15:15",
@@ -561,7 +633,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "17:00",
@@ -573,31 +646,34 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "17:15",
     "theater": "Tapiolasali",
     "title": "These Daughters of Mine",
-    "director": "",
+    "director": "Dębska",
     "duration": 88,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "17:30",
     "theater": "Louhisali",
     "title": "Alive and Kicking",
     "director": "Glatzer",
-    "duration": 84,
+    "duration": 89,
     "subtitles": "",
     "number": "1/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "19:00",
@@ -609,7 +685,8 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "19:00",
@@ -621,7 +698,8 @@
     "number": "2/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "19:15",
@@ -633,7 +711,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "21:00",
@@ -645,7 +724,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "21:00",
@@ -657,7 +737,8 @@
     "number": "1/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-22",
     "time": "21:15",
@@ -669,7 +750,8 @@
     "number": "2/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "09:00",
@@ -681,7 +763,8 @@
     "number": "1/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "09:30",
@@ -693,7 +776,8 @@
     "number": "1/1",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "10:00",
@@ -705,7 +789,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "10:00",
@@ -717,7 +802,8 @@
     "number": "2/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "11:00",
@@ -729,7 +815,8 @@
     "number": "1/1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "11:45",
@@ -741,7 +828,8 @@
     "number": "1/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "12:00",
@@ -753,7 +841,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "13:00",
@@ -765,7 +854,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "14:00",
@@ -777,7 +867,8 @@
     "number": "1/1",
     "rating": "",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "15:00",
@@ -789,7 +880,8 @@
     "number": "2/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "15:00",
@@ -801,7 +893,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "15:15",
@@ -813,7 +906,8 @@
     "number": "1/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "15:15",
@@ -825,7 +919,8 @@
     "number": "1/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "17:00",
@@ -837,7 +932,8 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "17:00",
@@ -849,7 +945,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "17:00",
@@ -861,7 +958,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "17:00",
@@ -873,7 +971,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "17:15",
@@ -885,7 +984,8 @@
     "number": "2/2",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "18:45",
@@ -897,7 +997,8 @@
     "number": "1/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "19:00",
@@ -909,7 +1010,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "19:00",
@@ -921,7 +1023,8 @@
     "number": "2/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "19:15",
@@ -933,7 +1036,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "19:15",
@@ -945,7 +1049,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "21:00",
@@ -957,7 +1062,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "21:00",
@@ -969,7 +1075,8 @@
     "number": "1/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "21:00",
@@ -981,7 +1088,8 @@
     "number": "1/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "21:15",
@@ -993,7 +1101,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-23",
     "time": "21:15",
@@ -1005,7 +1114,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "09:00",
@@ -1017,7 +1127,8 @@
     "number": "5/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "09:00",
@@ -1029,7 +1140,8 @@
     "number": "3/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "09:30",
@@ -1041,7 +1153,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "10:00",
@@ -1053,7 +1166,8 @@
     "number": "6/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "10:00",
@@ -1065,7 +1179,8 @@
     "number": "4/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "10:00",
@@ -1077,7 +1192,8 @@
     "number": "1/1",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "11:00",
@@ -1089,7 +1205,8 @@
     "number": "2/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "11:00",
@@ -1101,7 +1218,8 @@
     "number": "1/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "11:00",
@@ -1113,7 +1231,8 @@
     "number": "1/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "12:00",
@@ -1125,7 +1244,8 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "13:00",
@@ -1137,7 +1257,8 @@
     "number": "1/1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "13:00",
@@ -1149,7 +1270,8 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "15:00",
@@ -1161,7 +1283,8 @@
     "number": "2/2",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "15:00",
@@ -1173,7 +1296,8 @@
     "number": "2/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "15:00",
@@ -1185,7 +1309,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "15:15",
@@ -1197,7 +1322,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "15:15",
@@ -1209,7 +1335,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "16:45",
@@ -1221,19 +1348,21 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "17:00",
     "theater": "Kino Tapiola",
     "title": "Sky",
     "director": "Berthaud",
-    "duration": 100,
+    "duration": 103,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "17:00",
@@ -1245,7 +1374,8 @@
     "number": "2/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "17:00",
@@ -1257,7 +1387,8 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "17:15",
@@ -1269,19 +1400,21 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "18:45",
     "theater": "Louhisali",
     "title": "Eyes of a Thief",
     "director": "Najjar",
-    "duration": 98,
+    "duration": 103,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "19:00",
@@ -1293,7 +1426,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "19:00",
@@ -1305,7 +1439,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "19:00",
@@ -1317,7 +1452,8 @@
     "number": "2/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "19:00",
@@ -1329,7 +1465,8 @@
     "number": "1/1",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": "x"
 }, {
     "date": "2016-08-24",
     "time": "20:45",
@@ -1341,7 +1478,8 @@
     "number": "1/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "20:45",
@@ -1353,7 +1491,8 @@
     "number": "1/2",
     "rating": "K18",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "21:00",
@@ -1365,7 +1504,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "21:00",
@@ -1377,7 +1517,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-24",
     "time": "21:00",
@@ -1389,7 +1530,8 @@
     "number": "2/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "09:00",
@@ -1401,7 +1543,8 @@
     "number": "9/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "09:00",
@@ -1413,7 +1556,8 @@
     "number": "7/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "09:00",
@@ -1425,7 +1569,8 @@
     "number": "11/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "09:30",
@@ -1437,7 +1582,8 @@
     "number": "2/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "10:00",
@@ -1449,7 +1595,8 @@
     "number": "10/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "10:00",
@@ -1461,7 +1608,8 @@
     "number": "8/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "10:00",
@@ -1473,7 +1621,8 @@
     "number": "2/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "10:00",
@@ -1485,7 +1634,8 @@
     "number": "12/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "10:30",
@@ -1497,7 +1647,8 @@
     "number": "1/1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "11:30",
@@ -1509,7 +1660,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "12:00",
@@ -1521,7 +1673,8 @@
     "number": "1/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "12:30",
@@ -1533,7 +1686,8 @@
     "number": "1/1",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "13:00",
@@ -1545,7 +1699,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "14:45",
@@ -1557,7 +1712,8 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "15:00",
@@ -1569,7 +1725,8 @@
     "number": "1/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "15:00",
@@ -1581,7 +1738,8 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "15:00",
@@ -1593,7 +1751,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "15:15",
@@ -1605,7 +1764,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "16:45",
@@ -1617,7 +1777,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "16:45",
@@ -1629,7 +1790,8 @@
     "number": "2/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "17:00",
@@ -1641,7 +1803,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "17:00",
@@ -1653,7 +1816,21 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
+}, {
+    "date": "2016-08-25",
+    "time": "17:00",
+    "theater": "Tapiolan kirjasto",
+    "title": "Kelaamonäytös",
+    "director": "",
+    "duration": "",
+    "subtitles": "",
+    "number": "",
+    "rating": "",
+    "img": "#N/A",
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "17:00",
@@ -1665,7 +1842,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "18:45",
@@ -1677,7 +1855,8 @@
     "number": "1/1",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": "x"
 }, {
     "date": "2016-08-25",
     "time": "18:45",
@@ -1689,7 +1868,8 @@
     "number": "3/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "19:00",
@@ -1701,7 +1881,8 @@
     "number": "2/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "19:00",
@@ -1713,19 +1894,21 @@
     "number": "1/1",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": "x"
 }, {
     "date": "2016-08-25",
     "time": "19:15",
     "theater": "Kino Tapiola",
     "title": "Alive and Kicking",
     "director": "Glatzer",
-    "duration": 84,
+    "duration": 89,
     "subtitles": "",
     "number": "2/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "20:15",
@@ -1737,7 +1920,8 @@
     "number": "1/2",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "20:45",
@@ -1749,7 +1933,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "21:00",
@@ -1761,7 +1946,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "21:00",
@@ -1773,7 +1959,8 @@
     "number": "1/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "21:00",
@@ -1785,7 +1972,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-25",
     "time": "21:15",
@@ -1797,7 +1985,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "09:30",
@@ -1809,7 +1998,8 @@
     "number": "3/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "10:00",
@@ -1821,7 +2011,8 @@
     "number": "2/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "11:30",
@@ -1833,7 +2024,8 @@
     "number": "3/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "15:00",
@@ -1845,7 +2037,8 @@
     "number": "1/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "15:00",
@@ -1857,7 +2050,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "15:00",
@@ -1869,19 +2063,21 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "15:15",
     "theater": "Sello 5",
     "title": "Sky",
     "director": "Berthaud",
-    "duration": 100,
+    "duration": 103,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "15:30",
@@ -1893,7 +2089,8 @@
     "number": "3/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "17:00",
@@ -1905,7 +2102,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "17:00",
@@ -1917,7 +2115,8 @@
     "number": "2/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "17:15",
@@ -1929,7 +2128,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "17:15",
@@ -1941,7 +2141,8 @@
     "number": "2/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "17:15",
@@ -1953,7 +2154,21 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
+}, {
+    "date": "2016-08-26",
+    "time": "18:00",
+    "theater": "Matinkylän mtt",
+    "title": "Kelaamonäytös",
+    "director": "",
+    "duration": "",
+    "subtitles": "",
+    "number": "",
+    "rating": "",
+    "img": "#N/A",
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "19:00",
@@ -1965,7 +2180,8 @@
     "number": "1/1",
     "rating": "",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": "x"
 }, {
     "date": "2016-08-26",
     "time": "19:00",
@@ -1977,7 +2193,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "19:15",
@@ -1989,7 +2206,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "19:15",
@@ -2001,7 +2219,8 @@
     "number": "1/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "19:15",
@@ -2013,7 +2232,8 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "20:45",
@@ -2025,7 +2245,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "20:45",
@@ -2037,7 +2258,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "20:45",
@@ -2049,7 +2271,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "21:00",
@@ -2061,7 +2284,8 @@
     "number": "3/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-26",
     "time": "21:00",
@@ -2073,7 +2297,8 @@
     "number": "1/1",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "11:00",
@@ -2085,7 +2310,8 @@
     "number": "13/13",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "11:15",
@@ -2097,7 +2323,8 @@
     "number": "3/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "12:00",
@@ -2109,7 +2336,8 @@
     "number": "1/1",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": "x"
 }, {
     "date": "2016-08-27",
     "time": "12:00",
@@ -2121,19 +2349,21 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "12:15",
     "theater": "Sello 4",
     "title": "Alive and Kicking",
     "director": "Glatzer",
-    "duration": 84,
+    "duration": 89,
     "subtitles": "",
     "number": "3/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "12:45",
@@ -2145,7 +2375,8 @@
     "number": "1/1",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "13:00",
@@ -2157,7 +2388,8 @@
     "number": "3/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "13:00",
@@ -2169,19 +2401,21 @@
     "number": "2/2",
     "rating": "K12/7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "13:45",
     "theater": "Sello 5",
     "title": "Eyes of a Thief",
     "director": "Najjar",
-    "duration": 98,
+    "duration": 103,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "14:00",
@@ -2193,7 +2427,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "14:45",
@@ -2205,7 +2440,8 @@
     "number": "2/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "14:45",
@@ -2217,7 +2453,8 @@
     "number": "1/1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "15:00",
@@ -2229,7 +2466,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "15:45",
@@ -2241,7 +2479,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "15:45",
@@ -2253,7 +2492,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "16:45",
@@ -2265,7 +2505,8 @@
     "number": "2/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "16:45",
@@ -2277,7 +2518,8 @@
     "number": "3/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "17:00",
@@ -2289,7 +2531,8 @@
     "number": "2/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "17:15",
@@ -2301,7 +2544,8 @@
     "number": "1/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "17:30",
@@ -2313,7 +2557,8 @@
     "number": "2/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "18:45",
@@ -2325,7 +2570,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "19:00",
@@ -2337,7 +2583,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "19:00",
@@ -2349,7 +2596,8 @@
     "number": "1/1",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "19:15",
@@ -2361,7 +2609,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "19:15",
@@ -2373,7 +2622,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "20:45",
@@ -2385,7 +2635,8 @@
     "number": "2/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "21:00",
@@ -2397,7 +2648,8 @@
     "number": "2/2",
     "rating": "k16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "21:00",
@@ -2409,7 +2661,8 @@
     "number": "2/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "21:15",
@@ -2421,7 +2674,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "21:15",
@@ -2433,7 +2687,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "22:00",
@@ -2445,7 +2700,8 @@
     "number": "1/1",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "22:15",
@@ -2457,7 +2713,8 @@
     "number": "3/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-27",
     "time": "23:00",
@@ -2469,7 +2726,8 @@
     "number": "2/2",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "12:00",
@@ -2481,7 +2739,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "12:00",
@@ -2493,7 +2752,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "12:00",
@@ -2505,7 +2765,8 @@
     "number": "3/3",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "12:15",
@@ -2517,7 +2778,8 @@
     "number": "3/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "12:15",
@@ -2529,7 +2791,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "14:00",
@@ -2541,7 +2804,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "14:00",
@@ -2553,7 +2817,8 @@
     "number": "3/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "14:15",
@@ -2565,7 +2830,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "14:15",
@@ -2577,7 +2843,8 @@
     "number": "2/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "14:30",
@@ -2589,7 +2856,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "16:00",
@@ -2601,19 +2869,21 @@
     "number": "3/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "16:15",
     "theater": "Kino Tapiola",
     "title": "These Daughters of Mine",
-    "director": "",
+    "director": "Dębska",
     "duration": 88,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "16:15",
@@ -2625,7 +2895,8 @@
     "number": "2/2",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "16:15",
@@ -2637,7 +2908,8 @@
     "number": "3/3",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "16:30",
@@ -2649,7 +2921,8 @@
     "number": "2/2",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "18:00",
@@ -2661,7 +2934,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "18:00",
@@ -2673,7 +2947,8 @@
     "number": "3/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "18:00",
@@ -2685,7 +2960,8 @@
     "number": "2/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "18:15",
@@ -2697,7 +2973,8 @@
     "number": "2/2",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "18:15",
@@ -2709,7 +2986,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "20:00",
@@ -2721,7 +2999,8 @@
     "number": "2/2",
     "rating": "K7",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "20:00",
@@ -2733,7 +3012,8 @@
     "number": "1/1",
     "rating": "S",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "20:15",
@@ -2745,7 +3025,8 @@
     "number": "3/3",
     "rating": "K16",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "20:15",
@@ -2757,7 +3038,8 @@
     "number": "3/3",
     "rating": "K12",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 }, {
     "date": "2016-08-28",
     "time": "20:30",
@@ -2769,5 +3051,6 @@
     "number": "2/2",
     "rating": "K18",
     "img": "#N/A",
-    "url": "#N/A"
+    "url": "#N/A",
+    "extraurl": ""
 } ]
