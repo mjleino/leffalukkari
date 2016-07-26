@@ -179,10 +179,14 @@ mark {
 	/*margin-right: 1em;*/
 }
 
+#fb-share {
+	margin-bottom: 0;
+}
+
 #fb-share > a > img {
 	padding-right: 2px;
-    margin-top: -1px;
-    height: 1.2em;
+	margin-top: -6px;
+	height: 2.2em;
 }
 
 #help {

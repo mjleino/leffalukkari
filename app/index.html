@@ -11,6 +11,18 @@
 	<script type="text/javascript" src="js/dist/angular-etc.min.js"></script>
 	<script type="text/javascript" src="js/dist/angular-locale_fi-fi.js"></script>
 	<script type="text/javascript" src="js/vxxb.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyANhCceiEJfJAVliYu1fv_s7X52zE2OGoM",
+			authDomain: "leffalukkari.firebaseapp.com",
+			databaseURL: "https://leffalukkari.firebaseio.com",
+			storageBucket: "leffalukkari.appspot.com",
+		}
+		firebase.initializeApp(config)
+	</script>
 </head>
 
 <body>
@@ -35,8 +47,8 @@
 					</aside>
 				</li>
 				<li id="fb-share">
-					<a href="#" title="{{ i18n.fbshare }}" ng-click="doFbShare(); $event.preventDefault();">
-						{{ i18n.share }} <img src="img/facebook.png" alt="facebook logo">
+					<a href="#" title="{{ i18n.fbshare }}" ng-click="fbLogin(); $event.preventDefault();">
+						{{ user.displayName.split(" ")[0] }} <img ng-src="{{ user.photoURL || 'img/facebook.png' }}" alt="facebook logo">
 					</a>
 				</li>
 				<li id="my-festival" ng-class="{active: search.myfestival}">

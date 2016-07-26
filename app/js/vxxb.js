@@ -10,15 +10,16 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
 
 var app = angular.module("appLeffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
 
-app.config(['$compileProvider', function ($compileProvider) {
-	$compileProvider.debugInfoEnabled(false)
-}])
+// app.config(['$compileProvider', function ($compileProvider) {
+// 	$compileProvider.debugInfoEnabled(false)
+// }])
 
 app.value('duScrollOffset', 44)
 
 app.controller("FilmListController", function($scope, $http, $filter, $timeout, $localStorage, $document, $locale) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()
+	$scope.user = null
 
 	$scope.$storage = $localStorage.$default({
 		selected: { }
@@ -42,6 +43,7 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 
 		console.log("LOADING DONE", $scope.data)
 		window.DATA = $scope.data // DEBUGS
+		window.SCOPE = $scope
 	})
 
 	// observe final tbody so we know when table has loaded
@@ -75,6 +77,8 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		if (screening.id in $scope.$storage.selected)
 			delete $scope.$storage.selected[screening.id]
 		else $scope.$storage.selected[screening.id] = Date.now()
+
+		firebaseMerge()
 
 		ga('send', 'event', $scope.$storage.selected[screening.id] ? 'select' : 'unselect', screening.id)
 	}
@@ -150,6 +154,13 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		})
 	}
 
+	$scope.fbLogin = function() {
+		if ($scope.user)
+			$scope.firebaseSignOut()
+		else
+			$scope.firebaseSignIn()
+	}
+
 	// check if we arrived at a facebook share hash, init $scope.fbshare
 	function fbShareCheck() {
 		$scope.fbshare = { }
@@ -208,6 +219,72 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 			if (today == days[d].date) return true
 		}
 		return false
+	}
+
+	// FIREBASE STUFF
+
+	var provider = new firebase.auth.FacebookAuthProvider()
+
+	$scope.firebaseSignIn = function() {
+		firebase.auth().signInWithPopup(provider).then(function(result) {
+			// This gives you a Facebook Access Token. You can use it to access the Facebook API.
+			$scope.accessToken = result.credential.accessToken
+		}).catch(function(error) {
+			console.log("LOGIN ERROR", error)
+		})
+	}
+
+	$scope.firebaseSignOut = function() {
+		firebase.auth().signOut().then(function() {
+		}, function(error) {
+			console.log("LOGOUT ERROR", error)
+		})
+	}
+
+	firebase.auth().onAuthStateChanged(function(user) {
+		console.log("FIREBASE", user ? "LOGIN" : "LOGOUT", user)
+
+		$timeout(function() {
+			$scope.user = user
+			firebaseListen()
+		})
+	})
+
+	function firebaseMerge(selected) {
+		if (! $scope.user) return
+
+		// copy firebase --> localStorage ONLY if localStorage is { }
+		if (selected && Object.keys($scope.$storage.selected).length == 0)
+			$timeout(function() {
+				$scope.$storage.selected = selected
+			})
+		// otherwise, overwrite localStorage --> firebase
+		else {
+			firebase.database().ref('users/' + $scope.user.uid).set($scope.$storage.selected)
+		}
+	}
+
+	function firebaseListen() {
+		if (! $scope.user) {
+			// firebase.database().ref('users/').off()
+			return
+		}
+
+		var userRef = firebase.database().ref('users/' + $scope.user.uid)
+
+		userRef.on('value', function(data) {
+			console.log("VAL", data.val())
+			firebaseMerge(data.val())
+		})
+		userRef.on('child_added', function(data) {
+			console.log("ADD", data.key)
+		})
+		userRef.on('child_changed', function(data) {
+			console.log("CHG", data.key)
+		})
+		userRef.on('child_removed', function(data) {
+			console.log("DEL", data.key)
+		})
 	}
 })
 
