@@ -1,0 +1,7 @@
+{
+	"server": {
+		"baseDir": "app/",
+    	"index": "index.html"
+	},
+	"notify": false
+}
