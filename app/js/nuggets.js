@@ -78,7 +78,7 @@ app.controller("DataNuggetController", function($scope, $http) {
 			timeslotdatetime.setUTCHours(screening.timeslot-3, 0) // HOX -03:00
 			screening.timeslotdiff = (datetime-timeslotdatetime)/1000/60
 
-			var slug = getMovieSlug(screening)
+			var slug = screening.url
 			if (! (slug in data.slugs)) {
 				data.slugs[slug] = 0
 			}
@@ -123,7 +123,7 @@ app.controller("DataNuggetController", function($scope, $http) {
 	}
 
 	function getScreeningId(screening) {
-		return [getMovieSlug(screening), screening.number.split("/")[0]].join("-")
+		return [screening.url, screening.number.split("/")[0]].join("-")
 	}
 
 	function getDateId(date) {
