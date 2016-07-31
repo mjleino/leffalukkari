@@ -174,16 +174,17 @@ mark {
 	padding-bottom: inherit;
 }
 
-#fb-share, #my-festival, #help {
+#fb-friends, #fb-share, #my-festival, #help {
 	float: right !important;
 	/*margin-right: 1em;*/
 }
 
-#fb-share {
+#fb-share, #fb-friends {
 	margin-bottom: 0;
 }
 
-#fb-share > a > img {
+#fb-share > a > img,
+#fb-friends > a > img {
 	padding-right: 2px;
 	margin-top: -6px;
 	height: 2.2em;
@@ -346,11 +347,33 @@ screening {
 	z-index: 1;
 	right: 0;
 	width: 20px;
-	/*animation: fadein 2s;*/
 }
-@keyframes fadein {
-	from { opacity: 0; }
-	to   { opacity: 1; }
+
+.screening > .fb-friends {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	/* https://davidwalsh.name/remove-whitespace-inline-block */
+	font-size: 0;
+
+	position: absolute;
+	z-index: 1;
+	right: 0;
+}
+.screening > .fb-friends > li {
+	display: inline-block;
+	padding: 2px;
+	/*background-color: rgba(255,255,255, 0.6);*/
+}
+.screening > .fb-friends img {
+	width: 20px;
+	border-radius: 50%;
+
+/*	-webkit-box-shadow: 0 0 2px 2px #fff;
+	-moz-box-shadow: 0 0 2px 2px #fff;
+	box-shadow: 0 0 2px 2px #fff;
+*/
 }
 
 .screening>.top, .screening>.bottom {

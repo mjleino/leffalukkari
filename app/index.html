@@ -10,19 +10,11 @@
 
 	<script type="text/javascript" src="js/dist/angular-etc.min.js"></script>
 	<script type="text/javascript" src="js/dist/angular-locale_fi-fi.js"></script>
-	<script type="text/javascript" src="js/vxxb.js"></script>
 
-	<script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
-	<script>
-		// Initialize Firebase
-		var config = {
-			apiKey: "AIzaSyANhCceiEJfJAVliYu1fv_s7X52zE2OGoM",
-			authDomain: "leffalukkari.firebaseapp.com",
-			databaseURL: "https://leffalukkari.firebaseio.com",
-			storageBucket: "leffalukkari.appspot.com",
-		}
-		firebase.initializeApp(config)
-	</script>
+	<script src="//www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+	<script src="//connect.facebook.net/en_US/sdk.js"></script>
+
+	<script type="text/javascript" src="js/vxxb.js"></script>
 </head>
 
 <body>
@@ -46,9 +38,14 @@
 						<p><a href="#help" ng-click="help(); $event.preventDefault()">O K</a></p>
 					</aside>
 				</li>
+				<li id="fb-friends">
+					<a ng-repeat="friend in friends">
+						<img ng-src="{{ friend.photoURL }}" alt="{{ friend.name }}" title="{{ friend.name }}">
+					</a>
+				</li>
 				<li id="fb-share">
 					<a href="#" title="{{ i18n.fbshare }}" ng-click="fbLogin(); $event.preventDefault();">
-						{{ user.displayName.split(" ")[0] }} <img ng-src="{{ user.photoURL || 'img/facebook.png' }}" alt="facebook logo">
+						{{ user.displayName.split(" ")[0] }} <img ng-src="{{ user.photoURL || 'img/facebook.png' }}" alt="{{ user.displayName || 'facebook logo' }}" title="{{ user.displayName }}">
 					</a>
 				</li>
 				<li id="my-festival" ng-class="{active: search.myfestival}">
@@ -98,25 +95,6 @@
 
 		  ga('create', 'UA-65899235-2', 'auto');
 		  ga('send', 'pageview', location.pathname + location.search + location.hash);
-		</script>
-
-		<script>
-		  window.fbAsyncInit = function() {
-		    FB.init({
-		      appId      : '1207489822615275',
-		      // status     : true,
-		      xfbml      : true,
-		      version    : 'v2.7'
-		    });
-		  };
-
-		  (function(d, s, id){
-		     var js, fjs = d.getElementsByTagName(s)[0];
-		     if (d.getElementById(id)) {return;}
-		     js = d.createElement(s); js.id = id;
-		     js.src = "//connect.facebook.net/en_US/sdk.js";
-		     fjs.parentNode.insertBefore(js, fjs);
-		   }(document, 'script', 'facebook-jssdk'));
 		</script>
 	</div>
 </body>

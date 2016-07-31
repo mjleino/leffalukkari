@@ -8,6 +8,15 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
   \\_/ |_|_|_|\\_\\___/_| .__/ \\___// |\\__,_|\\__|  |_|\\__, |_| |_|_|\\__\\___|\n\
                      |_|       |__/                |___/                 ")
 
+// FIREBASE INIT
+var config = {
+	apiKey: "AIzaSyANhCceiEJfJAVliYu1fv_s7X52zE2OGoM",
+	authDomain: "leffalukkari.firebaseapp.com",
+	databaseURL: "https://leffalukkari.firebaseio.com",
+	storageBucket: "leffalukkari.appspot.com",
+}
+firebase.initializeApp(config)
+
 var app = angular.module("appLeffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
 
 // app.config(['$compileProvider', function ($compileProvider) {
@@ -20,6 +29,7 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()
 	$scope.user = null
+	$scope.friends = { }
 
 	$scope.$storage = $localStorage.$default({
 		selected: { }
@@ -43,7 +53,7 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 
 		console.log("LOADING DONE", $scope.data)
 		window.DATA = $scope.data // DEBUGS
-		window.SCOPE = $scope
+		window.$scope = $scope
 	})
 
 	// observe final tbody so we know when table has loaded
@@ -134,6 +144,48 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		return true
 	}
 
+	// check if other screening(s) of this movie are selected
+	$scope.siblingIsSelected = function(screening, selectedStorage) {
+		var titleId = screening.id.substring(0, screening.id.length-1)
+		var numberTotal = screening.number.split("/") // is strings, all good
+		var me = numberTotal[0], total = numberTotal[1]
+
+		for (var n = 1; n <= total; n++) {
+			if (n != me && (selectedStorage || $scope.$storage.selected)[titleId + n]) return true
+		}
+
+		return false
+
+		// WHY NO WORK HUH ?
+		// while (next = $scope.data.screeningsById[ $filter('nextscreeningid')(next) ] != screening) {
+		// 	if ($scope.$storage.selected[next]) return true
+		// }
+		// return false
+	}
+
+	// HELPER FUNCTIONS
+
+	function getScreeningId(screening) {
+		return [screening.url, screening.number.split("/")[0]].join("-")
+	}
+
+	function getDateId(d) {
+		return $filter('date')(d, 'EEE-dd')
+	}
+
+	function containsDate(date, days) {
+		// NOTE: returns date according to local timezone
+		var today = $filter('date')(date, 'yyyy-MM-dd')
+		for (var d in days) {
+			// console.log(today, "vs", days[d].date)
+			if (today == days[d].date) return true
+		}
+		return false
+	}
+
+	// FACEBOOK STUFF
+
+	// TODO ! !
 	$scope.doFbShare = function() {
 		console.log("FBSHARE", $scope.$storage.selected)
 		ga('send', 'event', 'click', 'fbshare')
@@ -162,7 +214,7 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 	}
 
 	// check if we arrived at a facebook share hash, init $scope.fbshare
-	function fbShareCheck() {
+	$scope.fbShareCheck = function() {
 		$scope.fbshare = { }
 
 		if (location.hash.search(/^#share=/) < 0) return
@@ -178,52 +230,56 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		$scope.help() // SHARING IS CARING
 	}
 
-	// check if other screening(s) of this movie are selected
-	$scope.siblingIsSelected = function(screening, selectedStorage) {
-		var titleId = screening.id.substring(0, screening.id.length-1)
-		var numberTotal = screening.number.split("/") // is strings, all good
-		var me = numberTotal[0], total = numberTotal[1]
+	function fbStatusChangeCallback(response) {
+		console.log('fbStatusChangeCallback', response)
 
-		for (var n = 1; n <= total; n++) {
-			if (n != me && (selectedStorage || $scope.$storage.selected)[titleId + n]) return true
+		if (response.status === 'connected') {
+			fbSyncFriends()
+		}
+	}
+
+	function fbCheckLoginState() {
+		FB.getLoginStatus(fbStatusChangeCallback)
+	}
+
+	function fbSyncFriends() {
+		if (! $scope.user) {
+			console.log("GOT FRIENDS; NO FIREBASE LOGIN")
+			return
 		}
 
-		return false
-
-		// WHY NO WORK HUH ?
-		// while (next = $scope.data.screeningsById[ $filter('nextscreeningid')(next) ] != screening) {
-		// 	if ($scope.$storage.selected[next]) return true
-		// }
-		// return false
+		FB.api('/me/friends', function(response) {
+			console.log('fbSyncFriends', response)
+			var friendsRef = firebaseUserRef().child("friends")
+			response.data.forEach(function(friend) {
+				friendsRef.child(friend.id).set(friend.name)
+			})
+		})
 	}
 
-	// INIT FB SHARE & HELP
-	fbShareCheck()
-	if (! $scope.$storage.helpShown) $scope.help()
+	FB.init({
+		appId      : '1207489822615275',
+		cookie     : true,  // enable cookies to allow the server to access the session
+		xfbml      : true,  // parse social plugins on this page
+		version    : 'v2.7' // use graph api version 2.5
+	})
 
-	// HELPER FUNCTIONS
-
-	function getScreeningId(screening) {
-		return [screening.url, screening.number.split("/")[0]].join("-")
-	}
-
-	function getDateId(d) {
-		return $filter('date')(d, 'EEE-dd')
-	}
-
-	function containsDate(date, days) {
-		// NOTE: returns date according to local timezone
-		var today = $filter('date')(date, 'yyyy-MM-dd')
-		for (var d in days) {
-			// console.log(today, "vs", days[d].date)
-			if (today == days[d].date) return true
-		}
-		return false
-	}
+	// FB.getLoginStatus(fbStatusChangeCallback)
+	// FB.Event.subscribe('auth.authResponseChange', fbStatusChangeCallback)
 
 	// FIREBASE STUFF
 
 	var provider = new firebase.auth.FacebookAuthProvider()
+	provider.addScope('user_friends')
+	// TODO: PUBLISH
+
+	function firebaseUserRef() {
+		if (! $scope.user) return
+		// return firebase.database().ref('users/' + $scope.user.uid)
+		// NOTE: WE USE FACEBOOK ID
+		// TODO: when would there be more than one providerData
+		return firebase.database().ref('users/' + $scope.user.providerData[0].uid)
+	}
 
 	$scope.firebaseSignIn = function() {
 		firebase.auth().signInWithPopup(provider).then(function(result) {
@@ -247,45 +303,62 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 		$timeout(function() {
 			$scope.user = user
 			firebaseListen()
+			FB.getLoginStatus(fbStatusChangeCallback)
 		})
 	})
 
 	function firebaseMerge(selected) {
+		console.log("firebaseMerge", selected && selected.val())
 		if (! $scope.user) return
 
 		// copy firebase --> localStorage ONLY if localStorage is { }
-		if (selected && Object.keys($scope.$storage.selected).length == 0)
+		if (selected && selected.val() && Object.keys($scope.$storage.selected).length == 0)
 			$timeout(function() {
-				$scope.$storage.selected = selected
+				$scope.$storage.selected = selected.val()
 			})
 		// otherwise, overwrite localStorage --> firebase
 		else {
-			firebase.database().ref('users/' + $scope.user.uid).set($scope.$storage.selected)
+			firebaseUserRef().child("/selected").set($scope.$storage.selected)
 		}
+	}
+
+	function firebaseMergeFriend(selected) {
+		console.log("firebaseMergeFriend", selected.val())
+		$timeout(function() {
+			$scope.friends[selected.key] = selected.val()
+		})
 	}
 
 	function firebaseListen() {
 		if (! $scope.user) {
-			// firebase.database().ref('users/').off()
+			$scope.friends = { }
 			return
 		}
 
-		var userRef = firebase.database().ref('users/' + $scope.user.uid)
+		// TODO: DOESN'T WORK ON FIRST LOGIN ? ?
+		var userRef = firebaseUserRef()
 
-		userRef.on('value', function(data) {
-			console.log("VAL", data.val())
-			firebaseMerge(data.val())
+		// TODO: only do this on facebook login; not every auth state change
+		userRef.child("name").set($scope.user.displayName)
+		userRef.child("email").set($scope.user.email)
+		userRef.child("photoURL").set($scope.user.photoURL)
+
+		userRef.child("selected").on('value', function(data) {
+			firebaseMerge(data)
 		})
-		userRef.on('child_added', function(data) {
-			console.log("ADD", data.key)
-		})
-		userRef.on('child_changed', function(data) {
-			console.log("CHG", data.key)
-		})
-		userRef.on('child_removed', function(data) {
-			console.log("DEL", data.key)
+
+		userRef.child("friends").on('value', function(data) {
+			var friends = data.val()
+			for (var id in friends) {
+				firebase.database().ref('users/' + id).on('value', firebaseMergeFriend)
+			}
 		})
 	}
+
+
+	// INIT FB SHARE & HELP
+	$scope.fbShareCheck()
+	if (! $scope.$storage.helpShown) $scope.help()
 })
 
 // DIRECTIVE & FILTER

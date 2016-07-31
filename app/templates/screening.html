@@ -21,6 +21,12 @@
 	<img class="fb" src="img/facebook.png" alt="facebook logo" title="{{ i18n.fbshared }}"
 		 ng-if="fbshare[screening.id]">
 
+	<ul class="fb-friends">
+		<li ng-repeat="friend in friends" ng-if="friend.selected[screening.id]">
+			<img ng-src="{{ friend.photoURL }}" alt="{{ friend.name }}" title="{{ friend.name }}">
+		</li>
+	</ul>
+
 	<div class="full"></div>
 
 	<div class="top">
