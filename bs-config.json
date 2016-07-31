@@ -1,7 +1,10 @@
 {
+	"files": [ "app/**/*.{html,htm,css,js}" ],
 	"server": {
 		"baseDir": "app/",
     	"index": "index.html"
 	},
+	"injectChanges": true,
+	"ghostMode": false,
 	"notify": false
 }

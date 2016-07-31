@@ -12,7 +12,7 @@
 */
 
 SITEDATA = ['id', 'title', 'img', 'url'].join("\t") + "\n"
-trs = $$(".List > tbody > tr")
+trs = document.querySelectorAll(".List > tbody > tr")
 
 String.prototype.lolleroids = function(lols) {
 	var to = this.toString()
@@ -28,7 +28,7 @@ for (i=0; i<trs.length; i++) {
   a = tr.querySelector("a[href^='Go=Page-Preview']")
   SITEDATA += [
     tr.querySelector(".ID").textContent,
-    tr.querySelector(".Disabled").textContent.lolleroids(["The", "A", "La", "Le"]),
+    tr.querySelector(".Disabled").textContent.lolleroids(["The", "A", "An", "La", "Le"]),
     tr.querySelector("img[rel]") && tr.querySelector("img[rel]").src.match(/.*\/Image\/(.*)\/.*/)[1],
     (a.querySelector("span") ? a.querySelector("span").title : a.textContent).replace("ohjelmisto/elokuvat/", "")
   ].join("\t")

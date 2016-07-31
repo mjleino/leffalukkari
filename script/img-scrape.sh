@@ -1,9 +1,10 @@
 # FETCH UR IMAGES OK
 
-for img in $(<img-scrape.list); do
-	IN=http://www.espoocine.fi/2015/fi/Image/$img/.jpg
-	OUT=$img.jpg
-	if [ ! -f $OUT ]; then
-		echo -n $IN; curl -# -o $OUT $IN
+while read slug img crap; do
+	IN="http://www.espoocine.fi/2016/fi/$img"
+	OUT="$img"
+	if [ "$OUT" ] && [ ! -f "$OUT" ]; then
+		mkdir -p ${OUT%/*}
+		echo $IN; curl -s -o "$OUT" "$IN"
 	fi
-done 
+done < img-scrape.tsv

@@ -10,9 +10,11 @@
     "ngstorage": "^0.3.10"
   },
   "devDependencies": {
+    "cheerio": "^0.20.0",
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
-    "lite-server": "^2.2.2"
+    "lite-server": "^2.2.2",
+    "request": "^2.74.0"
   },
   "scripts": {
     "start": "npm run lite",
