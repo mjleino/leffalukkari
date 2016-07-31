@@ -55,6 +55,16 @@
 		</nav>
 
 		<table id="FilmList">
+			<thead>
+				<tr class="theater">
+					<th>
+						<h2>klo</h2>
+					</th>
+					<th ng-repeat="theater in data.config.theaters">
+						<h3>{{ i18n.theaters[theater] || theater }}</h3>
+					</th>
+				</tr>
+			</thead>
 			<tbody id="{{ day.id }}" ng-repeat="day in data.days"
 				   ng-show="(data.screenings | filter:{ dateId: day.id } | filter:myFestivalCheck | filter:searchCheck).length">
 				<tr class="day">
@@ -62,12 +72,6 @@
 						<h2>
 							<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
 						</h2>
-					</th>
-				</tr>
-				<tr class="theater">
-					<th></th>
-					<th ng-repeat="theater in data.config.theaters">
-						<h3>{{ i18n.theaters[theater] || theater }}</h3>
 					</th>
 				</tr>
 				<tr class="slot" ng-repeat="(slot, timeslot) in day.timeslots"
