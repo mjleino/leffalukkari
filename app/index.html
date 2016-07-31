@@ -45,7 +45,7 @@
 				</li>
 				<li id="fb-share">
 					<a href="#" title="{{ i18n.fbshare }}" ng-click="fbLogin(); $event.preventDefault();">
-						{{ user.displayName.split(" ")[0] }} <img ng-src="{{ user.photoURL || 'img/facebook.png' }}" alt="{{ user.displayName || 'facebook logo' }}" title="{{ user.displayName }}">
+						<img ng-src="{{ user.photoURL || 'img/facebook.png' }}" alt="{{ user.displayName || 'facebook logo' }}" title="{{ user.displayName }}">
 					</a>
 				</li>
 				<li id="my-festival" ng-class="{active: search.myfestival}">
