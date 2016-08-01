@@ -11,8 +11,8 @@ JSON=${3:-cine.json}
 
 
 curl -# "$IN" \
-| grep -ve '^#VALUE' | (read -r; printf "%s\n" "$REPLY"; sort) > "$TSV"
+| egrep -v '^(#VALUE|#N/A|\t)' | (read -r; printf "%s\n" "$REPLY"; sort) > "$TSV"
 # http://jeffgraves.me/2013/12/11/skip-header-with-bash-sort/
 
-csvtojson --delimiter=$'\t' "$TSV" \
-| uglifyjs --expr --beautify quote-keys=true > "$JSON"
+csvtojson --delimiter=$'\t' --quote=\" "$TSV" \
+| uglifyjs --expr --beautify "quote-keys=true, quote_style=2" > "$JSON"

@@ -21,7 +21,7 @@ function fetch(url, callback) {
 			return
 		}
 
-		callback(cheerio.load(html))
+		callback(cheerio.load(html, { decodeEntities: false }), url)
 	})	
 }
 
@@ -35,6 +35,7 @@ String.prototype.lolleroids = function(lols) {
 }
 
 if (! RECURSE) console.log(['id', 'title', 'img', 'url'].join("\t"))
+else console.log(['url', 'img', 'serie', 'content'].join("\t"))
 
 fetch("http://sitedesk.espoocine.fi/Go=Page-List?PID=1970", function($) {
 	// HELLO LOL SITEDESK HAS table > thead > tbody
@@ -63,13 +64,40 @@ fetch("http://sitedesk.espoocine.fi/Go=Page-List?PID=1970", function($) {
 	})
 })
 
-function fetchoroids($) {
+function fetchoroids($, url) {
 	// console.log($('#MainContent').html())
-	var page = $('body').data('pageaddress').replace("ohjelmisto/elokuvat/", "")
-	var h1 = $('h1').text()
-	var imgs = $('.MovieImages > img')
+	if ($('body').length == 0) {
+		console.error("URL RETURNED NULL", url)
+		console.log(url.replace("http://www.espoocine.fi/2016/fi/ohjelmisto/elokuvat/", ""))
+		return
+	}
+	let page = $('body').data('pageaddress').replace("ohjelmisto/elokuvat/", "")
+	let h1 = $('#MainContent h1').text()
+	let img = $('.MovieImages > img').first().attr('src')
+	let serie = $('.PageFeature-sarja').text()
+	let $content = $('#MainContent > table > tbody > tr > td:nth-child(2)')
+
+	if ($content.length == 0) {
+		console.error("NO CONTENT", url)
+		console.log(url.replace("http://www.espoocine.fi/2016/fi/ohjelmisto/elokuvat/", ""))
+		return
+	}
+
+	let content = $content.html().replace(/\r|\n/g, '')
+
+	// TODO: only works for synopsis placeholders; actual synopsee are not inside <p> :(
+	var brs = 0
+	let synopsis = $content.find('p').filter(function(i, p) {
+		$p = $(p)
+		if ($p.text() == "") brs++
+		else if (brs == 1) return true
+		else return false
+	}).text().replace(/\r|\n/g, '')
+
 	console.log([
 		page,
-		imgs.first().attr('src')
+		img,
+		serie,
+		content
 	].join('\t'))
 }

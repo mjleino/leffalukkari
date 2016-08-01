@@ -179,10 +179,10 @@
       "subtitles": "eng",
       "number": "+1",
       "rating": "K12",
-      "img": "Image/7805/macadam-stories-a.jpg",
-      "url": "maracam-stories",
+      "img": "Image/7779/mad-love-a.jpg",
+      "url": "mad-love",
       "extraurl": "",
-      "id": "maracam-stories-+1",
+      "id": "mad-love-+1",
       "datetime": "2016-08-18T15:00:00.000Z",
       "dateId": "to-18",
       "timeslot": 17,
@@ -484,7 +484,7 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K7",
-      "img": "Image/7750/lady-in-the-van-a.jpg",
+      "img": "Image/8073/lady-in-the-van-a.jpg",
       "url": "lady-in-the-van",
       "extraurl": "",
       "id": "lady-in-the-van-1",
@@ -579,7 +579,7 @@
       "subtitles": "eng",
       "number": "+1",
       "rating": "K18",
-      "img": "Image/7776/lure-a.jpg",
+      "img": "Image/8072/lure-the-a.jpg",
       "url": "lure",
       "extraurl": "",
       "id": "lure-+1",
@@ -694,7 +694,7 @@
       "subtitles": "eng",
       "number": "1/1",
       "rating": "K12",
-      "img": "",
+      "img": "Image/7847/.jpg",
       "url": "pohjoismaiset-lyharit",
       "extraurl": "",
       "id": "pohjoismaiset-lyharit-1",
@@ -1208,7 +1208,7 @@
       "subtitles": "",
       "number": "1/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-1",
@@ -1265,7 +1265,7 @@
       "subtitles": "",
       "number": "2/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-2",
@@ -1360,10 +1360,10 @@
       "subtitles": "",
       "number": "1/1",
       "rating": "",
-      "img": "#N/A",
-      "url": "#N/A",
+      "img": "",
+      "url": "seminaari",
       "extraurl": "",
-      "id": "#N/A-1",
+      "id": "seminaari-1",
       "datetime": "2016-08-23T11:00:00.000Z",
       "dateId": "ti-23",
       "timeslot": 12,
@@ -1512,10 +1512,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K12",
-      "img": "Image/7805/macadam-stories-a.jpg",
-      "url": "maracam-stories",
+      "img": "Image/7779/mad-love-a.jpg",
+      "url": "mad-love",
       "extraurl": "",
-      "id": "maracam-stories-1",
+      "id": "mad-love-1",
       "datetime": "2016-08-23T14:00:00.000Z",
       "dateId": "ti-23",
       "timeslot": 17,
@@ -1569,10 +1569,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K12",
-      "img": "Image/7913/whats-between-us-a.jpg",
-      "url": "whats-between-us",
+      "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
+      "url": "whatever-happened-to-gelitin",
       "extraurl": "",
-      "id": "whats-between-us-1",
+      "id": "whatever-happened-to-gelitin-1",
       "datetime": "2016-08-23T16:00:00.000Z",
       "dateId": "ti-23",
       "timeslot": 19,
@@ -1588,7 +1588,7 @@
       "subtitles": "fin",
       "number": "2/3",
       "rating": "K7",
-      "img": "Image/7750/lady-in-the-van-a.jpg",
+      "img": "Image/8073/lady-in-the-van-a.jpg",
       "url": "lady-in-the-van",
       "extraurl": "",
       "id": "lady-in-the-van-2",
@@ -1626,10 +1626,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "Image/7779/mad-love-a.jpg",
-      "url": "mad-love",
+      "img": "Image/7805/macadam-stories-a.jpg",
+      "url": "maracam-stories",
       "extraurl": "",
-      "id": "mad-love-1",
+      "id": "maracam-stories-1",
       "datetime": "2016-08-23T16:15:00.000Z",
       "dateId": "ti-23",
       "timeslot": 19,
@@ -1740,7 +1740,7 @@
       "subtitles": "",
       "number": "5/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-5",
@@ -1760,7 +1760,7 @@
       "subtitles": "",
       "number": "3/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-3",
@@ -1798,7 +1798,7 @@
       "subtitles": "",
       "number": "6/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-6",
@@ -1818,7 +1818,7 @@
       "subtitles": "",
       "number": "4/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-4",
@@ -2275,7 +2275,7 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K18",
-      "img": "Image/7776/lure-a.jpg",
+      "img": "Image/8072/lure-the-a.jpg",
       "url": "lure",
       "extraurl": "",
       "id": "lure-1",
@@ -2294,10 +2294,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
-      "url": "whatever-happened-to-gelitin",
+      "img": "Image/7913/whats-between-us-a.jpg",
+      "url": "whats-between-us",
       "extraurl": "",
-      "id": "whatever-happened-to-gelitin-1",
+      "id": "whats-between-us-1",
       "datetime": "2016-08-24T18:00:00.000Z",
       "dateId": "ke-24",
       "timeslot": 21,
@@ -2351,7 +2351,7 @@
       "subtitles": "",
       "number": "9/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-9",
@@ -2371,7 +2371,7 @@
       "subtitles": "",
       "number": "7/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-7",
@@ -2391,7 +2391,7 @@
       "subtitles": "",
       "number": "11/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-11",
@@ -2430,7 +2430,7 @@
       "subtitles": "",
       "number": "10/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-10",
@@ -2450,7 +2450,7 @@
       "subtitles": "",
       "number": "8/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-8",
@@ -2489,7 +2489,7 @@
       "subtitles": "",
       "number": "12/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-12",
@@ -2768,26 +2768,6 @@
     {
       "date": "2016-08-25",
       "time": "17:00",
-      "theater": "Tapiolan kirjasto",
-      "title": "Kelaamonäytös",
-      "director": "",
-      "duration": "",
-      "subtitles": "",
-      "number": "",
-      "rating": "",
-      "img": "#N/A",
-      "url": "#N/A",
-      "extraurl": "",
-      "id": "#N/A-",
-      "datetime": "2016-08-25T14:00:00.000Z",
-      "dateId": "to-25",
-      "timeslot": 17,
-      "timeslotdiff": 0,
-      "special": true
-    },
-    {
-      "date": "2016-08-25",
-      "time": "17:00",
       "theater": "Tapiolasali",
       "title": "Irreplaceable",
       "director": "Lilti",
@@ -2979,7 +2959,7 @@
       "date": "2016-08-25",
       "time": "21:00",
       "theater": "Tapiolasali",
-      "title": "Blood of my Blood",
+      "title": "Blood of My Blood",
       "director": "Bellocchio",
       "duration": 107,
       "subtitles": "eng",
@@ -3263,26 +3243,6 @@
     },
     {
       "date": "2016-08-26",
-      "time": "18:00",
-      "theater": "Matinkylän mtt",
-      "title": "Kelaamonäytös",
-      "director": "",
-      "duration": "",
-      "subtitles": "",
-      "number": "",
-      "rating": "",
-      "img": "#N/A",
-      "url": "#N/A",
-      "extraurl": "",
-      "id": "#N/A-",
-      "datetime": "2016-08-26T15:00:00.000Z",
-      "dateId": "pe-26",
-      "timeslot": 17,
-      "timeslotdiff": 60,
-      "special": true
-    },
-    {
-      "date": "2016-08-26",
       "time": "19:00",
       "theater": "Louhisali",
       "title": "Fillarilyhärit",
@@ -3291,7 +3251,7 @@
       "subtitles": "eng",
       "number": "1/1",
       "rating": "",
-      "img": "Image/7621/brief-history-on-the-bicycle-a.jpg",
+      "img": "Image/7600/berlin-to-prague-without-a-map-a.jpg",
       "url": "fillarilyharit",
       "extraurl": "x",
       "id": "fillarilyharit-1",
@@ -3329,7 +3289,7 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "Image/7850/psiconautas-a.jpg",
+      "img": "Image/8076/psiconautas-a.jpg",
       "url": "psiconautas",
       "extraurl": "",
       "id": "psiconautas-1",
@@ -3424,10 +3384,10 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K16",
-      "img": "Image/7779/mad-love-a.jpg",
-      "url": "mad-love",
+      "img": "Image/7805/macadam-stories-a.jpg",
+      "url": "maracam-stories",
       "extraurl": "",
-      "id": "mad-love-2",
+      "id": "maracam-stories-2",
       "datetime": "2016-08-26T17:45:00.000Z",
       "dateId": "pe-26",
       "timeslot": 19,
@@ -3500,7 +3460,7 @@
       "subtitles": "",
       "number": "13/13",
       "rating": "S",
-      "img": "",
+      "img": "Image/7841/pikkuruinen-kettu-a.jpg",
       "url": "animaatioita-lapsille",
       "extraurl": "",
       "id": "animaatioita-lapsille-13",
@@ -3671,10 +3631,10 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K12",
-      "img": "Image/7913/whats-between-us-a.jpg",
-      "url": "whats-between-us",
+      "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
+      "url": "whatever-happened-to-gelitin",
       "extraurl": "",
-      "id": "whats-between-us-2",
+      "id": "whatever-happened-to-gelitin-2",
       "datetime": "2016-08-27T11:00:00.000Z",
       "dateId": "la-27",
       "timeslot": 12,
@@ -3766,7 +3726,7 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K16",
-      "img": "Image/7850/psiconautas-a.jpg",
+      "img": "Image/8076/psiconautas-a.jpg",
       "url": "psiconautas",
       "extraurl": "",
       "id": "psiconautas-2",
@@ -3893,7 +3853,7 @@
       "date": "2016-08-27",
       "time": "19:00",
       "theater": "Sello 4",
-      "title": "Blood of my Blood",
+      "title": "Blood of My Blood",
       "director": "Bellocchio",
       "duration": 107,
       "subtitles": "eng",
@@ -3994,10 +3954,10 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "k16",
-      "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
-      "url": "whatever-happened-to-gelitin",
+      "img": "Image/7913/whats-between-us-a.jpg",
+      "url": "whats-between-us",
       "extraurl": "",
-      "id": "whatever-happened-to-gelitin-2",
+      "id": "whats-between-us-2",
       "datetime": "2016-08-27T18:00:00.000Z",
       "dateId": "la-27",
       "timeslot": 21,
@@ -4128,10 +4088,10 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K12",
-      "img": "Image/7805/macadam-stories-a.jpg",
-      "url": "maracam-stories",
+      "img": "Image/7779/mad-love-a.jpg",
+      "url": "mad-love",
       "extraurl": "",
-      "id": "maracam-stories-2",
+      "id": "mad-love-2",
       "datetime": "2016-08-28T09:00:00.000Z",
       "dateId": "su-28",
       "timeslot": 12,
@@ -4318,7 +4278,7 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K7",
-      "img": "Image/7750/lady-in-the-van-a.jpg",
+      "img": "Image/8073/lady-in-the-van-a.jpg",
       "url": "lady-in-the-van",
       "extraurl": "",
       "id": "lady-in-the-van-3",
@@ -4584,7 +4544,7 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K18",
-      "img": "Image/7776/lure-a.jpg",
+      "img": "Image/8072/lure-the-a.jpg",
       "url": "lure",
       "extraurl": "",
       "id": "lure-2",
@@ -4678,7 +4638,7 @@
             "Sello 4": [],
             "Sello 5": [],
             "Muut": [
-              "maracam-stories-+1"
+              "mad-love-+1"
             ]
           },
           "count": 1,
@@ -5080,7 +5040,7 @@
           "time": "12:00",
           "theaters": {
             "Kino Tapiola": [
-              "#N/A-1"
+              "seminaari-1"
             ],
             "Tapiolasali": [
               "se-uus-tyyppi-1"
@@ -5123,7 +5083,7 @@
               "fils-de-joseph-2"
             ],
             "Tapiolasali": [
-              "maracam-stories-1"
+              "mad-love-1"
             ],
             "Louhisali": [
               "duel-of-wine-2"
@@ -5150,10 +5110,10 @@
               "lady-in-the-van-2"
             ],
             "Louhisali": [
-              "mad-love-1"
+              "maracam-stories-1"
             ],
             "Sello 4": [
-              "whats-between-us-1"
+              "whatever-happened-to-gelitin-1"
             ],
             "Sello 5": [],
             "Muut": []
@@ -5325,7 +5285,7 @@
           "time": "21:00",
           "theaters": {
             "Kino Tapiola": [
-              "whatever-happened-to-gelitin-1"
+              "whats-between-us-1"
             ],
             "Tapiolasali": [
               "demon-2"
@@ -5450,11 +5410,9 @@
             "Sello 5": [
               "tomcat-3"
             ],
-            "Muut": [
-              "#N/A-"
-            ]
+            "Muut": []
           },
-          "count": 6,
+          "count": 5,
           "duration": 219
         },
         "19": {
@@ -5594,11 +5552,9 @@
             "Sello 5": [
               "our-mother-2"
             ],
-            "Muut": [
-              "#N/A-"
-            ]
+            "Muut": []
           },
-          "count": 6,
+          "count": 5,
           "duration": 120
         },
         "19": {
@@ -5617,7 +5573,7 @@
             ],
             "Sello 4": [
               "lilting-3",
-              "mad-love-2"
+              "maracam-stories-2"
             ],
             "Sello 5": [
               "alena-1"
@@ -5686,7 +5642,7 @@
             ],
             "Sello 4": [
               "alive-and-kicking-3",
-              "whats-between-us-2"
+              "whatever-happened-to-gelitin-2"
             ],
             "Sello 5": [
               "family-film-2",
@@ -5776,7 +5732,7 @@
               "demon-3"
             ],
             "Sello 4": [
-              "whatever-happened-to-gelitin-2"
+              "whats-between-us-2"
             ],
             "Sello 5": [
               "barash-2"
@@ -5798,7 +5754,7 @@
           "time": "12:00",
           "theaters": {
             "Kino Tapiola": [
-              "maracam-stories-2",
+              "mad-love-2",
               "fils-de-joseph-3"
             ],
             "Tapiolasali": [
@@ -5901,7 +5857,7 @@
     "zoology": 3,
     "all-about-them": 3,
     "here-after": 3,
-    "maracam-stories": 3,
+    "mad-love": 3,
     "childhood": 3,
     "toni-erdman": 1,
     "slack-bay": 3,
@@ -5955,15 +5911,15 @@
     "pikkumafioso": 3,
     "se-uus-tyyppi": 3,
     "seikkailu-jaamerelle": 2,
-    "#N/A": 3,
+    "seminaari": 1,
     "brother-sister": 2,
     "fear-of-13": 2,
     "our-mother": 3,
     "arianna": 2,
     "dont-tell-me-the-boy-was-mad": 3,
-    "whats-between-us": 2,
+    "whatever-happened-to-gelitin": 2,
     "first-the-last": 3,
-    "mad-love": 2,
+    "maracam-stories": 2,
     "anna": 2,
     "demon": 3,
     "italian-name-an": 3,
@@ -5980,7 +5936,7 @@
     "summertime": 3,
     "hymyileva-mies": 1,
     "pikadero": 3,
-    "whatever-happened-to-gelitin": 2,
+    "whats-between-us": 2,
     "princess": 2,
     "kaduttaako": 1,
     "raparperimehua": 2,
