@@ -382,7 +382,7 @@ screening {
 	width: 20px;
 }
 
-.screening > .fb-friends {
+.screening .fb-friends {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -393,14 +393,16 @@ screening {
 	position: absolute;
 	z-index: 1;
 	right: 0;
+	top: -8px;
 }
-.screening > .fb-friends > li {
+.screening .fb-friends > li {
 	display: inline-block;
+	position: relative;
 	padding: 2px;
 	/*background-color: rgba(255,255,255, 0.6);*/
 }
-.screening > .fb-friends img {
-	width: 20px;
+.screening .fb-friends img {
+	width: 24px;
 	border-radius: 50%;
 
 /*	-webkit-box-shadow: 0 0 2px 2px #fff;
@@ -408,6 +410,32 @@ screening {
 	box-shadow: 0 0 2px 2px #fff;
 */
 }
+
+.screening .fb-friends > li > span {
+	/*content: attr(alt);*/
+
+	font-family: 'Cinecitta-Medium';
+	white-space: nowrap;
+	background-color: white;
+	padding: 2px 2px 0px;
+	font-size: 13px;
+
+	position: absolute;
+	left: 50%;
+	top: 100%;
+
+	z-index: 11;
+
+	visibility: hidden;	 
+}
+.screening .fb-friends > li:hover > span {
+	visibility: visible;
+}
+td:last-child .fb-friends span {
+	right: 50%;
+	left: auto;
+}
+
 
 .screening>.top, .screening>.bottom {
 	padding: 4px;
