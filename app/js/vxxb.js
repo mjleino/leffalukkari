@@ -258,7 +258,7 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 	}
 
 	FB.init({
-		appId      : '1207489822615275',
+		appId      : '1207449112619346',
 		cookie     : true,  // enable cookies to allow the server to access the session
 		xfbml      : true,  // parse social plugins on this page
 		version    : 'v2.7' // use graph api version 2.5
