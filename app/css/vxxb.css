@@ -145,7 +145,7 @@ nav {
 
 	/* TODO: MORE SPACE */
 	height: 44px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 nav a {
