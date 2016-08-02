@@ -32,8 +32,10 @@ app.controller("FilmListController", function($scope, $http, $filter, $timeout, 
 	$scope.friends = { }
 
 	$scope.$storage = $localStorage.$default({
-		selected: { }
-	})
+		2016: {
+			selected: { }
+		}
+	})[2016]
 
 	// FETCH & PROCESS
 	$http.get("data/cinedata.json")
