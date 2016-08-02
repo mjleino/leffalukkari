@@ -251,6 +251,12 @@ mark {
 	margin-top: 0.7em;
 }
 
+#help p > span {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: red;
+}
+
 #help.auto > aside > section > p > a {
 	animation: pulse 2s infinite alternate;
 }

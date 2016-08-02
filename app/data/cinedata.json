@@ -39,7 +39,7 @@
         "<p>Valitse haluamasi näytökset klikkaamalla näytöksen kuvaa. Valinnat tallennetaan selaimen muistiin.</p>",
         "<p>OMAT FESTARIT -painikkeella näet pelkästään valitsemasi elokuvat sekä niiden vaihto&shy;ehtoiset näytökset. Näin voit ratkoa mahdolliset päällekkäisyydet.</p>",
         "<p>Elokuvan nimeä klikkaamalla pääset elokuvan lisätietoihin, näytösnumeroa klikkaamalla seuraaavaan näytökseen (1/3→2/3→3/3→1/3).</p>",
-        "<p>Lopuksi jaa oma festarisi Facebookiin, niin ystäväsi tietää tulla samoihin näytöksiin!</p>"
+        "<p>Yhdistä kalenterisi Facebookiin <span>f</span>-painikkeella, niin näet ystäviesi leffa&shy;valinnat ja löydätte samoihin näytöksiin!</p>"
       ],
       "helpshare": [
         "<h2>B O O M !</h2>",
@@ -70,7 +70,7 @@
         "<p>Choose the screenings you want by clicking the screening photo. Selection is saved into web browser memory.</p>",
         "<p>MY FESTIVAL button shows just the films you chose, and their alternative screenings. This way you can solve any overlaps.</p>",
         "<p>Clicking the film title takes you to additional info. Clicking the screening number takes you to the next screening (1/3→2/3→3/3→1/3).</p>",
-        "<p>Finally, share your festival to Facebook, so your friends know to be on the same screenings!</p>"
+        "<p>Connect your calendar to Facebook with <span>f</span> button, and you'll see your friends' film selection!</p>"
       ],
       "helpshare": [
         "<h2>B O O M !</h2>",
@@ -694,7 +694,7 @@
       "subtitles": "eng",
       "number": "1/1",
       "rating": "K12",
-      "img": "Image/7847/.jpg",
+      "img": "Image/7931/world-wide-woven-bodies-a.jpg",
       "url": "pohjoismaiset-lyharit",
       "extraurl": "",
       "id": "pohjoismaiset-lyharit-1",
