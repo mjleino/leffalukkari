@@ -388,9 +388,9 @@ screening {
 	font-size: 0;
 
 	position: absolute;
-	z-index: 1;
+	z-index: 3;
 	right: 0;
-	top: -8px;
+	top: -10px;
 }
 .screening .fb-friends > li {
 	display: inline-block;
@@ -420,8 +420,6 @@ screening {
 	position: absolute;
 	left: 50%;
 	top: 100%;
-
-	z-index: 11;
 
 	visibility: hidden;	 
 }
