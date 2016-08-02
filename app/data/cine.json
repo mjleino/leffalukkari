@@ -60,8 +60,8 @@
     "subtitles": "eng",
     "number": "+1",
     "rating": "K12",
-    "img": "Image/7779/mad-love-a.jpg",
-    "url": "mad-love",
+    "img": "Image/7805/macadam-stories-a.jpg",
+    "url": "maracam-stories",
     "extraurl": ""
 }, {
     "date": "2016-08-19",
@@ -867,7 +867,7 @@
     "number": "1/1",
     "rating": "",
     "img": "",
-    "url": "seminaari",
+    "url": "../../lasten-ja-nuorten-cine/seminaarit-keskustelut",
     "extraurl": ""
 }, {
     "date": "2016-08-23",
@@ -970,8 +970,8 @@
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K12",
-    "img": "Image/7779/mad-love-a.jpg",
-    "url": "mad-love",
+    "img": "Image/7805/macadam-stories-a.jpg",
+    "url": "maracam-stories",
     "extraurl": ""
 }, {
     "date": "2016-08-23",
@@ -1009,8 +1009,8 @@
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K12",
-    "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
-    "url": "whatever-happened-to-gelitin",
+    "img": "Image/7913/whats-between-us-a.jpg",
+    "url": "whats-between-us",
     "extraurl": ""
 }, {
     "date": "2016-08-23",
@@ -1048,8 +1048,8 @@
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K16",
-    "img": "Image/7805/macadam-stories-a.jpg",
-    "url": "maracam-stories",
+    "img": "Image/7779/mad-love-a.jpg",
+    "url": "mad-love",
     "extraurl": ""
 }, {
     "date": "2016-08-23",
@@ -1503,8 +1503,8 @@
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K16",
-    "img": "Image/7913/whats-between-us-a.jpg",
-    "url": "whats-between-us",
+    "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
+    "url": "whatever-happened-to-gelitin",
     "extraurl": ""
 }, {
     "date": "2016-08-24",
@@ -2244,8 +2244,8 @@
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K16",
-    "img": "Image/7805/macadam-stories-a.jpg",
-    "url": "maracam-stories",
+    "img": "Image/7779/mad-love-a.jpg",
+    "url": "mad-love",
     "extraurl": ""
 }, {
     "date": "2016-08-26",
@@ -2413,8 +2413,8 @@
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K12",
-    "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
-    "url": "whatever-happened-to-gelitin",
+    "img": "Image/7913/whats-between-us-a.jpg",
+    "url": "whats-between-us",
     "extraurl": ""
 }, {
     "date": "2016-08-27",
@@ -2634,8 +2634,8 @@
     "subtitles": "eng",
     "number": "2/2",
     "rating": "k16",
-    "img": "Image/7913/whats-between-us-a.jpg",
-    "url": "whats-between-us",
+    "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
+    "url": "whatever-happened-to-gelitin",
     "extraurl": ""
 }, {
     "date": "2016-08-27",
@@ -2725,8 +2725,8 @@
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K12",
-    "img": "Image/7779/mad-love-a.jpg",
-    "url": "mad-love",
+    "img": "Image/7805/macadam-stories-a.jpg",
+    "url": "maracam-stories",
     "extraurl": ""
 }, {
     "date": "2016-08-28",

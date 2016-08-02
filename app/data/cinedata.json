@@ -16,12 +16,6 @@
       "Sello 4",
       "Sello 5",
       "Muut"
-    ],
-    "others": [
-      "Kannusali",
-      "Sellosali",
-      "WeeGee",
-      "Aurinkoterassi"
     ]
   },
   "i18n": {
@@ -179,10 +173,10 @@
       "subtitles": "eng",
       "number": "+1",
       "rating": "K12",
-      "img": "Image/7779/mad-love-a.jpg",
-      "url": "mad-love",
+      "img": "Image/7805/macadam-stories-a.jpg",
+      "url": "maracam-stories",
       "extraurl": "",
-      "id": "mad-love-+1",
+      "id": "maracam-stories-+1",
       "datetime": "2016-08-18T15:00:00.000Z",
       "dateId": "to-18",
       "timeslot": 17,
@@ -1361,7 +1355,7 @@
       "number": "1/1",
       "rating": "",
       "img": "",
-      "url": "seminaari",
+      "url": "../../lasten-ja-nuorten-cine/seminaarit-keskustelut",
       "extraurl": "",
       "id": "seminaari-1",
       "datetime": "2016-08-23T11:00:00.000Z",
@@ -1512,10 +1506,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K12",
-      "img": "Image/7779/mad-love-a.jpg",
-      "url": "mad-love",
+      "img": "Image/7805/macadam-stories-a.jpg",
+      "url": "maracam-stories",
       "extraurl": "",
-      "id": "mad-love-1",
+      "id": "maracam-stories-1",
       "datetime": "2016-08-23T14:00:00.000Z",
       "dateId": "ti-23",
       "timeslot": 17,
@@ -1569,10 +1563,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K12",
-      "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
-      "url": "whatever-happened-to-gelitin",
+      "img": "Image/7913/whats-between-us-a.jpg",
+      "url": "whats-between-us",
       "extraurl": "",
-      "id": "whatever-happened-to-gelitin-1",
+      "id": "whats-between-us-1",
       "datetime": "2016-08-23T16:00:00.000Z",
       "dateId": "ti-23",
       "timeslot": 19,
@@ -1626,10 +1620,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "Image/7805/macadam-stories-a.jpg",
-      "url": "maracam-stories",
+      "img": "Image/7779/mad-love-a.jpg",
+      "url": "mad-love",
       "extraurl": "",
-      "id": "maracam-stories-1",
+      "id": "mad-love-1",
       "datetime": "2016-08-23T16:15:00.000Z",
       "dateId": "ti-23",
       "timeslot": 19,
@@ -2294,10 +2288,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "Image/7913/whats-between-us-a.jpg",
-      "url": "whats-between-us",
+      "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
+      "url": "whatever-happened-to-gelitin",
       "extraurl": "",
-      "id": "whats-between-us-1",
+      "id": "whatever-happened-to-gelitin-1",
       "datetime": "2016-08-24T18:00:00.000Z",
       "dateId": "ke-24",
       "timeslot": 21,
@@ -3384,10 +3378,10 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K16",
-      "img": "Image/7805/macadam-stories-a.jpg",
-      "url": "maracam-stories",
+      "img": "Image/7779/mad-love-a.jpg",
+      "url": "mad-love",
       "extraurl": "",
-      "id": "maracam-stories-2",
+      "id": "mad-love-2",
       "datetime": "2016-08-26T17:45:00.000Z",
       "dateId": "pe-26",
       "timeslot": 19,
@@ -3631,10 +3625,10 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K12",
-      "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
-      "url": "whatever-happened-to-gelitin",
+      "img": "Image/7913/whats-between-us-a.jpg",
+      "url": "whats-between-us",
       "extraurl": "",
-      "id": "whatever-happened-to-gelitin-2",
+      "id": "whats-between-us-2",
       "datetime": "2016-08-27T11:00:00.000Z",
       "dateId": "la-27",
       "timeslot": 12,
@@ -3954,10 +3948,10 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "k16",
-      "img": "Image/7913/whats-between-us-a.jpg",
-      "url": "whats-between-us",
+      "img": "Image/7910/whatever-happened-to-gelitin-a.jpg",
+      "url": "whatever-happened-to-gelitin",
       "extraurl": "",
-      "id": "whats-between-us-2",
+      "id": "whatever-happened-to-gelitin-2",
       "datetime": "2016-08-27T18:00:00.000Z",
       "dateId": "la-27",
       "timeslot": 21,
@@ -4088,10 +4082,10 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K12",
-      "img": "Image/7779/mad-love-a.jpg",
-      "url": "mad-love",
+      "img": "Image/7805/macadam-stories-a.jpg",
+      "url": "maracam-stories",
       "extraurl": "",
-      "id": "mad-love-2",
+      "id": "maracam-stories-2",
       "datetime": "2016-08-28T09:00:00.000Z",
       "dateId": "su-28",
       "timeslot": 12,
@@ -4638,7 +4632,7 @@
             "Sello 4": [],
             "Sello 5": [],
             "Muut": [
-              "mad-love-+1"
+              "maracam-stories-+1"
             ]
           },
           "count": 1,
@@ -5053,7 +5047,7 @@
             "Muut": []
           },
           "count": 3,
-          "duration": 141
+          "duration": 270
         },
         "15": {
           "time": "15:00",
@@ -5083,7 +5077,7 @@
               "fils-de-joseph-2"
             ],
             "Tapiolasali": [
-              "mad-love-1"
+              "maracam-stories-1"
             ],
             "Louhisali": [
               "duel-of-wine-2"
@@ -5110,10 +5104,10 @@
               "lady-in-the-van-2"
             ],
             "Louhisali": [
-              "maracam-stories-1"
+              "mad-love-1"
             ],
             "Sello 4": [
-              "whatever-happened-to-gelitin-1"
+              "whats-between-us-1"
             ],
             "Sello 5": [],
             "Muut": []
@@ -5285,7 +5279,7 @@
           "time": "21:00",
           "theaters": {
             "Kino Tapiola": [
-              "whats-between-us-1"
+              "whatever-happened-to-gelitin-1"
             ],
             "Tapiolasali": [
               "demon-2"
@@ -5573,7 +5567,7 @@
             ],
             "Sello 4": [
               "lilting-3",
-              "maracam-stories-2"
+              "mad-love-2"
             ],
             "Sello 5": [
               "alena-1"
@@ -5642,7 +5636,7 @@
             ],
             "Sello 4": [
               "alive-and-kicking-3",
-              "whatever-happened-to-gelitin-2"
+              "whats-between-us-2"
             ],
             "Sello 5": [
               "family-film-2",
@@ -5732,7 +5726,7 @@
               "demon-3"
             ],
             "Sello 4": [
-              "whats-between-us-2"
+              "whatever-happened-to-gelitin-2"
             ],
             "Sello 5": [
               "barash-2"
@@ -5754,7 +5748,7 @@
           "time": "12:00",
           "theaters": {
             "Kino Tapiola": [
-              "mad-love-2",
+              "maracam-stories-2",
               "fils-de-joseph-3"
             ],
             "Tapiolasali": [
@@ -5857,7 +5851,7 @@
     "zoology": 3,
     "all-about-them": 3,
     "here-after": 3,
-    "mad-love": 3,
+    "maracam-stories": 3,
     "childhood": 3,
     "toni-erdman": 1,
     "slack-bay": 3,
@@ -5917,9 +5911,9 @@
     "our-mother": 3,
     "arianna": 2,
     "dont-tell-me-the-boy-was-mad": 3,
-    "whatever-happened-to-gelitin": 2,
+    "whats-between-us": 2,
     "first-the-last": 3,
-    "maracam-stories": 2,
+    "mad-love": 2,
     "anna": 2,
     "demon": 3,
     "italian-name-an": 3,
@@ -5936,7 +5930,7 @@
     "summertime": 3,
     "hymyileva-mies": 1,
     "pikadero": 3,
-    "whats-between-us": 2,
+    "whatever-happened-to-gelitin": 2,
     "princess": 2,
     "kaduttaako": 1,
     "raparperimehua": 2,
