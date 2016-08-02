@@ -9,7 +9,9 @@ module.exports = (grunt) ->
     
     concat:
       angular:
-        dest: 'js/dist/angular-etc.min.js'
+        options:
+          sourceMap: true
+        dest: 'app/js/dist/angular-etc.min.js'
         src: [
           'node_modules/angular/angular.min.js'
           'node_modules/angular-sanitize/angular-sanitize.min.js'
@@ -18,7 +20,7 @@ module.exports = (grunt) ->
         ]
 
       angular_locale:
-        dest: 'js/dist/angular-locale_fi-fi.js'
+        dest: 'app/js/dist/angular-locale_fi-fi.js'
         src: [
           'node_modules/angular-i18n/angular-locale_fi-fi.js'
         ]
