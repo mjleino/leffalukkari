@@ -35,7 +35,7 @@ String.prototype.lolleroids = function(lols) {
 }
 
 if (! RECURSE) console.log(['id', 'title', 'img', 'url'].join("\t"))
-else console.log(['url', 'img', 'serie', 'content'].join("\t"))
+else console.log(['url', 'title', 'img', 'serie', 'content'].join("\t"))
 
 fetch("http://sitedesk.espoocine.fi/Go=Page-List?PID=1970", function($) {
 	// HELLO LOL SITEDESK HAS table > thead > tbody
@@ -72,6 +72,7 @@ function fetchoroids($, url) {
 		return
 	}
 	let page = $('body').data('pageaddress').replace("ohjelmisto/elokuvat/", "")
+	let title = $('body').data('pagename').lolleroids(["The", "A", "An", "La", "Le"])
 	let h1 = $('#MainContent h1').text()
 	let img = $('.MovieImages > img').first().attr('src')
 	let serie = $('.PageFeature-sarja').text()
@@ -96,6 +97,7 @@ function fetchoroids($, url) {
 
 	console.log([
 		page,
+		title,
 		img,
 		serie,
 		content

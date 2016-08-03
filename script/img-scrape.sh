@@ -1,4 +1,5 @@
 # FETCH UR IMAGES OK
+# usage: $0 < img-scrape.tsv
 
 while read slug img crap; do
 	IN="http://www.espoocine.fi/2016/fi/$img"
@@ -7,4 +8,4 @@ while read slug img crap; do
 		mkdir -p ${OUT%/*}
 		echo $IN; curl -s -o "$OUT" "$IN"
 	fi
-done < img-scrape.tsv
+done
