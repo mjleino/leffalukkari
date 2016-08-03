@@ -39,7 +39,7 @@
 				<span ng-if="search.text" ng-bind-html="screening.title | highlight:search.text"></span>
 				<span ng-if="! search.text" ng-bind="screening.title"></span>
 			</a>
-			<a ng-if="screening.extraurl" href="{{ screening.extraurl }}" class="extra" target="_blank">#</a>
+			<a ng-if="screening.extraurl" href="{{ screening.extraurl }}" class="extra" target="_blank" ng-click="$event.stopPropagation()">#</a>
 		</h3>
 
 		<small class="number">

@@ -346,7 +346,6 @@ screening {
 }
 
 .screening a.extra {
-	display: none; /* WAITING FOR URLS */
 	position: absolute;
 
 	right: -8px;
