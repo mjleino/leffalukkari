@@ -416,7 +416,8 @@ screening {
 
 	visibility: hidden;	 
 }
-.screening .fb-friends > li:hover > span {
+.screening .fb-friends > li:hover > span,
+.screening .fb-friends > li.hover > span {
 	visibility: visible;
 }
 td:last-child .fb-friends span {

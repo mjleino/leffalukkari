@@ -23,7 +23,8 @@
 
 	<div class="top">
 		<ul class="fb-friends">
-			<li ng-repeat="friend in friends" ng-if="friend.selected[screening.id]">
+			<li ng-repeat="friend in friends" ng-if="friend.selected[screening.id]"
+					ontouchstart="this.classList.toggle('hover')">
 				<span>{{ friend.name }}</span>
 				<img ng-src="{{ friend.photoURL }}" alt="{{ friend.name }}">
 			</li>
