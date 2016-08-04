@@ -23,9 +23,9 @@ var app = angular.module("appLeffalukkari", ["ngSanitize", "duScroll", "ngStorag
 // 	$compileProvider.debugInfoEnabled(false)
 // }])
 
-app.value('duScrollOffset', 44)
+app.value('duScrollOffset', 82)
 
-app.controller("FilmListController", function($scope, $http, $filter, $timeout, $localStorage, $document, $locale) {
+app.controller("LeffalukkariController", function($scope, $http, $filter, $timeout, $localStorage, $document, $locale) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()
 	$scope.user = null

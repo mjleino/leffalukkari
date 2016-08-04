@@ -18,7 +18,7 @@
 */
 
 body {
-	padding-top: 44px;
+	padding-top: 82px;
 }
 
 #viiksipojat {
@@ -28,16 +28,14 @@ body {
 	color: #777;
 }
 
-/* hack if meta viewport width=device-width */
-#ng-controller,
-table#FilmList > * {
-	min-width: 640px;
-}
-
-table#FilmList {
+table#theaters,
+table#screenings {
 	width: 100%;
 	border-spacing: 0;
 	border-collapse: collapse;
+
+	/* hack for meta viewport width=device-width */
+	min-width: 720px;
 
 	/*table-layout: fixed;*/
 	word-wrap: break-word;
@@ -50,51 +48,36 @@ table#FilmList {
 }
 
 /* HACK FIXED THEATER HEADER */
-table#FilmList > thead {
-	position: fixed;
+table#theaters {
 	background-color: white;
-	z-index: 4;
 }
-table#FilmList > thead,
-table#FilmList > tbody {
-	display: table;
-	width: 100%;
-}
-table#FilmList > tbody {
-	position: relative;
-	top: 36px;
-}
-table#FilmList > thead > tr.theater > th:first-child > h2 {
+table#theaters th:first-child > h2 {
 	visibility: hidden;
-	word-break: normal;
-	font-size: 1.3em;
-	line-height: 0;
 }
 
-table#FilmList th,
-table#FilmList td {
-	width: 15%;
+th, td {
+	/* 6 * 16 + 4 = 100% */
+	width: 16%;
 	padding: 6px 8px;
 	vertical-align: top;
 	border-top: 1px solid #777;
 }
-table#FilmList th:first-child {
-	width: 5%;
+th:first-child {
+	word-wrap: normal;
+	word-break: normal;
+	width: 4%;
 }
 
-table#FilmList tr.theater > th {
+tr.theater > th {
 	border-top: none;
 	border-bottom: 2px solid #777;
+	padding-top: 1em;
 }
-
-table#FilmList tr.theater > th > h3 {
-	margin-top: 0.5em;
+tr.theater > th > * {
 	margin-bottom: 0;
 }
 
-table#FilmList tr.slot > th > h2 {
-	word-wrap: normal;
-	word-break: normal;
+tr.slot > th > h2 {
 	font-size: 2em;
 	color: #777;
 }
@@ -125,14 +108,14 @@ tr.slot:last-child > th {
 
 /* COLUMN SPANNING HEADERS */
 
-table#FilmList > tbody > tr.day > th {
+tr.day > th {
 	color: #eee;
 	background-color: #111;
 	padding: 20px 16px 16px;
 	border-top: none;
 }
 
-table#FilmList > tbody > tr.day > th > h2 {
+tr.day > th > h2 {
 	font-size: 2em;
 	margin: 0;
 }
@@ -148,10 +131,6 @@ nav {
 	width: 100%;
 	z-index: 7;
 	top: 0;
-
-	/* TODO: MORE SPACE */
-	height: 44px;
-	/*overflow: hidden;*/
 }
 
 nav a {

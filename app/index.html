@@ -3,7 +3,9 @@
 <html lang="fi">
 <head>
 	<meta charset="utf-8">
-	<title>Espoo Ciné 2016: LEFFALUKKARI</title>
+	<!-- <meta name="viewport" content="width=device-width"> -->
+
+	<title>Espoo Ciné 2016: Leffalukkari</title>
 
 	<link rel="stylesheet" href="css/cine.css">
 	<link rel="stylesheet" href="css/vxxb.css">
@@ -18,8 +20,8 @@
 </head>
 
 <body>
-	<div id="ng-controller" ng-app="appLeffalukkari" ng-controller="FilmListController">
-		<nav id="day-nav">
+	<div id="ng-controller" ng-app="appLeffalukkari" ng-controller="LeffalukkariController">
+		<nav>
 			<ul>
 				<li ng-repeat="day in data.days"
 					du-scrollspy="{{ day.id }}">
@@ -45,17 +47,15 @@
 				</li>
 				<li id="fb-share">
 					<a href="#" title="{{ i18n.fbshare }}" ng-click="fbLogin(); $event.preventDefault();">
-						<img ng-src="{{ user.photoURL || 'img/facebook.png' }}" alt="{{ user.displayName || 'facebook logo' }}" title="{{ user.displayName }}">
+						<img ng-src="{{ user.photoURL || 'img/facebook.png' }}" alt="facebook" title="{{ user.displayName }}">
 					</a>
 				</li>
 				<li id="my-festival" ng-class="{active: search.myfestival}">
 					<a href="#" title="{{ i18n.myfestivalwhat }} ({{ $storage.selected | count }} {{ i18n.selectedscreenings }})" ng-click="myFestival(); $event.preventDefault();">{{ i18n.myfestival }} ({{ $storage.selected | count }})</a>
 				</li>
 			</ul>
-		</nav>
-
-		<table id="FilmList">
-			<thead>
+			<!-- well this is out of place -->
+			<table id="theaters">
 				<tr class="theater">
 					<th>
 						<h2>klo</h2>
@@ -64,7 +64,11 @@
 						<h3>{{ i18n.theaters[theater] || theater }}</h3>
 					</th>
 				</tr>
-			</thead>
+			</table>
+		</nav>
+
+		<table id="screenings">
+			<!-- thead boldly moved above inside nav -->
 			<tbody id="{{ day.id }}" ng-repeat="day in data.days"
 				   ng-show="(data.screenings | filter:{ dateId: day.id } | filter:myFestivalCheck | filter:searchCheck).length">
 				<tr class="day">
