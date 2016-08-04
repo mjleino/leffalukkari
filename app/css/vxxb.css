@@ -114,6 +114,9 @@ tr.day > th {
 	padding: 20px 16px 16px;
 	border-top: none;
 }
+.myfestival tr.day > th {
+	background-color: #e74011;
+}
 
 tr.day > th > h2 {
 	font-size: 2em;

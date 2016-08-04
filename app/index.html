@@ -67,7 +67,7 @@
 			</table>
 		</nav>
 
-		<table id="screenings">
+		<table id="screenings" ng-class="{myfestival: search.myfestival}">
 			<!-- thead boldly moved above inside nav -->
 			<tbody id="{{ day.id }}" ng-repeat="day in data.days"
 				   ng-show="(data.screenings | filter:{ dateId: day.id } | filter:myFestivalCheck | filter:searchCheck).length">
