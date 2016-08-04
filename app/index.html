@@ -45,9 +45,14 @@
 						<img ng-src="{{ friend.photoURL }}" alt="{{ friend.name }}" title="{{ friend.name }}">
 					</a>
 				</li>
-				<li id="fb-share">
-					<a href="#" title="{{ i18n.fbshare }}" ng-click="fbLogin(); $event.preventDefault();">
+				<li id="fb-login">
+					<a href="#" title="{{ i18n.fblogin }}" ng-click="fbLogin(); $event.preventDefault();">
 						<img ng-src="{{ user.photoURL || 'img/facebook.png' }}" alt="facebook" title="{{ user.displayName }}">
+					</a>
+				</li>
+				<li id="fb-share" ng-if="user">
+					<a href="#" title="{{ i18n.fbshare }}" ng-click="fbShare(); $event.preventDefault();">
+						{{ i18n.share }}
 					</a>
 				</li>
 				<li id="my-festival" ng-class="{active: search.myfestival}">

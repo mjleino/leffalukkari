@@ -191,16 +191,16 @@ mark {
 	padding-bottom: inherit;
 }
 
-#fb-friends, #fb-share, #my-festival, #help {
+#fb-friends, #fb-share, #fb-login, #my-festival, #help {
 	float: right !important;
 	/*margin-right: 1em;*/
 }
 
-#fb-share, #fb-friends {
+#fb-login, #fb-friends {
 	margin-bottom: 0;
 }
 
-#fb-share > a > img,
+#fb-login > a > img,
 #fb-friends > a > img {
 	padding-right: 2px;
 	margin-top: -6px;

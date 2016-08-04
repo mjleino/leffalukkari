@@ -30,6 +30,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	$scope.now = new Date()
 	$scope.user = null
 	$scope.friends = { }
+	$scope.sharecount = 0
 
 	$scope.$storage = $localStorage.$default({
 		2016: {
@@ -52,6 +53,12 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 				console.log("DUPLICATE SCREENING ID", screening.id)
 			$scope.data.screeningsById[screening.id] = screening
 		})
+
+		for (var id in $scope.$storage.selected) {
+			if (! $scope.data.screeningsById[id]) {
+				console.log("STORAGE SCREENING ID MISSING", id)
+			}
+		}
 
 		console.log("LOADING DONE", $scope.data)
 		window.DATA = $scope.data // DEBUGS
@@ -125,7 +132,13 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 			$scope.selectedCopy = angular.copy($scope.$storage.selected)
 		}
 
-		return $scope.selectedCopy[id] || $scope.fbshare[id]
+		var friendSelected = 0
+		angular.forEach($scope.friends, function(friend) {
+			if (friend && friend.myfestival && friend.selected && friend.selected[id])
+				friendSelected++
+		})
+
+		return $scope.selectedCopy[id] || friendSelected
 			|| $scope.siblingIsSelected($scope.data.screeningsById[id], $scope.selectedCopy)
 	}
 
@@ -187,24 +200,30 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 	// FACEBOOK STUFF
 
-	// TODO ! !
-	$scope.doFbShare = function() {
+	$scope.fbShare = function() {
 		console.log("FBSHARE", $scope.$storage.selected)
 		ga('send', 'event', 'click', 'fbshare')
 
-		var selected = Object.keys($scope.$storage.selected)
+		var userRef = firebaseUserRef()
+		var shareRef = userRef.child('share/' + ++$scope.sharecount)
+		shareRef.set($scope.$storage.selected)
 
-		var titles = selected.map(function(id) {
+		var keys = Object.keys($scope.$storage.selected)
+		var titles = keys.filter(function(id) {
+			return $scope.data.screeningsById[id]
+		}).map(function(id) {
 			return $scope.data.screeningsById[id].title
 		})
 
 		FB.ui({
-			method: 		'share',
-			picture: 		'http://www.espoocine.fi/2015/fi/Image/6884/etusivu.jpg',
-			description: 	titles.join(", "),
-			href: 			location.href.split("#")[0] + '#share=' + selected.join(",")
+			method: 	'share',
+			description: "19.–28.8.2016",
+			quote: 		titles.join(", "),
+			picture: 	'http://www.espoocine.fi/2016/fi/Image/7509/ec16-paakuva.jpg',
+			href: 		"http://www.espoocine.fi/2016/fi/ohjelmisto/kalenteri" + "#/share/" + userRef.key + "/" + $scope.sharecount
 		}, function(response) {
-			// console.log("FB", response)
+			userRef.child('sharecount').set($scope.sharecount)
+			console.log("SHARE DONE?", response)
 		})
 	}
 
@@ -215,21 +234,23 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 			$scope.firebaseSignIn()
 	}
 
-	// check if we arrived at a facebook share hash, init $scope.fbshare
+	// check if we arrived at a facebook share hash, sync that friend
 	$scope.fbShareCheck = function() {
-		$scope.fbshare = { }
+		var split = location.hash.split("/")
+		if (split[1] != "share") return
 
-		if (location.hash.search(/^#share=/) < 0) return
-		$scope.search.fbshare = true
-		
-		var ids = location.hash.split("=")[1].split(",")
-		ids.forEach(function(id) {
-			$scope.fbshare[id] = true
+		var id = split[2]
+		var share = split[3]
+
+		// TEMPORARY FRIEND
+		firebase.database().ref('users/' + id).once('value').then(function(data) {
+			console.log("GOT FB SHARE")
+			firebaseMergeShare(data, share)
+			$scope.search.fbshare = data.key
+			$scope.help(true) // SHARING IS CARING
 		})
 
-		// location.hash = "#share" // META
-		// $scope.myFestival() // IGNITE
-		$scope.help() // SHARING IS CARING
+		// $scope.myFestival() // FESTIV?
 	}
 
 	function fbStatusChangeCallback(response) {
@@ -324,10 +345,21 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		}
 	}
 
-	function firebaseMergeFriend(selected) {
-		console.log("firebaseMergeFriend", selected.val())
+	function firebaseMergeFriend(friend) {
+		console.log("firebaseMergeFriend", friend.val())
 		$timeout(function() {
-			$scope.friends[selected.key] = selected.val()
+			$scope.friends[friend.key] = friend.val()
+		})
+	}
+
+	function firebaseMergeShare(friend, share) {
+		console.log("firebaseMergeShare", friend.val())
+		$timeout(function() {
+			$scope.friends[friend.key] = friend.val()
+			$scope.friends[friend.key].myfestival = true
+			// LOL THIS HACK. temporarily set share as this friendos selected screenings.
+			if (share) $scope.friends[friend.key].selected = $scope.friends[friend.key].share[share]
+			console.log("HACK", share, $scope.friends[friend.key].selected)
 		})
 	}
 
@@ -345,6 +377,10 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		userRef.child("email").set($scope.user.email)
 		userRef.child("photoURL").set($scope.user.photoURL)
 
+		userRef.child("sharecount").on('value', function(data) {
+			$scope.sharecount = data.val()
+		})
+
 		userRef.child("selected").on('value', function(data) {
 			firebaseMerge(data)
 		})
@@ -360,7 +396,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 	// INIT FB SHARE & HELP
 	$scope.fbShareCheck()
-	if (! $scope.$storage.helpShown) $scope.help()
+	if (! $scope.$storage.helpShown) $scope.help(true)
 })
 
 // DIRECTIVE & FILTER
