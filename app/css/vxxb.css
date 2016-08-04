@@ -28,6 +28,12 @@ body {
 	color: #777;
 }
 
+/* hack if meta viewport width=device-width */
+#ng-controller,
+table#FilmList > * {
+	min-width: 640px;
+}
+
 table#FilmList {
 	width: 100%;
 	border-spacing: 0;
