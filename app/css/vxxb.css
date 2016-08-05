@@ -306,11 +306,11 @@ screening {
 }
 
 .screening.target > .full {
-	animation: highlight 1.5s ease-in;
+	animation: highlight 2s ease-in;
 }
 @keyframes highlight {
 	0% {
-		background-color: rgba(17,64,231, 0.5);
+		background-color: rgba(17,64,231, 0.7);
 	}
 	100% {
 		/*background-color: rgba(17,64,231, 0);*/
