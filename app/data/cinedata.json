@@ -37,9 +37,9 @@
       ],
       "helpshare": [
         "<h2>B O O M !</h2>",
-        "<p>Ystäväsi jakoi oman Ciné -kalenterinsa. Hänen valitsemat näytökset on merkattu Facebook-logolla.</p>",
+        "<p>Ystäväsi jakoi oman Ciné -kalenterinsa. Hänen valitsemat näytökset on merkattu hänen profiilikuvalla.</p>",
         "<p>OMAT FESTARIT -painikkeella näet valitsemasi elokuvat ja niiden vaihto&shy;ehtoiset näytökset, sekä ystäväsi valitsemat näytökset.</p>",
-        "<p>Lopuksi jaa oma festarisi Facebookiin, niin lisää ystäviä tietää tulla samoihin näytöksiin!</p>"
+        "<p>Jaa itsekin oma festarisi Facebookiin, niin muutkin löytävät samoihin näytöksiin!</p>"
       ],
       "searchfilm": "Etsi elokuvaa",
       "share": "Jaa",
@@ -68,9 +68,9 @@
       ],
       "helpshare": [
         "<h2>B O O M !</h2>",
-        "<p>Your friend shared their Ciné calendar. Their chosen screenings are marked with a Facebook logo.</p>",
+        "<p>Your friend shared their Ciné calendar. Their chosen screenings are marked with their profile picture.</p>",
         "<p>MY FESTIVAL button shows the films you chose, their alternative screenings, and the screenings your friend chose.</p>",
-        "<p>Finally, share your festival to Facebook, so more friends know to be on the same screenings!</p>"
+        "<p>Share your festival to Facebook, so more friends find their way to screenings with you!</p>"
       ],
       "searchfilm": "Search for film",
       "share": "Share",
