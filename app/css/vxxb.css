@@ -492,6 +492,8 @@ td:last-child .fb-friends span {
 }
 .screening[id^="animaatioita-"] h3 {
 	margin-bottom: 4px;
+}
+.screening.special[id^="animaatioita-"] h3 {
 	text-align: right;
 }
 
@@ -514,4 +516,9 @@ td:last-child .fb-friends span {
 
 #raparperimehua-2 {
 	left: calc(-150% - 16px);
+}
+
+.screening[id^="toivola-eleganssi-"] h3,
+.screening[id^="lives-of-therese-"] h3 {
+	margin-bottom: 4px;
 }
