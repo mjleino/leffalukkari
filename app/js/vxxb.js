@@ -217,8 +217,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 		FB.ui({
 			method: 	'share',
-			description: "19.–28.8.2016",
-			quote: 		titles.join(", "),
+			description: titles.join(", "),
 			picture: 	'http://www.espoocine.fi/2016/fi/Image/7509/ec16-paakuva.jpg',
 			href: 		"http://www.espoocine.fi/2016/fi/ohjelmisto/kalenteri" + "#/share/" + userRef.key + "/" + $scope.sharecount
 		}, function(response) {
