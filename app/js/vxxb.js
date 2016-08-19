@@ -199,9 +199,13 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 	// FACEBOOK STUFF
 
-	$scope.fbShare = function() {
-		console.log("FBSHARE", $scope.$storage.selected)
+	$scope.fbShare = function($event) {
+		console.log("FBSHARE", $scope.sharecount, $scope.$storage.selected)
 		ga('send', 'event', 'click', 'fbshare')
+
+		// bail if firefox private browsing
+		if (! window.FB) return
+		else $event.preventDefault()
 
 		var userRef = firebaseUserRef()
 		var shareRef = userRef.child('share/' + ++$scope.sharecount)
@@ -278,7 +282,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		})
 	}
 
-	FB.init({
+	window.FB && FB.init({
 		appId      : '1207449112619346',
 		cookie     : true,  // enable cookies to allow the server to access the session
 		xfbml      : true,  // parse social plugins on this page
@@ -324,7 +328,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		$timeout(function() {
 			$scope.user = user
 			firebaseListen()
-			FB.getLoginStatus(fbStatusChangeCallback)
+			window.FB && FB.getLoginStatus(fbStatusChangeCallback)
 		})
 	})
 
