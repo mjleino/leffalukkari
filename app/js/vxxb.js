@@ -230,10 +230,13 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	}
 
 	$scope.fbLogin = function() {
-		if ($scope.user)
+		if ($scope.user) {
+			ga('send', 'event', 'click', 'firebaseSignOut')
 			$scope.firebaseSignOut()
-		else
+		} else {
+			ga('send', 'event', 'click', 'firebaseSignIn')
 			$scope.firebaseSignIn()
+		}
 	}
 
 	// check if we arrived at a facebook share hash, sync that friend
@@ -348,7 +351,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	}
 
 	function firebaseMergeFriend(friend) {
-		console.log("firebaseMergeFriend", friend.val())
+		// console.log("firebaseMergeFriend", friend.val())
 		$timeout(function() {
 			$scope.friends[friend.key] = friend.val()
 		})
