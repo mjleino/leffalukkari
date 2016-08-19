@@ -68,7 +68,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	// observe final tbody so we know when table has loaded
 	$scope.$watch(
 		function () {
-			return document.getElementById('su-30')
+			return document.getElementById('su-28')
 		}, function(value, old) {
 			if (! value) return
 			if (! containsDate($scope.now, $scope.data.days)) return
