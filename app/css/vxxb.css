@@ -123,6 +123,10 @@ tr.day > th > h2 {
 	margin: 0;
 }
 
+tr.day > th > h2.today > time {
+	border-bottom: 6px solid;
+}
+
 /* DAY NAVIGATION */
 
 nav {
@@ -174,6 +178,11 @@ nav > ul > li > a:hover {
 nav > ul > li.active > a {
 	color: #fff;
 	background-color: #e74011;
+}
+
+nav > ul > li.today > a {
+	padding-bottom: 2px;
+	border-bottom: 6px solid;
 }
 
 /* FILM SEARCH & MY FESTIVAL & FB SHARE & HELP */

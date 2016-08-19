@@ -28,6 +28,7 @@ app.value('duScrollOffset', 82)
 app.controller("LeffalukkariController", function($scope, $http, $filter, $timeout, $localStorage, $document, $locale) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.now = new Date()
+	$scope.today = getDateId($scope.now)
 	$scope.user = null
 	$scope.friends = { }
 	$scope.sharecount = 0
@@ -73,10 +74,8 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 			if (! value) return
 			if (! containsDate($scope.now, $scope.data.days)) return
 
-			var today = getDateId($scope.now)
-
-			// console.log("YO!! scrolling in today", today)
-			$scope.scrollTo(today)
+			// console.log("YO!! scrolling in today", $scope.today)
+			$scope.scrollTo($scope.today)
 		}
 	)
 

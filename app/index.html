@@ -24,6 +24,7 @@
 		<nav>
 			<ul>
 				<li ng-repeat="day in data.days"
+					ng-class="{today: day.id == today}"
 					du-scrollspy="{{ day.id }}">
 					<a href="#{{ day.id }}" du-smooth-scroll>
 						<time datetime="{{ day.date }}">{{ day.date | date:"EEE d" }}</time>
@@ -78,7 +79,7 @@
 				   ng-show="(data.screenings | filter:{ dateId: day.id } | filter:myFestivalCheck | filter:searchCheck).length">
 				<tr class="day">
 					<th colspan="7">
-						<h2>
+						<h2 ng-class="{today: day.id == today}">
 							<time datetime="{{ day.date }}">{{ day.date | date:"EEE d.M." }}</time>
 						</h2>
 					</th>
