@@ -278,9 +278,13 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 		FB.api('/me/friends', function(response) {
 			console.log('fbSyncFriends', response)
-			var friendsRef = firebaseUserRef().child("friends")
+			var userRef = firebaseUserRef()
+			if (! response.data) return
+
 			response.data.forEach(function(friend) {
-				friendsRef.child(friend.id).set(friend.name)
+				userRef.child('friends').child(friend.id).set(friend.name)
+				// ALSO NOTIFY MY FRIENDS. SPAM ALERT.
+				firebase.database().ref('users/' + friend.id + '/friends/' + userRef.key).set($scope.user.displayName)
 			})
 		})
 	}
@@ -319,6 +323,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	}
 
 	$scope.firebaseSignOut = function() {
+		// SHOULD WE REMOVE FRIENDS?
 		firebase.auth().signOut().then(function() {
 		}, function(error) {
 			console.log("LOGOUT ERROR", error)
@@ -390,11 +395,17 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 			firebaseMerge(data)
 		})
 
-		userRef.child("friends").on('value', function(data) {
-			var friends = data.val()
-			for (var id in friends) {
-				firebase.database().ref('users/' + id).on('value', firebaseMergeFriend)
-			}
+		userRef.child("friends").on('child_added', function(data) {
+			console.log("FRIEND_ADDED", data.key, data.val())
+			firebase.database().ref('users/' + data.key).on('value', firebaseMergeFriend)
+		})
+
+		userRef.child("friends").on('child_removed', function(data) {
+			console.log("FRIEND_REMOVED", data.key, data.val())
+			firebase.database().ref('users/' + data.key).off()
+			$timeout(function() {
+				$scope.friends[data.key] = null
+			})
 		})
 	}
 
