@@ -200,24 +200,19 @@ mark {
 	padding-bottom: inherit;
 }
 
-#fb-friends, #fb-share, #fb-login, #my-festival, #help {
+#fb-share, #fb-login, #my-festival, #help {
 	float: right !important;
 	/*margin-right: 1em;*/
 }
 
-#fb-login, #fb-friends {
+#fb-login {
 	margin-bottom: 0;
 }
 
-#fb-login > a > img,
-#fb-friends > a > img {
+#fb-login > a > img {
 	padding-right: 2px;
 	margin-top: -6px;
 	height: 2.2em;
-}
-
-#fb-friends {
-	display: none; /* TODO: MORE SPACE */
 }
 
 #help {
@@ -260,6 +255,36 @@ mark {
 @keyframes pulse {
 	from { opacity: 1; }
 	to   { opacity: 0.5; }
+}
+
+#fb-friends {
+	/*float: right;*/
+	margin-top: 0;
+	padding: 0.5em 0;
+	background-color: #e4e4e4;
+}
+
+#fb-friends > li {
+	/*display: inline-block;*/
+	margin-bottom: 0;
+	float: right;
+}
+
+#fb-friends > li.hidden {
+	opacity: 0.4;
+}
+
+#fb-friends > li > a {
+	padding-left: 0;
+}
+#fb-friends > li > a > span {
+	padding-right: 8px;
+}
+
+#fb-friends img {
+	height: 2.2em;
+	vertical-align: middle;
+	margin-top: 1px; /* ? */
 }
 
 /* SCREENING STUFF */

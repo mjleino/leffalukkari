@@ -105,6 +105,11 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		$scope.scrollTarget = $filter('nextscreeningid')(screening)
 	}
 
+	$scope.friendKlik = function(friend) {
+		if ($scope.search.myfestival) friend.myfestival = ! friend.myfestival
+		else friend.hidden = ! friend.hidden
+	}
+
 	$scope.help = function(first) {
 		$scope.search.help = !!first || ! $scope.search.help
 		$scope.$storage.helpShown = true
@@ -437,6 +442,7 @@ app.filter('highlight', function() {
 
 app.filter('count', function() {
 	return function(obj) {
+		if (! obj) return undefined
 		if (angular.isObject(obj)) return Object.keys(obj).length
 		return obj.length
 	}
