@@ -270,8 +270,13 @@ mark {
 	float: right;
 }
 
-#fb-friends > li.hidden {
+#fb-friends:not(.myfestival) > li.hidden {
 	opacity: 0.4;
+}
+
+#fb-friends.myfestival > li.myfestival > a {
+	color: #fff;
+	background-color: #e74011;
 }
 
 #fb-friends > li > a {

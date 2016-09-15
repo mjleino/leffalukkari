@@ -55,8 +55,8 @@
 					<a href="#" title="{{ i18n.myfestivalwhat }} ({{ $storage.selected | count }} {{ i18n.selectedscreenings }})" ng-click="myFestival(); $event.preventDefault();">{{ i18n.myfestival }} ({{ $storage.selected | count }})</a>
 				</li>
 			</ul>
-			<ul id="fb-friends" ng-if="friends | count">
-				<li ng-repeat="friend in friends" ng-class="{active: friend.myfestival, hidden: friend.hidden }">
+			<ul id="fb-friends" ng-if="friends | count" ng-class="{myfestival: search.myfestival}">
+				<li ng-repeat="friend in friends" ng-class="{myfestival: friend.myfestival, hidden: friend.hidden }">
 					<a href="#" ng-click="$event.preventDefault(); friendKlik(friend);"
 						ontouchstart="this.classList.toggle('hover')">
 						<img ng-src="{{ friend.photoURL }}" alt="{{ friend.name }}" title="{{ friend.name }}">
