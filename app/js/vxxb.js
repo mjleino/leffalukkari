@@ -48,15 +48,8 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		$scope.i18n = $scope.data.i18n[$scope.locale]
 		if ($locale != "fi-fi") document.querySelector("#viiksipojat > span").textContent = $scope.i18n.viiksipojat
 
-		$scope.data.screeningsById = { }
-		$scope.data.screenings.forEach(function(screening) {
-			if (screening.id in $scope.data.screeningsById)
-				console.log("DUPLICATE SCREENING ID", screening.id)
-			$scope.data.screeningsById[screening.id] = screening
-		})
-
 		for (var id in $scope.$storage.selected) {
-			if (! $scope.data.screeningsById[id]) {
+			if (! $scope.data.screenings[id]) {
 				console.log("STORAGE SCREENING ID MISSING", id)
 			}
 		}
@@ -136,14 +129,15 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 			$scope.selectedCopy = angular.copy($scope.$storage.selected)
 		}
 
+		var userSelected = $scope.selectedCopy[id] || $scope.siblingIsSelected($scope.data.screenings[id], $scope.selectedCopy)
+
 		var friendSelected = 0
 		angular.forEach($scope.friends, function(friend) {
 			if (friend && friend.myfestival && friend.selected && friend.selected[id])
 				friendSelected++
 		})
 
-		return $scope.selectedCopy[id] || friendSelected
-			|| $scope.siblingIsSelected($scope.data.screeningsById[id], $scope.selectedCopy)
+		return userSelected || friendSelected
 	}
 
 	// filter function checking if search matches screening
@@ -153,7 +147,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		}
 		if (! screeningOrId) return false
 
-		var screening = angular.isObject(screeningOrId) ? screeningOrId : $scope.data.screeningsById[screeningOrId]
+		var screening = angular.isObject(screeningOrId) ? screeningOrId : $scope.data.screenings[screeningOrId]
 		var searchers = $scope.search.text.toLowerCase().split(" ")
 		var searchee  = screening.title.toLowerCase()
 
@@ -176,7 +170,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		return false
 
 		// WHY NO WORK HUH ?
-		// while (next = $scope.data.screeningsById[ $filter('nextscreeningid')(next) ] != screening) {
+		// while (next = $scope.data.screenings[ $filter('nextscreeningid')(next) ] != screening) {
 		// 	if ($scope.$storage.selected[next]) return true
 		// }
 		// return false
@@ -218,9 +212,9 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 		var keys = Object.keys($scope.$storage.selected)
 		var titles = keys.filter(function(id) {
-			return $scope.data.screeningsById[id]
+			return $scope.data.screenings[id]
 		}).map(function(id) {
-			return $scope.data.screeningsById[id].title
+			return $scope.data.screenings[id].title
 		})
 
 		FB.ui({
@@ -440,6 +434,7 @@ app.filter('highlight', function() {
 	}
 })
 
+// count arrray or object
 app.filter('count', function() {
 	return function(obj) {
 		if (! obj) return undefined

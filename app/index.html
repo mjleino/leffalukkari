@@ -80,7 +80,7 @@
 		<table id="screenings" ng-class="{myfestival: search.myfestival}">
 			<!-- thead boldly moved above inside nav -->
 			<tbody id="{{ day.id }}" ng-repeat="day in data.days"
-				   ng-show="(data.screenings | filter:{ dateId: day.id } | filter:myFestivalCheck | filter:searchCheck).length">
+				   ng-show="day | digger | filter:myFestivalCheck | filter:searchCheck | count">
 				<tr class="day">
 					<th colspan="7">
 						<h2 ng-class="{today: day.id == today}">
@@ -89,14 +89,14 @@
 					</th>
 				</tr>
 				<tr class="slot" ng-repeat="(slot, timeslot) in day.timeslots"
-					ng-if="(timeslot | timeslotnugger | filter:myFestivalCheck | filter:searchCheck).length">
+					ng-if="timeslot | timeslotnugger | filter:myFestivalCheck | filter:searchCheck | count">
 					<th class="slot{{ slot }}" ng-style="{ height: timeslot.duration * 1.5 + 'px' }">
 						<h2>
 							<time datetime="{{ timeslot.time }}">{{ slot }}</time>
 						</h2>
 					</th>
 					<td ng-repeat="theater in timeslot.theaters">
-						<screening ng-if="screeningId" ng-repeat="screeningId in theater | filter:myFestivalCheck | filter:searchCheck track by screeningId" ng-init="screening=data.screeningsById[screeningId]">
+						<screening ng-if="screeningId" ng-repeat="screeningId in theater | filter:myFestivalCheck | filter:searchCheck track by screeningId" ng-init="screening=data.screenings[screeningId]">
 						</screening>
 					</td>
 				</tr>

@@ -40,7 +40,7 @@ app.controller("DataNuggetController", function($scope, $http) {
 		var data = {
 			"config": config,
 			"i18n": i18n,
-			"screenings": screenings,
+			"screenings": { },
 			"days": { },
 			"slugs": { }
 		}
@@ -77,6 +77,11 @@ app.controller("DataNuggetController", function($scope, $http) {
 			var timeslotdatetime = new Date(datetime)
 			timeslotdatetime.setUTCHours(screening.timeslot-3, 0) // HOX -03:00
 			screening.timeslotdiff = (datetime-timeslotdatetime)/1000/60
+
+			if (screening.id in data.screenings)
+				console.log("DUPLICATE SCREENING ID", screening.id)
+
+			data.screenings[screening.id] = screening
 
 			var slug = screening.url
 			if (! (slug in data.slugs)) {
