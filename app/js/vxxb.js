@@ -57,6 +57,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		console.log("LOADING DONE", $scope.data)
 		window.DATA = $scope.data // DEBUGS
 		window.$scope = $scope
+		window.$filter = $filter
 	})
 
 	// observe final tbody so we know when table has loaded
@@ -159,21 +160,16 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 	// check if other screening(s) of this movie are selected
 	$scope.siblingIsSelected = function(screening, selectedStorage) {
-		var titleId = screening.id.substring(0, screening.id.length-1)
-		var numberTotal = screening.number.split("/") // is strings, all good
-		var me = numberTotal[0], total = numberTotal[1]
+		function next(screeningId) {
+			return $filter('nextscreeningid')($scope.data.screenings[screeningId])
+		}
 
-		for (var n = 1; n <= total; n++) {
-			if (n != me && (selectedStorage || $scope.$storage.selected)[titleId + n]) return true
+		var id = screening.id
+		while ((id = next(id)) && (id != screening.id)) {
+			if ((selectedStorage || $scope.$storage.selected)[id]) return true
 		}
 
 		return false
-
-		// WHY NO WORK HUH ?
-		// while (next = $scope.data.screenings[ $filter('nextscreeningid')(next) ] != screening) {
-		// 	if ($scope.$storage.selected[next]) return true
-		// }
-		// return false
 	}
 
 	// HELPER FUNCTIONS
@@ -289,7 +285,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	}
 
 	window.FB && FB.init({
-		appId      : '1207449112619346',
+		appId      : '1207489822615275',
 		cookie     : true,  // enable cookies to allow the server to access the session
 		xfbml      : true,  // parse social plugins on this page
 		version    : 'v2.7' // use graph api version 2.5
@@ -474,10 +470,10 @@ app.filter('digger', function() {
 // fetch next screening id: 1/3 -> 2/3 -> 3/3 -> 1/3 -> …
 app.filter('nextscreeningid', function() {
 	return function(screening) {
-		var titleId = screening.id.substring(0, screening.id.length-1)
+		if (! screening) return undefined
 		var numberTotal = screening.number.split("/")
 		var next = numberTotal[0] % numberTotal[1] + 1
-		return titleId + next
+		return screening.url + "-" + next
 	}
 })
 
