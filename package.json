@@ -3,18 +3,18 @@
   "name": "leffalukkari",
   "private": true,
   "dependencies": {
-    "angular": "^1.5.7",
-    "angular-i18n": "^1.5.7",
-    "angular-sanitize": "^1.5.7",
+    "angular": "^1.6.4",
+    "angular-i18n": "^1.6.4",
+    "angular-sanitize": "^1.6.4",
     "angular-scroll": "^1.0.0",
-    "ngstorage": "^0.3.10"
+    "ngstorage": "^0.3.11"
   },
   "devDependencies": {
-    "cheerio": "^0.20.0",
+    "cheerio": "^0.22.0",
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
-    "lite-server": "^2.2.2",
-    "request": "^2.74.0"
+    "lite-server": "^2.3.0",
+    "request": "^2.81.0"
   },
   "scripts": {
     "start": "npm run lite",
