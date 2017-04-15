@@ -19,7 +19,32 @@
 
 body {
 	padding-top: 82px;
+	margin: 0;
+	font-size: 91%;
 }
+
+/* FONTY STUFF */
+/* from espoocine.fi/2015/fi/StyleSheet/51.css */
+@font-face{font-family:'Cinecitta-Medium';src:url('http://www.espoocine.fi/fonts/Cinecitta-Medium.eot');src:url('http://www.espoocine.fi/fonts/Cinecitta-Medium.eot?#iefix') format('embedded-opentype'), url('http://www.espoocine.fi/fonts/Cinecitta-Medium.woff') format('woff'), url('http://www.espoocine.fi/fonts/Cinecitta-Medium.ttf') format('truetype');
+}
+nav a, h1, h2, h3, h4, .screening .fb-friends > li > span {
+	font-family: 'Cinecitta-Medium';
+}
+
+/* COMMON STUFF */
+
+a {
+	color: #e74011;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+h1 { font-size: 24px; }
+h2 { font-size: 18px; }
+h3 { font-size: 15px; }
+h4 { font-size: 13px; }
 
 #viiksipojat {
 	margin-top: 4em;
@@ -27,6 +52,8 @@ body {
 	margin-bottom: 1em;
 	color: #777;
 }
+
+/* SCREENING TABLE */
 
 table#theaters,
 table#screenings {
@@ -74,11 +101,12 @@ tr.theater > th {
 	padding-top: 1em;
 }
 tr.theater > th > * {
-	margin-bottom: 0;
+	margin: 0;
 }
 
 tr.slot > th > h2 {
-	font-size: 2em;
+	font-size: 2.2em;
+	margin: 0;
 	color: #777;
 }
 
@@ -119,7 +147,7 @@ tr.day > th {
 }
 
 tr.day > th > h2 {
-	font-size: 2em;
+	font-size: 2.2em;
 	margin: 0;
 }
 
@@ -130,8 +158,6 @@ tr.day > th > h2.today > time {
 /* DAY NAVIGATION */
 
 nav {
-	/* from espoocine.fi/2015/fi/StyleSheet/51.css */
-	/*font-family: 'Cinecitta-Medium';*/
 	font-size: 13px;
 	background-color: #eee;
 	position: fixed;
@@ -140,12 +166,8 @@ nav {
 	top: 0;
 }
 
-nav a {
-	font-family: 'Cinecitta-Medium';
-}
-
 nav > ul {
-	margin-bottom: 0;
+	margin-bottom: 2px;
 	padding-left: 0;
 	list-style: none;
 }
@@ -260,7 +282,7 @@ mark {
 #fb-friends {
 	/*float: right;*/
 	margin-top: 0;
-	padding: 0.5em 0;
+	padding: 4px 0;
 	background-color: #e4e4e4;
 }
 
@@ -367,7 +389,6 @@ screening {
 	background: black;
 	color: white;
 
-	font-size: 0.82em;
 	font-style: normal;
 	text-align: center;
 }
@@ -443,7 +464,6 @@ screening {
 .screening .fb-friends > li > span {
 	/*content: attr(alt);*/
 
-	font-family: 'Cinecitta-Medium';
 	white-space: nowrap;
 	background-color: white;
 	padding: 2px 2px 0px;
