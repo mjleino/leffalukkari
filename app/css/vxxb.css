@@ -83,8 +83,8 @@ table#theaters th:first-child > h2 {
 }
 
 th, td {
-	/* 6 * 16 + 4 = 100% */
-	width: 16%;
+	/* 9 * 11 + 4 = 103% KÄÄK */
+	width: 11%;
 	padding: 6px 8px;
 	vertical-align: top;
 	border-top: 1px solid #777;
@@ -112,19 +112,10 @@ tr.slot > th > h2 {
 
 /* TIMESLOT HEIGHTS */
 
-tr.slot:not(:last-child) > th.slot9 {
-	height: 90px !important;
-}
-
-tr.slot:not(:last-child) > th.slot8,
-tr.slot:not(:last-child) > th.slot10,
-tr.slot:not(:last-child) > th.slot15,
-tr.slot:not(:last-child) > th.slot17,
-tr.slot:not(:last-child) > th.slot19 {
+tr.slot:not(:last-child) > th {
 	height: 180px !important;
 }
 
-tr.slot:not(:last-child) > th.slot12,
 tr.slot:not(:last-child) > th.slot21 {
 	height: 270px !important;
 }

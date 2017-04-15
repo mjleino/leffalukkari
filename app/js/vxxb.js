@@ -13,9 +13,12 @@ var config = {
 	apiKey: "AIzaSyANhCceiEJfJAVliYu1fv_s7X52zE2OGoM",
 	authDomain: "leffalukkari.firebaseapp.com",
 	databaseURL: "https://leffalukkari.firebaseio.com",
+	projectId: "leffalukkari",
 	storageBucket: "leffalukkari.appspot.com",
+	messagingSenderId: "97795109066"
 }
 firebase.initializeApp(config)
+var firebaseUserPath = "espoocine/2017/users/"
 
 var app = angular.module("appLeffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
 
@@ -34,10 +37,10 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	$scope.sharecount = 0
 
 	$scope.$storage = $localStorage.$default({
-		2016: {
+		2017: {
 			selected: { }
 		}
-	})[2016]
+	})[2017]
 
 	// FETCH & PROCESS
 	$http.get("data/cinedata.json")
@@ -216,8 +219,8 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		FB.ui({
 			method: 	'share',
 			description: titles.join(", "),
-			picture: 	'http://www.espoocine.fi/2016/fi/Image/7509/ec16-paakuva.jpg',
-			href: 		"http://www.espoocine.fi/2016/fi/ohjelmisto/kalenteri" + "#/share/" + userRef.key + "/" + $scope.sharecount
+			picture: 	'http://www.espoocine.fi/2016/fi/Image/8250/paakuva.jpg',
+			href: 		"http://www.espoocine.fi/2017/fi/ohjelmisto/kalenteri" + "#/share/" + userRef.key + "/" + $scope.sharecount
 		}, function(response) {
 			userRef.child('sharecount').set($scope.sharecount)
 			console.log("SHARE DONE?", response)
@@ -243,7 +246,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		var share = split[3]
 
 		// TEMPORARY FRIEND
-		firebase.database().ref('users/' + id).once('value').then(function(data) {
+		firebase.database().ref(firebaseUserPath + id).once('value').then(function(data) {
 			console.log("GOT FB SHARE")
 			firebaseMergeShare(data, share)
 			$scope.search.fbshare = data.key
@@ -279,7 +282,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 			response.data.forEach(function(friend) {
 				userRef.child('friends').child(friend.id).set(friend.name)
 				// ALSO NOTIFY MY FRIENDS. SPAM ALERT.
-				firebase.database().ref('users/' + friend.id + '/friends/' + userRef.key).set($scope.user.displayName)
+				firebase.database().ref(firebaseUserPath + friend.id + '/friends/' + userRef.key).set($scope.user.displayName)
 			})
 		})
 	}
@@ -302,10 +305,10 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 	function firebaseUserRef() {
 		if (! $scope.user) return
-		// return firebase.database().ref('users/' + $scope.user.uid)
+		// return firebase.database().ref(firebaseUserPath + $scope.user.uid)
 		// NOTE: WE USE FACEBOOK ID
 		// TODO: when would there be more than one providerData
-		return firebase.database().ref('users/' + $scope.user.providerData[0].uid)
+		return firebase.database().ref(firebaseUserPath + $scope.user.providerData[0].uid)
 	}
 
 	$scope.firebaseSignIn = function() {
@@ -392,12 +395,12 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 		userRef.child("friends").on('child_added', function(data) {
 			console.log("FRIEND_ADDED", data.key, data.val())
-			firebase.database().ref('users/' + data.key).on('value', firebaseMergeFriend)
+			firebase.database().ref(firebaseUserPath + data.key).on('value', firebaseMergeFriend)
 		})
 
 		userRef.child("friends").on('child_removed', function(data) {
 			console.log("FRIEND_REMOVED", data.key, data.val())
-			firebase.database().ref('users/' + data.key).off()
+			firebase.database().ref(firebaseUserPath + data.key).off()
 			$timeout(function() {
 				$scope.friends[data.key] = null
 			})

@@ -8,9 +8,9 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_    __| | __ _| |_ __ _   _ __  _  
   \\_/ |_|_|_|\\_\\___/_| .__/ \\___// |\\__,_|\\__|  \\__,_|\\__,_|\\__\\__,_| |_| |_|\\__,_|\\__, |\\__, |\\___|\\__|_|  \\___/|_|\\__,_|___/\n\
                      |_|       |__/                                                |___/ |___/                                ")
 
-var app = angular.module("datanuggetror", [])
+var datanuggetrorApp = angular.module("datanuggetror", [])
 
-app.controller("DataNuggetController", function($scope, $http) {
+datanuggetrorApp.controller("DataNuggetController", function($scope, $http) {
 	// FETCH SCREENINGS.JSON DATA
 	$http.get("data/config.json")
 	.then(function(result) {
@@ -115,8 +115,8 @@ app.controller("DataNuggetController", function($scope, $http) {
 		})
 
 		// POST-PROCESS HACKS FOR EMPTY SLOTS
-		data.days["pe-26"].timeslots[12] = angular.copy(timeslotsObject[12])
-		data.days["pe-26"].timeslots[12].theaters[config.theaters[0]].push(null)
+		data.days["su-07"].timeslots[17] = angular.copy(timeslotsObject[17])
+		data.days["su-07"].timeslots[17].theaters[config.theaters[0]].push(null)
 
 		return data
 	}

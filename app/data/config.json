@@ -1,11 +1,14 @@
 {
-	"timeslots": [9, 10, 12, 15, 17, 19, 21],
+	"timeslots": [9, 11, 13, 15, 17, 19, 21],
 	"theaters": [
 		"Kino Tapiola",
 		"Tapiolasali",
 		"Louhisali",
 		"Sello 4",
 		"Sello 5",
+		"Omena 3",
+		"Omena 4",
+		"Omena 7",
 		"Muut"
 	]
 }
