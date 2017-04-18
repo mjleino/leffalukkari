@@ -535,41 +535,40 @@ td:last-child .fb-friends span {
 
 /* HACKED SCREENING BOXES */
 
+#versus-the-life-and-films-of-ken-loach-E {
+	left: calc(-100% - 8px);
+}
+
+.screening.special[id^="rabarber-"] {
+	left: calc(-100% - 8px);
+}
+.screening.special[id^="rabarber-"] h3 {
+	margin-bottom: 4px;
+}
+
 .screening[id^="animaatioita-"] {
 	height: 78px !important;
+	margin-bottom: 4px;
+	position: static;
 }
 .screening.special[id^="animaatioita-"] {
 	height: 88px !important;
 }
-.screening[id^="animaatioita-"] h3 {
+.screening[id^="animaatioita-"] h3,
+.screening[id^="lyhytelokuvia-"] h3 {
 	margin-bottom: 4px;
-}
-.screening.special[id^="animaatioita-"] h3 {
-	text-align: right;
-}
-
-#animaatioita-lapsille-7,
-#animaatioita-lapsille-8 {
-	left: calc(-200% - 16px);
-}
-#animaatioita-lapsille-9,
-#animaatioita-lapsille-10 {
-	left: calc(-100% - 8px);
 }
 
 #kikattava-kakkiainen-1 {
-	top: -6px !important;
-	height: 70px !important;
+	height: 78px !important;
 }
 #kikattava-kakkiainen-1 h3 {
-	margin-bottom: -2px;
+	margin-bottom: 4px;
 }
 
-#raparperimehua-2 {
-	left: calc(-150% - 16px);
+#papulabox-1 {
+	height: 60px !important;
 }
-
-.screening[id^="toivola-eleganssi-"] h3,
-.screening[id^="lives-of-therese-"] h3 {
+#papulabox-1 h3 {
 	margin-bottom: 4px;
 }
