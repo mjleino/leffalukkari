@@ -24,11 +24,6 @@
   "i18n": {
     "fi": {
       "theaters": {
-        "Kino Tapiola": "Kino Tapiola",
-        "Tapiolasali": "Tapiolasali",
-        "Louhisali": "Louhisali",
-        "Sello 4": "Sello 4",
-        "Sello 5": "Sello 5",
         "Muut": "Muut"
       },
       "help": [
@@ -55,11 +50,6 @@
     },
     "en": {
       "theaters": {
-        "Kino Tapiola": "Kino Tapiola",
-        "Tapiolasali": "Tapiolasali",
-        "Louhisali": "Louhisali",
-        "Sello 4": "Sello 4",
-        "Sello 5": "Sello 5",
         "Muut": "Others"
       },
       "help": [
@@ -86,27 +76,7 @@
     }
   },
   "screenings": {
-    "pressileffa--jäljet-tai-plan-b--nocturama-": {
-      "date": "2017-04-19",
-      "time": "00:00",
-      "theater": "Orion",
-      "title": "Pressileffa: Jäljet tai plan b: Nocturama",
-      "director": "",
-      "duration": "",
-      "subtitles": "",
-      "number": "",
-      "rating": "",
-      "img": "#N/A",
-      "url": "pressileffa--jäljet-tai-plan-b--nocturama",
-      "extraurl": "",
-      "id": "pressileffa--jäljet-tai-plan-b--nocturama-",
-      "datetime": "2017-04-18T21:00:00.000Z",
-      "dateId": "ti-18",
-      "timeslot": 21,
-      "timeslotdiff": 180,
-      "special": true
-    },
-    "at-your-doorstep-E": {
+    "cerca-de-tu-casa-E": {
       "date": "2017-04-25",
       "time": "19:30",
       "theater": "Kino Tapiola",
@@ -116,16 +86,16 @@
       "subtitles": "eng",
       "number": "E",
       "rating": "S",
-      "img": "#N/A",
-      "url": "at-your-doorstep",
+      "img": "8277",
+      "url": "cerca-de-tu-casa",
       "extraurl": "",
-      "id": "at-your-doorstep-E",
+      "id": "cerca-de-tu-casa-E",
       "datetime": "2017-04-25T16:30:00.000Z",
       "dateId": "ti-25",
       "timeslot": 19,
       "timeslotdiff": 30
     },
-    "this-is-our-land-E": {
+    "chez-nous-E": {
       "date": "2017-04-27",
       "time": "18:30",
       "theater": "WHS Teatteri Union",
@@ -135,10 +105,10 @@
       "subtitles": "eng",
       "number": "E",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "this-is-our-land",
+      "img": "8476",
+      "url": "chez-nous",
       "extraurl": "",
-      "id": "this-is-our-land-E",
+      "id": "chez-nous-E",
       "datetime": "2017-04-27T15:30:00.000Z",
       "dateId": "to-27",
       "timeslot": 17,
@@ -155,7 +125,7 @@
       "subtitles": "eng",
       "number": "E",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8440",
       "url": "mister-universo",
       "extraurl": "",
       "id": "mister-universo-E",
@@ -165,7 +135,7 @@
       "timeslotdiff": 30,
       "special": true
     },
-    "dreaming-of-wine-E": {
+    "priorat-E": {
       "date": "2017-04-29",
       "time": "15:00",
       "theater": "Riviera",
@@ -175,17 +145,17 @@
       "subtitles": "eng",
       "number": "E",
       "rating": "S",
-      "img": "#N/A",
-      "url": "dreaming-of-wine",
+      "img": "8319",
+      "url": "priorat",
       "extraurl": "",
-      "id": "dreaming-of-wine-E",
+      "id": "priorat-E",
       "datetime": "2017-04-29T12:00:00.000Z",
       "dateId": "la-29",
       "timeslot": 15,
       "timeslotdiff": 0,
       "special": true
     },
-    "the-life-and-films-of-ken-loach-E": {
+    "versus-the-life-and-films-of-ken-loach-E": {
       "date": "2017-04-29",
       "time": "16:00",
       "theater": "Korjaamo",
@@ -195,17 +165,17 @@
       "subtitles": "",
       "number": "E",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-life-and-films-of-ken-loach",
+      "img": "8428",
+      "url": "versus-the-life-and-films-of-ken-loach",
       "extraurl": "",
-      "id": "the-life-and-films-of-ken-loach-E",
+      "id": "versus-the-life-and-films-of-ken-loach-E",
       "datetime": "2017-04-29T13:00:00.000Z",
       "dateId": "la-29",
       "timeslot": 15,
       "timeslotdiff": 60,
       "special": true
     },
-    "never-ever-E": {
+    "a-jamais-E": {
       "date": "2017-04-29",
       "time": "18:00",
       "theater": "Korjaamo",
@@ -215,10 +185,10 @@
       "subtitles": "eng",
       "number": "E",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "never-ever",
+      "img": "8455",
+      "url": "a-jamais",
       "extraurl": "",
-      "id": "never-ever-E",
+      "id": "a-jamais-E",
       "datetime": "2017-04-29T15:00:00.000Z",
       "dateId": "la-29",
       "timeslot": 17,
@@ -282,7 +252,7 @@
       "timeslot": 15,
       "timeslotdiff": 90
     },
-    "eastern-business-1": {
+    "afacerea-est-1": {
       "date": "2017-05-05",
       "time": "17:00",
       "theater": "Kino Tapiola",
@@ -292,10 +262,10 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "eastern-business",
+      "img": "8322",
+      "url": "afacerea-est",
       "extraurl": "",
-      "id": "eastern-business-1",
+      "id": "afacerea-est-1",
       "datetime": "2017-05-05T14:00:00.000Z",
       "dateId": "pe-05",
       "timeslot": 17,
@@ -311,7 +281,7 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8440",
       "url": "mister-universo",
       "extraurl": "",
       "id": "mister-universo-2",
@@ -330,7 +300,7 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8405",
       "url": "king-of-the-belgians",
       "extraurl": "",
       "id": "king-of-the-belgians-1",
@@ -339,7 +309,7 @@
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "the-giant-1": {
+    "jatten-1": {
       "date": "2017-05-05",
       "time": "18:45",
       "theater": "Louhisali",
@@ -349,16 +319,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-giant",
+      "img": "8343",
+      "url": "jatten",
       "extraurl": "",
-      "id": "the-giant-1",
+      "id": "jatten-1",
       "datetime": "2017-05-05T15:45:00.000Z",
       "dateId": "pe-05",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "jäljet-1": {
+    "pokot-1": {
       "date": "2017-05-05",
       "time": "19:00",
       "theater": "Tapiolasali",
@@ -368,10 +338,10 @@
       "subtitles": "fin + swe",
       "number": "1/1",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "jäljet",
+      "img": "8381",
+      "url": "pokot",
       "extraurl": "",
-      "id": "jäljet-1",
+      "id": "pokot-1",
       "datetime": "2017-05-05T16:00:00.000Z",
       "dateId": "pe-05",
       "timeslot": 19,
@@ -387,7 +357,7 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8284",
       "url": "axolotl-overkill",
       "extraurl": "",
       "id": "axolotl-overkill-1",
@@ -396,7 +366,7 @@
       "timeslot": 19,
       "timeslotdiff": 90
     },
-    "in-the-blood-1": {
+    "i-blodet-1": {
       "date": "2017-05-05",
       "time": "20:30",
       "theater": "Louhisali",
@@ -406,16 +376,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "in-the-blood",
+      "img": "8372",
+      "url": "i-blodet",
       "extraurl": "",
-      "id": "in-the-blood-1",
+      "id": "i-blodet-1",
       "datetime": "2017-05-05T17:30:00.000Z",
       "dateId": "pe-05",
       "timeslot": 19,
       "timeslotdiff": 90
     },
-    "still-life-1": {
+    "gorge-coeur-ventre-1": {
       "date": "2017-05-05",
       "time": "21:30",
       "theater": "Tapiolasali",
@@ -425,10 +395,10 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "still-life",
+      "img": "8542",
+      "url": "gorge-coeur-ventre",
       "extraurl": "",
-      "id": "still-life-1",
+      "id": "gorge-coeur-ventre-1",
       "datetime": "2017-05-05T18:30:00.000Z",
       "dateId": "pe-05",
       "timeslot": 21,
@@ -444,7 +414,7 @@
       "subtitles": "",
       "number": "1/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-1",
@@ -453,7 +423,7 @@
       "timeslot": 9,
       "timeslotdiff": 60
     },
-    "a-woman-s-life-1": {
+    "vie-une-1": {
       "date": "2017-05-06",
       "time": "11:00",
       "theater": "Kino Tapiola",
@@ -463,10 +433,10 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-woman-s-life",
+      "img": "8607",
+      "url": "vie-une",
       "extraurl": "",
-      "id": "a-woman-s-life-1",
+      "id": "vie-une-1",
       "datetime": "2017-05-06T08:00:00.000Z",
       "dateId": "la-06",
       "timeslot": 11,
@@ -482,7 +452,7 @@
       "subtitles": "",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8629",
       "url": "kikattava-kakkiainen",
       "extraurl": "",
       "id": "kikattava-kakkiainen-1",
@@ -491,7 +461,7 @@
       "timeslot": 11,
       "timeslotdiff": 0
     },
-    "the-death-of-louis-xiv-1": {
+    "mort-de-louis-xiv-la-1": {
       "date": "2017-05-06",
       "time": "11:00",
       "theater": "Tapiolasali",
@@ -501,10 +471,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "the-death-of-louis-xiv",
+      "img": "8304",
+      "url": "mort-de-louis-xiv-la",
       "extraurl": "",
-      "id": "the-death-of-louis-xiv-1",
+      "id": "mort-de-louis-xiv-la-1",
       "datetime": "2017-05-06T08:00:00.000Z",
       "dateId": "la-06",
       "timeslot": 11,
@@ -520,7 +490,7 @@
       "subtitles": "",
       "number": "1/2",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8644",
       "url": "lyhytelokuvia-lapsille",
       "extraurl": "",
       "id": "lyhytelokuvia-lapsille-1",
@@ -529,7 +499,7 @@
       "timeslot": 11,
       "timeslotdiff": 60
     },
-    "the-graduation-1": {
+    "concours-le-1": {
       "date": "2017-05-06",
       "time": "13:15",
       "theater": "Kino Tapiola",
@@ -539,10 +509,10 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "the-graduation",
+      "img": "8346",
+      "url": "concours-le",
       "extraurl": "",
-      "id": "the-graduation-1",
+      "id": "concours-le-1",
       "datetime": "2017-05-06T10:15:00.000Z",
       "dateId": "la-06",
       "timeslot": 13,
@@ -558,7 +528,7 @@
       "subtitles": "",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8593",
       "url": "papulabox",
       "extraurl": "",
       "id": "papulabox-1",
@@ -567,7 +537,7 @@
       "timeslot": 13,
       "timeslotdiff": 15
     },
-    "the-sense-of-an-ending-1": {
+    "sense-of-an-ending-the-1": {
       "date": "2017-05-06",
       "time": "13:15",
       "theater": "Tapiolasali",
@@ -577,16 +547,16 @@
       "subtitles": "",
       "number": "1/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-sense-of-an-ending",
+      "img": "8524",
+      "url": "sense-of-an-ending-the",
       "extraurl": "",
-      "id": "the-sense-of-an-ending-1",
+      "id": "sense-of-an-ending-the-1",
       "datetime": "2017-05-06T10:15:00.000Z",
       "dateId": "la-06",
       "timeslot": 13,
       "timeslotdiff": 15
     },
-    "elämäni-kesäkurpitsana-1": {
+    "ma-vie-de-courgette-1": {
       "date": "2017-05-06",
       "time": "14:00",
       "theater": "Louhisali",
@@ -596,16 +566,16 @@
       "subtitles": "fin + swe",
       "number": "1/1",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "elämäni-kesäkurpitsana",
+      "img": "8331",
+      "url": "ma-vie-de-courgette",
       "extraurl": "",
-      "id": "elämäni-kesäkurpitsana-1",
+      "id": "ma-vie-de-courgette-1",
       "datetime": "2017-05-06T11:00:00.000Z",
       "dateId": "la-06",
       "timeslot": 13,
       "timeslotdiff": 60
     },
-    "a-kid-1": {
+    "fils-de-jean-le-1": {
       "date": "2017-05-06",
       "time": "15:15",
       "theater": "Kino Tapiola",
@@ -615,10 +585,10 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-kid",
+      "img": "8396",
+      "url": "fils-de-jean-le",
       "extraurl": "",
-      "id": "a-kid-1",
+      "id": "fils-de-jean-le-1",
       "datetime": "2017-05-06T12:15:00.000Z",
       "dateId": "la-06",
       "timeslot": 15,
@@ -634,7 +604,7 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8527",
       "url": "sieranevada",
       "extraurl": "",
       "id": "sieranevada-1",
@@ -653,7 +623,7 @@
       "subtitles": "",
       "number": "1/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8369",
       "url": "in-loco-parentis",
       "extraurl": "",
       "id": "in-loco-parentis-1",
@@ -662,7 +632,7 @@
       "timeslot": 15,
       "timeslotdiff": 30
     },
-    "the-man-1": {
+    "mesteren-1": {
       "date": "2017-05-06",
       "time": "17:15",
       "theater": "Kino Tapiola",
@@ -672,16 +642,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-man",
+      "img": "8425",
+      "url": "mesteren",
       "extraurl": "",
-      "id": "the-man-1",
+      "id": "mesteren-1",
       "datetime": "2017-05-06T14:15:00.000Z",
       "dateId": "la-06",
       "timeslot": 17,
       "timeslotdiff": 15
     },
-    "the-hippopotamus-1": {
+    "hippopotamus-the-1": {
       "date": "2017-05-06",
       "time": "17:30",
       "theater": "Louhisali",
@@ -691,10 +661,10 @@
       "subtitles": "",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-hippopotamus",
+      "img": "8357",
+      "url": "hippopotamus-the",
       "extraurl": "",
-      "id": "the-hippopotamus-1",
+      "id": "hippopotamus-the-1",
       "datetime": "2017-05-06T14:30:00.000Z",
       "dateId": "la-06",
       "timeslot": 17,
@@ -710,7 +680,7 @@
       "subtitles": "",
       "number": "1/2",
       "rating": "K7",
-      "img": "#N/A",
+      "img": "8307",
       "url": "denial",
       "extraurl": "",
       "id": "denial-1",
@@ -719,7 +689,7 @@
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "on-the-milky-road-1": {
+    "na-mlecnom-putu-1": {
       "date": "2017-05-06",
       "time": "19:00",
       "theater": "Kino Tapiola",
@@ -729,16 +699,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "on-the-milky-road",
+      "img": "8467",
+      "url": "na-mlecnom-putu",
       "extraurl": "",
-      "id": "on-the-milky-road-1",
+      "id": "na-mlecnom-putu-1",
       "datetime": "2017-05-06T16:00:00.000Z",
       "dateId": "la-06",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "the-dancer-1": {
+    "danseuse-la-1": {
       "date": "2017-05-06",
       "time": "19:15",
       "theater": "Louhisali",
@@ -748,10 +718,10 @@
       "subtitles": "fin + swe",
       "number": "1/1",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-dancer",
+      "img": "8298",
+      "url": "danseuse-la",
       "extraurl": "",
-      "id": "the-dancer-1",
+      "id": "danseuse-la-1",
       "datetime": "2017-05-06T16:15:00.000Z",
       "dateId": "la-06",
       "timeslot": 19,
@@ -767,7 +737,7 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8518",
       "url": "safari",
       "extraurl": "",
       "id": "safari-1",
@@ -776,7 +746,7 @@
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "to-stay-alive-1": {
+    "overleven-een-handleiding-1": {
       "date": "2017-05-06",
       "time": "21:15",
       "theater": "Kino Tapiola",
@@ -786,16 +756,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "S",
-      "img": "#N/A",
-      "url": "to-stay-alive",
+      "img": "8479",
+      "url": "overleven-een-handleiding",
       "extraurl": "",
-      "id": "to-stay-alive-1",
+      "id": "overleven-een-handleiding-1",
       "datetime": "2017-05-06T18:15:00.000Z",
       "dateId": "la-06",
       "timeslot": 21,
       "timeslotdiff": 15
     },
-    "playground-1": {
+    "plac-zabaw-1": {
       "date": "2017-05-06",
       "time": "21:15",
       "theater": "Louhisali",
@@ -805,16 +775,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "playground",
+      "img": "8500",
+      "url": "plac-zabaw",
       "extraurl": "",
-      "id": "playground-1",
+      "id": "plac-zabaw-1",
       "datetime": "2017-05-06T18:15:00.000Z",
       "dateId": "la-06",
       "timeslot": 21,
       "timeslotdiff": 15
     },
-    "pohjoismaiset-lyhärit-1": {
+    "nordic-shorts-1": {
       "date": "2017-05-07",
       "time": "11:00",
       "theater": "Kino Tapiola",
@@ -824,16 +794,16 @@
       "subtitles": "eng",
       "number": "1/1",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "pohjoismaiset-lyhärit",
+      "img": "8638",
+      "url": "nordic-shorts",
       "extraurl": "",
-      "id": "pohjoismaiset-lyhärit-1",
+      "id": "nordic-shorts-1",
       "datetime": "2017-05-07T08:00:00.000Z",
       "dateId": "su-07",
       "timeslot": 11,
       "timeslotdiff": 0
     },
-    "handle-with-care-1": {
+    "hjertestart-1": {
       "date": "2017-05-07",
       "time": "13:00",
       "theater": "Kino Tapiola",
@@ -843,16 +813,16 @@
       "subtitles": "eng",
       "number": "1/1",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "handle-with-care",
+      "img": "8349",
+      "url": "hjertestart",
       "extraurl": "",
-      "id": "handle-with-care-1",
+      "id": "hjertestart-1",
       "datetime": "2017-05-07T10:00:00.000Z",
       "dateId": "su-07",
       "timeslot": 13,
       "timeslotdiff": 0
     },
-    "the-red-turtle-1": {
+    "tortue-rouge-la-1": {
       "date": "2017-05-07",
       "time": "13:00",
       "theater": "Tapiolasali",
@@ -862,16 +832,16 @@
       "subtitles": "",
       "number": "1/1",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "the-red-turtle",
+      "img": "8509",
+      "url": "tortue-rouge-la",
       "extraurl": "",
-      "id": "the-red-turtle-1",
+      "id": "tortue-rouge-la-1",
       "datetime": "2017-05-07T10:00:00.000Z",
       "dateId": "su-07",
       "timeslot": 13,
       "timeslotdiff": 0
     },
-    "robert-doisneau-1": {
+    "robert-doisneau-le-revolte-du-merveilleux-1": {
       "date": "2017-05-07",
       "time": "13:15",
       "theater": "Louhisali",
@@ -881,10 +851,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "S",
-      "img": "#N/A",
-      "url": "robert-doisneau",
+      "img": "8582",
+      "url": "robert-doisneau-le-revolte-du-merveilleux",
       "extraurl": "",
-      "id": "robert-doisneau-1",
+      "id": "robert-doisneau-le-revolte-du-merveilleux-1",
       "datetime": "2017-05-07T10:15:00.000Z",
       "dateId": "su-07",
       "timeslot": 13,
@@ -900,7 +870,7 @@
       "subtitles": "",
       "number": "1/2",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8551",
       "url": "their-finest",
       "extraurl": "",
       "id": "their-finest-1",
@@ -919,7 +889,7 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8287",
       "url": "beuys",
       "extraurl": "",
       "id": "beuys-1",
@@ -928,7 +898,7 @@
       "timeslot": 13,
       "timeslotdiff": 105
     },
-    "50-is-the-new-30-1": {
+    "marie-francine-1": {
       "date": "2017-05-07",
       "time": "15:00",
       "theater": "Kino Tapiola",
@@ -938,16 +908,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "50-is-the-new-30",
+      "img": "8554",
+      "url": "marie-francine",
       "extraurl": "",
-      "id": "50-is-the-new-30-1",
+      "id": "marie-francine-1",
       "datetime": "2017-05-07T12:00:00.000Z",
       "dateId": "su-07",
       "timeslot": 15,
       "timeslotdiff": 0
     },
-    "the-distinguished-citizen-1": {
+    "ciudadano-ilustre-el-1": {
       "date": "2017-05-07",
       "time": "16:45",
       "theater": "Kino Tapiola",
@@ -957,16 +927,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-distinguished-citizen",
+      "img": "8313",
+      "url": "ciudadano-ilustre-el",
       "extraurl": "",
-      "id": "the-distinguished-citizen-1",
+      "id": "ciudadano-ilustre-el-1",
       "datetime": "2017-05-07T13:45:00.000Z",
       "dateId": "su-07",
       "timeslot": 15,
       "timeslotdiff": 105
     },
-    "cezanne-and-i-1": {
+    "cezanne-et-moi-1": {
       "date": "2017-05-07",
       "time": "16:45",
       "theater": "Louhisali",
@@ -976,16 +946,16 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "cezanne-and-i",
+      "img": "8295",
+      "url": "cezanne-et-moi",
       "extraurl": "",
-      "id": "cezanne-and-i-1",
+      "id": "cezanne-et-moi-1",
       "datetime": "2017-05-07T13:45:00.000Z",
       "dateId": "su-07",
       "timeslot": 15,
       "timeslotdiff": 105
     },
-    "muistoja-äidistäni-1": {
+    "fai-bei-sogni-1": {
       "date": "2017-05-07",
       "time": "16:45",
       "theater": "Tapiolasali",
@@ -995,16 +965,16 @@
       "subtitles": "fin + swe",
       "number": "1/1",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "muistoja-äidistäni",
+      "img": "8449",
+      "url": "fai-bei-sogni",
       "extraurl": "",
-      "id": "muistoja-äidistäni-1",
+      "id": "fai-bei-sogni-1",
       "datetime": "2017-05-07T13:45:00.000Z",
       "dateId": "su-07",
       "timeslot": 15,
       "timeslotdiff": 105
     },
-    "afterimage-1": {
+    "powidoki-1": {
       "date": "2017-05-07",
       "time": "19:00",
       "theater": "Kino Tapiola",
@@ -1014,10 +984,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "afterimage",
+      "img": "8574",
+      "url": "powidoki",
       "extraurl": "",
-      "id": "afterimage-1",
+      "id": "powidoki-1",
       "datetime": "2017-05-07T16:00:00.000Z",
       "dateId": "su-07",
       "timeslot": 19,
@@ -1033,7 +1003,7 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8461",
       "url": "nocturama",
       "extraurl": "",
       "id": "nocturama-1",
@@ -1042,7 +1012,7 @@
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "this-is-our-land-2": {
+    "chez-nous-2": {
       "date": "2017-05-07",
       "time": "19:15",
       "theater": "Tapiolasali",
@@ -1052,16 +1022,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "this-is-our-land",
+      "img": "8476",
+      "url": "chez-nous",
       "extraurl": "",
-      "id": "this-is-our-land-2",
+      "id": "chez-nous-2",
       "datetime": "2017-05-07T16:15:00.000Z",
       "dateId": "su-07",
       "timeslot": 19,
       "timeslotdiff": 15
     },
-    "julie-and-the-shoe-factory-1": {
+    "sur-quel-pied-danser-1": {
       "date": "2017-05-07",
       "time": "21:00",
       "theater": "Kino Tapiola",
@@ -1071,16 +1041,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "julie-and-the-shoe-factory",
+      "img": "8633",
+      "url": "sur-quel-pied-danser",
       "extraurl": "",
-      "id": "julie-and-the-shoe-factory-1",
+      "id": "sur-quel-pied-danser-1",
       "datetime": "2017-05-07T18:00:00.000Z",
       "dateId": "su-07",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "the-fury-of-a-patient-man-1": {
+    "tarde-para-la-ira-1": {
       "date": "2017-05-07",
       "time": "21:15",
       "theater": "Louhisali",
@@ -1090,16 +1060,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "the-fury-of-a-patient-man",
+      "img": "8340",
+      "url": "tarde-para-la-ira",
       "extraurl": "",
-      "id": "the-fury-of-a-patient-man-1",
+      "id": "tarde-para-la-ira-1",
       "datetime": "2017-05-07T18:15:00.000Z",
       "dateId": "su-07",
       "timeslot": 21,
       "timeslotdiff": 15
     },
-    "skins-1": {
+    "pieles-1": {
       "date": "2017-05-07",
       "time": "21:30",
       "theater": "Tapiolasali",
@@ -1109,10 +1079,10 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "skins",
+      "img": "8533",
+      "url": "pieles",
       "extraurl": "",
-      "id": "skins-1",
+      "id": "pieles-1",
       "datetime": "2017-05-07T18:30:00.000Z",
       "dateId": "su-07",
       "timeslot": 21,
@@ -1128,7 +1098,7 @@
       "subtitles": "",
       "number": "2/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-2",
@@ -1148,7 +1118,7 @@
       "subtitles": "",
       "number": "E",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-E",
@@ -1168,7 +1138,7 @@
       "subtitles": "",
       "number": "3/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-3",
@@ -1188,7 +1158,7 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8316",
       "url": "donkeyote",
       "extraurl": "",
       "id": "donkeyote-1",
@@ -1197,7 +1167,7 @@
       "timeslot": 13,
       "timeslotdiff": 105
     },
-    "enclave-1": {
+    "enklava-1": {
       "date": "2017-05-08",
       "time": "15:00",
       "theater": "Kino Tapiola",
@@ -1207,10 +1177,10 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "enclave",
+      "img": "8605",
+      "url": "enklava",
       "extraurl": "",
-      "id": "enclave-1",
+      "id": "enklava-1",
       "datetime": "2017-05-08T12:00:00.000Z",
       "dateId": "ma-08",
       "timeslot": 15,
@@ -1226,7 +1196,7 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8363",
       "url": "home",
       "extraurl": "",
       "id": "home-1",
@@ -1245,7 +1215,7 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8431",
       "url": "marie-curie",
       "extraurl": "",
       "id": "marie-curie-1",
@@ -1254,7 +1224,7 @@
       "timeslot": 15,
       "timeslotdiff": 90
     },
-    "at-your-doorstep-1": {
+    "cerca-de-tu-casa-1": {
       "date": "2017-05-08",
       "time": "16:45",
       "theater": "Kino Tapiola",
@@ -1264,10 +1234,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "S",
-      "img": "#N/A",
-      "url": "at-your-doorstep",
+      "img": "8277",
+      "url": "cerca-de-tu-casa",
       "extraurl": "",
-      "id": "at-your-doorstep-1",
+      "id": "cerca-de-tu-casa-1",
       "datetime": "2017-05-08T13:45:00.000Z",
       "dateId": "ma-08",
       "timeslot": 15,
@@ -1283,7 +1253,7 @@
       "subtitles": "eng",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8636",
       "url": "matka-jatkuu",
       "extraurl": "",
       "id": "matka-jatkuu-1",
@@ -1292,7 +1262,7 @@
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "the-giant-2": {
+    "jatten-2": {
       "date": "2017-05-08",
       "time": "18:00",
       "theater": "Hanasaari",
@@ -1302,17 +1272,17 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-giant",
+      "img": "8343",
+      "url": "jatten",
       "extraurl": "",
-      "id": "the-giant-2",
+      "id": "jatten-2",
       "datetime": "2017-05-08T15:00:00.000Z",
       "dateId": "ma-08",
       "timeslot": 17,
       "timeslotdiff": 60,
       "special": true
     },
-    "matka-on-pitkä-1": {
+    "matka-on-pitka-1": {
       "date": "2017-05-08",
       "time": "18:30",
       "theater": "Louhisali",
@@ -1322,16 +1292,16 @@
       "subtitles": "eng",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
-      "url": "matka-on-pitkä",
+      "img": "8637",
+      "url": "matka-on-pitka",
       "extraurl": "",
-      "id": "matka-on-pitkä-1",
+      "id": "matka-on-pitka-1",
       "datetime": "2017-05-08T15:30:00.000Z",
       "dateId": "ma-08",
       "timeslot": 17,
       "timeslotdiff": 90
     },
-    "the-king-s-choice-1": {
+    "kongens-nei-1": {
       "date": "2017-05-08",
       "time": "18:30",
       "theater": "Tapiolasali",
@@ -1341,16 +1311,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-king-s-choice",
+      "img": "8408",
+      "url": "kongens-nei",
       "extraurl": "",
-      "id": "the-king-s-choice-1",
+      "id": "kongens-nei-1",
       "datetime": "2017-05-08T15:30:00.000Z",
       "dateId": "ma-08",
       "timeslot": 17,
       "timeslotdiff": 90
     },
-    "requiem-for-mrs--j--1": {
+    "requiem-for-mrs-j-1": {
       "date": "2017-05-08",
       "time": "18:45",
       "theater": "Kino Tapiola",
@@ -1360,16 +1330,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "requiem-for-mrs--j-",
+      "img": "8512",
+      "url": "requiem-for-mrs-j",
       "extraurl": "",
-      "id": "requiem-for-mrs--j--1",
+      "id": "requiem-for-mrs-j-1",
       "datetime": "2017-05-08T15:45:00.000Z",
       "dateId": "ma-08",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "the-eavesdropper-1": {
+    "mecanique-de-lombre-la-1": {
       "date": "2017-05-08",
       "time": "20:45",
       "theater": "Kino Tapiola",
@@ -1379,16 +1349,16 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-eavesdropper",
+      "img": "8325",
+      "url": "mecanique-de-lombre-la",
       "extraurl": "",
-      "id": "the-eavesdropper-1",
+      "id": "mecanique-de-lombre-la-1",
       "datetime": "2017-05-08T17:45:00.000Z",
       "dateId": "ma-08",
       "timeslot": 19,
       "timeslotdiff": 105
     },
-    "egon-schiele-1": {
+    "egon-schiele-tod-und-madchen-1": {
       "date": "2017-05-08",
       "time": "20:45",
       "theater": "Louhisali",
@@ -1398,16 +1368,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "egon-schiele",
+      "img": "8328",
+      "url": "egon-schiele-tod-und-madchen",
       "extraurl": "",
-      "id": "egon-schiele-1",
+      "id": "egon-schiele-tod-und-madchen-1",
       "datetime": "2017-05-08T17:45:00.000Z",
       "dateId": "ma-08",
       "timeslot": 19,
       "timeslotdiff": 105
     },
-    "stalin-s-couch-1": {
+    "divan-de-staline-le-1": {
       "date": "2017-05-08",
       "time": "21:00",
       "theater": "Tapiolasali",
@@ -1417,10 +1387,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "stalin-s-couch",
+      "img": "8536",
+      "url": "divan-de-staline-le",
       "extraurl": "",
-      "id": "stalin-s-couch-1",
+      "id": "divan-de-staline-le-1",
       "datetime": "2017-05-08T18:00:00.000Z",
       "dateId": "ma-08",
       "timeslot": 21,
@@ -1436,7 +1406,7 @@
       "subtitles": "",
       "number": "4/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-4",
@@ -1456,7 +1426,7 @@
       "subtitles": "",
       "number": "6/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-6",
@@ -1475,7 +1445,7 @@
       "subtitles": "",
       "number": "5/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-5",
@@ -1485,7 +1455,7 @@
       "timeslotdiff": 0,
       "special": true
     },
-    "oskarin-amerikka-1": {
+    "oskars-amerika-1": {
       "date": "2017-05-09",
       "time": "09:30",
       "theater": "Kino Tapiola",
@@ -1495,16 +1465,16 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "oskarin-amerikka",
+      "img": "8485",
+      "url": "oskars-amerika",
       "extraurl": "",
-      "id": "oskarin-amerikka-1",
+      "id": "oskars-amerika-1",
       "datetime": "2017-05-09T06:30:00.000Z",
       "dateId": "ti-09",
       "timeslot": 9,
       "timeslotdiff": 30
     },
-    "kanelia-kainaloon--tatu-ja-patu!-1": {
+    "kanelia-kainaloon-tatu-ja-patu-1": {
       "date": "2017-05-09",
       "time": "09:30",
       "theater": "Tapiolasali",
@@ -1514,10 +1484,10 @@
       "subtitles": "",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
-      "url": "kanelia-kainaloon--tatu-ja-patu!",
+      "img": "8390",
+      "url": "kanelia-kainaloon-tatu-ja-patu",
       "extraurl": "",
-      "id": "kanelia-kainaloon--tatu-ja-patu!-1",
+      "id": "kanelia-kainaloon-tatu-ja-patu-1",
       "datetime": "2017-05-09T06:30:00.000Z",
       "dateId": "ti-09",
       "timeslot": 9,
@@ -1533,7 +1503,7 @@
       "subtitles": "",
       "number": "7/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-7",
@@ -1553,7 +1523,7 @@
       "subtitles": "",
       "number": "8/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-8",
@@ -1562,7 +1532,7 @@
       "timeslot": 9,
       "timeslotdiff": 60
     },
-    "raparperimehua-E": {
+    "rabarber-E": {
       "date": "2017-05-11",
       "time": "09:30",
       "theater": "Korjaamo",
@@ -1572,17 +1542,17 @@
       "subtitles": "fin",
       "number": "E",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "raparperimehua",
+      "img": "8506",
+      "url": "rabarber",
       "extraurl": "",
-      "id": "raparperimehua-E",
+      "id": "rabarber-E",
       "datetime": "2017-05-11T06:30:00.000Z",
       "dateId": "to-11",
       "timeslot": 9,
       "timeslotdiff": 30,
       "special": true
     },
-    "onni-suosii-rohkeaa-3": {
+    "ente-gut-madchen-allein-zu-haus-3": {
       "date": "2017-05-09",
       "time": "10:00",
       "theater": "Sellosali",
@@ -1592,17 +1562,17 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "onni-suosii-rohkeaa",
+      "img": "7823",
+      "url": "ente-gut-madchen-allein-zu-haus",
       "extraurl": "",
-      "id": "onni-suosii-rohkeaa-3",
+      "id": "ente-gut-madchen-allein-zu-haus-3",
       "datetime": "2017-05-09T07:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 9,
       "timeslotdiff": 60,
       "special": true
     },
-    "onni-suosii-rohkeaa-1": {
+    "ente-gut-madchen-allein-zu-haus-1": {
       "date": "2017-05-12",
       "time": "09:30",
       "theater": "Kino Tapiola",
@@ -1612,16 +1582,16 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "onni-suosii-rohkeaa",
+      "img": "7823",
+      "url": "ente-gut-madchen-allein-zu-haus",
       "extraurl": "",
-      "id": "onni-suosii-rohkeaa-1",
+      "id": "ente-gut-madchen-allein-zu-haus-1",
       "datetime": "2017-05-12T06:30:00.000Z",
       "dateId": "pe-12",
       "timeslot": 9,
       "timeslotdiff": 30
     },
-    "silmätysten-1": {
+    "auf-augenhohe-1": {
       "date": "2017-05-09",
       "time": "11:00",
       "theater": "Kino Tapiola",
@@ -1631,16 +1601,16 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "silmätysten",
+      "img": "8530",
+      "url": "auf-augenhohe",
       "extraurl": "",
-      "id": "silmätysten-1",
+      "id": "auf-augenhohe-1",
       "datetime": "2017-05-09T08:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 11,
       "timeslotdiff": 0
     },
-    "offline-1": {
+    "offline-das-leben-ist-kein-bonuslevel-1": {
       "date": "2017-05-09",
       "time": "11:00",
       "theater": "Louhisali",
@@ -1650,16 +1620,16 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "offline",
+      "img": "8464",
+      "url": "offline-das-leben-ist-kein-bonuslevel",
       "extraurl": "",
-      "id": "offline-1",
+      "id": "offline-das-leben-ist-kein-bonuslevel-1",
       "datetime": "2017-05-09T08:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 11,
       "timeslotdiff": 0
     },
-    "kun-vielä-elämme-1": {
+    "medan-vi-lever-1": {
       "date": "2017-05-09",
       "time": "11:15",
       "theater": "Tapiolasali",
@@ -1669,16 +1639,16 @@
       "subtitles": "fin",
       "number": "1/2",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "kun-vielä-elämme",
+      "img": "8411",
+      "url": "medan-vi-lever",
       "extraurl": "",
-      "id": "kun-vielä-elämme-1",
+      "id": "medan-vi-lever-1",
       "datetime": "2017-05-09T08:15:00.000Z",
       "dateId": "ti-09",
       "timeslot": 11,
       "timeslotdiff": 15
     },
-    "kesäni-sudenkorentona-1": {
+    "kesani-sudenkorentona-1": {
       "date": "2017-05-09",
       "time": "13:00",
       "theater": "Louhisali",
@@ -1688,16 +1658,16 @@
       "subtitles": "eng",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
-      "url": "kesäni-sudenkorentona",
+      "img": "8393",
+      "url": "kesani-sudenkorentona",
       "extraurl": "",
-      "id": "kesäni-sudenkorentona-1",
+      "id": "kesani-sudenkorentona-1",
       "datetime": "2017-05-09T10:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 13,
       "timeslotdiff": 0
     },
-    "tulisilla-hiilillä-1": {
+    "glutnester-1": {
       "date": "2017-05-09",
       "time": "13:15",
       "theater": "Tapiolasali",
@@ -1707,10 +1677,10 @@
       "subtitles": "fin",
       "number": "1/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "tulisilla-hiilillä",
+      "img": "8601",
+      "url": "glutnester",
       "extraurl": "",
-      "id": "tulisilla-hiilillä-1",
+      "id": "glutnester-1",
       "datetime": "2017-05-09T10:15:00.000Z",
       "dateId": "ti-09",
       "timeslot": 13,
@@ -1726,7 +1696,7 @@
       "subtitles": "fin / eng",
       "number": "1/1",
       "rating": "K7/K12",
-      "img": "#N/A",
+      "img": "8399",
       "url": "kiehumispiste",
       "extraurl": "",
       "id": "kiehumispiste-1",
@@ -1735,7 +1705,7 @@
       "timeslot": 15,
       "timeslotdiff": 0
     },
-    "the-fabulous-patars-1": {
+    "cigarettes-et-chocolat-chaud-1": {
       "date": "2017-05-09",
       "time": "15:00",
       "theater": "Tapiolasali",
@@ -1745,16 +1715,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "the-fabulous-patars",
+      "img": "8334",
+      "url": "cigarettes-et-chocolat-chaud",
       "extraurl": "",
-      "id": "the-fabulous-patars-1",
+      "id": "cigarettes-et-chocolat-chaud-1",
       "datetime": "2017-05-09T12:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 15,
       "timeslotdiff": 0
     },
-    "willy-the-first-1": {
+    "willy-1er-1": {
       "date": "2017-05-09",
       "time": "17:00",
       "theater": "Omena 4",
@@ -1764,16 +1734,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "willy-the-first",
+      "img": "8452",
+      "url": "willy-1er",
       "extraurl": "",
-      "id": "willy-the-first-1",
+      "id": "willy-1er-1",
       "datetime": "2017-05-09T14:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "eastern-business-2": {
+    "afacerea-est-2": {
       "date": "2017-05-09",
       "time": "17:00",
       "theater": "Omena 7",
@@ -1783,10 +1753,10 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "eastern-business",
+      "img": "8322",
+      "url": "afacerea-est",
       "extraurl": "",
-      "id": "eastern-business-2",
+      "id": "afacerea-est-2",
       "datetime": "2017-05-09T14:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 17,
@@ -1802,7 +1772,7 @@
       "subtitles": "",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8310",
       "url": "departure",
       "extraurl": "",
       "id": "departure-1",
@@ -1811,7 +1781,7 @@
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "stefan-zweig-1": {
+    "vor-der-morgenrote-1": {
       "date": "2017-05-09",
       "time": "17:00",
       "theater": "Tapiolasali",
@@ -1821,16 +1791,16 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "stefan-zweig",
+      "img": "8539",
+      "url": "vor-der-morgenrote",
       "extraurl": "",
-      "id": "stefan-zweig-1",
+      "id": "vor-der-morgenrote-1",
       "datetime": "2017-05-09T14:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "the-graduation-2": {
+    "concours-le-2": {
       "date": "2017-05-09",
       "time": "17:15",
       "theater": "Kino Tapiola",
@@ -1840,16 +1810,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "the-graduation",
+      "img": "8346",
+      "url": "concours-le",
       "extraurl": "",
-      "id": "the-graduation-2",
+      "id": "concours-le-2",
       "datetime": "2017-05-09T14:15:00.000Z",
       "dateId": "ti-09",
       "timeslot": 17,
       "timeslotdiff": 15
     },
-    "this-is-our-land-3": {
+    "chez-nous-3": {
       "date": "2017-05-09",
       "time": "17:15",
       "theater": "Louhisali",
@@ -1859,10 +1829,10 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "this-is-our-land",
+      "img": "8476",
+      "url": "chez-nous",
       "extraurl": "",
-      "id": "this-is-our-land-3",
+      "id": "chez-nous-3",
       "datetime": "2017-05-09T14:15:00.000Z",
       "dateId": "ti-09",
       "timeslot": 17,
@@ -1878,7 +1848,7 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8488",
       "url": "paris-la-blanche",
       "extraurl": "",
       "id": "paris-la-blanche-1",
@@ -1887,7 +1857,7 @@
       "timeslot": 17,
       "timeslotdiff": 15
     },
-    "thanks-boss!-1": {
+    "merci-patron-1": {
       "date": "2017-05-09",
       "time": "17:15",
       "theater": "Sello 4",
@@ -1897,16 +1867,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "thanks-boss!",
+      "img": "8548",
+      "url": "merci-patron",
       "extraurl": "",
-      "id": "thanks-boss!-1",
+      "id": "merci-patron-1",
       "datetime": "2017-05-09T14:15:00.000Z",
       "dateId": "ti-09",
       "timeslot": 17,
       "timeslotdiff": 15
     },
-    "the-man-2": {
+    "mesteren-2": {
       "date": "2017-05-09",
       "time": "18:45",
       "theater": "Omena 4",
@@ -1916,16 +1886,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-man",
+      "img": "8425",
+      "url": "mesteren",
       "extraurl": "",
-      "id": "the-man-2",
+      "id": "mesteren-2",
       "datetime": "2017-05-09T15:45:00.000Z",
       "dateId": "ti-09",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "enclave-2": {
+    "enklava-2": {
       "date": "2017-05-09",
       "time": "18:45",
       "theater": "Omena 7",
@@ -1935,16 +1905,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "enclave",
+      "img": "8605",
+      "url": "enklava",
       "extraurl": "",
-      "id": "enclave-2",
+      "id": "enklava-2",
       "datetime": "2017-05-09T15:45:00.000Z",
       "dateId": "ti-09",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "a-taste-of-ink-1": {
+    "compte-tes-blessures-1": {
       "date": "2017-05-09",
       "time": "19:00",
       "theater": "Omena 3",
@@ -1954,16 +1924,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-taste-of-ink",
+      "img": "8545",
+      "url": "compte-tes-blessures",
       "extraurl": "",
-      "id": "a-taste-of-ink-1",
+      "id": "compte-tes-blessures-1",
       "datetime": "2017-05-09T16:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "julie-and-the-shoe-factory-2": {
+    "sur-quel-pied-danser-2": {
       "date": "2017-05-09",
       "time": "19:00",
       "theater": "Sello 4",
@@ -1973,16 +1943,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "julie-and-the-shoe-factory",
+      "img": "8633",
+      "url": "sur-quel-pied-danser",
       "extraurl": "",
-      "id": "julie-and-the-shoe-factory-2",
+      "id": "sur-quel-pied-danser-2",
       "datetime": "2017-05-09T16:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "cezanne-and-i-2": {
+    "cezanne-et-moi-2": {
       "date": "2017-05-09",
       "time": "19:00",
       "theater": "Tapiolasali",
@@ -1992,10 +1962,10 @@
       "subtitles": "fin",
       "number": "2/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "cezanne-and-i",
+      "img": "8295",
+      "url": "cezanne-et-moi",
       "extraurl": "",
-      "id": "cezanne-and-i-2",
+      "id": "cezanne-et-moi-2",
       "datetime": "2017-05-09T16:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 19,
@@ -2011,7 +1981,7 @@
       "subtitles": "text",
       "number": "2/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8369",
       "url": "in-loco-parentis",
       "extraurl": "",
       "id": "in-loco-parentis-2",
@@ -2020,7 +1990,7 @@
       "timeslot": 19,
       "timeslotdiff": 15
     },
-    "a-date-for-mad-mary-1": {
+    "date-for-mad-mary-a-1": {
       "date": "2017-05-09",
       "time": "19:15",
       "theater": "Sello 5",
@@ -2030,10 +2000,10 @@
       "subtitles": "",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-date-for-mad-mary",
+      "img": "8301",
+      "url": "date-for-mad-mary-a",
       "extraurl": "",
-      "id": "a-date-for-mad-mary-1",
+      "id": "date-for-mad-mary-a-1",
       "datetime": "2017-05-09T16:15:00.000Z",
       "dateId": "ti-09",
       "timeslot": 19,
@@ -2049,7 +2019,7 @@
       "subtitles": "fin",
       "number": "2/3",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8461",
       "url": "nocturama",
       "extraurl": "",
       "id": "nocturama-2",
@@ -2058,7 +2028,7 @@
       "timeslot": 19,
       "timeslotdiff": 90
     },
-    "into-the-forest-1": {
+    "dans-la-foret-1": {
       "date": "2017-05-09",
       "time": "20:45",
       "theater": "Omena 4",
@@ -2068,16 +2038,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "into-the-forest",
+      "img": "8375",
+      "url": "dans-la-foret",
       "extraurl": "",
-      "id": "into-the-forest-1",
+      "id": "dans-la-foret-1",
       "datetime": "2017-05-09T17:45:00.000Z",
       "dateId": "ti-09",
       "timeslot": 19,
       "timeslotdiff": 105
     },
-    "the-distinguished-citizen-2": {
+    "ciudadano-ilustre-el-2": {
       "date": "2017-05-09",
       "time": "20:45",
       "theater": "Sello 4",
@@ -2087,16 +2057,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-distinguished-citizen",
+      "img": "8313",
+      "url": "ciudadano-ilustre-el",
       "extraurl": "",
-      "id": "the-distinguished-citizen-2",
+      "id": "ciudadano-ilustre-el-2",
       "datetime": "2017-05-09T17:45:00.000Z",
       "dateId": "ti-09",
       "timeslot": 19,
       "timeslotdiff": 105
     },
-    "heartstone-1": {
+    "hjartasteinn-1": {
       "date": "2017-05-09",
       "time": "21:00",
       "theater": "Kino Tapiola",
@@ -2106,16 +2076,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "heartstone",
+      "img": "8354",
+      "url": "hjartasteinn",
       "extraurl": "",
-      "id": "heartstone-1",
+      "id": "hjartasteinn-1",
       "datetime": "2017-05-09T18:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "skins-2": {
+    "pieles-2": {
       "date": "2017-05-09",
       "time": "21:00",
       "theater": "Omena 3",
@@ -2125,10 +2095,10 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "skins",
+      "img": "8533",
+      "url": "pieles",
       "extraurl": "",
-      "id": "skins-2",
+      "id": "pieles-2",
       "datetime": "2017-05-09T18:00:00.000Z",
       "dateId": "ti-09",
       "timeslot": 21,
@@ -2144,7 +2114,7 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8577",
       "url": "back-for-good",
       "extraurl": "",
       "id": "back-for-good-1",
@@ -2153,7 +2123,7 @@
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "the-hippopotamus-2": {
+    "hippopotamus-the-2": {
       "date": "2017-05-09",
       "time": "21:15",
       "theater": "Louhisali",
@@ -2163,16 +2133,16 @@
       "subtitles": "",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-hippopotamus",
+      "img": "8357",
+      "url": "hippopotamus-the",
       "extraurl": "",
-      "id": "the-hippopotamus-2",
+      "id": "hippopotamus-the-2",
       "datetime": "2017-05-09T18:15:00.000Z",
       "dateId": "ti-09",
       "timeslot": 21,
       "timeslotdiff": 15
     },
-    "orphan-1": {
+    "orpheline-1": {
       "date": "2017-05-09",
       "time": "21:15",
       "theater": "Tapiolasali",
@@ -2182,10 +2152,10 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "orphan",
+      "img": "8473",
+      "url": "orpheline",
       "extraurl": "",
-      "id": "orphan-1",
+      "id": "orpheline-1",
       "datetime": "2017-05-09T18:15:00.000Z",
       "dateId": "ti-09",
       "timeslot": 21,
@@ -2201,7 +2171,7 @@
       "subtitles": "",
       "number": "9/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-9",
@@ -2221,7 +2191,7 @@
       "subtitles": "",
       "number": "10/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-10",
@@ -2230,7 +2200,7 @@
       "timeslot": 9,
       "timeslotdiff": 0
     },
-    "silmätysten-2": {
+    "auf-augenhohe-2": {
       "date": "2017-05-10",
       "time": "09:30",
       "theater": "Kino Tapiola",
@@ -2240,16 +2210,16 @@
       "subtitles": "fin",
       "number": "2/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "silmätysten",
+      "img": "8530",
+      "url": "auf-augenhohe",
       "extraurl": "",
-      "id": "silmätysten-2",
+      "id": "auf-augenhohe-2",
       "datetime": "2017-05-10T06:30:00.000Z",
       "dateId": "ke-10",
       "timeslot": 9,
       "timeslotdiff": 30
     },
-    "raparperimehua-1": {
+    "rabarber-1": {
       "date": "2017-05-10",
       "time": "09:45",
       "theater": "Tapiolasali",
@@ -2259,10 +2229,10 @@
       "subtitles": "fin",
       "number": "1/1",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "raparperimehua",
+      "img": "8506",
+      "url": "rabarber",
       "extraurl": "",
-      "id": "raparperimehua-1",
+      "id": "rabarber-1",
       "datetime": "2017-05-10T06:45:00.000Z",
       "dateId": "ke-10",
       "timeslot": 9,
@@ -2278,7 +2248,7 @@
       "subtitles": "",
       "number": "11/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-11",
@@ -2298,7 +2268,7 @@
       "subtitles": "",
       "number": "12/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-12",
@@ -2307,7 +2277,7 @@
       "timeslot": 9,
       "timeslotdiff": 60
     },
-    "pitkä-matka-kouluun-1": {
+    "nicht-ohne-uns-1": {
       "date": "2017-05-10",
       "time": "11:00",
       "theater": "Kannusali",
@@ -2317,17 +2287,17 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "pitkä-matka-kouluun",
+      "img": "8497",
+      "url": "nicht-ohne-uns",
       "extraurl": "",
-      "id": "pitkä-matka-kouluun-1",
+      "id": "nicht-ohne-uns-1",
       "datetime": "2017-05-10T08:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 11,
       "timeslotdiff": 0,
       "special": true
     },
-    "pitkä-matka-kouluun-2": {
+    "nicht-ohne-uns-2": {
       "date": "2017-05-10",
       "time": "11:00",
       "theater": "Louhisali",
@@ -2337,16 +2307,16 @@
       "subtitles": "fin",
       "number": "2/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "pitkä-matka-kouluun",
+      "img": "8497",
+      "url": "nicht-ohne-uns",
       "extraurl": "",
-      "id": "pitkä-matka-kouluun-2",
+      "id": "nicht-ohne-uns-2",
       "datetime": "2017-05-10T08:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 11,
       "timeslotdiff": 0
     },
-    "offline-2": {
+    "offline-das-leben-ist-kein-bonuslevel-2": {
       "date": "2017-05-10",
       "time": "11:15",
       "theater": "Tapiolasali",
@@ -2356,16 +2326,16 @@
       "subtitles": "fin",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "offline",
+      "img": "8464",
+      "url": "offline-das-leben-ist-kein-bonuslevel",
       "extraurl": "",
-      "id": "offline-2",
+      "id": "offline-das-leben-ist-kein-bonuslevel-2",
       "datetime": "2017-05-10T08:15:00.000Z",
       "dateId": "ke-10",
       "timeslot": 11,
       "timeslotdiff": 15
     },
-    "räjähtävää-teinirakkautta-1": {
+    "vindmollernes-sus-1": {
       "date": "2017-05-10",
       "time": "11:30",
       "theater": "Kino Tapiola",
@@ -2375,16 +2345,16 @@
       "subtitles": "fin",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "räjähtävää-teinirakkautta",
+      "img": "8503",
+      "url": "vindmollernes-sus",
       "extraurl": "",
-      "id": "räjähtävää-teinirakkautta-1",
+      "id": "vindmollernes-sus-1",
       "datetime": "2017-05-10T08:30:00.000Z",
       "dateId": "ke-10",
       "timeslot": 11,
       "timeslotdiff": 30
     },
-    "miss-impossible-1": {
+    "jamais-contente-1": {
       "date": "2017-05-10",
       "time": "12:45",
       "theater": "Louhisali",
@@ -2394,16 +2364,16 @@
       "subtitles": "fin",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
-      "url": "miss-impossible",
+      "img": "8434",
+      "url": "jamais-contente",
       "extraurl": "",
-      "id": "miss-impossible-1",
+      "id": "jamais-contente-1",
       "datetime": "2017-05-10T09:45:00.000Z",
       "dateId": "ke-10",
       "timeslot": 11,
       "timeslotdiff": 105
     },
-    "järven-tarina-1": {
+    "jarven-tarina-1": {
       "date": "2017-05-10",
       "time": "13:15",
       "theater": "Tapiolasali",
@@ -2413,16 +2383,16 @@
       "subtitles": "",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
-      "url": "järven-tarina",
+      "img": "8384",
+      "url": "jarven-tarina",
       "extraurl": "",
-      "id": "järven-tarina-1",
+      "id": "jarven-tarina-1",
       "datetime": "2017-05-10T10:15:00.000Z",
       "dateId": "ke-10",
       "timeslot": 13,
       "timeslotdiff": 15
     },
-    "thanks-boss!-2": {
+    "merci-patron-2": {
       "date": "2017-05-10",
       "time": "14:30",
       "theater": "Louhisali",
@@ -2432,10 +2402,10 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "thanks-boss!",
+      "img": "8548",
+      "url": "merci-patron",
       "extraurl": "",
-      "id": "thanks-boss!-2",
+      "id": "merci-patron-2",
       "datetime": "2017-05-10T11:30:00.000Z",
       "dateId": "ke-10",
       "timeslot": 13,
@@ -2451,7 +2421,7 @@
       "subtitles": "",
       "number": "1/1",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8416",
       "url": "lapualaismorsian",
       "extraurl": "",
       "id": "lapualaismorsian-1",
@@ -2470,7 +2440,7 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8440",
       "url": "mister-universo",
       "extraurl": "",
       "id": "mister-universo-3",
@@ -2479,7 +2449,7 @@
       "timeslot": 15,
       "timeslotdiff": 0
     },
-    "to-stay-alive-2": {
+    "overleven-een-handleiding-2": {
       "date": "2017-05-10",
       "time": "16:00",
       "theater": "Louhisali",
@@ -2489,16 +2459,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "S",
-      "img": "#N/A",
-      "url": "to-stay-alive",
+      "img": "8479",
+      "url": "overleven-een-handleiding",
       "extraurl": "",
-      "id": "to-stay-alive-2",
+      "id": "overleven-een-handleiding-2",
       "datetime": "2017-05-10T13:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 15,
       "timeslotdiff": 60
     },
-    "a-woman-s-life-2": {
+    "vie-une-2": {
       "date": "2017-05-10",
       "time": "16:45",
       "theater": "Kino Tapiola",
@@ -2508,16 +2478,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-woman-s-life",
+      "img": "8607",
+      "url": "vie-une",
       "extraurl": "",
-      "id": "a-woman-s-life-2",
+      "id": "vie-une-2",
       "datetime": "2017-05-10T13:45:00.000Z",
       "dateId": "ke-10",
       "timeslot": 15,
       "timeslotdiff": 105
     },
-    "the-life-and-films-of-ken-loach-1": {
+    "versus-the-life-and-films-of-ken-loach-1": {
       "date": "2017-05-10",
       "time": "17:00",
       "theater": "Omena 4",
@@ -2527,16 +2497,16 @@
       "subtitles": "",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-life-and-films-of-ken-loach",
+      "img": "8428",
+      "url": "versus-the-life-and-films-of-ken-loach",
       "extraurl": "",
-      "id": "the-life-and-films-of-ken-loach-1",
+      "id": "versus-the-life-and-films-of-ken-loach-1",
       "datetime": "2017-05-10T14:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "the-fabulous-patars-2": {
+    "cigarettes-et-chocolat-chaud-2": {
       "date": "2017-05-10",
       "time": "17:00",
       "theater": "Omena 7",
@@ -2546,16 +2516,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "the-fabulous-patars",
+      "img": "8334",
+      "url": "cigarettes-et-chocolat-chaud",
       "extraurl": "",
-      "id": "the-fabulous-patars-2",
+      "id": "cigarettes-et-chocolat-chaud-2",
       "datetime": "2017-05-10T14:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "life-beyond-me-1": {
+    "vie-ailleurs-une-1": {
       "date": "2017-05-10",
       "time": "17:00",
       "theater": "Sello 4",
@@ -2565,16 +2535,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "life-beyond-me",
+      "img": "8419",
+      "url": "vie-ailleurs-une",
       "extraurl": "",
-      "id": "life-beyond-me-1",
+      "id": "vie-ailleurs-une-1",
       "datetime": "2017-05-10T14:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "käpy-selän-alla-1": {
+    "kapy-selan-alla-1": {
       "date": "2017-05-10",
       "time": "17:00",
       "theater": "Tapiolasali",
@@ -2584,10 +2554,10 @@
       "subtitles": "",
       "number": "1/1",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "käpy-selän-alla",
+      "img": "8414",
+      "url": "kapy-selan-alla",
       "extraurl": "",
-      "id": "käpy-selän-alla-1",
+      "id": "kapy-selan-alla-1",
       "datetime": "2017-05-10T14:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 17,
@@ -2603,7 +2573,7 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8488",
       "url": "paris-la-blanche",
       "extraurl": "",
       "id": "paris-la-blanche-2",
@@ -2612,7 +2582,7 @@
       "timeslot": 17,
       "timeslotdiff": 15
     },
-    "move!-dance-your-life-1": {
+    "move-dance-your-life-1": {
       "date": "2017-05-10",
       "time": "17:15",
       "theater": "Sello 5",
@@ -2622,10 +2592,10 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "move!-dance-your-life",
+      "img": "8446",
+      "url": "move-dance-your-life",
       "extraurl": "",
-      "id": "move!-dance-your-life-1",
+      "id": "move-dance-your-life-1",
       "datetime": "2017-05-10T14:15:00.000Z",
       "dateId": "ke-10",
       "timeslot": 17,
@@ -2641,7 +2611,7 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8527",
       "url": "sieranevada",
       "extraurl": "",
       "id": "sieranevada-2",
@@ -2650,7 +2620,7 @@
       "timeslot": 17,
       "timeslotdiff": 30
     },
-    "a-date-for-mad-mary-2": {
+    "date-for-mad-mary-a-2": {
       "date": "2017-05-10",
       "time": "18:45",
       "theater": "Omena 7",
@@ -2660,16 +2630,16 @@
       "subtitles": "",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-date-for-mad-mary",
+      "img": "8301",
+      "url": "date-for-mad-mary-a",
       "extraurl": "",
-      "id": "a-date-for-mad-mary-2",
+      "id": "date-for-mad-mary-a-2",
       "datetime": "2017-05-10T15:45:00.000Z",
       "dateId": "ke-10",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "heartstone-2": {
+    "hjartasteinn-2": {
       "date": "2017-05-10",
       "time": "19:00",
       "theater": "Kino Tapiola",
@@ -2679,16 +2649,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "heartstone",
+      "img": "8354",
+      "url": "hjartasteinn",
       "extraurl": "",
-      "id": "heartstone-2",
+      "id": "hjartasteinn-2",
       "datetime": "2017-05-10T16:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "a-wedding-1": {
+    "noces-1": {
       "date": "2017-05-10",
       "time": "19:00",
       "theater": "Omena 3",
@@ -2698,16 +2668,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-wedding",
+      "img": "8443",
+      "url": "noces",
       "extraurl": "",
-      "id": "a-wedding-1",
+      "id": "noces-1",
       "datetime": "2017-05-10T16:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "paths-1": {
+    "weg-ein-1": {
       "date": "2017-05-10",
       "time": "19:00",
       "theater": "Omena 4",
@@ -2717,16 +2687,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "paths",
+      "img": "8491",
+      "url": "weg-ein",
       "extraurl": "",
-      "id": "paths-1",
+      "id": "weg-ein-1",
       "datetime": "2017-05-10T16:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "at-your-doorstep-2": {
+    "cerca-de-tu-casa-2": {
       "date": "2017-05-10",
       "time": "19:00",
       "theater": "Sello 4",
@@ -2736,16 +2706,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "S",
-      "img": "#N/A",
-      "url": "at-your-doorstep",
+      "img": "8277",
+      "url": "cerca-de-tu-casa",
       "extraurl": "",
-      "id": "at-your-doorstep-2",
+      "id": "cerca-de-tu-casa-2",
       "datetime": "2017-05-10T16:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "stalin-s-couch-2": {
+    "divan-de-staline-le-2": {
       "date": "2017-05-10",
       "time": "19:00",
       "theater": "Sello 5",
@@ -2755,16 +2725,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "stalin-s-couch",
+      "img": "8536",
+      "url": "divan-de-staline-le",
       "extraurl": "",
-      "id": "stalin-s-couch-2",
+      "id": "divan-de-staline-le-2",
       "datetime": "2017-05-10T16:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "kaiken-se-kestää-1": {
+    "kaiken-se-kestaa-1": {
       "date": "2017-05-10",
       "time": "19:00",
       "theater": "Tapiolasali",
@@ -2774,10 +2744,10 @@
       "subtitles": "eng",
       "number": "1/1",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "kaiken-se-kestää",
+      "img": "8387",
+      "url": "kaiken-se-kestaa",
       "extraurl": "",
-      "id": "kaiken-se-kestää-1",
+      "id": "kaiken-se-kestaa-1",
       "datetime": "2017-05-10T16:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 19,
@@ -2793,7 +2763,7 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8461",
       "url": "nocturama",
       "extraurl": "",
       "id": "nocturama-3",
@@ -2812,7 +2782,7 @@
       "subtitles": "",
       "number": "1/3",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8283",
       "url": "away",
       "extraurl": "",
       "id": "away-1",
@@ -2821,7 +2791,7 @@
       "timeslot": 19,
       "timeslotdiff": 90
     },
-    "the-day-will-come-1": {
+    "der-kommer-en-dag-1": {
       "date": "2017-05-10",
       "time": "20:45",
       "theater": "Omena 3",
@@ -2831,16 +2801,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "the-day-will-come",
+      "img": "8598",
+      "url": "der-kommer-en-dag",
       "extraurl": "",
-      "id": "the-day-will-come-1",
+      "id": "der-kommer-en-dag-1",
       "datetime": "2017-05-10T17:45:00.000Z",
       "dateId": "ke-10",
       "timeslot": 19,
       "timeslotdiff": 105
     },
-    "the-fixer-1": {
+    "fixeur-1": {
       "date": "2017-05-10",
       "time": "20:45",
       "theater": "Sello 4",
@@ -2850,16 +2820,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "the-fixer",
+      "img": "8337",
+      "url": "fixeur",
       "extraurl": "",
-      "id": "the-fixer-1",
+      "id": "fixeur-1",
       "datetime": "2017-05-10T17:45:00.000Z",
       "dateId": "ke-10",
       "timeslot": 19,
       "timeslotdiff": 105
     },
-    "the-death-of-louis-xiv-2": {
+    "mort-de-louis-xiv-la-2": {
       "date": "2017-05-10",
       "time": "20:45",
       "theater": "Tapiolasali",
@@ -2869,16 +2839,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "the-death-of-louis-xiv",
+      "img": "8304",
+      "url": "mort-de-louis-xiv-la",
       "extraurl": "",
-      "id": "the-death-of-louis-xiv-2",
+      "id": "mort-de-louis-xiv-la-2",
       "datetime": "2017-05-10T17:45:00.000Z",
       "dateId": "ke-10",
       "timeslot": 19,
       "timeslotdiff": 105
     },
-    "secluded-1": {
+    "afskaret-1": {
       "date": "2017-05-10",
       "time": "21:00",
       "theater": "Omena 4",
@@ -2888,16 +2858,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "secluded",
+      "img": "8521",
+      "url": "afskaret",
       "extraurl": "",
-      "id": "secluded-1",
+      "id": "afskaret-1",
       "datetime": "2017-05-10T18:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "skins-3": {
+    "pieles-3": {
       "date": "2017-05-10",
       "time": "21:00",
       "theater": "Sello 5",
@@ -2907,16 +2877,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "skins",
+      "img": "8533",
+      "url": "pieles",
       "extraurl": "",
-      "id": "skins-3",
+      "id": "pieles-3",
       "datetime": "2017-05-10T18:00:00.000Z",
       "dateId": "ke-10",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "the-ardennes-1": {
+    "ardennen-d-1": {
       "date": "2017-05-10",
       "time": "21:15",
       "theater": "Kino Tapiola",
@@ -2926,16 +2896,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "the-ardennes",
+      "img": "8271",
+      "url": "ardennen-d",
       "extraurl": "",
-      "id": "the-ardennes-1",
+      "id": "ardennen-d-1",
       "datetime": "2017-05-10T18:15:00.000Z",
       "dateId": "ke-10",
       "timeslot": 21,
       "timeslotdiff": 15
     },
-    "oskarin-amerikka-2": {
+    "oskars-amerika-2": {
       "date": "2017-05-11",
       "time": "09:30",
       "theater": "Kino Tapiola",
@@ -2945,16 +2915,16 @@
       "subtitles": "fin",
       "number": "2/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "oskarin-amerikka",
+      "img": "8485",
+      "url": "oskars-amerika",
       "extraurl": "",
-      "id": "oskarin-amerikka-2",
+      "id": "oskars-amerika-2",
       "datetime": "2017-05-11T06:30:00.000Z",
       "dateId": "to-11",
       "timeslot": 9,
       "timeslotdiff": 30
     },
-    "silmätysten-3": {
+    "auf-augenhohe-3": {
       "date": "2017-05-11",
       "time": "09:30",
       "theater": "Tapiolasali",
@@ -2964,10 +2934,10 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "silmätysten",
+      "img": "8530",
+      "url": "auf-augenhohe",
       "extraurl": "",
-      "id": "silmätysten-3",
+      "id": "auf-augenhohe-3",
       "datetime": "2017-05-11T06:30:00.000Z",
       "dateId": "to-11",
       "timeslot": 9,
@@ -2983,7 +2953,7 @@
       "subtitles": "",
       "number": "2/2",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8644",
       "url": "lyhytelokuvia-lapsille",
       "extraurl": "",
       "id": "lyhytelokuvia-lapsille-2",
@@ -3002,7 +2972,7 @@
       "subtitles": "",
       "number": "13/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-13",
@@ -3012,7 +2982,7 @@
       "timeslotdiff": 60,
       "special": true
     },
-    "tulisilla-hiilillä-2": {
+    "glutnester-2": {
       "date": "2017-05-11",
       "time": "11:15",
       "theater": "Louhisali",
@@ -3022,16 +2992,16 @@
       "subtitles": "fin",
       "number": "2/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "tulisilla-hiilillä",
+      "img": "8601",
+      "url": "glutnester",
       "extraurl": "",
-      "id": "tulisilla-hiilillä-2",
+      "id": "glutnester-2",
       "datetime": "2017-05-11T08:15:00.000Z",
       "dateId": "to-11",
       "timeslot": 11,
       "timeslotdiff": 15
     },
-    "räjähtävää-teinirakkautta-2": {
+    "vindmollernes-sus-2": {
       "date": "2017-05-11",
       "time": "11:30",
       "theater": "Kino Tapiola",
@@ -3041,16 +3011,16 @@
       "subtitles": "fin",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "räjähtävää-teinirakkautta",
+      "img": "8503",
+      "url": "vindmollernes-sus",
       "extraurl": "",
-      "id": "räjähtävää-teinirakkautta-2",
+      "id": "vindmollernes-sus-2",
       "datetime": "2017-05-11T08:30:00.000Z",
       "dateId": "to-11",
       "timeslot": 11,
       "timeslotdiff": 30
     },
-    "offline-3": {
+    "offline-das-leben-ist-kein-bonuslevel-3": {
       "date": "2017-05-11",
       "time": "11:30",
       "theater": "Tapiolasali",
@@ -3060,16 +3030,16 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "offline",
+      "img": "8464",
+      "url": "offline-das-leben-ist-kein-bonuslevel",
       "extraurl": "",
-      "id": "offline-3",
+      "id": "offline-das-leben-ist-kein-bonuslevel-3",
       "datetime": "2017-05-11T08:30:00.000Z",
       "dateId": "to-11",
       "timeslot": 11,
       "timeslotdiff": 30
     },
-    "tomorrow-1": {
+    "demain-1": {
       "date": "2017-05-11",
       "time": "13:00",
       "theater": "Louhisali",
@@ -3079,10 +3049,10 @@
       "subtitles": "fin",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
-      "url": "tomorrow",
+      "img": "8484",
+      "url": "demain",
       "extraurl": "",
-      "id": "tomorrow-1",
+      "id": "demain-1",
       "datetime": "2017-05-11T10:00:00.000Z",
       "dateId": "to-11",
       "timeslot": 13,
@@ -3098,7 +3068,7 @@
       "subtitles": "eng",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8360",
       "url": "hobbyhorse-revolution",
       "extraurl": "",
       "id": "hobbyhorse-revolution-1",
@@ -3117,7 +3087,7 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8287",
       "url": "beuys",
       "extraurl": "",
       "id": "beuys-2",
@@ -3126,7 +3096,7 @@
       "timeslot": 15,
       "timeslotdiff": 0
     },
-    "dreaming-of-wine-1": {
+    "priorat-1": {
       "date": "2017-05-11",
       "time": "15:15",
       "theater": "Kino Tapiola",
@@ -3136,16 +3106,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "S",
-      "img": "#N/A",
-      "url": "dreaming-of-wine",
+      "img": "8319",
+      "url": "priorat",
       "extraurl": "",
-      "id": "dreaming-of-wine-1",
+      "id": "priorat-1",
       "datetime": "2017-05-11T12:15:00.000Z",
       "dateId": "to-11",
       "timeslot": 15,
       "timeslotdiff": 15
     },
-    "tyttö-nimeltä-varpu-1": {
+    "tytto-nimelta-varpu-1": {
       "date": "2017-05-11",
       "time": "15:15",
       "theater": "Louhisali",
@@ -3155,16 +3125,16 @@
       "subtitles": "swe",
       "number": "1/1",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "tyttö-nimeltä-varpu",
+      "img": "8494",
+      "url": "tytto-nimelta-varpu",
       "extraurl": "",
-      "id": "tyttö-nimeltä-varpu-1",
+      "id": "tytto-nimelta-varpu-1",
       "datetime": "2017-05-11T12:15:00.000Z",
       "dateId": "to-11",
       "timeslot": 15,
       "timeslotdiff": 15
     },
-    "all-the-beauty-1": {
+    "alt-det-vakre-1": {
       "date": "2017-05-11",
       "time": "17:00",
       "theater": "Kino Tapiola",
@@ -3174,10 +3144,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "all-the-beauty",
+      "img": "8259",
+      "url": "alt-det-vakre",
       "extraurl": "",
-      "id": "all-the-beauty-1",
+      "id": "alt-det-vakre-1",
       "datetime": "2017-05-11T14:00:00.000Z",
       "dateId": "to-11",
       "timeslot": 17,
@@ -3193,7 +3163,7 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8422",
       "url": "light-thereafter",
       "extraurl": "",
       "id": "light-thereafter-1",
@@ -3202,7 +3172,7 @@
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "life-beyond-me-2": {
+    "vie-ailleurs-une-2": {
       "date": "2017-05-11",
       "time": "17:00",
       "theater": "Omena 7",
@@ -3212,10 +3182,10 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "life-beyond-me",
+      "img": "8419",
+      "url": "vie-ailleurs-une",
       "extraurl": "",
-      "id": "life-beyond-me-2",
+      "id": "vie-ailleurs-une-2",
       "datetime": "2017-05-11T14:00:00.000Z",
       "dateId": "to-11",
       "timeslot": 17,
@@ -3231,7 +3201,7 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K7",
-      "img": "#N/A",
+      "img": "8280",
       "url": "austerlitz",
       "extraurl": "",
       "id": "austerlitz-1",
@@ -3240,7 +3210,7 @@
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "a-wedding-2": {
+    "noces-2": {
       "date": "2017-05-11",
       "time": "17:00",
       "theater": "Sello 5",
@@ -3250,10 +3220,10 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-wedding",
+      "img": "8443",
+      "url": "noces",
       "extraurl": "",
-      "id": "a-wedding-2",
+      "id": "noces-2",
       "datetime": "2017-05-11T14:00:00.000Z",
       "dateId": "to-11",
       "timeslot": 17,
@@ -3269,7 +3239,7 @@
       "subtitles": "",
       "number": "2/2",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8551",
       "url": "their-finest",
       "extraurl": "",
       "id": "their-finest-2",
@@ -3278,7 +3248,7 @@
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "stefan-zweig-2": {
+    "vor-der-morgenrote-2": {
       "date": "2017-05-11",
       "time": "17:15",
       "theater": "Louhisali",
@@ -3288,16 +3258,16 @@
       "subtitles": "fin",
       "number": "2/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "stefan-zweig",
+      "img": "8539",
+      "url": "vor-der-morgenrote",
       "extraurl": "",
-      "id": "stefan-zweig-2",
+      "id": "vor-der-morgenrote-2",
       "datetime": "2017-05-11T14:15:00.000Z",
       "dateId": "to-11",
       "timeslot": 17,
       "timeslotdiff": 15
     },
-    "paths-2": {
+    "weg-ein-2": {
       "date": "2017-05-11",
       "time": "17:15",
       "theater": "Omena 3",
@@ -3307,16 +3277,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "paths",
+      "img": "8491",
+      "url": "weg-ein",
       "extraurl": "",
-      "id": "paths-2",
+      "id": "weg-ein-2",
       "datetime": "2017-05-11T14:15:00.000Z",
       "dateId": "to-11",
       "timeslot": 17,
       "timeslotdiff": 15
     },
-    "original-bliss-1": {
+    "gleissendes-gluck-1": {
       "date": "2017-05-11",
       "time": "18:45",
       "theater": "Omena 7",
@@ -3326,16 +3296,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "original-bliss",
+      "img": "8470",
+      "url": "gleissendes-gluck",
       "extraurl": "",
-      "id": "original-bliss-1",
+      "id": "gleissendes-gluck-1",
       "datetime": "2017-05-11T15:45:00.000Z",
       "dateId": "to-11",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "in-the-blood-2": {
+    "i-blodet-2": {
       "date": "2017-05-11",
       "time": "18:45",
       "theater": "Sello 4",
@@ -3345,16 +3315,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "in-the-blood",
+      "img": "8372",
+      "url": "i-blodet",
       "extraurl": "",
-      "id": "in-the-blood-2",
+      "id": "i-blodet-2",
       "datetime": "2017-05-11T15:45:00.000Z",
       "dateId": "to-11",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "the-program-1": {
+    "program-the-1": {
       "date": "2017-05-11",
       "time": "19:00",
       "theater": "Kino Tapiola",
@@ -3364,10 +3334,10 @@
       "subtitles": "fin + swe",
       "number": "1/1",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "the-program",
+      "img": "8612",
+      "url": "program-the",
       "extraurl": "",
-      "id": "the-program-1",
+      "id": "program-the-1",
       "datetime": "2017-05-11T16:00:00.000Z",
       "dateId": "to-11",
       "timeslot": 19,
@@ -3383,7 +3353,7 @@
       "subtitles": "",
       "number": "2/3",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8283",
       "url": "away",
       "extraurl": "",
       "id": "away-2",
@@ -3402,7 +3372,7 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8431",
       "url": "marie-curie",
       "extraurl": "",
       "id": "marie-curie-2",
@@ -3421,7 +3391,7 @@
       "subtitles": "",
       "number": "2/2",
       "rating": "K7",
-      "img": "#N/A",
+      "img": "8307",
       "url": "denial",
       "extraurl": "",
       "id": "denial-2",
@@ -3430,7 +3400,7 @@
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "war/peace-1": {
+    "war-peace-1": {
       "date": "2017-05-11",
       "time": "19:15",
       "theater": "Louhisali",
@@ -3440,16 +3410,16 @@
       "subtitles": "",
       "number": "1/1",
       "rating": "S",
-      "img": "#N/A",
-      "url": "war/peace",
+      "img": "8437",
+      "url": "war-peace",
       "extraurl": "",
-      "id": "war/peace-1",
+      "id": "war-peace-1",
       "datetime": "2017-05-11T16:15:00.000Z",
       "dateId": "to-11",
       "timeslot": 19,
       "timeslotdiff": 15
     },
-    "the-young-offenders-1": {
+    "young-offenders-the-1": {
       "date": "2017-05-11",
       "time": "19:15",
       "theater": "Omena 3",
@@ -3459,16 +3429,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-young-offenders",
+      "img": "8585",
+      "url": "young-offenders-the",
       "extraurl": "",
-      "id": "the-young-offenders-1",
+      "id": "young-offenders-the-1",
       "datetime": "2017-05-11T16:15:00.000Z",
       "dateId": "to-11",
       "timeslot": 19,
       "timeslotdiff": 15
     },
-    "into-the-forest-2": {
+    "dans-la-foret-2": {
       "date": "2017-05-11",
       "time": "20:45",
       "theater": "Omena 7",
@@ -3478,16 +3448,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "into-the-forest",
+      "img": "8375",
+      "url": "dans-la-foret",
       "extraurl": "",
-      "id": "into-the-forest-2",
+      "id": "dans-la-foret-2",
       "datetime": "2017-05-11T17:45:00.000Z",
       "dateId": "to-11",
       "timeslot": 19,
       "timeslotdiff": 105
     },
-    "the-day-will-come-2": {
+    "der-kommer-en-dag-2": {
       "date": "2017-05-11",
       "time": "20:45",
       "theater": "Sello 4",
@@ -3497,16 +3467,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "the-day-will-come",
+      "img": "8598",
+      "url": "der-kommer-en-dag",
       "extraurl": "",
-      "id": "the-day-will-come-2",
+      "id": "der-kommer-en-dag-2",
       "datetime": "2017-05-11T17:45:00.000Z",
       "dateId": "to-11",
       "timeslot": 19,
       "timeslotdiff": 105
     },
-    "the-ardennes-2": {
+    "ardennen-d-2": {
       "date": "2017-05-11",
       "time": "21:00",
       "theater": "Omena 3",
@@ -3516,10 +3486,10 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "the-ardennes",
+      "img": "8271",
+      "url": "ardennen-d",
       "extraurl": "",
-      "id": "the-ardennes-2",
+      "id": "ardennen-d-2",
       "datetime": "2017-05-11T18:00:00.000Z",
       "dateId": "to-11",
       "timeslot": 21,
@@ -3535,7 +3505,7 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8577",
       "url": "back-for-good",
       "extraurl": "",
       "id": "back-for-good-2",
@@ -3544,7 +3514,7 @@
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "eastern-business-3": {
+    "afacerea-est-3": {
       "date": "2017-05-11",
       "time": "21:00",
       "theater": "Sello 5",
@@ -3554,16 +3524,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "eastern-business",
+      "img": "8322",
+      "url": "afacerea-est",
       "extraurl": "",
-      "id": "eastern-business-3",
+      "id": "afacerea-est-3",
       "datetime": "2017-05-11T18:00:00.000Z",
       "dateId": "to-11",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "orphan-2": {
+    "orpheline-2": {
       "date": "2017-05-11",
       "time": "21:00",
       "theater": "Tapiolasali",
@@ -3573,16 +3543,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "orphan",
+      "img": "8473",
+      "url": "orpheline",
       "extraurl": "",
-      "id": "orphan-2",
+      "id": "orpheline-2",
       "datetime": "2017-05-11T18:00:00.000Z",
       "dateId": "to-11",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "never-ever-1": {
+    "a-jamais-1": {
       "date": "2017-05-11",
       "time": "21:15",
       "theater": "Louhisali",
@@ -3592,16 +3562,16 @@
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "never-ever",
+      "img": "8455",
+      "url": "a-jamais",
       "extraurl": "",
-      "id": "never-ever-1",
+      "id": "a-jamais-1",
       "datetime": "2017-05-11T18:15:00.000Z",
       "dateId": "to-11",
       "timeslot": 21,
       "timeslotdiff": 15
     },
-    "a-taste-of-ink-2": {
+    "compte-tes-blessures-2": {
       "date": "2017-05-11",
       "time": "21:30",
       "theater": "Kino Tapiola",
@@ -3611,16 +3581,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-taste-of-ink",
+      "img": "8545",
+      "url": "compte-tes-blessures",
       "extraurl": "",
-      "id": "a-taste-of-ink-2",
+      "id": "compte-tes-blessures-2",
       "datetime": "2017-05-11T18:30:00.000Z",
       "dateId": "to-11",
       "timeslot": 21,
       "timeslotdiff": 30
     },
-    "oskarin-amerikka-3": {
+    "oskars-amerika-3": {
       "date": "2017-05-12",
       "time": "09:00",
       "theater": "Hanasaari",
@@ -3630,17 +3600,17 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "oskarin-amerikka",
+      "img": "8485",
+      "url": "oskars-amerika",
       "extraurl": "",
-      "id": "oskarin-amerikka-3",
+      "id": "oskars-amerika-3",
       "datetime": "2017-05-12T06:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 9,
       "timeslotdiff": 0,
       "special": true
     },
-    "kun-vielä-elämme-2": {
+    "medan-vi-lever-2": {
       "date": "2017-05-12",
       "time": "11:00",
       "theater": "Hanasaari",
@@ -3650,17 +3620,17 @@
       "subtitles": "fin",
       "number": "2/2",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "kun-vielä-elämme",
+      "img": "8411",
+      "url": "medan-vi-lever",
       "extraurl": "",
-      "id": "kun-vielä-elämme-2",
+      "id": "medan-vi-lever-2",
       "datetime": "2017-05-12T08:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 11,
       "timeslotdiff": 0,
       "special": true
     },
-    "pitkä-matka-kouluun-3": {
+    "nicht-ohne-uns-3": {
       "date": "2017-05-12",
       "time": "11:30",
       "theater": "Kino Tapiola",
@@ -3670,16 +3640,16 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "pitkä-matka-kouluun",
+      "img": "8497",
+      "url": "nicht-ohne-uns",
       "extraurl": "",
-      "id": "pitkä-matka-kouluun-3",
+      "id": "nicht-ohne-uns-3",
       "datetime": "2017-05-12T08:30:00.000Z",
       "dateId": "pe-12",
       "timeslot": 11,
       "timeslotdiff": 30
     },
-    "räjähtävää-teinirakkautta-3": {
+    "vindmollernes-sus-3": {
       "date": "2017-05-12",
       "time": "13:15",
       "theater": "Kino Tapiola",
@@ -3689,10 +3659,10 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "räjähtävää-teinirakkautta",
+      "img": "8503",
+      "url": "vindmollernes-sus",
       "extraurl": "",
-      "id": "räjähtävää-teinirakkautta-3",
+      "id": "vindmollernes-sus-3",
       "datetime": "2017-05-12T10:15:00.000Z",
       "dateId": "pe-12",
       "timeslot": 13,
@@ -3708,7 +3678,7 @@
       "subtitles": "",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8310",
       "url": "departure",
       "extraurl": "",
       "id": "departure-2",
@@ -3717,7 +3687,7 @@
       "timeslot": 13,
       "timeslotdiff": 60
     },
-    "original-bliss-2": {
+    "gleissendes-gluck-2": {
       "date": "2017-05-12",
       "time": "14:15",
       "theater": "Tapiolasali",
@@ -3727,16 +3697,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "original-bliss",
+      "img": "8470",
+      "url": "gleissendes-gluck",
       "extraurl": "",
-      "id": "original-bliss-2",
+      "id": "gleissendes-gluck-2",
       "datetime": "2017-05-12T11:15:00.000Z",
       "dateId": "pe-12",
       "timeslot": 13,
       "timeslotdiff": 75
     },
-    "a-wedding-3": {
+    "noces-3": {
       "date": "2017-05-12",
       "time": "16:00",
       "theater": "Louhisali",
@@ -3746,16 +3716,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-wedding",
+      "img": "8443",
+      "url": "noces",
       "extraurl": "",
-      "id": "a-wedding-3",
+      "id": "noces-3",
       "datetime": "2017-05-12T13:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 15,
       "timeslotdiff": 60
     },
-    "the-sense-of-an-ending-2": {
+    "sense-of-an-ending-the-2": {
       "date": "2017-05-12",
       "time": "16:15",
       "theater": "Tapiolasali",
@@ -3765,16 +3735,16 @@
       "subtitles": "",
       "number": "2/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-sense-of-an-ending",
+      "img": "8524",
+      "url": "sense-of-an-ending-the",
       "extraurl": "",
-      "id": "the-sense-of-an-ending-2",
+      "id": "sense-of-an-ending-the-2",
       "datetime": "2017-05-12T13:15:00.000Z",
       "dateId": "pe-12",
       "timeslot": 15,
       "timeslotdiff": 75
     },
-    "the-young-offenders-2": {
+    "young-offenders-the-2": {
       "date": "2017-05-12",
       "time": "17:00",
       "theater": "Kino Tapiola",
@@ -3784,10 +3754,10 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-young-offenders",
+      "img": "8585",
+      "url": "young-offenders-the",
       "extraurl": "",
-      "id": "the-young-offenders-2",
+      "id": "young-offenders-the-2",
       "datetime": "2017-05-12T14:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 17,
@@ -3803,7 +3773,7 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8518",
       "url": "safari",
       "extraurl": "",
       "id": "safari-2",
@@ -3822,7 +3792,7 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8363",
       "url": "home",
       "extraurl": "",
       "id": "home-2",
@@ -3841,7 +3811,7 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8405",
       "url": "king-of-the-belgians",
       "extraurl": "",
       "id": "king-of-the-belgians-2",
@@ -3850,7 +3820,7 @@
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "50-is-the-new-30-2": {
+    "marie-francine-2": {
       "date": "2017-05-12",
       "time": "17:00",
       "theater": "Sello 5",
@@ -3860,16 +3830,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "50-is-the-new-30",
+      "img": "8554",
+      "url": "marie-francine",
       "extraurl": "",
-      "id": "50-is-the-new-30-2",
+      "id": "marie-francine-2",
       "datetime": "2017-05-12T14:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "in-the-blood-3": {
+    "i-blodet-3": {
       "date": "2017-05-12",
       "time": "17:15",
       "theater": "Omena 3",
@@ -3879,16 +3849,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "in-the-blood",
+      "img": "8372",
+      "url": "i-blodet",
       "extraurl": "",
-      "id": "in-the-blood-3",
+      "id": "i-blodet-3",
       "datetime": "2017-05-12T14:15:00.000Z",
       "dateId": "pe-12",
       "timeslot": 17,
       "timeslotdiff": 15
     },
-    "heartstone-3": {
+    "hjartasteinn-3": {
       "date": "2017-05-12",
       "time": "18:00",
       "theater": "Hanasaari",
@@ -3898,17 +3868,17 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "heartstone",
+      "img": "8354",
+      "url": "hjartasteinn",
       "extraurl": "",
-      "id": "heartstone-3",
+      "id": "hjartasteinn-3",
       "datetime": "2017-05-12T15:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 17,
       "timeslotdiff": 60,
       "special": true
     },
-    "afterimage-2": {
+    "powidoki-2": {
       "date": "2017-05-12",
       "time": "18:00",
       "theater": "Louhisali",
@@ -3918,16 +3888,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "afterimage",
+      "img": "8574",
+      "url": "powidoki",
       "extraurl": "",
-      "id": "afterimage-2",
+      "id": "powidoki-2",
       "datetime": "2017-05-12T15:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 17,
       "timeslotdiff": 60
     },
-    "the-giant-3": {
+    "jatten-3": {
       "date": "2017-05-12",
       "time": "18:15",
       "theater": "Tapiolasali",
@@ -3937,16 +3907,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-giant",
+      "img": "8343",
+      "url": "jatten",
       "extraurl": "",
-      "id": "the-giant-3",
+      "id": "jatten-3",
       "datetime": "2017-05-12T15:15:00.000Z",
       "dateId": "pe-12",
       "timeslot": 17,
       "timeslotdiff": 75
     },
-    "a-date-for-mad-mary-3": {
+    "date-for-mad-mary-a-3": {
       "date": "2017-05-12",
       "time": "18:45",
       "theater": "Kino Tapiola",
@@ -3956,16 +3926,16 @@
       "subtitles": "",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-date-for-mad-mary",
+      "img": "8301",
+      "url": "date-for-mad-mary-a",
       "extraurl": "",
-      "id": "a-date-for-mad-mary-3",
+      "id": "date-for-mad-mary-a-3",
       "datetime": "2017-05-12T15:45:00.000Z",
       "dateId": "pe-12",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "on-the-milky-road-2": {
+    "na-mlecnom-putu-2": {
       "date": "2017-05-12",
       "time": "18:45",
       "theater": "Omena 4",
@@ -3975,16 +3945,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "on-the-milky-road",
+      "img": "8467",
+      "url": "na-mlecnom-putu",
       "extraurl": "",
-      "id": "on-the-milky-road-2",
+      "id": "na-mlecnom-putu-2",
       "datetime": "2017-05-12T15:45:00.000Z",
       "dateId": "pe-12",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "a-taste-of-ink-3": {
+    "compte-tes-blessures-3": {
       "date": "2017-05-12",
       "time": "18:45",
       "theater": "Sello 4",
@@ -3994,16 +3964,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-taste-of-ink",
+      "img": "8545",
+      "url": "compte-tes-blessures",
       "extraurl": "",
-      "id": "a-taste-of-ink-3",
+      "id": "compte-tes-blessures-3",
       "datetime": "2017-05-12T15:45:00.000Z",
       "dateId": "pe-12",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "the-day-will-come-3": {
+    "der-kommer-en-dag-3": {
       "date": "2017-05-12",
       "time": "19:00",
       "theater": "Omena 7",
@@ -4013,16 +3983,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "the-day-will-come",
+      "img": "8598",
+      "url": "der-kommer-en-dag",
       "extraurl": "",
-      "id": "the-day-will-come-3",
+      "id": "der-kommer-en-dag-3",
       "datetime": "2017-05-12T16:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "the-eavesdropper-2": {
+    "mecanique-de-lombre-la-2": {
       "date": "2017-05-12",
       "time": "19:00",
       "theater": "Sello 5",
@@ -4032,16 +4002,16 @@
       "subtitles": "fin",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-eavesdropper",
+      "img": "8325",
+      "url": "mecanique-de-lombre-la",
       "extraurl": "",
-      "id": "the-eavesdropper-2",
+      "id": "mecanique-de-lombre-la-2",
       "datetime": "2017-05-12T16:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "still-life-2": {
+    "gorge-coeur-ventre-2": {
       "date": "2017-05-12",
       "time": "19:15",
       "theater": "Omena 3",
@@ -4051,16 +4021,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "still-life",
+      "img": "8542",
+      "url": "gorge-coeur-ventre",
       "extraurl": "",
-      "id": "still-life-2",
+      "id": "gorge-coeur-ventre-2",
       "datetime": "2017-05-12T16:15:00.000Z",
       "dateId": "pe-12",
       "timeslot": 19,
       "timeslotdiff": 15
     },
-    "kills-on-wheels-1": {
+    "tiszta-szivvel-1": {
       "date": "2017-05-12",
       "time": "20:30",
       "theater": "Kino Tapiola",
@@ -4070,10 +4040,10 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "kills-on-wheels",
+      "img": "8402",
+      "url": "tiszta-szivvel",
       "extraurl": "",
-      "id": "kills-on-wheels-1",
+      "id": "tiszta-szivvel-1",
       "datetime": "2017-05-12T17:30:00.000Z",
       "dateId": "pe-12",
       "timeslot": 19,
@@ -4089,7 +4059,7 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8284",
       "url": "axolotl-overkill",
       "extraurl": "",
       "id": "axolotl-overkill-2",
@@ -4098,7 +4068,7 @@
       "timeslot": 19,
       "timeslotdiff": 105
     },
-    "the-fury-of-a-patient-man-2": {
+    "tarde-para-la-ira-2": {
       "date": "2017-05-12",
       "time": "21:00",
       "theater": "Omena 3",
@@ -4108,16 +4078,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "the-fury-of-a-patient-man",
+      "img": "8340",
+      "url": "tarde-para-la-ira",
       "extraurl": "",
-      "id": "the-fury-of-a-patient-man-2",
+      "id": "tarde-para-la-ira-2",
       "datetime": "2017-05-12T18:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "orphan-3": {
+    "orpheline-3": {
       "date": "2017-05-12",
       "time": "21:00",
       "theater": "Omena 7",
@@ -4127,16 +4097,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "orphan",
+      "img": "8473",
+      "url": "orpheline",
       "extraurl": "",
-      "id": "orphan-3",
+      "id": "orpheline-3",
       "datetime": "2017-05-12T18:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "the-ardennes-3": {
+    "ardennen-d-3": {
       "date": "2017-05-12",
       "time": "21:00",
       "theater": "Sello 5",
@@ -4146,16 +4116,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "the-ardennes",
+      "img": "8271",
+      "url": "ardennen-d",
       "extraurl": "",
-      "id": "the-ardennes-3",
+      "id": "ardennen-d-3",
       "datetime": "2017-05-12T18:00:00.000Z",
       "dateId": "pe-12",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "playground-2": {
+    "plac-zabaw-2": {
       "date": "2017-05-12",
       "time": "21:15",
       "theater": "Omena 4",
@@ -4165,10 +4135,10 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "playground",
+      "img": "8500",
+      "url": "plac-zabaw",
       "extraurl": "",
-      "id": "playground-2",
+      "id": "plac-zabaw-2",
       "datetime": "2017-05-12T18:15:00.000Z",
       "dateId": "pe-12",
       "timeslot": 21,
@@ -4184,7 +4154,7 @@
       "subtitles": "",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8310",
       "url": "departure",
       "extraurl": "",
       "id": "departure-3",
@@ -4203,7 +4173,7 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8316",
       "url": "donkeyote",
       "extraurl": "",
       "id": "donkeyote-2",
@@ -4222,7 +4192,7 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8363",
       "url": "home",
       "extraurl": "",
       "id": "home-3",
@@ -4231,7 +4201,7 @@
       "timeslot": 13,
       "timeslotdiff": 0
     },
-    "willy-the-first-2": {
+    "willy-1er-2": {
       "date": "2017-05-13",
       "time": "13:00",
       "theater": "Omena 7",
@@ -4241,16 +4211,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "willy-the-first",
+      "img": "8452",
+      "url": "willy-1er",
       "extraurl": "",
-      "id": "willy-the-first-2",
+      "id": "willy-1er-2",
       "datetime": "2017-05-13T10:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 13,
       "timeslotdiff": 0
     },
-    "dreaming-of-wine-2": {
+    "priorat-2": {
       "date": "2017-05-13",
       "time": "14:45",
       "theater": "Kino Tapiola",
@@ -4260,16 +4230,16 @@
       "subtitles": "eng",
       "number": "2/a",
       "rating": "S",
-      "img": "#N/A",
-      "url": "dreaming-of-wine",
+      "img": "8319",
+      "url": "priorat",
       "extraurl": "",
-      "id": "dreaming-of-wine-2",
+      "id": "priorat-2",
       "datetime": "2017-05-13T11:45:00.000Z",
       "dateId": "la-13",
       "timeslot": 13,
       "timeslotdiff": 105
     },
-    "the-king-s-choice-2": {
+    "kongens-nei-2": {
       "date": "2017-05-13",
       "time": "14:45",
       "theater": "Omena 3",
@@ -4279,16 +4249,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-king-s-choice",
+      "img": "8408",
+      "url": "kongens-nei",
       "extraurl": "",
-      "id": "the-king-s-choice-2",
+      "id": "kongens-nei-2",
       "datetime": "2017-05-13T11:45:00.000Z",
       "dateId": "la-13",
       "timeslot": 13,
       "timeslotdiff": 105
     },
-    "paths-3": {
+    "weg-ein-3": {
       "date": "2017-05-13",
       "time": "14:45",
       "theater": "Omena 7",
@@ -4298,10 +4268,10 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "paths",
+      "img": "8491",
+      "url": "weg-ein",
       "extraurl": "",
-      "id": "paths-3",
+      "id": "weg-ein-3",
       "datetime": "2017-05-13T11:45:00.000Z",
       "dateId": "la-13",
       "timeslot": 13,
@@ -4317,7 +4287,7 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8405",
       "url": "king-of-the-belgians",
       "extraurl": "",
       "id": "king-of-the-belgians-3",
@@ -4326,7 +4296,7 @@
       "timeslot": 15,
       "timeslotdiff": 0
     },
-    "the-man-3": {
+    "mesteren-3": {
       "date": "2017-05-13",
       "time": "15:00",
       "theater": "Sello 4",
@@ -4336,16 +4306,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-man",
+      "img": "8425",
+      "url": "mesteren",
       "extraurl": "",
-      "id": "the-man-3",
+      "id": "mesteren-3",
       "datetime": "2017-05-13T12:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 15,
       "timeslotdiff": 0
     },
-    "requiem-for-mrs--j--2": {
+    "requiem-for-mrs-j-2": {
       "date": "2017-05-13",
       "time": "15:00",
       "theater": "Sello 5",
@@ -4355,16 +4325,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "requiem-for-mrs--j-",
+      "img": "8512",
+      "url": "requiem-for-mrs-j",
       "extraurl": "",
-      "id": "requiem-for-mrs--j--2",
+      "id": "requiem-for-mrs-j-2",
       "datetime": "2017-05-13T12:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 15,
       "timeslotdiff": 0
     },
-    "j--beyond-flamenco-1": {
+    "jota-la-1": {
       "date": "2017-05-13",
       "time": "16:15",
       "theater": "Kino Tapiola",
@@ -4374,16 +4344,16 @@
       "subtitles": "eng",
       "number": "1/2",
       "rating": "S",
-      "img": "#N/A",
-      "url": "j--beyond-flamenco",
+      "img": "8378",
+      "url": "jota-la",
       "extraurl": "",
-      "id": "j--beyond-flamenco-1",
+      "id": "jota-la-1",
       "datetime": "2017-05-13T13:15:00.000Z",
       "dateId": "la-13",
       "timeslot": 15,
       "timeslotdiff": 75
     },
-    "a-kid-2": {
+    "fils-de-jean-le-2": {
       "date": "2017-05-13",
       "time": "17:00",
       "theater": "Omena 4",
@@ -4393,16 +4363,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-kid",
+      "img": "8396",
+      "url": "fils-de-jean-le",
       "extraurl": "",
-      "id": "a-kid-2",
+      "id": "fils-de-jean-le-2",
       "datetime": "2017-05-13T14:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "the-distinguished-citizen-3": {
+    "ciudadano-ilustre-el-3": {
       "date": "2017-05-13",
       "time": "17:00",
       "theater": "Omena 7",
@@ -4412,16 +4382,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-distinguished-citizen",
+      "img": "8313",
+      "url": "ciudadano-ilustre-el",
       "extraurl": "",
-      "id": "the-distinguished-citizen-3",
+      "id": "ciudadano-ilustre-el-3",
       "datetime": "2017-05-13T14:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "julie-and-the-shoe-factory-3": {
+    "sur-quel-pied-danser-3": {
       "date": "2017-05-13",
       "time": "17:00",
       "theater": "Sello 4",
@@ -4431,16 +4401,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "julie-and-the-shoe-factory",
+      "img": "8633",
+      "url": "sur-quel-pied-danser",
       "extraurl": "",
-      "id": "julie-and-the-shoe-factory-3",
+      "id": "sur-quel-pied-danser-3",
       "datetime": "2017-05-13T14:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "robert-doisneau-2": {
+    "robert-doisneau-le-revolte-du-merveilleux-2": {
       "date": "2017-05-13",
       "time": "17:00",
       "theater": "Sello 5",
@@ -4450,16 +4420,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "S",
-      "img": "#N/A",
-      "url": "robert-doisneau",
+      "img": "8582",
+      "url": "robert-doisneau-le-revolte-du-merveilleux",
       "extraurl": "",
-      "id": "robert-doisneau-2",
+      "id": "robert-doisneau-le-revolte-du-merveilleux-2",
       "datetime": "2017-05-13T14:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 17,
       "timeslotdiff": 0
     },
-    "the-hippopotamus-3": {
+    "hippopotamus-the-3": {
       "date": "2017-05-13",
       "time": "17:15",
       "theater": "Omena 3",
@@ -4469,16 +4439,16 @@
       "subtitles": "",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-hippopotamus",
+      "img": "8357",
+      "url": "hippopotamus-the",
       "extraurl": "",
-      "id": "the-hippopotamus-3",
+      "id": "hippopotamus-the-3",
       "datetime": "2017-05-13T14:15:00.000Z",
       "dateId": "la-13",
       "timeslot": 17,
       "timeslotdiff": 15
     },
-    "move!-dance-your-life-2": {
+    "move-dance-your-life-2": {
       "date": "2017-05-13",
       "time": "18:00",
       "theater": "Kino Tapiola",
@@ -4488,16 +4458,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "move!-dance-your-life",
+      "img": "8446",
+      "url": "move-dance-your-life",
       "extraurl": "",
-      "id": "move!-dance-your-life-2",
+      "id": "move-dance-your-life-2",
       "datetime": "2017-05-13T15:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 17,
       "timeslotdiff": 60
     },
-    "the-graduation-3": {
+    "concours-le-3": {
       "date": "2017-05-13",
       "time": "18:45",
       "theater": "Sello 5",
@@ -4507,16 +4477,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "the-graduation",
+      "img": "8346",
+      "url": "concours-le",
       "extraurl": "",
-      "id": "the-graduation-3",
+      "id": "concours-le-3",
       "datetime": "2017-05-13T15:45:00.000Z",
       "dateId": "la-13",
       "timeslot": 17,
       "timeslotdiff": 105
     },
-    "stefan-zweig-3": {
+    "vor-der-morgenrote-3": {
       "date": "2017-05-13",
       "time": "19:00",
       "theater": "Omena 3",
@@ -4526,16 +4496,16 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "stefan-zweig",
+      "img": "8539",
+      "url": "vor-der-morgenrote",
       "extraurl": "",
-      "id": "stefan-zweig-3",
+      "id": "vor-der-morgenrote-3",
       "datetime": "2017-05-13T16:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "egon-schiele-2": {
+    "egon-schiele-tod-und-madchen-2": {
       "date": "2017-05-13",
       "time": "19:00",
       "theater": "Sello 4",
@@ -4545,16 +4515,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "egon-schiele",
+      "img": "8328",
+      "url": "egon-schiele-tod-und-madchen",
       "extraurl": "",
-      "id": "egon-schiele-2",
+      "id": "egon-schiele-tod-und-madchen-2",
       "datetime": "2017-05-13T16:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 19,
       "timeslotdiff": 0
     },
-    "kills-on-wheels-2": {
+    "tiszta-szivvel-2": {
       "date": "2017-05-13",
       "time": "19:15",
       "theater": "Omena 4",
@@ -4564,16 +4534,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "kills-on-wheels",
+      "img": "8402",
+      "url": "tiszta-szivvel",
       "extraurl": "",
-      "id": "kills-on-wheels-2",
+      "id": "tiszta-szivvel-2",
       "datetime": "2017-05-13T16:15:00.000Z",
       "dateId": "la-13",
       "timeslot": 19,
       "timeslotdiff": 15
     },
-    "still-life-3": {
+    "gorge-coeur-ventre-3": {
       "date": "2017-05-13",
       "time": "19:15",
       "theater": "Omena 7",
@@ -4583,10 +4553,10 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "still-life",
+      "img": "8542",
+      "url": "gorge-coeur-ventre",
       "extraurl": "",
-      "id": "still-life-3",
+      "id": "gorge-coeur-ventre-3",
       "datetime": "2017-05-13T16:15:00.000Z",
       "dateId": "la-13",
       "timeslot": 19,
@@ -4602,7 +4572,7 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8422",
       "url": "light-thereafter",
       "extraurl": "",
       "id": "light-thereafter-2",
@@ -4621,7 +4591,7 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8284",
       "url": "axolotl-overkill",
       "extraurl": "",
       "id": "axolotl-overkill-3",
@@ -4630,7 +4600,7 @@
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "secluded-2": {
+    "afskaret-2": {
       "date": "2017-05-13",
       "time": "21:00",
       "theater": "Omena 7",
@@ -4640,16 +4610,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "secluded",
+      "img": "8521",
+      "url": "afskaret",
       "extraurl": "",
-      "id": "secluded-2",
+      "id": "afskaret-2",
       "datetime": "2017-05-13T18:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "the-young-offenders-3": {
+    "young-offenders-the-3": {
       "date": "2017-05-13",
       "time": "21:00",
       "theater": "Sello 4",
@@ -4659,16 +4629,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-young-offenders",
+      "img": "8585",
+      "url": "young-offenders-the",
       "extraurl": "",
-      "id": "the-young-offenders-3",
+      "id": "young-offenders-the-3",
       "datetime": "2017-05-13T18:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "thanks-boss!-3": {
+    "merci-patron-3": {
       "date": "2017-05-13",
       "time": "21:00",
       "theater": "Sello 5",
@@ -4678,16 +4648,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "thanks-boss!",
+      "img": "8548",
+      "url": "merci-patron",
       "extraurl": "",
-      "id": "thanks-boss!-3",
+      "id": "merci-patron-3",
       "datetime": "2017-05-13T18:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 21,
       "timeslotdiff": 0
     },
-    "the-eavesdropper-3": {
+    "mecanique-de-lombre-la-3": {
       "date": "2017-05-13",
       "time": "21:15",
       "theater": "Omena 4",
@@ -4697,16 +4667,16 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-eavesdropper",
+      "img": "8325",
+      "url": "mecanique-de-lombre-la",
       "extraurl": "",
-      "id": "the-eavesdropper-3",
+      "id": "mecanique-de-lombre-la-3",
       "datetime": "2017-05-13T18:15:00.000Z",
       "dateId": "la-13",
       "timeslot": 21,
       "timeslotdiff": 15
     },
-    "never-ever-2": {
+    "a-jamais-2": {
       "date": "2017-05-13",
       "time": "21:30",
       "theater": "Kino Tapiola",
@@ -4716,16 +4686,16 @@
       "subtitles": "eng",
       "number": "2/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "never-ever",
+      "img": "8455",
+      "url": "a-jamais",
       "extraurl": "",
-      "id": "never-ever-2",
+      "id": "a-jamais-2",
       "datetime": "2017-05-13T18:30:00.000Z",
       "dateId": "la-13",
       "timeslot": 21,
       "timeslotdiff": 30
     },
-    "the-life-and-films-of-ken-loach-3": {
+    "versus-the-life-and-films-of-ken-loach-3": {
       "date": "2017-05-14",
       "time": "12:00",
       "theater": "Kino Tapiola",
@@ -4735,10 +4705,10 @@
       "subtitles": "",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-life-and-films-of-ken-loach",
+      "img": "8428",
+      "url": "versus-the-life-and-films-of-ken-loach",
       "extraurl": "",
-      "id": "the-life-and-films-of-ken-loach-3",
+      "id": "versus-the-life-and-films-of-ken-loach-3",
       "datetime": "2017-05-14T09:00:00.000Z",
       "dateId": "su-14",
       "timeslot": 11,
@@ -4754,7 +4724,7 @@
       "subtitles": "",
       "number": "14/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-14",
@@ -4774,7 +4744,7 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K7",
-      "img": "#N/A",
+      "img": "8280",
       "url": "austerlitz",
       "extraurl": "",
       "id": "austerlitz-2",
@@ -4783,7 +4753,7 @@
       "timeslot": 13,
       "timeslotdiff": 60
     },
-    "50-is-the-new-30-3": {
+    "marie-francine-3": {
       "date": "2017-05-14",
       "time": "14:00",
       "theater": "Omena 3",
@@ -4793,10 +4763,10 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "50-is-the-new-30",
+      "img": "8554",
+      "url": "marie-francine",
       "extraurl": "",
-      "id": "50-is-the-new-30-3",
+      "id": "marie-francine-3",
       "datetime": "2017-05-14T11:00:00.000Z",
       "dateId": "su-14",
       "timeslot": 13,
@@ -4812,7 +4782,7 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8316",
       "url": "donkeyote",
       "extraurl": "",
       "id": "donkeyote-3",
@@ -4821,7 +4791,7 @@
       "timeslot": 13,
       "timeslotdiff": 60
     },
-    "the-fabulous-patars-3": {
+    "cigarettes-et-chocolat-chaud-3": {
       "date": "2017-05-14",
       "time": "14:00",
       "theater": "Sello 4",
@@ -4831,16 +4801,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "the-fabulous-patars",
+      "img": "8334",
+      "url": "cigarettes-et-chocolat-chaud",
       "extraurl": "",
-      "id": "the-fabulous-patars-3",
+      "id": "cigarettes-et-chocolat-chaud-3",
       "datetime": "2017-05-14T11:00:00.000Z",
       "dateId": "su-14",
       "timeslot": 13,
       "timeslotdiff": 60
     },
-    "life-beyond-me-3": {
+    "vie-ailleurs-une-3": {
       "date": "2017-05-14",
       "time": "14:00",
       "theater": "Sello 5",
@@ -4850,16 +4820,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "life-beyond-me",
+      "img": "8419",
+      "url": "vie-ailleurs-une",
       "extraurl": "",
-      "id": "life-beyond-me-3",
+      "id": "vie-ailleurs-une-3",
       "datetime": "2017-05-14T11:00:00.000Z",
       "dateId": "su-14",
       "timeslot": 13,
       "timeslotdiff": 60
     },
-    "move!-dance-your-life-3": {
+    "move-dance-your-life-3": {
       "date": "2017-05-14",
       "time": "14:15",
       "theater": "Omena 4",
@@ -4869,16 +4839,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "S",
-      "img": "#N/A",
-      "url": "move!-dance-your-life",
+      "img": "8446",
+      "url": "move-dance-your-life",
       "extraurl": "",
-      "id": "move!-dance-your-life-3",
+      "id": "move-dance-your-life-3",
       "datetime": "2017-05-14T11:15:00.000Z",
       "dateId": "su-14",
       "timeslot": 13,
       "timeslotdiff": 75
     },
-    "a-woman-s-life-3": {
+    "vie-une-3": {
       "date": "2017-05-14",
       "time": "15:45",
       "theater": "Kino Tapiola",
@@ -4888,10 +4858,10 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-woman-s-life",
+      "img": "8607",
+      "url": "vie-une",
       "extraurl": "",
-      "id": "a-woman-s-life-3",
+      "id": "vie-une-3",
       "datetime": "2017-05-14T12:45:00.000Z",
       "dateId": "su-14",
       "timeslot": 15,
@@ -4907,7 +4877,7 @@
       "subtitles": "",
       "number": "3/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8369",
       "url": "in-loco-parentis",
       "extraurl": "",
       "id": "in-loco-parentis-3",
@@ -4916,7 +4886,7 @@
       "timeslot": 15,
       "timeslotdiff": 45
     },
-    "enclave-3": {
+    "enklava-3": {
       "date": "2017-05-14",
       "time": "15:45",
       "theater": "Omena 7",
@@ -4926,16 +4896,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "enclave",
+      "img": "8605",
+      "url": "enklava",
       "extraurl": "",
-      "id": "enclave-3",
+      "id": "enklava-3",
       "datetime": "2017-05-14T12:45:00.000Z",
       "dateId": "su-14",
       "timeslot": 15,
       "timeslotdiff": 45
     },
-    "all-the-beauty-2": {
+    "alt-det-vakre-2": {
       "date": "2017-05-14",
       "time": "15:45",
       "theater": "Sello 4",
@@ -4945,16 +4915,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "all-the-beauty",
+      "img": "8259",
+      "url": "alt-det-vakre",
       "extraurl": "",
-      "id": "all-the-beauty-2",
+      "id": "alt-det-vakre-2",
       "datetime": "2017-05-14T12:45:00.000Z",
       "dateId": "su-14",
       "timeslot": 15,
       "timeslotdiff": 45
     },
-    "a-kid-3": {
+    "fils-de-jean-le-3": {
       "date": "2017-05-14",
       "time": "15:45",
       "theater": "Sello 5",
@@ -4964,16 +4934,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "a-kid",
+      "img": "8396",
+      "url": "fils-de-jean-le",
       "extraurl": "",
-      "id": "a-kid-3",
+      "id": "fils-de-jean-le-3",
       "datetime": "2017-05-14T12:45:00.000Z",
       "dateId": "su-14",
       "timeslot": 15,
       "timeslotdiff": 45
     },
-    "j--beyond-flamenco-2": {
+    "jota-la-2": {
       "date": "2017-05-14",
       "time": "16:00",
       "theater": "Omena 3",
@@ -4983,10 +4953,10 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "S",
-      "img": "#N/A",
-      "url": "j--beyond-flamenco",
+      "img": "8378",
+      "url": "jota-la",
       "extraurl": "",
-      "id": "j--beyond-flamenco-2",
+      "id": "jota-la-2",
       "datetime": "2017-05-14T13:00:00.000Z",
       "dateId": "su-14",
       "timeslot": 15,
@@ -5002,7 +4972,7 @@
       "subtitles": "",
       "number": "15/15",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8626",
       "url": "animaatioita-pienimmille",
       "extraurl": "",
       "id": "animaatioita-pienimmille-15",
@@ -5022,7 +4992,7 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8422",
       "url": "light-thereafter",
       "extraurl": "",
       "id": "light-thereafter-3",
@@ -5031,7 +5001,7 @@
       "timeslot": 17,
       "timeslotdiff": 30
     },
-    "cezanne-and-i-3": {
+    "cezanne-et-moi-3": {
       "date": "2017-05-14",
       "time": "17:30",
       "theater": "Sello 4",
@@ -5041,10 +5011,10 @@
       "subtitles": "fin",
       "number": "3/3",
       "rating": "K7",
-      "img": "#N/A",
-      "url": "cezanne-and-i",
+      "img": "8295",
+      "url": "cezanne-et-moi",
       "extraurl": "",
-      "id": "cezanne-and-i-3",
+      "id": "cezanne-et-moi-3",
       "datetime": "2017-05-14T14:30:00.000Z",
       "dateId": "su-14",
       "timeslot": 17,
@@ -5060,7 +5030,7 @@
       "subtitles": "",
       "number": "3/3",
       "rating": "K16",
-      "img": "#N/A",
+      "img": "8283",
       "url": "away",
       "extraurl": "",
       "id": "away-3",
@@ -5079,7 +5049,7 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "S",
-      "img": "#N/A",
+      "img": "8488",
       "url": "paris-la-blanche",
       "extraurl": "",
       "id": "paris-la-blanche-3",
@@ -5098,7 +5068,7 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
+      "img": "8431",
       "url": "marie-curie",
       "extraurl": "",
       "id": "marie-curie-3",
@@ -5107,7 +5077,7 @@
       "timeslot": 17,
       "timeslotdiff": 60
     },
-    "requiem-for-mrs--j--3": {
+    "requiem-for-mrs-j-3": {
       "date": "2017-05-14",
       "time": "18:00",
       "theater": "Omena 3",
@@ -5117,16 +5087,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "requiem-for-mrs--j-",
+      "img": "8512",
+      "url": "requiem-for-mrs-j",
       "extraurl": "",
-      "id": "requiem-for-mrs--j--3",
+      "id": "requiem-for-mrs-j-3",
       "datetime": "2017-05-14T15:00:00.000Z",
       "dateId": "su-14",
       "timeslot": 17,
       "timeslotdiff": 60
     },
-    "egon-schiele-3": {
+    "egon-schiele-tod-und-madchen-3": {
       "date": "2017-05-14",
       "time": "19:30",
       "theater": "Omena 7",
@@ -5136,16 +5106,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "egon-schiele",
+      "img": "8328",
+      "url": "egon-schiele-tod-und-madchen",
       "extraurl": "",
-      "id": "egon-schiele-3",
+      "id": "egon-schiele-tod-und-madchen-3",
       "datetime": "2017-05-14T16:30:00.000Z",
       "dateId": "su-14",
       "timeslot": 19,
       "timeslotdiff": 30
     },
-    "the-fixer-2": {
+    "fixeur-2": {
       "date": "2017-05-14",
       "time": "19:45",
       "theater": "Omena 4",
@@ -5155,16 +5125,16 @@
       "subtitles": "eng",
       "number": "2/2",
       "rating": "K16",
-      "img": "#N/A",
-      "url": "the-fixer",
+      "img": "8337",
+      "url": "fixeur",
       "extraurl": "",
-      "id": "the-fixer-2",
+      "id": "fixeur-2",
       "datetime": "2017-05-14T16:45:00.000Z",
       "dateId": "su-14",
       "timeslot": 19,
       "timeslotdiff": 45
     },
-    "the-king-s-choice-3": {
+    "kongens-nei-3": {
       "date": "2017-05-14",
       "time": "19:45",
       "theater": "Sello 4",
@@ -5174,16 +5144,16 @@
       "subtitles": "eng",
       "number": "3/3",
       "rating": "K12",
-      "img": "#N/A",
-      "url": "the-king-s-choice",
+      "img": "8408",
+      "url": "kongens-nei",
       "extraurl": "",
-      "id": "the-king-s-choice-3",
+      "id": "kongens-nei-3",
       "datetime": "2017-05-14T16:45:00.000Z",
       "dateId": "su-14",
       "timeslot": 19,
       "timeslotdiff": 45
     },
-    "hulluna-onnesta-1": {
+    "pazza-gioia-la-1": {
       "date": "2017-05-14",
       "time": "20:00",
       "theater": "Kino Tapiola",
@@ -5193,16 +5163,16 @@
       "subtitles": "fin + swe",
       "number": "1/3",
       "rating": "",
-      "img": "#N/A",
-      "url": "hulluna-onnesta",
+      "img": "8742",
+      "url": "pazza-gioia-la",
       "extraurl": "",
-      "id": "hulluna-onnesta-1",
+      "id": "pazza-gioia-la-1",
       "datetime": "2017-05-14T17:00:00.000Z",
       "dateId": "su-14",
       "timeslot": 19,
       "timeslotdiff": 60
     },
-    "hulluna-onnesta-2": {
+    "pazza-gioia-la-2": {
       "date": "2017-05-14",
       "time": "20:00",
       "theater": "Omena 3",
@@ -5212,16 +5182,16 @@
       "subtitles": "fin + swe",
       "number": "2/3",
       "rating": "",
-      "img": "#N/A",
-      "url": "hulluna-onnesta",
+      "img": "8742",
+      "url": "pazza-gioia-la",
       "extraurl": "",
-      "id": "hulluna-onnesta-2",
+      "id": "pazza-gioia-la-2",
       "datetime": "2017-05-14T17:00:00.000Z",
       "dateId": "su-14",
       "timeslot": 19,
       "timeslotdiff": 60
     },
-    "hulluna-onnesta-3": {
+    "pazza-gioia-la-3": {
       "date": "2017-05-14",
       "time": "20:00",
       "theater": "Sello 5",
@@ -5231,10 +5201,10 @@
       "subtitles": "fin + swe",
       "number": "3/3",
       "rating": "",
-      "img": "#N/A",
-      "url": "hulluna-onnesta",
+      "img": "8742",
+      "url": "pazza-gioia-la",
       "extraurl": "",
-      "id": "hulluna-onnesta-3",
+      "id": "pazza-gioia-la-3",
       "datetime": "2017-05-14T17:00:00.000Z",
       "dateId": "su-14",
       "timeslot": 19,
@@ -5242,37 +5212,13 @@
     }
   },
   "days": {
-    "ti-18": {
-      "timeslots": {
-        "21": {
-          "time": "21:00",
-          "theaters": {
-            "Kino Tapiola": [],
-            "Tapiolasali": [],
-            "Louhisali": [],
-            "Sello 4": [],
-            "Sello 5": [],
-            "Omena 3": [],
-            "Omena 4": [],
-            "Omena 7": [],
-            "Muut": [
-              "pressileffa--jäljet-tai-plan-b--nocturama-"
-            ]
-          },
-          "count": 1,
-          "duration": "180"
-        }
-      },
-      "id": "ti-18",
-      "date": "2017-04-19"
-    },
     "ti-25": {
       "timeslots": {
         "19": {
           "time": "19:00",
           "theaters": {
             "Kino Tapiola": [
-              "at-your-doorstep-E"
+              "cerca-de-tu-casa-E"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
@@ -5304,7 +5250,7 @@
             "Omena 4": [],
             "Omena 7": [],
             "Muut": [
-              "this-is-our-land-E"
+              "chez-nous-E"
             ]
           },
           "count": 1,
@@ -5352,8 +5298,8 @@
             "Omena 4": [],
             "Omena 7": [],
             "Muut": [
-              "dreaming-of-wine-E",
-              "the-life-and-films-of-ken-loach-E"
+              "priorat-E",
+              "versus-the-life-and-films-of-ken-loach-E"
             ]
           },
           "count": 2,
@@ -5371,7 +5317,7 @@
             "Omena 4": [],
             "Omena 7": [],
             "Muut": [
-              "never-ever-E"
+              "a-jamais-E"
             ]
           },
           "count": 1,
@@ -5441,13 +5387,13 @@
           "time": "17:00",
           "theaters": {
             "Kino Tapiola": [
-              "eastern-business-1",
+              "afacerea-est-1",
               "king-of-the-belgians-1"
             ],
             "Tapiolasali": [],
             "Louhisali": [
               "mister-universo-2",
-              "the-giant-1"
+              "jatten-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5466,10 +5412,10 @@
               "axolotl-overkill-1"
             ],
             "Tapiolasali": [
-              "jäljet-1"
+              "pokot-1"
             ],
             "Louhisali": [
-              "in-the-blood-1"
+              "i-blodet-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5486,7 +5432,7 @@
           "theaters": {
             "Kino Tapiola": [],
             "Tapiolasali": [
-              "still-life-1"
+              "gorge-coeur-ventre-1"
             ],
             "Louhisali": [],
             "Sello 4": [],
@@ -5527,10 +5473,10 @@
           "time": "11:00",
           "theaters": {
             "Kino Tapiola": [
-              "a-woman-s-life-1"
+              "vie-une-1"
             ],
             "Tapiolasali": [
-              "the-death-of-louis-xiv-1"
+              "mort-de-louis-xiv-la-1"
             ],
             "Louhisali": [
               "kikattava-kakkiainen-1",
@@ -5550,14 +5496,14 @@
           "time": "13:00",
           "theaters": {
             "Kino Tapiola": [
-              "the-graduation-1"
+              "concours-le-1"
             ],
             "Tapiolasali": [
-              "the-sense-of-an-ending-1"
+              "sense-of-an-ending-the-1"
             ],
             "Louhisali": [
               "papulabox-1",
-              "elämäni-kesäkurpitsana-1"
+              "ma-vie-de-courgette-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5573,7 +5519,7 @@
           "time": "15:00",
           "theaters": {
             "Kino Tapiola": [
-              "a-kid-1"
+              "fils-de-jean-le-1"
             ],
             "Tapiolasali": [
               "sieranevada-1"
@@ -5595,13 +5541,13 @@
           "time": "17:00",
           "theaters": {
             "Kino Tapiola": [
-              "the-man-1"
+              "mesteren-1"
             ],
             "Tapiolasali": [
               "denial-1"
             ],
             "Louhisali": [
-              "the-hippopotamus-1"
+              "hippopotamus-the-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5617,11 +5563,11 @@
           "time": "19:00",
           "theaters": {
             "Kino Tapiola": [
-              "on-the-milky-road-1"
+              "na-mlecnom-putu-1"
             ],
             "Tapiolasali": [],
             "Louhisali": [
-              "the-dancer-1"
+              "danseuse-la-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5637,13 +5583,13 @@
           "time": "21:00",
           "theaters": {
             "Kino Tapiola": [
-              "to-stay-alive-1"
+              "overleven-een-handleiding-1"
             ],
             "Tapiolasali": [
               "safari-1"
             ],
             "Louhisali": [
-              "playground-1"
+              "plac-zabaw-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5665,7 +5611,7 @@
           "time": "11:00",
           "theaters": {
             "Kino Tapiola": [
-              "pohjoismaiset-lyhärit-1"
+              "nordic-shorts-1"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
@@ -5683,14 +5629,14 @@
           "time": "13:00",
           "theaters": {
             "Kino Tapiola": [
-              "handle-with-care-1"
+              "hjertestart-1"
             ],
             "Tapiolasali": [
-              "the-red-turtle-1",
+              "tortue-rouge-la-1",
               "their-finest-1"
             ],
             "Louhisali": [
-              "robert-doisneau-1",
+              "robert-doisneau-le-revolte-du-merveilleux-1",
               "beuys-1"
             ],
             "Sello 4": [],
@@ -5707,14 +5653,14 @@
           "time": "15:00",
           "theaters": {
             "Kino Tapiola": [
-              "50-is-the-new-30-1",
-              "the-distinguished-citizen-1"
+              "marie-francine-1",
+              "ciudadano-ilustre-el-1"
             ],
             "Tapiolasali": [
-              "muistoja-äidistäni-1"
+              "fai-bei-sogni-1"
             ],
             "Louhisali": [
-              "cezanne-and-i-1"
+              "cezanne-et-moi-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5748,10 +5694,10 @@
           "time": "19:00",
           "theaters": {
             "Kino Tapiola": [
-              "afterimage-1"
+              "powidoki-1"
             ],
             "Tapiolasali": [
-              "this-is-our-land-2"
+              "chez-nous-2"
             ],
             "Louhisali": [
               "nocturama-1"
@@ -5770,13 +5716,13 @@
           "time": "21:00",
           "theaters": {
             "Kino Tapiola": [
-              "julie-and-the-shoe-factory-1"
+              "sur-quel-pied-danser-1"
             ],
             "Tapiolasali": [
-              "skins-1"
+              "pieles-1"
             ],
             "Louhisali": [
-              "the-fury-of-a-patient-man-1"
+              "tarde-para-la-ira-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5836,8 +5782,8 @@
           "time": "15:00",
           "theaters": {
             "Kino Tapiola": [
-              "enclave-1",
-              "at-your-doorstep-1"
+              "enklava-1",
+              "cerca-de-tu-casa-1"
             ],
             "Tapiolasali": [
               "marie-curie-1"
@@ -5859,14 +5805,14 @@
           "time": "17:00",
           "theaters": {
             "Kino Tapiola": [
-              "requiem-for-mrs--j--1"
+              "requiem-for-mrs-j-1"
             ],
             "Tapiolasali": [
-              "the-king-s-choice-1"
+              "kongens-nei-1"
             ],
             "Louhisali": [
               "matka-jatkuu-1",
-              "matka-on-pitkä-1"
+              "matka-on-pitka-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5874,7 +5820,7 @@
             "Omena 4": [],
             "Omena 7": [],
             "Muut": [
-              "the-giant-2"
+              "jatten-2"
             ]
           },
           "count": 5,
@@ -5884,11 +5830,11 @@
           "time": "19:00",
           "theaters": {
             "Kino Tapiola": [
-              "the-eavesdropper-1"
+              "mecanique-de-lombre-la-1"
             ],
             "Tapiolasali": [],
             "Louhisali": [
-              "egon-schiele-1"
+              "egon-schiele-tod-und-madchen-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5905,7 +5851,7 @@
           "theaters": {
             "Kino Tapiola": [],
             "Tapiolasali": [
-              "stalin-s-couch-1"
+              "divan-de-staline-le-1"
             ],
             "Louhisali": [],
             "Sello 4": [],
@@ -5928,10 +5874,10 @@
           "time": "09:00",
           "theaters": {
             "Kino Tapiola": [
-              "oskarin-amerikka-1"
+              "oskars-amerika-1"
             ],
             "Tapiolasali": [
-              "kanelia-kainaloon--tatu-ja-patu!-1"
+              "kanelia-kainaloon-tatu-ja-patu-1"
             ],
             "Louhisali": [
               "animaatioita-pienimmille-6",
@@ -5948,8 +5894,8 @@
               "animaatioita-pienimmille-5",
               "animaatioita-pienimmille-7",
               "animaatioita-pienimmille-E",
-              "raparperimehua-E",
-              "onni-suosii-rohkeaa-3"
+              "rabarber-E",
+              "ente-gut-madchen-allein-zu-haus-3"
             ]
           },
           "count": 11,
@@ -5959,13 +5905,13 @@
           "time": "11:00",
           "theaters": {
             "Kino Tapiola": [
-              "silmätysten-1"
+              "auf-augenhohe-1"
             ],
             "Tapiolasali": [
-              "kun-vielä-elämme-1"
+              "medan-vi-lever-1"
             ],
             "Louhisali": [
-              "offline-1"
+              "offline-das-leben-ist-kein-bonuslevel-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -5973,7 +5919,7 @@
             "Omena 4": [],
             "Omena 7": [],
             "Muut": [
-              "onni-suosii-rohkeaa-1"
+              "ente-gut-madchen-allein-zu-haus-1"
             ]
           },
           "count": 4,
@@ -5984,10 +5930,10 @@
           "theaters": {
             "Kino Tapiola": [],
             "Tapiolasali": [
-              "tulisilla-hiilillä-1"
+              "glutnester-1"
             ],
             "Louhisali": [
-              "kesäni-sudenkorentona-1"
+              "kesani-sudenkorentona-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -6006,7 +5952,7 @@
               "kiehumispiste-1"
             ],
             "Tapiolasali": [
-              "the-fabulous-patars-1"
+              "cigarettes-et-chocolat-chaud-1"
             ],
             "Louhisali": [],
             "Sello 4": [],
@@ -6023,16 +5969,16 @@
           "time": "17:00",
           "theaters": {
             "Kino Tapiola": [
-              "the-graduation-2"
+              "concours-le-2"
             ],
             "Tapiolasali": [
-              "stefan-zweig-1"
+              "vor-der-morgenrote-1"
             ],
             "Louhisali": [
-              "this-is-our-land-3"
+              "chez-nous-3"
             ],
             "Sello 4": [
-              "thanks-boss!-1"
+              "merci-patron-1"
             ],
             "Sello 5": [
               "departure-1"
@@ -6041,12 +5987,12 @@
               "paris-la-blanche-1"
             ],
             "Omena 4": [
-              "willy-the-first-1",
-              "the-man-2"
+              "willy-1er-1",
+              "mesteren-2"
             ],
             "Omena 7": [
-              "eastern-business-2",
-              "enclave-2"
+              "afacerea-est-2",
+              "enklava-2"
             ],
             "Muut": []
           },
@@ -6060,21 +6006,21 @@
               "in-loco-parentis-2"
             ],
             "Tapiolasali": [
-              "cezanne-and-i-2"
+              "cezanne-et-moi-2"
             ],
             "Louhisali": [],
             "Sello 4": [
-              "julie-and-the-shoe-factory-2",
-              "the-distinguished-citizen-2"
+              "sur-quel-pied-danser-2",
+              "ciudadano-ilustre-el-2"
             ],
             "Sello 5": [
-              "a-date-for-mad-mary-1"
+              "date-for-mad-mary-a-1"
             ],
             "Omena 3": [
-              "a-taste-of-ink-1"
+              "compte-tes-blessures-1"
             ],
             "Omena 4": [
-              "into-the-forest-1"
+              "dans-la-foret-1"
             ],
             "Omena 7": [
               "nocturama-2"
@@ -6088,20 +6034,20 @@
           "time": "21:00",
           "theaters": {
             "Kino Tapiola": [
-              "heartstone-1"
+              "hjartasteinn-1"
             ],
             "Tapiolasali": [
-              "orphan-1"
+              "orpheline-1"
             ],
             "Louhisali": [
-              "the-hippopotamus-2"
+              "hippopotamus-the-2"
             ],
             "Sello 4": [],
             "Sello 5": [
               "back-for-good-1"
             ],
             "Omena 3": [
-              "skins-2"
+              "pieles-2"
             ],
             "Omena 4": [],
             "Omena 7": [],
@@ -6120,10 +6066,10 @@
           "time": "09:00",
           "theaters": {
             "Kino Tapiola": [
-              "silmätysten-2"
+              "auf-augenhohe-2"
             ],
             "Tapiolasali": [
-              "raparperimehua-1"
+              "rabarber-1"
             ],
             "Louhisali": [
               "animaatioita-pienimmille-10",
@@ -6136,7 +6082,7 @@
             "Omena 7": [],
             "Muut": [
               "animaatioita-pienimmille-9",
-              "raparperimehua-E",
+              "rabarber-E",
               "animaatioita-pienimmille-11"
             ]
           },
@@ -6147,14 +6093,14 @@
           "time": "11:00",
           "theaters": {
             "Kino Tapiola": [
-              "räjähtävää-teinirakkautta-1"
+              "vindmollernes-sus-1"
             ],
             "Tapiolasali": [
-              "offline-2"
+              "offline-das-leben-ist-kein-bonuslevel-2"
             ],
             "Louhisali": [
-              "pitkä-matka-kouluun-2",
-              "miss-impossible-1"
+              "nicht-ohne-uns-2",
+              "jamais-contente-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -6162,7 +6108,7 @@
             "Omena 4": [],
             "Omena 7": [],
             "Muut": [
-              "pitkä-matka-kouluun-1"
+              "nicht-ohne-uns-1"
             ]
           },
           "count": 5,
@@ -6173,10 +6119,10 @@
           "theaters": {
             "Kino Tapiola": [],
             "Tapiolasali": [
-              "järven-tarina-1"
+              "jarven-tarina-1"
             ],
             "Louhisali": [
-              "thanks-boss!-2"
+              "merci-patron-2"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -6193,13 +6139,13 @@
           "theaters": {
             "Kino Tapiola": [
               "lapualaismorsian-1",
-              "a-woman-s-life-2"
+              "vie-une-2"
             ],
             "Tapiolasali": [
               "mister-universo-3"
             ],
             "Louhisali": [
-              "to-stay-alive-2"
+              "overleven-een-handleiding-2"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -6216,26 +6162,26 @@
           "theaters": {
             "Kino Tapiola": [],
             "Tapiolasali": [
-              "käpy-selän-alla-1"
+              "kapy-selan-alla-1"
             ],
             "Louhisali": [
               "sieranevada-2"
             ],
             "Sello 4": [
-              "life-beyond-me-1"
+              "vie-ailleurs-une-1"
             ],
             "Sello 5": [
-              "move!-dance-your-life-1"
+              "move-dance-your-life-1"
             ],
             "Omena 3": [
               "paris-la-blanche-2"
             ],
             "Omena 4": [
-              "the-life-and-films-of-ken-loach-1"
+              "versus-the-life-and-films-of-ken-loach-1"
             ],
             "Omena 7": [
-              "the-fabulous-patars-2",
-              "a-date-for-mad-mary-2"
+              "cigarettes-et-chocolat-chaud-2",
+              "date-for-mad-mary-a-2"
             ],
             "Muut": []
           },
@@ -6246,28 +6192,28 @@
           "time": "19:00",
           "theaters": {
             "Kino Tapiola": [
-              "heartstone-2"
+              "hjartasteinn-2"
             ],
             "Tapiolasali": [
-              "kaiken-se-kestää-1",
-              "the-death-of-louis-xiv-2"
+              "kaiken-se-kestaa-1",
+              "mort-de-louis-xiv-la-2"
             ],
             "Louhisali": [
               "nocturama-3"
             ],
             "Sello 4": [
-              "at-your-doorstep-2",
-              "the-fixer-1"
+              "cerca-de-tu-casa-2",
+              "fixeur-1"
             ],
             "Sello 5": [
-              "stalin-s-couch-2"
+              "divan-de-staline-le-2"
             ],
             "Omena 3": [
-              "a-wedding-1",
-              "the-day-will-come-1"
+              "noces-1",
+              "der-kommer-en-dag-1"
             ],
             "Omena 4": [
-              "paths-1"
+              "weg-ein-1"
             ],
             "Omena 7": [
               "away-1"
@@ -6281,17 +6227,17 @@
           "time": "21:00",
           "theaters": {
             "Kino Tapiola": [
-              "the-ardennes-1"
+              "ardennen-d-1"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
             "Sello 4": [],
             "Sello 5": [
-              "skins-3"
+              "pieles-3"
             ],
             "Omena 3": [],
             "Omena 4": [
-              "secluded-1"
+              "afskaret-1"
             ],
             "Omena 7": [],
             "Muut": []
@@ -6309,10 +6255,10 @@
           "time": "09:00",
           "theaters": {
             "Kino Tapiola": [
-              "oskarin-amerikka-2"
+              "oskars-amerika-2"
             ],
             "Tapiolasali": [
-              "silmätysten-3"
+              "auf-augenhohe-3"
             ],
             "Louhisali": [
               "lyhytelokuvia-lapsille-2"
@@ -6323,7 +6269,7 @@
             "Omena 4": [],
             "Omena 7": [],
             "Muut": [
-              "raparperimehua-E",
+              "rabarber-E",
               "animaatioita-pienimmille-13"
             ]
           },
@@ -6334,13 +6280,13 @@
           "time": "11:00",
           "theaters": {
             "Kino Tapiola": [
-              "räjähtävää-teinirakkautta-2"
+              "vindmollernes-sus-2"
             ],
             "Tapiolasali": [
-              "offline-3"
+              "offline-das-leben-ist-kein-bonuslevel-3"
             ],
             "Louhisali": [
-              "tulisilla-hiilillä-2"
+              "glutnester-2"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -6360,7 +6306,7 @@
               "hobbyhorse-revolution-1"
             ],
             "Louhisali": [
-              "tomorrow-1"
+              "demain-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -6376,13 +6322,13 @@
           "time": "15:00",
           "theaters": {
             "Kino Tapiola": [
-              "dreaming-of-wine-1"
+              "priorat-1"
             ],
             "Tapiolasali": [
               "beuys-2"
             ],
             "Louhisali": [
-              "tyttö-nimeltä-varpu-1"
+              "tytto-nimelta-varpu-1"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -6398,30 +6344,30 @@
           "time": "17:00",
           "theaters": {
             "Kino Tapiola": [
-              "all-the-beauty-1"
+              "alt-det-vakre-1"
             ],
             "Tapiolasali": [
               "their-finest-2"
             ],
             "Louhisali": [
-              "stefan-zweig-2"
+              "vor-der-morgenrote-2"
             ],
             "Sello 4": [
               "austerlitz-1",
-              "in-the-blood-2"
+              "i-blodet-2"
             ],
             "Sello 5": [
-              "a-wedding-2"
+              "noces-2"
             ],
             "Omena 3": [
-              "paths-2"
+              "weg-ein-2"
             ],
             "Omena 4": [
               "light-thereafter-1"
             ],
             "Omena 7": [
-              "life-beyond-me-2",
-              "original-bliss-1"
+              "vie-ailleurs-une-2",
+              "gleissendes-gluck-1"
             ],
             "Muut": []
           },
@@ -6432,28 +6378,28 @@
           "time": "19:00",
           "theaters": {
             "Kino Tapiola": [
-              "the-program-1"
+              "program-the-1"
             ],
             "Tapiolasali": [
               "denial-2"
             ],
             "Louhisali": [
-              "war/peace-1"
+              "war-peace-1"
             ],
             "Sello 4": [
-              "the-day-will-come-2"
+              "der-kommer-en-dag-2"
             ],
             "Sello 5": [
               "marie-curie-2"
             ],
             "Omena 3": [
-              "the-young-offenders-1"
+              "young-offenders-the-1"
             ],
             "Omena 4": [
               "away-2"
             ],
             "Omena 7": [
-              "into-the-forest-2"
+              "dans-la-foret-2"
             ],
             "Muut": []
           },
@@ -6464,20 +6410,20 @@
           "time": "21:00",
           "theaters": {
             "Kino Tapiola": [
-              "a-taste-of-ink-2"
+              "compte-tes-blessures-2"
             ],
             "Tapiolasali": [
-              "orphan-2"
+              "orpheline-2"
             ],
             "Louhisali": [
-              "never-ever-1"
+              "a-jamais-1"
             ],
             "Sello 4": [],
             "Sello 5": [
-              "eastern-business-3"
+              "afacerea-est-3"
             ],
             "Omena 3": [
-              "the-ardennes-2"
+              "ardennen-d-2"
             ],
             "Omena 4": [
               "back-for-good-2"
@@ -6498,7 +6444,7 @@
           "time": "09:00",
           "theaters": {
             "Kino Tapiola": [
-              "onni-suosii-rohkeaa-1"
+              "ente-gut-madchen-allein-zu-haus-1"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
@@ -6508,7 +6454,7 @@
             "Omena 4": [],
             "Omena 7": [],
             "Muut": [
-              "oskarin-amerikka-3"
+              "oskars-amerika-3"
             ]
           },
           "count": 2,
@@ -6518,7 +6464,7 @@
           "time": "11:00",
           "theaters": {
             "Kino Tapiola": [
-              "pitkä-matka-kouluun-3"
+              "nicht-ohne-uns-3"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
@@ -6528,7 +6474,7 @@
             "Omena 4": [],
             "Omena 7": [],
             "Muut": [
-              "kun-vielä-elämme-2"
+              "medan-vi-lever-2"
             ]
           },
           "count": 2,
@@ -6538,10 +6484,10 @@
           "time": "13:00",
           "theaters": {
             "Kino Tapiola": [
-              "räjähtävää-teinirakkautta-3"
+              "vindmollernes-sus-3"
             ],
             "Tapiolasali": [
-              "original-bliss-2"
+              "gleissendes-gluck-2"
             ],
             "Louhisali": [
               "departure-2"
@@ -6561,10 +6507,10 @@
           "theaters": {
             "Kino Tapiola": [],
             "Tapiolasali": [
-              "the-sense-of-an-ending-2"
+              "sense-of-an-ending-the-2"
             ],
             "Louhisali": [
-              "a-wedding-3"
+              "noces-3"
             ],
             "Sello 4": [],
             "Sello 5": [],
@@ -6580,34 +6526,34 @@
           "time": "17:00",
           "theaters": {
             "Kino Tapiola": [
-              "the-young-offenders-2",
-              "a-date-for-mad-mary-3"
+              "young-offenders-the-2",
+              "date-for-mad-mary-a-3"
             ],
             "Tapiolasali": [
-              "the-giant-3"
+              "jatten-3"
             ],
             "Louhisali": [
-              "afterimage-2"
+              "powidoki-2"
             ],
             "Sello 4": [
               "king-of-the-belgians-2",
-              "a-taste-of-ink-3"
+              "compte-tes-blessures-3"
             ],
             "Sello 5": [
-              "50-is-the-new-30-2"
+              "marie-francine-2"
             ],
             "Omena 3": [
-              "in-the-blood-3"
+              "i-blodet-3"
             ],
             "Omena 4": [
               "safari-2",
-              "on-the-milky-road-2"
+              "na-mlecnom-putu-2"
             ],
             "Omena 7": [
               "home-2"
             ],
             "Muut": [
-              "heartstone-3"
+              "hjartasteinn-3"
             ]
           },
           "count": 12,
@@ -6617,7 +6563,7 @@
           "time": "19:00",
           "theaters": {
             "Kino Tapiola": [
-              "kills-on-wheels-1"
+              "tiszta-szivvel-1"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
@@ -6625,14 +6571,14 @@
               "axolotl-overkill-2"
             ],
             "Sello 5": [
-              "the-eavesdropper-2"
+              "mecanique-de-lombre-la-2"
             ],
             "Omena 3": [
-              "still-life-2"
+              "gorge-coeur-ventre-2"
             ],
             "Omena 4": [],
             "Omena 7": [
-              "the-day-will-come-3"
+              "der-kommer-en-dag-3"
             ],
             "Muut": []
           },
@@ -6647,16 +6593,16 @@
             "Louhisali": [],
             "Sello 4": [],
             "Sello 5": [
-              "the-ardennes-3"
+              "ardennen-d-3"
             ],
             "Omena 3": [
-              "the-fury-of-a-patient-man-2"
+              "tarde-para-la-ira-2"
             ],
             "Omena 4": [
-              "playground-2"
+              "plac-zabaw-2"
             ],
             "Omena 7": [
-              "orphan-3"
+              "orpheline-3"
             ],
             "Muut": []
           },
@@ -6692,21 +6638,21 @@
           "theaters": {
             "Kino Tapiola": [
               "donkeyote-2",
-              "dreaming-of-wine-2"
+              "priorat-2"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
             "Sello 4": [],
             "Sello 5": [],
             "Omena 3": [
-              "the-king-s-choice-2"
+              "kongens-nei-2"
             ],
             "Omena 4": [
               "home-3"
             ],
             "Omena 7": [
-              "willy-the-first-2",
-              "paths-3"
+              "willy-1er-2",
+              "weg-ein-3"
             ],
             "Muut": []
           },
@@ -6717,15 +6663,15 @@
           "time": "15:00",
           "theaters": {
             "Kino Tapiola": [
-              "j--beyond-flamenco-1"
+              "jota-la-1"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
             "Sello 4": [
-              "the-man-3"
+              "mesteren-3"
             ],
             "Sello 5": [
-              "requiem-for-mrs--j--2"
+              "requiem-for-mrs-j-2"
             ],
             "Omena 3": [],
             "Omena 4": [
@@ -6741,25 +6687,25 @@
           "time": "17:00",
           "theaters": {
             "Kino Tapiola": [
-              "move!-dance-your-life-2"
+              "move-dance-your-life-2"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
             "Sello 4": [
-              "julie-and-the-shoe-factory-3"
+              "sur-quel-pied-danser-3"
             ],
             "Sello 5": [
-              "robert-doisneau-2",
-              "the-graduation-3"
+              "robert-doisneau-le-revolte-du-merveilleux-2",
+              "concours-le-3"
             ],
             "Omena 3": [
-              "the-hippopotamus-3"
+              "hippopotamus-the-3"
             ],
             "Omena 4": [
-              "a-kid-2"
+              "fils-de-jean-le-2"
             ],
             "Omena 7": [
-              "the-distinguished-citizen-3"
+              "ciudadano-ilustre-el-3"
             ],
             "Muut": []
           },
@@ -6775,17 +6721,17 @@
             "Tapiolasali": [],
             "Louhisali": [],
             "Sello 4": [
-              "egon-schiele-2"
+              "egon-schiele-tod-und-madchen-2"
             ],
             "Sello 5": [],
             "Omena 3": [
-              "stefan-zweig-3"
+              "vor-der-morgenrote-3"
             ],
             "Omena 4": [
-              "kills-on-wheels-2"
+              "tiszta-szivvel-2"
             ],
             "Omena 7": [
-              "still-life-3"
+              "gorge-coeur-ventre-3"
             ],
             "Muut": []
           },
@@ -6796,24 +6742,24 @@
           "time": "21:00",
           "theaters": {
             "Kino Tapiola": [
-              "never-ever-2"
+              "a-jamais-2"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
             "Sello 4": [
-              "the-young-offenders-3"
+              "young-offenders-the-3"
             ],
             "Sello 5": [
-              "thanks-boss!-3"
+              "merci-patron-3"
             ],
             "Omena 3": [
               "axolotl-overkill-3"
             ],
             "Omena 4": [
-              "the-eavesdropper-3"
+              "mecanique-de-lombre-la-3"
             ],
             "Omena 7": [
-              "secluded-2"
+              "afskaret-2"
             ],
             "Muut": []
           },
@@ -6830,7 +6776,7 @@
           "time": "11:00",
           "theaters": {
             "Kino Tapiola": [
-              "the-life-and-films-of-ken-loach-3"
+              "versus-the-life-and-films-of-ken-loach-3"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
@@ -6853,16 +6799,16 @@
             "Tapiolasali": [],
             "Louhisali": [],
             "Sello 4": [
-              "the-fabulous-patars-3"
+              "cigarettes-et-chocolat-chaud-3"
             ],
             "Sello 5": [
-              "life-beyond-me-3"
+              "vie-ailleurs-une-3"
             ],
             "Omena 3": [
-              "50-is-the-new-30-3"
+              "marie-francine-3"
             ],
             "Omena 4": [
-              "move!-dance-your-life-3"
+              "move-dance-your-life-3"
             ],
             "Omena 7": [
               "donkeyote-3"
@@ -6878,24 +6824,24 @@
           "time": "15:00",
           "theaters": {
             "Kino Tapiola": [
-              "a-woman-s-life-3"
+              "vie-une-3"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
             "Sello 4": [
-              "all-the-beauty-2"
+              "alt-det-vakre-2"
             ],
             "Sello 5": [
-              "a-kid-3"
+              "fils-de-jean-le-3"
             ],
             "Omena 3": [
-              "j--beyond-flamenco-2"
+              "jota-la-2"
             ],
             "Omena 4": [
               "in-loco-parentis-3"
             ],
             "Omena 7": [
-              "enclave-3"
+              "enklava-3"
             ],
             "Muut": [
               "animaatioita-pienimmille-15"
@@ -6913,13 +6859,13 @@
             "Tapiolasali": [],
             "Louhisali": [],
             "Sello 4": [
-              "cezanne-and-i-3"
+              "cezanne-et-moi-3"
             ],
             "Sello 5": [
               "paris-la-blanche-3"
             ],
             "Omena 3": [
-              "requiem-for-mrs--j--3"
+              "requiem-for-mrs-j-3"
             ],
             "Omena 4": [
               "away-3"
@@ -6936,24 +6882,24 @@
           "time": "19:00",
           "theaters": {
             "Kino Tapiola": [
-              "hulluna-onnesta-1"
+              "pazza-gioia-la-1"
             ],
             "Tapiolasali": [],
             "Louhisali": [],
             "Sello 4": [
-              "the-king-s-choice-3"
+              "kongens-nei-3"
             ],
             "Sello 5": [
-              "hulluna-onnesta-3"
+              "pazza-gioia-la-3"
             ],
             "Omena 3": [
-              "hulluna-onnesta-2"
+              "pazza-gioia-la-2"
             ],
             "Omena 4": [
-              "the-fixer-2"
+              "fixeur-2"
             ],
             "Omena 7": [
-              "egon-schiele-3"
+              "egon-schiele-tod-und-madchen-3"
             ],
             "Muut": []
           },
@@ -6966,119 +6912,118 @@
     }
   },
   "slugs": {
-    "pressileffa--jäljet-tai-plan-b--nocturama": 1,
-    "at-your-doorstep": 3,
-    "this-is-our-land": 3,
+    "cerca-de-tu-casa": 3,
+    "chez-nous": 3,
     "mister-universo": 3,
-    "dreaming-of-wine": 3,
-    "the-life-and-films-of-ken-loach": 3,
-    "never-ever": 3,
+    "priorat": 3,
+    "versus-the-life-and-films-of-ken-loach": 3,
+    "a-jamais": 3,
     "elo-kevätnäytös-i": 1,
     "elo-kevätnäytös-ii": 1,
     "elo-kevätnäytös-iii": 1,
-    "eastern-business": 3,
+    "afacerea-est": 3,
     "king-of-the-belgians": 3,
-    "the-giant": 3,
-    "jäljet": 1,
+    "jatten": 3,
+    "pokot": 1,
     "axolotl-overkill": 3,
-    "in-the-blood": 3,
-    "still-life": 3,
+    "i-blodet": 3,
+    "gorge-coeur-ventre": 3,
     "animaatioita-pienimmille": 18,
-    "a-woman-s-life": 3,
+    "vie-une": 3,
     "kikattava-kakkiainen": 1,
-    "the-death-of-louis-xiv": 2,
+    "mort-de-louis-xiv-la": 2,
     "lyhytelokuvia-lapsille": 2,
-    "the-graduation": 3,
+    "concours-le": 3,
     "papulabox": 1,
-    "the-sense-of-an-ending": 2,
-    "elämäni-kesäkurpitsana": 1,
-    "a-kid": 3,
+    "sense-of-an-ending-the": 2,
+    "ma-vie-de-courgette": 1,
+    "fils-de-jean-le": 3,
     "sieranevada": 2,
     "in-loco-parentis": 3,
-    "the-man": 3,
-    "the-hippopotamus": 3,
+    "mesteren": 3,
+    "hippopotamus-the": 3,
     "denial": 2,
-    "on-the-milky-road": 2,
-    "the-dancer": 1,
+    "na-mlecnom-putu": 2,
+    "danseuse-la": 1,
     "safari": 2,
-    "to-stay-alive": 2,
-    "playground": 2,
-    "pohjoismaiset-lyhärit": 1,
-    "handle-with-care": 1,
-    "the-red-turtle": 1,
-    "robert-doisneau": 2,
+    "overleven-een-handleiding": 2,
+    "plac-zabaw": 2,
+    "nordic-shorts": 1,
+    "hjertestart": 1,
+    "tortue-rouge-la": 1,
+    "robert-doisneau-le-revolte-du-merveilleux": 2,
     "their-finest": 2,
     "beuys": 2,
-    "50-is-the-new-30": 3,
-    "the-distinguished-citizen": 3,
-    "cezanne-and-i": 3,
-    "muistoja-äidistäni": 1,
-    "afterimage": 2,
+    "marie-francine": 3,
+    "ciudadano-ilustre-el": 3,
+    "cezanne-et-moi": 3,
+    "fai-bei-sogni": 1,
+    "powidoki": 2,
     "nocturama": 3,
-    "julie-and-the-shoe-factory": 3,
-    "the-fury-of-a-patient-man": 2,
-    "skins": 3,
+    "sur-quel-pied-danser": 3,
+    "tarde-para-la-ira": 2,
+    "pieles": 3,
     "donkeyote": 3,
-    "enclave": 3,
+    "enklava": 3,
     "home": 3,
     "marie-curie": 3,
     "matka-jatkuu": 1,
-    "matka-on-pitkä": 1,
-    "the-king-s-choice": 3,
-    "requiem-for-mrs--j-": 3,
-    "the-eavesdropper": 3,
-    "egon-schiele": 3,
-    "stalin-s-couch": 2,
-    "oskarin-amerikka": 3,
-    "kanelia-kainaloon--tatu-ja-patu!": 1,
-    "raparperimehua": 4,
-    "onni-suosii-rohkeaa": 3,
-    "silmätysten": 3,
-    "offline": 3,
-    "kun-vielä-elämme": 2,
-    "kesäni-sudenkorentona": 1,
-    "tulisilla-hiilillä": 2,
+    "matka-on-pitka": 1,
+    "kongens-nei": 3,
+    "requiem-for-mrs-j": 3,
+    "mecanique-de-lombre-la": 3,
+    "egon-schiele-tod-und-madchen": 3,
+    "divan-de-staline-le": 2,
+    "oskars-amerika": 3,
+    "kanelia-kainaloon-tatu-ja-patu": 1,
+    "rabarber": 4,
+    "ente-gut-madchen-allein-zu-haus": 3,
+    "auf-augenhohe": 3,
+    "offline-das-leben-ist-kein-bonuslevel": 3,
+    "medan-vi-lever": 2,
+    "kesani-sudenkorentona": 1,
+    "glutnester": 2,
     "kiehumispiste": 1,
-    "the-fabulous-patars": 3,
-    "willy-the-first": 2,
+    "cigarettes-et-chocolat-chaud": 3,
+    "willy-1er": 2,
     "departure": 3,
-    "stefan-zweig": 3,
+    "vor-der-morgenrote": 3,
     "paris-la-blanche": 3,
-    "thanks-boss!": 3,
-    "a-taste-of-ink": 3,
-    "a-date-for-mad-mary": 3,
-    "into-the-forest": 2,
-    "heartstone": 3,
+    "merci-patron": 3,
+    "compte-tes-blessures": 3,
+    "date-for-mad-mary-a": 3,
+    "dans-la-foret": 2,
+    "hjartasteinn": 3,
     "back-for-good": 2,
-    "orphan": 3,
-    "pitkä-matka-kouluun": 3,
-    "räjähtävää-teinirakkautta": 3,
-    "miss-impossible": 1,
-    "järven-tarina": 1,
+    "orpheline": 3,
+    "nicht-ohne-uns": 3,
+    "vindmollernes-sus": 3,
+    "jamais-contente": 1,
+    "jarven-tarina": 1,
     "lapualaismorsian": 1,
-    "life-beyond-me": 3,
-    "käpy-selän-alla": 1,
-    "move!-dance-your-life": 3,
-    "a-wedding": 3,
-    "paths": 3,
-    "kaiken-se-kestää": 1,
+    "vie-ailleurs-une": 3,
+    "kapy-selan-alla": 1,
+    "move-dance-your-life": 3,
+    "noces": 3,
+    "weg-ein": 3,
+    "kaiken-se-kestaa": 1,
     "away": 3,
-    "the-day-will-come": 3,
-    "the-fixer": 2,
-    "secluded": 2,
-    "the-ardennes": 3,
-    "tomorrow": 1,
+    "der-kommer-en-dag": 3,
+    "fixeur": 2,
+    "afskaret": 2,
+    "ardennen-d": 3,
+    "demain": 1,
     "hobbyhorse-revolution": 1,
-    "tyttö-nimeltä-varpu": 1,
-    "all-the-beauty": 2,
+    "tytto-nimelta-varpu": 1,
+    "alt-det-vakre": 2,
     "light-thereafter": 3,
     "austerlitz": 2,
-    "original-bliss": 2,
-    "the-program": 1,
-    "war/peace": 1,
-    "the-young-offenders": 3,
-    "kills-on-wheels": 2,
-    "j--beyond-flamenco": 2,
-    "hulluna-onnesta": 3
+    "gleissendes-gluck": 2,
+    "program-the": 1,
+    "war-peace": 1,
+    "young-offenders-the": 3,
+    "tiszta-szivvel": 2,
+    "jota-la": 2,
+    "pazza-gioia-la": 3
   }
 }

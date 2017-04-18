@@ -1,11 +1,6 @@
 {
 	"fi": {
 		"theaters": {
-			"Kino Tapiola": "Kino Tapiola",
-			"Tapiolasali": "Tapiolasali",
-			"Louhisali": "Louhisali",
-			"Sello 4": "Sello 4",
-			"Sello 5": "Sello 5",
 			"Muut": "Muut"
 		},
 		"help": [
@@ -32,11 +27,6 @@
 	},
 	"en": {
 		"theaters": {
-			"Kino Tapiola": "Kino Tapiola",
-			"Tapiolasali": "Tapiolasali",
-			"Louhisali": "Louhisali",
-			"Sello 4": "Sello 4",
-			"Sello 5": "Sello 5",
 			"Muut": "Others"
 		},
 		"help": [

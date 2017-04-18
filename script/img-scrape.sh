@@ -1,8 +1,9 @@
 # FETCH UR IMAGES OK
-# usage: $0 < img-scrape.tsv
+# usage: $0 < sitedesk-scrape.tsv
 
-while read slug img crap; do
-	IN="http://www.espoocine.fi/2016/fi/$img"
+while IFS=$'\t' read -r pid title img slug; do
+	img=${img/Preview?40/$slug.jpg}
+	IN="http://www.espoocine.fi/2017/fi/$img"
 	OUT="$img"
 	if [ "$OUT" ] && [ ! -f "$OUT" ]; then
 		mkdir -p ${OUT%/*}

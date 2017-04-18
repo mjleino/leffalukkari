@@ -10,7 +10,7 @@
 		 	height: screening.duration * 1.5 + 'px'
 		 }">
 
-	<div class="bg" ng-style="{ 'background-image': 'url(' + screening.img + ')' }"></div>
+	<div class="bg" ng-style="{ 'background-image': 'url(Image/' + screening.img + '/' + screening.url + '.jpg)' }"></div>
 
 	<address ng-if="screening.special">
 		<h4>{{screening.theater}}</h4>
@@ -33,7 +33,7 @@
 
 	<div class="bottom">
 		<h3>
-			<a href="{{ 'http://www.espoocine.fi/2016/' + (locale == 'en' ? 'en/programme/movies/' : 'fi/ohjelmisto/elokuvat/') + screening.url }}" target="_blank" ng-click="$event.stopPropagation()">
+			<a href="{{ 'http://www.espoocine.fi/2017/' + (locale == 'en' ? 'en/movies/' : 'fi/elokuvat/') + screening.url }}" target="_blank" ng-click="$event.stopPropagation()">
 				<span ng-if="search.text" ng-bind-html="screening.title | highlight:search.text"></span>
 				<span ng-if="! search.text" ng-bind="screening.title"></span>
 			</a>

@@ -14,6 +14,11 @@ var req = request.defaults({jar: jar});
 var cookie = request.cookie('AdminLogin=JUST COPY YOUR LOGIN COOKIE HERE ! !');
 jar.setCookie(cookie, "http://sitedesk.espoocine.fi");
 
+// YEARLY VARIABLES
+let sitedesk_url = "http://sitedesk.espoocine.fi/Go=Page-List?PID=2239"
+let film_url = "http://www.espoocine.fi/2017/fi/elokuvat/"
+let film_path = "elokuvat/"
+
 function fetch(url, callback) {
 	req(url, function (error, response, html) {
 		if (error) {
@@ -21,7 +26,7 @@ function fetch(url, callback) {
 			return
 		}
 
-		callback(cheerio.load(html, { decodeEntities: false }), url)
+		callback(cheerio.load(html, { decodeEntities: true }), url)
 	})	
 }
 
@@ -37,9 +42,9 @@ String.prototype.lolleroids = function(lols) {
 if (! RECURSE) console.log(['id', 'title', 'img', 'url'].join("\t"))
 else console.log(['url', 'title', 'img', 'serie', 'content'].join("\t"))
 
-fetch("http://sitedesk.espoocine.fi/Go=Page-List?PID=1970", function($) {
+fetch(sitedesk_url, function($) {
 	// HELLO LOL SITEDESK HAS table > thead > tbody
-	$('table.List tbody > tr').each(function(n, tr) {
+	$('table.List tbody > tr:not(.Header)').each(function(n, tr) {
 		if (n == 0) return // SKIP HEADER
 
 		let $tr = $(tr)
@@ -48,11 +53,12 @@ fetch("http://sitedesk.espoocine.fi/Go=Page-List?PID=1970", function($) {
 		let id = $tr.find(".ID").text()
 		let name = $tr.find("span.Disabled").text().lolleroids(["The", "A", "An", "La", "Le"])
 		let img = $tr.find("img[rel]").attr('src')
-		let slug = ($a.find("span").attr('title') || $a.text()).replace("ohjelmisto/elokuvat/", "")
+		if (img) img = img.match(/Image\/(.*)\/.*/)[1]
+		let slug = ($a.find("span").attr('title') || $a.text()).replace(film_path, "")
 
 		if (RECURSE) {
 			// fetch($(a).attr('href'), fetchoroids)
-			fetch('http://www.espoocine.fi/2016/fi/ohjelmisto/elokuvat/' + slug, fetchoroids)
+			fetch(film_url + slug, fetchoroids)
 		} else {
 			console.log([
 				id,
@@ -68,10 +74,10 @@ function fetchoroids($, url) {
 	// console.log($('#MainContent').html())
 	if ($('body').length == 0) {
 		console.error("URL RETURNED NULL", url)
-		console.log(url.replace("http://www.espoocine.fi/2016/fi/ohjelmisto/elokuvat/", ""))
+		console.log(url.replace(film_url, ""))
 		return
 	}
-	let page = $('body').data('pageaddress').replace("ohjelmisto/elokuvat/", "")
+	let page = $('body').data('pageaddress').replace(film_path, "")
 	let title = $('body').data('pagename').lolleroids(["The", "A", "An", "La", "Le"])
 	let h1 = $('#MainContent h1').text()
 	let img = $('.MovieImages > img').first().attr('src')
@@ -80,7 +86,7 @@ function fetchoroids($, url) {
 
 	if ($content.length == 0) {
 		console.error("NO CONTENT", url)
-		console.log(url.replace("http://www.espoocine.fi/2016/fi/ohjelmisto/elokuvat/", ""))
+		console.log(url.replace(film_url, ""))
 		return
 	}
 
