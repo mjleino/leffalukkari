@@ -62,7 +62,7 @@ table#screenings {
 	border-collapse: collapse;
 
 	/* hack for meta viewport width=device-width */
-	min-width: 720px;
+	min-width: 1000px;
 
 	/*table-layout: fixed;*/
 	word-wrap: break-word;
@@ -83,8 +83,8 @@ table#theaters th:first-child > h2 {
 }
 
 th, td {
-	/* 9 * 11 + 4 = 103% KÄÄK */
-	width: 11%;
+	/* 9 * 10 + 4 = 94% TÖÖT */
+	width: 10%;
 	padding: 6px 8px;
 	vertical-align: top;
 	border-top: 1px solid #777;
