@@ -34,7 +34,7 @@ nav a, h1, h2, h3, h4, .screening .fb-friends > li > span {
 /* COMMON STUFF */
 
 a {
-	color: #e74011;
+	color: #52ae32;
 	text-decoration: none;
 }
 a:hover, a:active {
@@ -134,7 +134,7 @@ tr.day > th {
 	border-top: none;
 }
 .myfestival tr.day > th {
-	background-color: #e74011;
+	background-color: #52ae32;
 }
 
 tr.day > th > h2 {
@@ -185,12 +185,12 @@ nav > ul > li > a:visited {
 nav > ul > li > a:hover {
 	text-decoration: none;
 	/*background-color: #fff;*/
-	color: #e74011;
+	color: #52ae32;
 }
 
 nav > ul > li.active > a {
 	color: #fff;
-	background-color: #e74011;
+	background-color: #52ae32;
 }
 
 nav > ul > li.today > a {
@@ -208,7 +208,7 @@ nav > ul > li.today > a {
 
 mark {
 	color: white;
-	background-color: #e74011;
+	background-color: #52ae32;
 	padding-top: inherit;
 	padding-bottom: inherit;
 }
@@ -240,7 +240,7 @@ mark {
 	width: 240px;
 	background-color: #eee;
 	padding: 1em;
-	border-top: solid 4px #e74011;
+	border-top: solid 4px #52ae32;
 }
 #help:not(.active) > aside,
 #help.share > aside > section:not(.share),
@@ -289,7 +289,7 @@ mark {
 
 #fb-friends.myfestival > li.myfestival > a {
 	color: #fff;
-	background-color: #e74011;
+	background-color: #52ae32;
 }
 
 #fb-friends > li > a {
@@ -327,9 +327,9 @@ screening {
 	/*cursor: pointer;*/
 }
 .screening.selected {
-	-webkit-box-shadow: 0 0 0px 6px #e74011;
-	-moz-box-shadow: 0 0 0px 6px #e74011;
-	box-shadow: 0 0 0px 6px #e74011;
+	-webkit-box-shadow: 0 0 0px 6px #52ae32;
+	-moz-box-shadow: 0 0 0px 6px #52ae32;
+	box-shadow: 0 0 0px 6px #52ae32;
 }
 
 .screening > .full, .screening > .bg {
@@ -354,7 +354,7 @@ screening {
 	background-color: rgba(0,0,0, 0.3);
 }
 .screening.selected > .full {
-	background-color: rgba(231,64,17, 0.5);
+	background-color: rgba(120,190,32, 0.5);
 }
 
 .screening.target > .full {
@@ -390,7 +390,7 @@ screening {
 	right: -8px;
 	top: -7px;
 
-	color: #e74011;
+	color: #52ae32;
 	background-color: white;
 
 	text-align: center;
