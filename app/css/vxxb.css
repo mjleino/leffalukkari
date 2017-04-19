@@ -228,6 +228,18 @@ mark {
 	height: 2.2em;
 }
 
+#fb-login > a > span {
+	color: #52ae32;
+	position: relative;
+	font-size: 18px;
+	bottom: 3px;
+}
+
+#fb-login > a > img:not([src]),
+#fb-login > a > img[src] + span {
+	display: none;
+}
+
 #help {
 	margin-right: 8px;
 }
@@ -257,9 +269,11 @@ mark {
 }
 
 #help p > span {
-	font-weight: bold;
 	font-size: 1.2em;
-	color: red;
+	color: #52ae32;
+}
+#help p > span.typcn::before {
+	width: auto;
 }
 
 #help.auto > aside > section > p > a {

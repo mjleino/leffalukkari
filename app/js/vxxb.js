@@ -219,7 +219,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		FB.ui({
 			method: 	'share',
 			description: titles.join(", "),
-			picture: 	'http://www.espoocine.fi/2016/fi/Image/8250/paakuva.jpg',
+			picture: 	'http://www.espoocine.fi/2017/fi/Image/8250/paakuva.jpg',
 			href: 		"http://www.espoocine.fi/2017/fi/ohjelmisto/kalenteri" + "#/share/" + userRef.key + "/" + $scope.sharecount
 		}, function(response) {
 			userRef.child('sharecount').set($scope.sharecount)

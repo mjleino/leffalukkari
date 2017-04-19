@@ -8,6 +8,7 @@
 	<title>Espoo Ciné 2017: Leffalukkari</title>
 
 	<link rel="stylesheet" href="css/cine.css">
+	<link rel="stylesheet" href="css/typicons/typicons.css">
 	<link rel="stylesheet" href="css/vxxb.css">
 
 	<script type="text/javascript" src="js/dist/angular-etc.min.js"></script>
@@ -43,7 +44,8 @@
 				</li>
 				<li id="fb-login">
 					<a href="#" title="{{ i18n.fblogin }}" ng-click="fbLogin(); $event.preventDefault();">
-						<img ng-src="{{ user.photoURL || 'img/facebook.png' }}" alt="facebook" title="{{ user.displayName }}">
+						<img ng-src="{{ user.photoURL }}" alt="facebook" title="{{ user.displayName }}">
+						<span title="{{ i18n.fbconnect }}" class="typcn typcn-social-facebook"></span>
 					</a>
 				</li>
 				<li id="fb-share" ng-if="user">
