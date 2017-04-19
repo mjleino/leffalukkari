@@ -26,7 +26,7 @@ function fetch(url, callback) {
 			return
 		}
 
-		callback(cheerio.load(html, { decodeEntities: true }), url)
+		callback(cheerio.load(html, { decodeEntities: false }), url)
 	})	
 }
 
@@ -82,7 +82,7 @@ function fetchoroids($, url) {
 	let h1 = $('#MainContent h1').text()
 	let img = $('.MovieImages > img').first().attr('src')
 	let serie = $('.PageFeature-sarja').text()
-	let $content = $('#MainContent > table > tbody > tr > td:nth-child(2)')
+	let $content = $('#MainContent')
 
 	if ($content.length == 0) {
 		console.error("NO CONTENT", url)
