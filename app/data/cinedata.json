@@ -78,25 +78,6 @@
     }
   },
   "screenings": {
-    "cerca-de-tu-casa-E": {
-      "date": "2017-04-25",
-      "time": "19:30",
-      "theater": "Kino Tapiola",
-      "title": "At Your Doorstep",
-      "director": "Cortés",
-      "duration": 93,
-      "subtitles": "eng",
-      "number": "E",
-      "rating": "S",
-      "img": "8277",
-      "url": "cerca-de-tu-casa",
-      "extraurl": "",
-      "id": "cerca-de-tu-casa-E",
-      "datetime": "2017-04-25T16:30:00.000Z",
-      "dateId": "ti-25",
-      "timeslot": 19,
-      "timeslotdiff": 30
-    },
     "chez-nous-E": {
       "date": "2017-04-27",
       "time": "18:30",
@@ -1077,7 +1058,7 @@
       "theater": "Tapiolasali",
       "title": "Skins",
       "director": "Casanova",
-      "duration": 150,
+      "duration": 77,
       "subtitles": "eng",
       "number": "1/3",
       "rating": "K16",
@@ -3047,7 +3028,7 @@
       "theater": "Louhisali",
       "title": "Tomorrow",
       "director": "Dion & Laurent",
-      "duration": 90,
+      "duration": 118,
       "subtitles": "fin",
       "number": "1/1",
       "rating": "S",
@@ -5214,30 +5195,6 @@
     }
   },
   "days": {
-    "ti-25": {
-      "timeslots": {
-        "19": {
-          "time": "19:00",
-          "theaters": {
-            "Kino Tapiola": [
-              "cerca-de-tu-casa-E"
-            ],
-            "Tapiolasali": [],
-            "Louhisali": [],
-            "Sello 4": [],
-            "Sello 5": [],
-            "Omena 3": [],
-            "Omena 4": [],
-            "Omena 7": [],
-            "Muut": []
-          },
-          "count": 1,
-          "duration": 123
-        }
-      },
-      "id": "ti-25",
-      "date": "2017-04-25"
-    },
     "to-27": {
       "timeslots": {
         "17": {
@@ -5734,7 +5691,7 @@
             "Muut": []
           },
           "count": 3,
-          "duration": 180
+          "duration": 107
         }
       },
       "id": "su-07",
@@ -6318,7 +6275,7 @@
             "Muut": []
           },
           "count": 2,
-          "duration": 105
+          "duration": 118
         },
         "15": {
           "time": "15:00",
@@ -6914,7 +6871,6 @@
     }
   },
   "slugs": {
-    "cerca-de-tu-casa": 3,
     "chez-nous": 3,
     "mister-universo": 3,
     "priorat": 3,
@@ -6969,6 +6925,7 @@
     "enklava": 3,
     "home": 3,
     "marie-curie": 3,
+    "cerca-de-tu-casa": 2,
     "matka-jatkuu": 1,
     "matka-on-pitka": 1,
     "kongens-nei": 3,
