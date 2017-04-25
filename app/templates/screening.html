@@ -33,7 +33,7 @@
 
 	<div class="bottom">
 		<h3>
-			<a href="{{ 'http://www.espoocine.fi/2017/' + (locale == 'en' ? 'en/movies/' : 'fi/elokuvat/') + screening.url }}" target="_blank" ng-click="$event.stopPropagation()">
+			<a href="{{ 'http://www.espoocine.fi/2017/' + (locale == 'en' ? 'en/films/' : 'fi/elokuvat/') + screening.url }}" target="_blank" ng-click="$event.stopPropagation()">
 				<span ng-if="search.text" ng-bind-html="screening.title | highlight:search.text"></span>
 				<span ng-if="! search.text" ng-bind="screening.title"></span>
 			</a>
