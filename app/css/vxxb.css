@@ -235,8 +235,8 @@ mark {
 	bottom: 3px;
 }
 
-#fb-login > a > img:not([src]),
-#fb-login > a > img[src] + span {
+#fb-login:not(.logged) > a > img,
+#fb-login.logged > a > span {
 	display: none;
 }
 
