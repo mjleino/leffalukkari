@@ -192,12 +192,12 @@
       "serie": "Erikoisnäytös",
       "duration": 90,
       "subtitles": "eng  / no dialogue",
-      "number": "",
+      "number": "i",
       "rating": "K12",
       "img": "8820",
       "url": "elo-kevatnaytos-i",
       "id": "elo-kevatnaytos-i",
-      "next": "elo-kevatnaytos-i",
+      "next": "elo-kevatnaytos-ii",
       "datetime": "2017-05-05T07:30:00.000Z",
       "dateId": "pe-05",
       "timeslot": 9,
@@ -212,12 +212,12 @@
       "serie": "Erikoisnäytös",
       "duration": 120,
       "subtitles": "eng  / no dialogue",
-      "number": "",
+      "number": "ii",
       "rating": "K12",
       "img": "8810",
       "url": "elo-kevatnaytos-ii",
       "id": "elo-kevatnaytos-ii",
-      "next": "elo-kevatnaytos-ii",
+      "next": "elo-kevatnaytos-iii",
       "datetime": "2017-05-05T11:00:00.000Z",
       "dateId": "pe-05",
       "timeslot": 13,
@@ -232,12 +232,12 @@
       "serie": "Erikoisnäytös",
       "duration": 90,
       "subtitles": "eng  / no dialogue",
-      "number": "",
+      "number": "iii",
       "rating": "K12",
       "img": "8818",
       "url": "elo-kevatnaytos-iii",
       "id": "elo-kevatnaytos-iii",
-      "next": "elo-kevatnaytos-iii",
+      "next": "elo-kevatnaytos-i",
       "datetime": "2017-05-05T13:30:00.000Z",
       "dateId": "pe-05",
       "timeslot": 15,
@@ -7269,15 +7269,6 @@
       "a-jamais-1",
       "a-jamais-2"
     ],
-    "elo-kevatnaytos-i": [
-      "elo-kevatnaytos-i"
-    ],
-    "elo-kevatnaytos-ii": [
-      "elo-kevatnaytos-ii"
-    ],
-    "elo-kevatnaytos-iii": [
-      "elo-kevatnaytos-iii"
-    ],
     "afacerea-est": [
       "afacerea-est-1",
       "afacerea-est-2",
@@ -7742,6 +7733,11 @@
       "pazza-gioia-la-1",
       "pazza-gioia-la-2",
       "pazza-gioia-la-3"
+    ],
+    "elo-kevatnaytos": [
+      "elo-kevatnaytos-i",
+      "elo-kevatnaytos-ii",
+      "elo-kevatnaytos-iii"
     ]
   }
 }

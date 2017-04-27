@@ -126,6 +126,18 @@ datanuggetrorApp.controller("DataNuggetController", function($scope, $http) {
 		data.days["su-07"].timeslots[17] = angular.copy(timeslotsObject[17])
 		data.days["su-07"].timeslots[17].theaters[config.theaters[0]].push(null)
 
+		// ALSO HACK ELO ROMAN NUMBERING :~~~] LOL THIS WOULD HAVE BEEN EASIER BY HAND
+		let elo = "elo-kevatnaytos"
+		let next = {"i": "ii", "ii": "iii", "iii": "i"}
+		data.slugs[elo] = []
+		angular.forEach(["i", "ii", "iii"], function(i) {
+			let url = elo + "-" + i
+			data.screenings[url].number = i
+			data.screenings[url].next = elo + "-" + next[i]
+			data.slugs[elo].push(url)
+			delete data.slugs[url]
+		})
+
 		return data
 	}
 
