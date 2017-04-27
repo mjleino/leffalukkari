@@ -23,6 +23,9 @@
   },
   "i18n": {
     "fi": {
+      "screening": {
+        "ends": "päättyy"
+      },
       "theaters": {
         "Muut": "Muut"
       },
@@ -50,6 +53,9 @@
       "viiksipojat": "Leffalukkarin sinulle teki ❤:lla"
     },
     "en": {
+      "screening": {
+        "ends": "ends"
+      },
       "theaters": {
         "Muut": "Others"
       },

@@ -27,7 +27,7 @@
 				<li ng-repeat="day in data.days"
 					ng-class="{today: day.id == today}"
 					du-scrollspy="{{ day.id }}">
-					<a href="#{{ day.id }}" du-smooth-scroll>
+					<a href="#{{ day.id }}" title="{{ day.date | date:'shortDate' }}" du-smooth-scroll>
 						<time datetime="{{ day.date }}">{{ day.date | date:"EEE d" }}</time>
 					</a>
 				</li>
@@ -59,9 +59,10 @@
 			</ul>
 			<ul id="fb-friends" ng-if="friends | count" ng-class="{myfestival: search.myfestival}">
 				<li ng-repeat="friend in friends" ng-class="{myfestival: friend.myfestival, hidden: friend.hidden }">
-					<a href="#" ng-click="$event.preventDefault(); friendKlik(friend);"
-						ontouchstart="this.classList.toggle('hover')">
-						<img ng-src="{{ friend.photoURL }}" alt="{{ friend.name }}" title="{{ friend.name }}">
+					<a href="#" title="{{ friend.name }} ({{ friend.selected | count }} {{ i18n.selectedscreenings }})"
+					   ng-click="$event.preventDefault(); friendKlik(friend);"
+					   ontouchstart="this.classList.toggle('hover')">
+						<img ng-src="{{ friend.photoURL }}" alt="{{ friend.name }}">
 						<span>{{ friend.name.split(' ')[0] }} ({{ friend.selected | count }})</span>
 					</a>
 				</li>
