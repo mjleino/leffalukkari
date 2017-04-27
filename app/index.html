@@ -44,7 +44,7 @@
 				</li>
 				<li id="fb-login" ng-class="{ logged: user }">
 					<a href="#" title="{{ i18n.fblogin }}" ng-click="fbLogin(); $event.preventDefault();">
-						<img ng-src="{{ user.photoURL }}" alt="facebook" title="{{ user.displayName }}">
+						<img ng-src="{{ user.photoURL }}" alt="facebook" title="{{ i18n.logout }} ({{ user.displayName }})">
 						<span title="{{ i18n.fbconnect }}" class="typcn typcn-social-facebook"></span>
 					</a>
 				</li>
