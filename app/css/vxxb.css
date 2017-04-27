@@ -43,7 +43,7 @@ a:hover, a:active {
 
 h1 { font-size: 24px; }
 h2 { font-size: 18px; }
-h3 { font-size: 15px; }
+h3 { font-size: 14px; }
 h4 { font-size: 13px; }
 
 #viiksipojat {
@@ -549,10 +549,9 @@ td:last-child .fb-friends span {
 
 /* HACKED SCREENING BOXES */
 
-#versus-the-life-and-films-of-ken-loach-E {
-	left: calc(-100% - 8px);
+#rabarber-E1 {
+	left: calc(-200% - 16px);
 }
-
 .screening.special[id^="rabarber-"] {
 	left: calc(-100% - 8px);
 }
@@ -560,10 +559,19 @@ td:last-child .fb-friends span {
 	margin-bottom: 4px;
 }
 
+#animaatioita-pienimmille-4,
+#animaatioita-pienimmille-7,
+#animaatioita-pienimmille-E1 {
+	left: calc(-100% - 8px);
+}
+#animaatioita-pienimmille-E2 {
+	left: calc(-200% - 16px);
+}
+#animaatioita-pienimmille-E3 {
+	left: calc(-300% - 24px);
+}
 .screening[id^="animaatioita-"] {
 	height: 78px !important;
-	margin-bottom: 4px;
-	position: static;
 }
 .screening.special[id^="animaatioita-"] {
 	height: 88px !important;
@@ -585,4 +593,15 @@ td:last-child .fb-friends span {
 }
 #papulabox-1 h3 {
 	margin-bottom: 4px;
+}
+
+#priorat-E {
+	left: calc(-100% - 8px);
+}
+#priorat-E h3 {
+	margin-bottom: 4px;
+}
+
+#ente-gut-madchen-allein-zu-haus-3 {
+	left: calc(-100% - 8px);
 }
