@@ -6,19 +6,7 @@
 		"theaters": {
 			"Muut": "Muut"
 		},
-		"help": [
-			"<h2>O H J E</h2>",
-			"<p>Valitse haluamasi näytökset klikkaamalla näytöksen kuvaa. Valinnat tallennetaan selaimen muistiin.</p>",
-			"<p>OMAT FESTARIT -painikkeella näet pelkästään valitsemasi elokuvat sekä niiden vaihto&shy;ehtoiset näytökset. Näin voit ratkoa mahdolliset päällekkäisyydet.</p>",
-			"<p>Elokuvan nimeä klikkaamalla pääset elokuvan lisätietoihin, näytösnumeroa klikkaamalla seuraaavaan näytökseen (1/3→2/3→3/3→1/3).</p>",
-			"<p>Yhdistä kalenterisi Facebookiin <span class='typcn typcn-social-facebook'></span>-painikkeella, niin näet ystäviesi leffa&shy;valinnat ja löydätte samoihin näytöksiin!</p>"
-		],
-		"helpshare": [
-			"<h2>B O O M !</h2>",
-			"<p>Ystäväsi jakoi oman Ciné -kalenterinsa. Hänen valitsemat näytökset on merkattu hänen profiilikuvalla.</p>",
-			"<p>OMAT FESTARIT -painikkeella näet valitsemasi elokuvat ja niiden vaihto&shy;ehtoiset näytökset, sekä ystäväsi valitsemat näytökset.</p>",
-			"<p>Jaa itsekin oma festarisi Facebookiin, niin muutkin löytävät samoihin näytöksiin!</p>"
-		],
+		"help": "Ohje",
 		"searchfilm": "Etsi elokuvaa",
 		"share": "Jaa",
 		"fbconnect": "Yhdistä leffalukkarisi Facebookiin",
@@ -37,19 +25,7 @@
 		"theaters": {
 			"Muut": "Others"
 		},
-		"help": [
-			"<h2>H E L P</h2>",
-			"<p>Choose the screenings you want by clicking the screening photo. Selection is saved into web browser memory.</p>",
-			"<p>MY FESTIVAL button shows just the films you chose, and their alternative screenings. This way you can solve any overlaps.</p>",
-			"<p>Clicking the film title takes you to additional info. Clicking the screening number takes you to the next screening (1/3→2/3→3/3→1/3).</p>",
-			"<p>Connect your calendar to Facebook with <span class='typcn typcn-social-facebook'></span> button, and you'll see your friends' film selection!</p>"
-		],
-		"helpshare": [
-			"<h2>B O O M !</h2>",
-			"<p>Your friend shared their Ciné calendar. Their chosen screenings are marked with their profile picture.</p>",
-			"<p>MY FESTIVAL button shows the films you chose, their alternative screenings, and the screenings your friend chose.</p>",
-			"<p>Share your festival to Facebook, so more friends find their way to screenings with you!</p>"
-		],
+		"help": "Ohje",
 		"searchfilm": "Search for film",
 		"share": "Share",
 		"fbconnect": "Connect your calendar to Facebook",

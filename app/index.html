@@ -35,12 +35,8 @@
 					<input id="search" type="search" placeholder="{{ i18n.searchfilm }}…" aria-label="{{ i18n.searchfilm }}" ng-model="search.text">
 				</li>
 				<li id="help" ng-class="{active: search.help, share: search.fbshare}">
-					<a href="#help" title="ohje / help" ng-click="help(); $event.preventDefault()">?</a>
-					<aside>
-						<section class="direct" ng-bind-html="i18n.help.join('')"></section>
-						<section class="share" ng-bind-html="i18n.helpshare.join('')"></section>
-						<p><a href="#help" ng-click="help(); $event.preventDefault()">O K</a></p>
-					</aside>
+					<a href="#help" title="{{ i18n.help }}" ng-click="help(); $event.preventDefault()">?</a>
+					<aside help></aside>
 				</li>
 				<li id="fb-login" ng-class="{ logged: user }">
 					<a href="#" title="{{ i18n.fblogin }}" ng-click="fbLogin(); $event.preventDefault();">

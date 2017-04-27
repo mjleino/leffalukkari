@@ -421,6 +421,12 @@ app.directive("screening", function() {
 	}
 })
 
+app.directive("help", function() {
+	return {
+		templateUrl: "templates/help.html"
+	}
+})
+
 // https://codeforgeek.com/2014/12/highlight-search-result-angular-filter/
 app.filter('highlight', function() {
 	return function(text, phrase) {
