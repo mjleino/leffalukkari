@@ -4,3547 +4,3547 @@
     "theater": "WHS Teatteri Union",
     "title": "This Is Our Land",
     "director": "Belvaux",
+    "serie": "Yhteiskunta",
     "duration": 117,
     "subtitles": "eng",
     "number": "E",
     "rating": "K12",
     "img": "8476",
-    "url": "chez-nous",
-    "extraurl": ""
+    "url": "chez-nous"
 }, {
     "date": "2017-04-28",
     "time": "17:30",
     "theater": "Korjaamo",
     "title": "Mister Universo",
     "director": "Covi & Frimmel",
+    "serie": "Matka",
     "duration": 90,
     "subtitles": "eng",
     "number": "E",
     "rating": "S",
     "img": "8440",
-    "url": "mister-universo",
-    "extraurl": ""
+    "url": "mister-universo"
 }, {
     "date": "2017-04-29",
     "time": "15:00",
     "theater": "Riviera",
     "title": "Dreaming of Wine",
     "director": "Fernández de Castro",
+    "serie": "Palo",
     "duration": 68,
     "subtitles": "eng",
     "number": "E",
     "rating": "S",
     "img": "8319",
-    "url": "priorat",
-    "extraurl": ""
+    "url": "priorat"
 }, {
     "date": "2017-04-29",
     "time": "16:00",
     "theater": "Korjaamo",
     "title": "The Life and Films of Ken Loach",
     "director": "Osmond",
+    "serie": "Palo",
     "duration": 93,
     "subtitles": "",
     "number": "E",
     "rating": "K12",
     "img": "8428",
-    "url": "versus-the-life-and-films-of-ken-loach",
-    "extraurl": ""
+    "url": "versus-the-life-and-films-of-ken-loach"
 }, {
     "date": "2017-04-29",
     "time": "18:00",
     "theater": "Korjaamo",
     "title": "Never Ever",
     "director": "Jacquot",
+    "serie": "Rakkaus",
     "duration": 86,
     "subtitles": "eng",
     "number": "E",
     "rating": "K12",
     "img": "8455",
-    "url": "a-jamais",
-    "extraurl": ""
+    "url": "a-jamais"
 }, {
     "date": "2017-05-05",
     "time": "10:30",
     "theater": "Tapiolasali",
     "title": "ELO-kevätnäytös I",
     "director": "",
+    "serie": "Erikoisnäytös",
     "duration": 90,
     "subtitles": "eng  / no dialogue",
     "number": "1/1",
     "rating": "K12",
     "img": "8820",
-    "url": "elo-kevatnaytos-i",
-    "extraurl": ""
+    "url": "elo-kevatnaytos-i"
 }, {
     "date": "2017-05-05",
     "time": "14:00",
     "theater": "Tapiolasali",
     "title": "ELO-kevätnäytös II",
     "director": "",
+    "serie": "Erikoisnäytös",
     "duration": 120,
     "subtitles": "eng  / no dialogue",
     "number": "1/1",
     "rating": "K12",
     "img": "8810",
-    "url": "elo-kevatnaytos-ii",
-    "extraurl": ""
+    "url": "elo-kevatnaytos-ii"
 }, {
     "date": "2017-05-05",
     "time": "16:30",
     "theater": "Tapiolasali",
     "title": "ELO-kevätnäytös III",
     "director": "",
+    "serie": "Erikoisnäytös",
     "duration": 90,
     "subtitles": "eng  / no dialogue",
     "number": "1/1",
     "rating": "K12",
     "img": "8818",
-    "url": "elo-kevatnaytos-iii",
-    "extraurl": ""
+    "url": "elo-kevatnaytos-iii"
 }, {
     "date": "2017-05-05",
     "time": "17:00",
     "theater": "Kino Tapiola",
     "title": "Eastern Business",
     "director": "Cobileanski",
+    "serie": "Matka",
     "duration": 84,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "S",
     "img": "8322",
-    "url": "afacerea-est",
-    "extraurl": ""
+    "url": "afacerea-est"
 }, {
     "date": "2017-05-05",
     "time": "17:00",
     "theater": "Louhisali",
     "title": "Mister Universo",
     "director": "Covi & Frimmel",
+    "serie": "Matka",
     "duration": 90,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "S",
     "img": "8440",
-    "url": "mister-universo",
-    "extraurl": ""
+    "url": "mister-universo"
 }, {
     "date": "2017-05-05",
     "time": "18:45",
     "theater": "Kino Tapiola",
     "title": "King of the Belgians",
     "director": "Brosens & Woodworth",
+    "serie": "Matka",
     "duration": 94,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "S",
     "img": "8405",
-    "url": "king-of-the-belgians",
-    "extraurl": ""
+    "url": "king-of-the-belgians"
 }, {
     "date": "2017-05-05",
     "time": "18:45",
     "theater": "Louhisali",
     "title": "The Giant",
     "director": "Nyholm",
+    "serie": "Matka",
     "duration": 90,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8343",
-    "url": "jatten",
-    "extraurl": ""
+    "url": "jatten"
 }, {
     "date": "2017-05-05",
     "time": "19:00",
     "theater": "Tapiolasali",
     "title": "Jäljet",
     "director": "Holland",
+    "serie": "Première",
     "duration": 128,
     "subtitles": "fin + swe",
     "number": "1/1",
     "rating": "K16",
     "img": "8381",
-    "url": "pokot",
-    "extraurl": ""
+    "url": "pokot"
 }, {
     "date": "2017-05-05",
     "time": "20:30",
     "theater": "Kino Tapiola",
     "title": "Axolotl Overkill",
     "director": "Hegemann",
+    "serie": "Palo",
     "duration": 94,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8284",
-    "url": "axolotl-overkill",
-    "extraurl": ""
+    "url": "axolotl-overkill"
 }, {
     "date": "2017-05-05",
     "time": "20:30",
     "theater": "Louhisali",
     "title": "In the Blood",
     "director": "Heisterberg",
+    "serie": "Palo",
     "duration": 104,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8372",
-    "url": "i-blodet",
-    "extraurl": ""
+    "url": "i-blodet"
 }, {
     "date": "2017-05-05",
     "time": "21:30",
     "theater": "Tapiolasali",
     "title": "Still Life",
     "director": "Alpi",
+    "serie": "Särmikäs",
     "duration": 82,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K16",
     "img": "8542",
-    "url": "gorge-coeur-ventre",
-    "extraurl": ""
+    "url": "gorge-coeur-ventre"
 }, {
     "date": "2017-05-06",
     "time": "10:00",
     "theater": "Louhisali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "1/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-06",
     "time": "11:00",
     "theater": "Kino Tapiola",
     "title": "A Woman's Life",
     "director": "Brizé",
+    "serie": "Rakkaus",
     "duration": 119,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8607",
-    "url": "vie-une",
-    "extraurl": ""
+    "url": "vie-une"
 }, {
     "date": "2017-05-06",
     "time": "11:00",
     "theater": "Louhisali",
     "title": "Kikattava Kakkiainen",
     "director": "Harlin & Utti",
+    "serie": "Junior Ciné",
     "duration": 25,
     "subtitles": "",
     "number": "1/1",
     "rating": "S",
     "img": "8629",
-    "url": "kikattava-kakkiainen",
-    "extraurl": ""
+    "url": "kikattava-kakkiainen"
 }, {
     "date": "2017-05-06",
     "time": "11:00",
     "theater": "Tapiolasali",
     "title": "The Death of Louis XIV",
     "director": "Serra",
+    "serie": "Menneisyys",
     "duration": 114,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K7",
     "img": "8304",
-    "url": "mort-de-louis-xiv-la",
-    "extraurl": ""
+    "url": "mort-de-louis-xiv-la"
 }, {
     "date": "2017-05-06",
     "time": "12:00",
     "theater": "Louhisali",
     "title": "Lyhytelokuvia lapsille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 50,
     "subtitles": "",
     "number": "1/2",
     "rating": "S",
     "img": "8644",
-    "url": "lyhytelokuvia-lapsille",
-    "extraurl": ""
+    "url": "lyhytelokuvia-lapsille"
 }, {
     "date": "2017-05-06",
     "time": "13:15",
     "theater": "Kino Tapiola",
     "title": "The Graduation",
     "director": "Simon",
+    "serie": "Palo",
     "duration": 121,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "S",
     "img": "8346",
-    "url": "concours-le",
-    "extraurl": ""
+    "url": "concours-le"
 }, {
     "date": "2017-05-06",
     "time": "13:15",
     "theater": "Louhisali",
     "title": "papulaBOX",
     "director": "Koskela",
+    "serie": "Junior Ciné",
     "duration": 22,
     "subtitles": "",
     "number": "1/1",
     "rating": "S",
     "img": "8593",
-    "url": "papulabox",
-    "extraurl": ""
+    "url": "papulabox"
 }, {
     "date": "2017-05-06",
     "time": "13:15",
     "theater": "Tapiolasali",
     "title": "The Sense of an Ending",
     "director": "Batra",
+    "serie": "Rakkaus",
     "duration": 108,
     "subtitles": "",
     "number": "1/2",
     "rating": "K12",
     "img": "8524",
-    "url": "sense-of-an-ending-the",
-    "extraurl": ""
+    "url": "sense-of-an-ending-the"
 }, {
     "date": "2017-05-06",
     "time": "14:00",
     "theater": "Louhisali",
     "title": "Elämäni Kesäkurpitsana",
     "director": "Barras",
+    "serie": "Junior Ciné",
     "duration": 66,
     "subtitles": "fin + swe",
     "number": "1/1",
     "rating": "K12",
     "img": "8331",
-    "url": "ma-vie-de-courgette",
-    "extraurl": ""
+    "url": "ma-vie-de-courgette"
 }, {
     "date": "2017-05-06",
     "time": "15:15",
     "theater": "Kino Tapiola",
     "title": "A Kid",
     "director": "Lioret",
+    "serie": "Perhe",
     "duration": 98,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8396",
-    "url": "fils-de-jean-le",
-    "extraurl": ""
+    "url": "fils-de-jean-le"
 }, {
     "date": "2017-05-06",
     "time": "15:15",
     "theater": "Tapiolasali",
     "title": "Sieranevada",
     "director": "Puiu",
+    "serie": "Perhe",
     "duration": 174,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "S",
     "img": "8527",
-    "url": "sieranevada",
-    "extraurl": ""
+    "url": "sieranevada"
 }, {
     "date": "2017-05-06",
     "time": "15:30",
     "theater": "Louhisali",
     "title": "In Loco Parentis",
     "director": "Ní Chianáin & Rane",
+    "serie": "Palo",
     "duration": 99,
     "subtitles": "",
     "number": "1/3",
     "rating": "S",
     "img": "8369",
-    "url": "in-loco-parentis",
-    "extraurl": ""
+    "url": "in-loco-parentis"
 }, {
     "date": "2017-05-06",
     "time": "17:15",
     "theater": "Kino Tapiola",
     "title": "The Man",
     "director": "Sieling",
+    "serie": "Taide",
     "duration": 94,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8425",
-    "url": "mesteren",
-    "extraurl": ""
+    "url": "mesteren"
 }, {
     "date": "2017-05-06",
     "time": "17:30",
     "theater": "Louhisali",
     "title": "The Hippopotamus",
     "director": "Jencks",
+    "serie": "Särmikäs",
     "duration": 86,
     "subtitles": "",
     "number": "1/3",
     "rating": "K12",
     "img": "8357",
-    "url": "hippopotamus-the",
-    "extraurl": ""
+    "url": "hippopotamus-the"
 }, {
     "date": "2017-05-06",
     "time": "18:45",
     "theater": "Tapiolasali",
     "title": "Denial",
     "director": "Jackson",
+    "serie": "Vastakkain",
     "duration": 110,
     "subtitles": "",
     "number": "1/2",
     "rating": "K7",
     "img": "8307",
-    "url": "denial",
-    "extraurl": ""
+    "url": "denial"
 }, {
     "date": "2017-05-06",
     "time": "19:00",
     "theater": "Kino Tapiola",
     "title": "On the Milky Road",
     "director": "Kusturica",
+    "serie": "Rakkaus",
     "duration": 125,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K12",
     "img": "8467",
-    "url": "na-mlecnom-putu",
-    "extraurl": ""
+    "url": "na-mlecnom-putu"
 }, {
     "date": "2017-05-06",
     "time": "19:15",
     "theater": "Louhisali",
     "title": "The Dancer",
     "director": "Di Giusto",
+    "serie": "Première",
     "duration": 112,
     "subtitles": "fin + swe",
     "number": "1/1",
     "rating": "K12",
     "img": "8298",
-    "url": "danseuse-la",
-    "extraurl": ""
+    "url": "danseuse-la"
 }, {
     "date": "2017-05-06",
     "time": "21:00",
     "theater": "Tapiolasali",
     "title": "Safari",
     "director": "Seidl",
+    "serie": "Särmikäs",
     "duration": 90,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K16",
     "img": "8518",
-    "url": "safari",
-    "extraurl": ""
+    "url": "safari"
 }, {
     "date": "2017-05-06",
     "time": "21:15",
     "theater": "Kino Tapiola",
     "title": "To Stay Alive",
     "director": "Lieshout",
+    "serie": "Särmikäs",
     "duration": 70,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "S",
     "img": "8479",
-    "url": "overleven-een-handleiding",
-    "extraurl": ""
+    "url": "overleven-een-handleiding"
 }, {
     "date": "2017-05-06",
     "time": "21:15",
     "theater": "Louhisali",
     "title": "Playground",
     "director": "Kowalski",
+    "serie": "Särmikäs",
     "duration": 81,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K16",
     "img": "8500",
-    "url": "plac-zabaw",
-    "extraurl": ""
+    "url": "plac-zabaw"
 }, {
     "date": "2017-05-07",
     "time": "11:00",
     "theater": "Kino Tapiola",
     "title": "Pohjoismaiset lyhärit",
     "director": "",
+    "serie": "Erikoisnäytös",
     "duration": 90,
     "subtitles": "eng",
     "number": "1/1",
     "rating": "K7",
     "img": "8638",
-    "url": "nordic-shorts",
-    "extraurl": ""
+    "url": "nordic-shorts"
 }, {
     "date": "2017-05-07",
     "time": "13:00",
     "theater": "Kino Tapiola",
     "title": "Handle with Care",
     "director": "Andresen",
+    "serie": "Perhe",
     "duration": 100,
     "subtitles": "eng",
     "number": "1/1",
     "rating": "K7",
     "img": "8349",
-    "url": "hjertestart",
-    "extraurl": ""
+    "url": "hjertestart"
 }, {
     "date": "2017-05-07",
     "time": "13:00",
     "theater": "Tapiolasali",
     "title": "The Red Turtle",
     "director": "Dudok de Wit",
+    "serie": "Erikoisnäytös",
     "duration": 80,
     "subtitles": "",
     "number": "1/1",
     "rating": "K7",
     "img": "8509",
-    "url": "tortue-rouge-la",
-    "extraurl": ""
+    "url": "tortue-rouge-la"
 }, {
     "date": "2017-05-07",
     "time": "13:15",
     "theater": "Louhisali",
     "title": "Robert Doisneau",
     "director": "Deroudille",
+    "serie": "Taide",
     "duration": 77,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "S",
     "img": "8582",
-    "url": "robert-doisneau-le-revolte-du-merveilleux",
-    "extraurl": ""
+    "url": "robert-doisneau-le-revolte-du-merveilleux"
 }, {
     "date": "2017-05-07",
     "time": "14:30",
     "theater": "Tapiolasali",
     "title": "Their Finest",
     "director": "Scherfig",
+    "serie": "Rakkaus",
     "duration": 110,
     "subtitles": "",
     "number": "1/2",
     "rating": "K12",
     "img": "8551",
-    "url": "their-finest",
-    "extraurl": ""
+    "url": "their-finest"
 }, {
     "date": "2017-05-07",
     "time": "14:45",
     "theater": "Louhisali",
     "title": "Beuys",
     "director": "Veiel",
+    "serie": "Taide",
     "duration": 107,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "S",
     "img": "8287",
-    "url": "beuys",
-    "extraurl": ""
+    "url": "beuys"
 }, {
     "date": "2017-05-07",
     "time": "15:00",
     "theater": "Kino Tapiola",
     "title": "50 is the New 30",
     "director": "Lemercier",
+    "serie": "Rakkaus",
     "duration": 97,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K7",
     "img": "8554",
-    "url": "marie-francine",
-    "extraurl": ""
+    "url": "marie-francine"
 }, {
     "date": "2017-05-07",
     "time": "16:45",
     "theater": "Kino Tapiola",
     "title": "The Distinguished Citizen",
     "director": "Duprat & Cohn",
+    "serie": "Matka",
     "duration": 117,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8313",
-    "url": "ciudadano-ilustre-el",
-    "extraurl": ""
+    "url": "ciudadano-ilustre-el"
 }, {
     "date": "2017-05-07",
     "time": "16:45",
     "theater": "Louhisali",
     "title": "Cezanne and I",
     "director": "Thompson",
+    "serie": "Taide",
     "duration": 117,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K7",
     "img": "8295",
-    "url": "cezanne-et-moi",
-    "extraurl": ""
+    "url": "cezanne-et-moi"
 }, {
     "date": "2017-05-07",
     "time": "16:45",
     "theater": "Tapiolasali",
     "title": "Muistoja äidistäni",
     "director": "Bellocchio",
+    "serie": "Première",
     "duration": 134,
     "subtitles": "fin + swe",
     "number": "1/1",
     "rating": "K12",
     "img": "8449",
-    "url": "fai-bei-sogni",
-    "extraurl": ""
+    "url": "fai-bei-sogni"
 }, {
     "date": "2017-05-07",
     "time": "19:00",
     "theater": "Kino Tapiola",
     "title": "Afterimage",
     "director": "Wajda",
+    "serie": "Taide",
     "duration": 100,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K12",
     "img": "8574",
-    "url": "powidoki",
-    "extraurl": ""
+    "url": "powidoki"
 }, {
     "date": "2017-05-07",
     "time": "19:00",
     "theater": "Louhisali",
     "title": "Nocturama",
     "director": "Bonello",
+    "serie": "Rikos",
     "duration": 130,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K16",
     "img": "8461",
-    "url": "nocturama",
-    "extraurl": ""
+    "url": "nocturama"
 }, {
     "date": "2017-05-07",
     "time": "19:15",
     "theater": "Tapiolasali",
     "title": "This Is Our Land",
     "director": "Belvaux",
+    "serie": "Yhteiskunta",
     "duration": 117,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8476",
-    "url": "chez-nous",
-    "extraurl": ""
+    "url": "chez-nous"
 }, {
     "date": "2017-05-07",
     "time": "21:00",
     "theater": "Kino Tapiola",
     "title": "Julie and the Shoe Factory",
     "director": "Testut & Calori",
+    "serie": "Yhteiskunta",
     "duration": 90,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "S",
     "img": "8633",
-    "url": "sur-quel-pied-danser",
-    "extraurl": ""
+    "url": "sur-quel-pied-danser"
 }, {
     "date": "2017-05-07",
     "time": "21:15",
     "theater": "Louhisali",
     "title": "The Fury of a Patient Man",
     "director": "Arévalo",
+    "serie": "Rikos",
     "duration": 91,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K16",
     "img": "8340",
-    "url": "tarde-para-la-ira",
-    "extraurl": ""
+    "url": "tarde-para-la-ira"
 }, {
     "date": "2017-05-07",
     "time": "21:30",
     "theater": "Tapiolasali",
     "title": "Skins",
     "director": "Casanova",
+    "serie": "Särmikäs",
     "duration": 77,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K16",
     "img": "8533",
-    "url": "pieles",
-    "extraurl": ""
+    "url": "pieles"
 }, {
     "date": "2017-05-08",
     "time": "09:00",
     "theater": "Vindängen",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "2/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-08",
     "time": "10:00",
     "theater": "Korjaamo",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "E",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-08",
     "time": "10:00",
     "theater": "Vindängen",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "3/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-08",
     "time": "14:45",
     "theater": "Tapiolasali",
     "title": "Donkeyote",
     "director": "Pereira",
+    "serie": "Matka",
     "duration": 86,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "S",
     "img": "8316",
-    "url": "donkeyote",
-    "extraurl": ""
+    "url": "donkeyote"
 }, {
     "date": "2017-05-08",
     "time": "15:00",
     "theater": "Kino Tapiola",
     "title": "Enclave",
     "director": "Radovanović",
+    "serie": "Vastakkain",
     "duration": 92,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8605",
-    "url": "enklava",
-    "extraurl": ""
+    "url": "enklava"
 }, {
     "date": "2017-05-08",
     "time": "15:00",
     "theater": "Louhisali",
     "title": "Home",
     "director": "Troch",
+    "serie": "Vastakkain",
     "duration": 103,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K16",
     "img": "8363",
-    "url": "home",
-    "extraurl": ""
+    "url": "home"
 }, {
     "date": "2017-05-08",
     "time": "16:30",
     "theater": "Tapiolasali",
     "title": "Marie Curie",
     "director": "Sehr",
+    "serie": "Taide",
     "duration": 95,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8431",
-    "url": "marie-curie",
-    "extraurl": ""
+    "url": "marie-curie"
 }, {
     "date": "2017-05-08",
     "time": "16:45",
     "theater": "Kino Tapiola",
     "title": "At Your Doorstep",
     "director": "Cortés",
+    "serie": "Yhteiskunta",
     "duration": 93,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "S",
     "img": "8277",
-    "url": "cerca-de-tu-casa",
-    "extraurl": ""
+    "url": "cerca-de-tu-casa"
 }, {
     "date": "2017-05-08",
     "time": "17:00",
     "theater": "Louhisali",
     "title": "Matka jatkuu",
     "director": "Helminen",
+    "serie": "Premiére",
     "duration": 59,
     "subtitles": "eng",
     "number": "1/1",
     "rating": "S",
     "img": "8636",
-    "url": "matka-jatkuu",
-    "extraurl": ""
+    "url": "matka-jatkuu"
 }, {
     "date": "2017-05-08",
     "time": "18:00",
     "theater": "Hanasaari",
     "title": "The Giant",
     "director": "Nyholm",
+    "serie": "Matka",
     "duration": 90,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8343",
-    "url": "jatten",
-    "extraurl": ""
+    "url": "jatten"
 }, {
     "date": "2017-05-08",
     "time": "18:30",
     "theater": "Louhisali",
     "title": "Matka on pitkä",
     "director": "Helminen",
+    "serie": "Erikoisnäytös",
     "duration": 84,
     "subtitles": "eng",
     "number": "1/1",
     "rating": "S",
     "img": "8802",
-    "url": "matka-on-pitka",
-    "extraurl": ""
+    "url": "matka-on-pitka"
 }, {
     "date": "2017-05-08",
     "time": "18:30",
     "theater": "Tapiolasali",
     "title": "The King's Choice",
     "director": "Poppe",
+    "serie": "Menneisyys",
     "duration": 133,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8408",
-    "url": "kongens-nei",
-    "extraurl": ""
+    "url": "kongens-nei"
 }, {
     "date": "2017-05-08",
     "time": "18:45",
     "theater": "Kino Tapiola",
     "title": "Requiem for Mrs. J.",
     "director": "Vuletić",
+    "serie": "Perhe",
     "duration": 94,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8512",
-    "url": "requiem-for-mrs-j",
-    "extraurl": ""
+    "url": "requiem-for-mrs-j"
 }, {
     "date": "2017-05-08",
     "time": "20:45",
     "theater": "Kino Tapiola",
     "title": "The Eavesdropper",
     "director": "Kruithof",
+    "serie": "Rikos",
     "duration": 93,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K12",
     "img": "8325",
-    "url": "mecanique-de-lombre-la",
-    "extraurl": ""
+    "url": "mecanique-de-lombre-la"
 }, {
     "date": "2017-05-08",
     "time": "20:45",
     "theater": "Louhisali",
     "title": "Egon Schiele",
     "director": "Berner",
+    "serie": "Taide",
     "duration": 110,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8328",
-    "url": "egon-schiele-tod-und-madchen",
-    "extraurl": ""
+    "url": "egon-schiele-tod-und-madchen"
 }, {
     "date": "2017-05-08",
     "time": "21:00",
     "theater": "Tapiolasali",
     "title": "Stalin's Couch",
     "director": "Ardant",
+    "serie": "Menneisyys",
     "duration": 92,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K7",
     "img": "8536",
-    "url": "divan-de-staline-le",
-    "extraurl": ""
+    "url": "divan-de-staline-le"
 }, {
     "date": "2017-05-09",
     "time": "09:00",
     "theater": "Kannusali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "4/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-09",
     "time": "09:00",
     "theater": "Louhisali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "6/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-09",
     "time": "09:00",
     "theater": "Orion",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "E",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-09",
     "time": "09:00",
     "theater": "Sellosali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "5/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-09",
     "time": "09:30",
     "theater": "Kino Tapiola",
     "title": "Oskarin Amerikka",
     "director": "Iversen",
+    "serie": "Junior Ciné",
     "duration": 79,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K7",
     "img": "8485",
-    "url": "oskars-amerika",
-    "extraurl": ""
+    "url": "oskars-amerika"
 }, {
     "date": "2017-05-09",
     "time": "09:30",
     "theater": "Tapiolasali",
     "title": "Kanelia kainaloon, Tatu ja Patu!",
     "director": "Jokela",
+    "serie": "Junior Ciné",
     "duration": 71,
     "subtitles": "",
     "number": "1/1",
     "rating": "S",
     "img": "8390",
-    "url": "kanelia-kainaloon-tatu-ja-patu",
-    "extraurl": ""
+    "url": "kanelia-kainaloon-tatu-ja-patu"
 }, {
     "date": "2017-05-09",
     "time": "10:00",
     "theater": "Kannusali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "7/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-09",
     "time": "10:00",
     "theater": "Korjaamo",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "E",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-09",
     "time": "10:00",
     "theater": "Louhisali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "8/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-09",
     "time": "10:00",
     "theater": "Orion",
     "title": "Raparperimehua",
     "director": "de Cloe",
+    "serie": "Junior Ciné",
     "duration": 70,
     "subtitles": "fin",
     "number": "E",
     "rating": "K7",
     "img": "8506",
-    "url": "rabarber",
-    "extraurl": ""
+    "url": "rabarber"
 }, {
     "date": "2017-05-09",
     "time": "10:00",
     "theater": "Sellosali",
     "title": "Onni suosii rohkeaa",
     "director": "Lechner",
+    "serie": "Junior Ciné",
     "duration": 96,
     "subtitles": "fin",
     "number": "3/3",
     "rating": "K7",
     "img": "7823",
-    "url": "ente-gut-madchen-allein-zu-haus",
-    "extraurl": ""
+    "url": "ente-gut-madchen-allein-zu-haus"
 }, {
     "date": "2017-05-09",
     "time": "11:00",
     "theater": "Kannusali",
     "title": "Onni suosii rohkeaa",
     "director": "Lechner",
+    "serie": "Junior Ciné",
     "duration": 96,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K7",
     "img": "7823",
-    "url": "ente-gut-madchen-allein-zu-haus",
-    "extraurl": ""
+    "url": "ente-gut-madchen-allein-zu-haus"
 }, {
     "date": "2017-05-09",
     "time": "11:00",
     "theater": "Kino Tapiola",
     "title": "Silmätysten",
     "director": "Goldbrunner & Dollhopf",
+    "serie": "Junior Ciné",
     "duration": 98,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K7",
     "img": "8530",
-    "url": "auf-augenhohe",
-    "extraurl": ""
+    "url": "auf-augenhohe"
 }, {
     "date": "2017-05-09",
     "time": "11:00",
     "theater": "Louhisali",
     "title": "Offline",
     "director": "Schnell",
+    "serie": "Junior Ciné",
     "duration": 87,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K12",
     "img": "8464",
-    "url": "offline-das-leben-ist-kein-bonuslevel",
-    "extraurl": ""
+    "url": "offline-das-leben-ist-kein-bonuslevel"
 }, {
     "date": "2017-05-09",
     "time": "11:15",
     "theater": "Tapiolasali",
     "title": "Kun vielä elämme",
     "director": "Kouyaté",
+    "serie": "Junior Ciné",
     "duration": 91,
     "subtitles": "fin",
     "number": "1/2",
     "rating": "K7",
     "img": "8411",
-    "url": "medan-vi-lever",
-    "extraurl": ""
+    "url": "medan-vi-lever"
 }, {
     "date": "2017-05-09",
     "time": "13:00",
     "theater": "Louhisali",
     "title": "Kesäni sudenkorentona",
     "director": "Toivoniemi",
+    "serie": "Junior Ciné",
     "duration": 64,
     "subtitles": "eng",
     "number": "1/1",
     "rating": "S",
     "img": "8393",
-    "url": "kesani-sudenkorentona",
-    "extraurl": ""
+    "url": "kesani-sudenkorentona"
 }, {
     "date": "2017-05-09",
     "time": "13:15",
     "theater": "Tapiolasali",
     "title": "Tulisilla hiilillä",
     "director": "Sambeth",
+    "serie": "Junior Ciné",
     "duration": 90,
     "subtitles": "fin",
     "number": "1/2",
     "rating": "K12",
     "img": "8601",
-    "url": "glutnester",
-    "extraurl": ""
+    "url": "glutnester"
 }, {
     "date": "2017-05-09",
     "time": "15:00",
     "theater": "Kino Tapiola",
     "title": "Kiehumispiste",
     "director": "Hirvonen",
+    "serie": "Yhteiskunta",
     "duration": 90,
     "subtitles": "fin / eng",
     "number": "1/1",
     "rating": "K7/K12",
     "img": "8399",
-    "url": "kiehumispiste",
-    "extraurl": ""
+    "url": "kiehumispiste"
 }, {
     "date": "2017-05-09",
     "time": "15:00",
     "theater": "Tapiolasali",
     "title": "The Fabulous Patars",
     "director": "Reine",
+    "serie": "Perhe",
     "duration": 98,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K7",
     "img": "8334",
-    "url": "cigarettes-et-chocolat-chaud",
-    "extraurl": ""
+    "url": "cigarettes-et-chocolat-chaud"
 }, {
     "date": "2017-05-09",
     "time": "17:00",
     "theater": "Omena 4",
     "title": "Willy the First",
     "director": "Boukherma, Boukherma, Gautier & Thomas",
+    "serie": "Vastakkain",
     "duration": 82,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K7",
     "img": "8452",
-    "url": "willy-1er",
-    "extraurl": ""
+    "url": "willy-1er"
 }, {
     "date": "2017-05-09",
     "time": "17:00",
     "theater": "Omena 7",
     "title": "Eastern Business",
     "director": "Cobileanski",
+    "serie": "Matka",
     "duration": 84,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "S",
     "img": "8322",
-    "url": "afacerea-est",
-    "extraurl": ""
+    "url": "afacerea-est"
 }, {
     "date": "2017-05-09",
     "time": "17:00",
     "theater": "Sello 5",
     "title": "Departure",
     "director": "Steggall",
+    "serie": "Rakkaus",
     "duration": 109,
     "subtitles": "",
     "number": "1/3",
     "rating": "K12",
     "img": "8310",
-    "url": "departure",
-    "extraurl": ""
+    "url": "departure"
 }, {
     "date": "2017-05-09",
     "time": "17:00",
     "theater": "Tapiolasali",
     "title": "Stefan Zweig",
     "director": "Schrader",
+    "serie": "Menneisyys",
     "duration": 106,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K7",
     "img": "8539",
-    "url": "vor-der-morgenrote",
-    "extraurl": ""
+    "url": "vor-der-morgenrote"
 }, {
     "date": "2017-05-09",
     "time": "17:15",
     "theater": "Kino Tapiola",
     "title": "The Graduation",
     "director": "Simon",
+    "serie": "Palo",
     "duration": 121,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "S",
     "img": "8346",
-    "url": "concours-le",
-    "extraurl": ""
+    "url": "concours-le"
 }, {
     "date": "2017-05-09",
     "time": "17:15",
     "theater": "Louhisali",
     "title": "This is Our Land",
     "director": "Belvaux",
+    "serie": "Yhteiskunta",
     "duration": 117,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8476",
-    "url": "chez-nous",
-    "extraurl": ""
+    "url": "chez-nous"
 }, {
     "date": "2017-05-09",
     "time": "17:15",
     "theater": "Omena 3",
     "title": "Paris la blanche",
     "director": "Terki",
+    "serie": "Rakkaus",
     "duration": 81,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "S",
     "img": "8488",
-    "url": "paris-la-blanche",
-    "extraurl": ""
+    "url": "paris-la-blanche"
 }, {
     "date": "2017-05-09",
     "time": "17:15",
     "theater": "Sello 4",
     "title": "Thanks Boss!",
     "director": "Ruffin",
+    "serie": "Yhteiskunta",
     "duration": 83,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "S",
     "img": "8548",
-    "url": "merci-patron",
-    "extraurl": ""
+    "url": "merci-patron"
 }, {
     "date": "2017-05-09",
     "time": "18:45",
     "theater": "Omena 4",
     "title": "The Man",
     "director": "Sieling",
+    "serie": "Taide",
     "duration": 94,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8425",
-    "url": "mesteren",
-    "extraurl": ""
+    "url": "mesteren"
 }, {
     "date": "2017-05-09",
     "time": "18:45",
     "theater": "Omena 7",
     "title": "Enclave",
     "director": "Radovanović",
+    "serie": "Vastakkain",
     "duration": 92,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8605",
-    "url": "enklava",
-    "extraurl": ""
+    "url": "enklava"
 }, {
     "date": "2017-05-09",
     "time": "19:00",
     "theater": "Omena 3",
     "title": "A Taste of Ink",
     "director": "Simon",
+    "serie": "Vastakkain",
     "duration": 80,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8545",
-    "url": "compte-tes-blessures",
-    "extraurl": ""
+    "url": "compte-tes-blessures"
 }, {
     "date": "2017-05-09",
     "time": "19:00",
     "theater": "Sello 4",
     "title": "Julie and the Shoe Factory",
     "director": "Testut & Calori",
+    "serie": "Yhteiskunta",
     "duration": 90,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "S",
     "img": "8633",
-    "url": "sur-quel-pied-danser",
-    "extraurl": ""
+    "url": "sur-quel-pied-danser"
 }, {
     "date": "2017-05-09",
     "time": "19:00",
     "theater": "Tapiolasali",
     "title": "Cezanne and I",
     "director": "Thompson",
+    "serie": "Taide",
     "duration": 117,
     "subtitles": "fin",
     "number": "2/3",
     "rating": "K7",
     "img": "8295",
-    "url": "cezanne-et-moi",
-    "extraurl": ""
+    "url": "cezanne-et-moi"
 }, {
     "date": "2017-05-09",
     "time": "19:15",
     "theater": "Kino Tapiola",
     "title": "In Loco Parentis",
     "director": "Ní Chianáin & Rane",
+    "serie": "Palo",
     "duration": 99,
     "subtitles": "text",
     "number": "2/3",
     "rating": "S",
     "img": "8369",
-    "url": "in-loco-parentis",
-    "extraurl": ""
+    "url": "in-loco-parentis"
 }, {
     "date": "2017-05-09",
     "time": "19:15",
     "theater": "Sello 5",
     "title": "A Date for Mad Mary",
     "director": "Thornton",
+    "serie": "Särmikäs",
     "duration": 82,
     "subtitles": "",
     "number": "1/3",
     "rating": "K12",
     "img": "8301",
-    "url": "date-for-mad-mary-a",
-    "extraurl": ""
+    "url": "date-for-mad-mary-a"
 }, {
     "date": "2017-05-09",
     "time": "20:30",
     "theater": "Omena 7",
     "title": "Nocturama",
     "director": "Bonello",
+    "serie": "Rikos",
     "duration": 130,
     "subtitles": "fin",
     "number": "2/3",
     "rating": "K16",
     "img": "8461",
-    "url": "nocturama",
-    "extraurl": ""
+    "url": "nocturama"
 }, {
     "date": "2017-05-09",
     "time": "20:45",
     "theater": "Omena 4",
     "title": "Into the Forest",
     "director": "Marchand",
+    "serie": "Särmikäs",
     "duration": 103,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K16",
     "img": "8375",
-    "url": "dans-la-foret",
-    "extraurl": ""
+    "url": "dans-la-foret"
 }, {
     "date": "2017-05-09",
     "time": "20:45",
     "theater": "Sello 4",
     "title": "The Distinguished Citizen",
     "director": "Duprat & Cohn",
+    "serie": "Matka",
     "duration": 117,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8313",
-    "url": "ciudadano-ilustre-el",
-    "extraurl": ""
+    "url": "ciudadano-ilustre-el"
 }, {
     "date": "2017-05-09",
     "time": "21:00",
     "theater": "Kino Tapiola",
     "title": "Heartstone",
     "director": "Guðmundsson",
+    "serie": "Vastakkain",
     "duration": 129,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K16",
     "img": "8354",
-    "url": "hjartasteinn",
-    "extraurl": ""
+    "url": "hjartasteinn"
 }, {
     "date": "2017-05-09",
     "time": "21:00",
     "theater": "Omena 3",
     "title": "Skins",
     "director": "Casanova",
+    "serie": "Särmikäs",
     "duration": 77,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K16",
     "img": "8533",
-    "url": "pieles",
-    "extraurl": ""
+    "url": "pieles"
 }, {
     "date": "2017-05-09",
     "time": "21:00",
     "theater": "Sello 5",
     "title": "Back for Good",
     "director": "Spengler",
+    "serie": "Perhe",
     "duration": 91,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K12",
     "img": "8577",
-    "url": "back-for-good",
-    "extraurl": ""
+    "url": "back-for-good"
 }, {
     "date": "2017-05-09",
     "time": "21:15",
     "theater": "Louhisali",
     "title": "The Hippopotamus",
     "director": "Jencks",
+    "serie": "Särmikäs",
     "duration": 86,
     "subtitles": "",
     "number": "2/3",
     "rating": "K12",
     "img": "8357",
-    "url": "hippopotamus-the",
-    "extraurl": ""
+    "url": "hippopotamus-the"
 }, {
     "date": "2017-05-09",
     "time": "21:15",
     "theater": "Tapiolasali",
     "title": "Orphan",
     "director": "Pallières",
+    "serie": "Särmikäs",
     "duration": 111,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K16",
     "img": "8473",
-    "url": "orpheline",
-    "extraurl": ""
+    "url": "orpheline"
 }, {
     "date": "2017-05-10",
     "time": "09:00",
     "theater": "Kannusali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "9/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-10",
     "time": "09:00",
     "theater": "Louhisali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "10/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-10",
     "time": "09:30",
     "theater": "Kino Tapiola",
     "title": "Silmätysten",
     "director": "Goldbrunner & Dollhopf",
+    "serie": "Junior Ciné",
     "duration": 98,
     "subtitles": "fin",
     "number": "2/3",
     "rating": "K7",
     "img": "8530",
-    "url": "auf-augenhohe",
-    "extraurl": ""
+    "url": "auf-augenhohe"
 }, {
     "date": "2017-05-10",
     "time": "09:30",
     "theater": "Korjaamo",
     "title": "Raparperimehua",
     "director": "de Cloe",
+    "serie": "Junior Ciné",
     "duration": 70,
     "subtitles": "fin",
     "number": "E",
     "rating": "K7",
     "img": "8506",
-    "url": "rabarber",
-    "extraurl": ""
+    "url": "rabarber"
 }, {
     "date": "2017-05-10",
     "time": "09:45",
     "theater": "Tapiolasali",
     "title": "Raparperimehua",
     "director": "de Cloe",
+    "serie": "Junior Ciné",
     "duration": 70,
     "subtitles": "fin",
     "number": "1/1",
     "rating": "K7",
     "img": "8506",
-    "url": "rabarber",
-    "extraurl": ""
+    "url": "rabarber"
 }, {
     "date": "2017-05-10",
     "time": "10:00",
     "theater": "Kannusali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "11/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-10",
     "time": "10:00",
     "theater": "Louhisali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "12/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-10",
     "time": "11:00",
     "theater": "Kannusali",
     "title": "Pitkä matka kouluun",
     "director": "Klausmann",
+    "serie": "Junior Ciné",
     "duration": 90,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K7",
     "img": "8497",
-    "url": "nicht-ohne-uns",
-    "extraurl": ""
+    "url": "nicht-ohne-uns"
 }, {
     "date": "2017-05-10",
     "time": "11:00",
     "theater": "Louhisali",
     "title": "Pitkä matka kouluun",
     "director": "Klausmann",
+    "serie": "Junior Ciné",
     "duration": 90,
     "subtitles": "fin",
     "number": "2/3",
     "rating": "K7",
     "img": "8497",
-    "url": "nicht-ohne-uns",
-    "extraurl": ""
+    "url": "nicht-ohne-uns"
 }, {
     "date": "2017-05-10",
     "time": "11:15",
     "theater": "Tapiolasali",
     "title": "Offline",
     "director": "Schnell",
+    "serie": "Junior Ciné",
     "duration": 87,
     "subtitles": "fin",
     "number": "2/3",
     "rating": "K12",
     "img": "8464",
-    "url": "offline-das-leben-ist-kein-bonuslevel",
-    "extraurl": ""
+    "url": "offline-das-leben-ist-kein-bonuslevel"
 }, {
     "date": "2017-05-10",
     "time": "11:30",
     "theater": "Kino Tapiola",
     "title": "Räjähtävää teinirakkautta",
     "director": "Erichsen",
+    "serie": "Junior Ciné",
     "duration": 85,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K12",
     "img": "8503",
-    "url": "vindmollernes-sus",
-    "extraurl": ""
+    "url": "vindmollernes-sus"
 }, {
     "date": "2017-05-10",
     "time": "12:45",
     "theater": "Louhisali",
     "title": "Miss Impossible",
     "director": "Deleuze",
+    "serie": "Junior Ciné",
     "duration": 90,
     "subtitles": "fin",
     "number": "1/1",
     "rating": "S",
     "img": "8434",
-    "url": "jamais-contente",
-    "extraurl": ""
+    "url": "jamais-contente"
 }, {
     "date": "2017-05-10",
     "time": "13:15",
     "theater": "Tapiolasali",
     "title": "Järven tarina",
     "director": "Röhr & Saarniluoto",
+    "serie": "Junior Ciné",
     "duration": 76,
     "subtitles": "",
     "number": "1/1",
     "rating": "S",
     "img": "8384",
-    "url": "jarven-tarina",
-    "extraurl": ""
+    "url": "jarven-tarina"
 }, {
     "date": "2017-05-10",
     "time": "14:30",
     "theater": "Louhisali",
     "title": "Thanks Boss!",
     "director": "Ruffin",
+    "serie": "Yhteiskunta",
     "duration": 83,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "S",
     "img": "8548",
-    "url": "merci-patron",
-    "extraurl": ""
+    "url": "merci-patron"
 }, {
     "date": "2017-05-10",
     "time": "15:00",
     "theater": "Kino Tapiola",
     "title": "Lapualaismorsian",
     "director": "Niskanen",
+    "serie": "Erikoisnäytös",
     "duration": 89,
     "subtitles": "",
     "number": "1/1",
     "rating": "K12",
     "img": "8416",
-    "url": "lapualaismorsian",
-    "extraurl": ""
+    "url": "lapualaismorsian"
 }, {
     "date": "2017-05-10",
     "time": "15:00",
     "theater": "Tapiolasali",
     "title": "Mister Universo",
     "director": "Covi & Frimmel",
+    "serie": "Matka",
     "duration": 90,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "S",
     "img": "8440",
-    "url": "mister-universo",
-    "extraurl": ""
+    "url": "mister-universo"
 }, {
     "date": "2017-05-10",
     "time": "16:00",
     "theater": "Louhisali",
     "title": "To Stay Alive",
     "director": "Lieshout",
+    "serie": "Särmikäs",
     "duration": 70,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "S",
     "img": "8479",
-    "url": "overleven-een-handleiding",
-    "extraurl": ""
+    "url": "overleven-een-handleiding"
 }, {
     "date": "2017-05-10",
     "time": "16:45",
     "theater": "Kino Tapiola",
     "title": "A Woman's Life",
     "director": "Brizé",
+    "serie": "Rakkaus",
     "duration": 119,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8607",
-    "url": "vie-une",
-    "extraurl": ""
+    "url": "vie-une"
 }, {
     "date": "2017-05-10",
     "time": "17:00",
     "theater": "Omena 4",
     "title": "The Life and Films of Ken Loach",
     "director": "Osmond",
+    "serie": "Palo",
     "duration": 93,
     "subtitles": "",
     "number": "1/3",
     "rating": "K12",
     "img": "8428",
-    "url": "versus-the-life-and-films-of-ken-loach",
-    "extraurl": ""
+    "url": "versus-the-life-and-films-of-ken-loach"
 }, {
     "date": "2017-05-10",
     "time": "17:00",
     "theater": "Omena 7",
     "title": "The Fabulous Patars",
     "director": "Reine",
+    "serie": "Perhe",
     "duration": 98,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K7",
     "img": "8334",
-    "url": "cigarettes-et-chocolat-chaud",
-    "extraurl": ""
+    "url": "cigarettes-et-chocolat-chaud"
 }, {
     "date": "2017-05-10",
     "time": "17:00",
     "theater": "Sello 4",
     "title": "Life Beyond Me",
     "director": "Peyon",
+    "serie": "Perhe",
     "duration": 95,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8419",
-    "url": "vie-ailleurs-une",
-    "extraurl": ""
+    "url": "vie-ailleurs-une"
 }, {
     "date": "2017-05-10",
     "time": "17:00",
     "theater": "Tapiolasali",
     "title": "Käpy selän alla",
     "director": "Niskanen",
+    "serie": "Erikoisnäytös",
     "duration": 89,
     "subtitles": "",
     "number": "1/1",
     "rating": "K12",
     "img": "8414",
-    "url": "kapy-selan-alla",
-    "extraurl": ""
+    "url": "kapy-selan-alla"
 }, {
     "date": "2017-05-10",
     "time": "17:15",
     "theater": "Omena 3",
     "title": "Paris la blanche",
     "director": "Terki",
+    "serie": "Rakkaus",
     "duration": 81,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "S",
     "img": "8488",
-    "url": "paris-la-blanche",
-    "extraurl": ""
+    "url": "paris-la-blanche"
 }, {
     "date": "2017-05-10",
     "time": "17:15",
     "theater": "Sello 5",
     "title": "Move! Dance Your Life",
     "director": "Jean-Noël",
+    "serie": "Palo",
     "duration": 76,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "S",
     "img": "8446",
-    "url": "move-dance-your-life",
-    "extraurl": ""
+    "url": "move-dance-your-life"
 }, {
     "date": "2017-05-10",
     "time": "17:30",
     "theater": "Louhisali",
     "title": "Sieranevada",
     "director": "Puiu",
+    "serie": "Perhe",
     "duration": 174,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "S",
     "img": "8527",
-    "url": "sieranevada",
-    "extraurl": ""
+    "url": "sieranevada"
 }, {
     "date": "2017-05-10",
     "time": "18:45",
     "theater": "Omena 7",
     "title": "A Date for Mad Mary",
     "director": "Thornton",
+    "serie": "Särmikäs",
     "duration": 82,
     "subtitles": "",
     "number": "2/3",
     "rating": "K12",
     "img": "8301",
-    "url": "date-for-mad-mary-a",
-    "extraurl": ""
+    "url": "date-for-mad-mary-a"
 }, {
     "date": "2017-05-10",
     "time": "19:00",
     "theater": "Kino Tapiola",
     "title": "Heartstone",
     "director": "Guðmundsson",
+    "serie": "Vastakkain",
     "duration": 129,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K16",
     "img": "8354",
-    "url": "hjartasteinn",
-    "extraurl": ""
+    "url": "hjartasteinn"
 }, {
     "date": "2017-05-10",
     "time": "19:00",
     "theater": "Omena 3",
     "title": "A Wedding",
     "director": "Streker",
+    "serie": "Perhe",
     "duration": 98,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8443",
-    "url": "noces",
-    "extraurl": ""
+    "url": "noces"
 }, {
     "date": "2017-05-10",
     "time": "19:00",
     "theater": "Omena 4",
     "title": "Paths",
     "director": "Miera",
+    "serie": "Perhe",
     "duration": 108,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8491",
-    "url": "weg-ein",
-    "extraurl": ""
+    "url": "weg-ein"
 }, {
     "date": "2017-05-10",
     "time": "19:00",
     "theater": "Sello 4",
     "title": "At Your Doorstep",
     "director": "Cortés",
+    "serie": "Yhteiskunta",
     "duration": 93,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "S",
     "img": "8277",
-    "url": "cerca-de-tu-casa",
-    "extraurl": ""
+    "url": "cerca-de-tu-casa"
 }, {
     "date": "2017-05-10",
     "time": "19:00",
     "theater": "Sello 5",
     "title": "Stalin's Couch",
     "director": "Ardant",
+    "serie": "Menneisyys",
     "duration": 92,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K7",
     "img": "8536",
-    "url": "divan-de-staline-le",
-    "extraurl": ""
+    "url": "divan-de-staline-le"
 }, {
     "date": "2017-05-10",
     "time": "19:00",
     "theater": "Tapiolasali",
     "title": "Kaiken se kestää",
     "director": "Koiso-Kanttila",
+    "serie": "Première",
     "duration": 82,
     "subtitles": "eng",
     "number": "1/1",
     "rating": "K12",
     "img": "8387",
-    "url": "kaiken-se-kestaa",
-    "extraurl": ""
+    "url": "kaiken-se-kestaa"
 }, {
     "date": "2017-05-10",
     "time": "20:30",
     "theater": "Louhisali",
     "title": "Nocturama",
     "director": "Bonello",
+    "serie": "Rikos",
     "duration": 130,
     "subtitles": "fin",
     "number": "3/3",
     "rating": "K16",
     "img": "8461",
-    "url": "nocturama",
-    "extraurl": ""
+    "url": "nocturama"
 }, {
     "date": "2017-05-10",
     "time": "20:30",
     "theater": "Omena 7",
     "title": "Away",
     "director": "Blair",
+    "serie": "Matka",
     "duration": 109,
     "subtitles": "",
     "number": "1/3",
     "rating": "K16",
     "img": "8283",
-    "url": "away",
-    "extraurl": ""
+    "url": "away"
 }, {
     "date": "2017-05-10",
     "time": "20:45",
     "theater": "Omena 3",
     "title": "The Day Will Come",
     "director": "Nielsen",
+    "serie": "Vastakkain",
     "duration": 110,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K16",
     "img": "8598",
-    "url": "der-kommer-en-dag",
-    "extraurl": ""
+    "url": "der-kommer-en-dag"
 }, {
     "date": "2017-05-10",
     "time": "20:45",
     "theater": "Sello 4",
     "title": "The Fixer",
     "director": "Sitaru",
+    "serie": "Vastakkain",
     "duration": 98,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K16",
     "img": "8337",
-    "url": "fixeur",
-    "extraurl": ""
+    "url": "fixeur"
 }, {
     "date": "2017-05-10",
     "time": "20:45",
     "theater": "Tapiolasali",
     "title": "The Death of Louis XIV",
     "director": "Serra",
+    "serie": "Menneisyys",
     "duration": 114,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K7",
     "img": "8304",
-    "url": "mort-de-louis-xiv-la",
-    "extraurl": ""
+    "url": "mort-de-louis-xiv-la"
 }, {
     "date": "2017-05-10",
     "time": "21:00",
     "theater": "Omena 4",
     "title": "Secluded",
     "director": "Fløe",
+    "serie": "Perhe",
     "duration": 82,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K16",
     "img": "8521",
-    "url": "afskaret",
-    "extraurl": ""
+    "url": "afskaret"
 }, {
     "date": "2017-05-10",
     "time": "21:00",
     "theater": "Sello 5",
     "title": "Skins",
     "director": "Casanova",
+    "serie": "Särmikäs",
     "duration": 77,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K16",
     "img": "8533",
-    "url": "pieles",
-    "extraurl": ""
+    "url": "pieles"
 }, {
     "date": "2017-05-10",
     "time": "21:15",
     "theater": "Kino Tapiola",
     "title": "The Ardennes",
     "director": "Pront",
+    "serie": "Rikos",
     "duration": 93,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K16",
     "img": "8271",
-    "url": "ardennen-d",
-    "extraurl": ""
+    "url": "ardennen-d"
 }, {
     "date": "2017-05-11",
     "time": "09:30",
     "theater": "Kino Tapiola",
     "title": "Oskarin Amerikka",
     "director": "Iversen",
+    "serie": "Junior Ciné",
     "duration": 79,
     "subtitles": "fin",
     "number": "2/3",
     "rating": "K7",
     "img": "8485",
-    "url": "oskars-amerika",
-    "extraurl": ""
+    "url": "oskars-amerika"
 }, {
     "date": "2017-05-11",
     "time": "09:30",
     "theater": "Korjaamo",
     "title": "Raparperimehua",
     "director": "de Cloe",
+    "serie": "Junior Ciné",
     "duration": 70,
     "subtitles": "fin",
     "number": "E",
     "rating": "K7",
     "img": "8506",
-    "url": "rabarber",
-    "extraurl": ""
+    "url": "rabarber"
 }, {
     "date": "2017-05-11",
     "time": "09:30",
     "theater": "Tapiolasali",
     "title": "Silmätysten",
     "director": "Goldbrunner & Dollhopf",
+    "serie": "Junior Ciné",
     "duration": 98,
     "subtitles": "fin",
     "number": "3/3",
     "rating": "K7",
     "img": "8530",
-    "url": "auf-augenhohe",
-    "extraurl": ""
+    "url": "auf-augenhohe"
 }, {
     "date": "2017-05-11",
     "time": "10:00",
     "theater": "Louhisali",
     "title": "Lyhytelokuvia lapsille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 50,
     "subtitles": "",
     "number": "2/2",
     "rating": "S",
     "img": "8644",
-    "url": "lyhytelokuvia-lapsille",
-    "extraurl": ""
+    "url": "lyhytelokuvia-lapsille"
 }, {
     "date": "2017-05-11",
     "time": "10:00",
     "theater": "Sellosali",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "13/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-11",
     "time": "11:15",
     "theater": "Louhisali",
     "title": "Tulisilla hiilillä",
     "director": "Sambeth",
+    "serie": "Junior Ciné",
     "duration": 90,
     "subtitles": "fin",
     "number": "2/2",
     "rating": "K12",
     "img": "8601",
-    "url": "glutnester",
-    "extraurl": ""
+    "url": "glutnester"
 }, {
     "date": "2017-05-11",
     "time": "11:30",
     "theater": "Kino Tapiola",
     "title": "Räjähtävää teinirakkautta",
     "director": "Erichsen",
+    "serie": "Junior Ciné",
     "duration": 85,
     "subtitles": "fin",
     "number": "2/3",
     "rating": "K12",
     "img": "8503",
-    "url": "vindmollernes-sus",
-    "extraurl": ""
+    "url": "vindmollernes-sus"
 }, {
     "date": "2017-05-11",
     "time": "11:30",
     "theater": "Tapiolasali",
     "title": "Offline",
     "director": "Schnell",
+    "serie": "Junior Ciné",
     "duration": 87,
     "subtitles": "fin",
     "number": "3/3",
     "rating": "K12",
     "img": "8464",
-    "url": "offline-das-leben-ist-kein-bonuslevel",
-    "extraurl": ""
+    "url": "offline-das-leben-ist-kein-bonuslevel"
 }, {
     "date": "2017-05-11",
     "time": "13:00",
     "theater": "Louhisali",
     "title": "Tomorrow",
     "director": "Dion & Laurent",
+    "serie": "Junior Ciné",
     "duration": 118,
     "subtitles": "fin",
     "number": "1/1",
     "rating": "S",
     "img": "8484",
-    "url": "demain",
-    "extraurl": ""
+    "url": "demain"
 }, {
     "date": "2017-05-11",
     "time": "13:15",
     "theater": "Tapiolasali",
     "title": "Hobbyhorse Revolution",
     "director": "Vilhunen",
+    "serie": "Junior Ciné",
     "duration": 90,
     "subtitles": "eng",
     "number": "1/1",
     "rating": "S",
     "img": "8360",
-    "url": "hobbyhorse-revolution",
-    "extraurl": ""
+    "url": "hobbyhorse-revolution"
 }, {
     "date": "2017-05-11",
     "time": "15:00",
     "theater": "Tapiolasali",
     "title": "Beuys",
     "director": "Veiel",
+    "serie": "Taide",
     "duration": 107,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "S",
     "img": "8287",
-    "url": "beuys",
-    "extraurl": ""
+    "url": "beuys"
 }, {
     "date": "2017-05-11",
     "time": "15:15",
     "theater": "Kino Tapiola",
     "title": "Dreaming of Wine",
     "director": "Fernández de Castro",
+    "serie": "Palo",
     "duration": 68,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "S",
     "img": "8319",
-    "url": "priorat",
-    "extraurl": ""
+    "url": "priorat"
 }, {
     "date": "2017-05-11",
     "time": "15:15",
     "theater": "Louhisali",
     "title": "Tyttö nimeltä Varpu",
     "director": "Vilhunen",
+    "serie": "Junior Ciné",
     "duration": 99,
     "subtitles": "swe",
     "number": "1/1",
     "rating": "K12",
     "img": "8494",
-    "url": "tytto-nimelta-varpu",
-    "extraurl": ""
+    "url": "tytto-nimelta-varpu"
 }, {
     "date": "2017-05-11",
     "time": "17:00",
     "theater": "Kino Tapiola",
     "title": "All the Beauty",
     "director": "Greibrokk",
+    "serie": "Rakkaus",
     "duration": 90,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K12",
     "img": "8259",
-    "url": "alt-det-vakre",
-    "extraurl": ""
+    "url": "alt-det-vakre"
 }, {
     "date": "2017-05-11",
     "time": "17:00",
     "theater": "Omena 4",
     "title": "Light Thereafter",
     "director": "Božanov",
+    "serie": "Taide",
     "duration": 102,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8422",
-    "url": "light-thereafter",
-    "extraurl": ""
+    "url": "light-thereafter"
 }, {
     "date": "2017-05-11",
     "time": "17:00",
     "theater": "Omena 7",
     "title": "Life Beyond Me",
     "director": "Peyon",
+    "serie": "Perhe",
     "duration": 95,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8419",
-    "url": "vie-ailleurs-une",
-    "extraurl": ""
+    "url": "vie-ailleurs-une"
 }, {
     "date": "2017-05-11",
     "time": "17:00",
     "theater": "Sello 4",
     "title": "Austerlitz",
     "director": "Loznitsa",
+    "serie": "Menneisyys",
     "duration": 94,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K7",
     "img": "8280",
-    "url": "austerlitz",
-    "extraurl": ""
+    "url": "austerlitz"
 }, {
     "date": "2017-05-11",
     "time": "17:00",
     "theater": "Sello 5",
     "title": "A Wedding",
     "director": "Streker",
+    "serie": "Perhe",
     "duration": 98,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8443",
-    "url": "noces",
-    "extraurl": ""
+    "url": "noces"
 }, {
     "date": "2017-05-11",
     "time": "17:00",
     "theater": "Tapiolasali",
     "title": "Their Finest",
     "director": "Scherfig",
+    "serie": "Rakkaus",
     "duration": 110,
     "subtitles": "",
     "number": "2/2",
     "rating": "K12",
     "img": "8551",
-    "url": "their-finest",
-    "extraurl": ""
+    "url": "their-finest"
 }, {
     "date": "2017-05-11",
     "time": "17:15",
     "theater": "Louhisali",
     "title": "Stefan Zweig",
     "director": "Schrader",
+    "serie": "Menneisyys",
     "duration": 106,
     "subtitles": "fin",
     "number": "2/3",
     "rating": "K7",
     "img": "8539",
-    "url": "vor-der-morgenrote",
-    "extraurl": ""
+    "url": "vor-der-morgenrote"
 }, {
     "date": "2017-05-11",
     "time": "17:15",
     "theater": "Omena 3",
     "title": "Paths",
     "director": "Miera",
+    "serie": "Perhe",
     "duration": 108,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8491",
-    "url": "weg-ein",
-    "extraurl": ""
+    "url": "weg-ein"
 }, {
     "date": "2017-05-11",
     "time": "18:45",
     "theater": "Omena 7",
     "title": "Original Bliss",
     "director": "Taddicken",
+    "serie": "Palo",
     "duration": 102,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K12",
     "img": "8470",
-    "url": "gleissendes-gluck",
-    "extraurl": ""
+    "url": "gleissendes-gluck"
 }, {
     "date": "2017-05-11",
     "time": "18:45",
     "theater": "Sello 4",
     "title": "In the Blood",
     "director": "Heisterberg",
+    "serie": "Palo",
     "duration": 104,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8372",
-    "url": "i-blodet",
-    "extraurl": ""
+    "url": "i-blodet"
 }, {
     "date": "2017-05-11",
     "time": "19:00",
     "theater": "Kino Tapiola",
     "title": "The Program",
     "director": "Frears",
+    "serie": "Erikoisnäytös",
     "duration": 104,
     "subtitles": "fin + swe",
     "number": "1/1",
     "rating": "K7",
     "img": "8612",
-    "url": "program-the",
-    "extraurl": ""
+    "url": "program-the"
 }, {
     "date": "2017-05-11",
     "time": "19:00",
     "theater": "Omena 4",
     "title": "Away",
     "director": "Blair",
+    "serie": "Matka",
     "duration": 109,
     "subtitles": "",
     "number": "2/3",
     "rating": "K16",
     "img": "8283",
-    "url": "away",
-    "extraurl": ""
+    "url": "away"
 }, {
     "date": "2017-05-11",
     "time": "19:00",
     "theater": "Sello 5",
     "title": "Marie Curie",
     "director": "Sehr",
+    "serie": "Taide",
     "duration": 95,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8431",
-    "url": "marie-curie",
-    "extraurl": ""
+    "url": "marie-curie"
 }, {
     "date": "2017-05-11",
     "time": "19:00",
     "theater": "Tapiolasali",
     "title": "Denial",
     "director": "Jackson",
+    "serie": "Vastakkain",
     "duration": 110,
     "subtitles": "",
     "number": "2/2",
     "rating": "K7",
     "img": "8307",
-    "url": "denial",
-    "extraurl": ""
+    "url": "denial"
 }, {
     "date": "2017-05-11",
     "time": "19:15",
     "theater": "Louhisali",
     "title": "War/Peace",
     "director": "Kaur Khalsa",
+    "serie": "Première",
     "duration": 58,
     "subtitles": "",
     "number": "1/1",
     "rating": "S",
     "img": "8437",
-    "url": "war-peace",
-    "extraurl": ""
+    "url": "war-peace"
 }, {
     "date": "2017-05-11",
     "time": "19:15",
     "theater": "Omena 3",
     "title": "The Young Offenders",
     "director": "Foott",
+    "serie": "Särmikäs",
     "duration": 83,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8585",
-    "url": "young-offenders-the",
-    "extraurl": ""
+    "url": "young-offenders-the"
 }, {
     "date": "2017-05-11",
     "time": "20:45",
     "theater": "Omena 7",
     "title": "Into the Forest",
     "director": "Marchand",
+    "serie": "Särmikäs",
     "duration": 103,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K16",
     "img": "8375",
-    "url": "dans-la-foret",
-    "extraurl": ""
+    "url": "dans-la-foret"
 }, {
     "date": "2017-05-11",
     "time": "20:45",
     "theater": "Sello 4",
     "title": "The Day Will Come",
     "director": "Nielsen",
+    "serie": "Vastakkain",
     "duration": 110,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K16",
     "img": "8598",
-    "url": "der-kommer-en-dag",
-    "extraurl": ""
+    "url": "der-kommer-en-dag"
 }, {
     "date": "2017-05-11",
     "time": "21:00",
     "theater": "Omena 3",
     "title": "The Ardennes",
     "director": "Pront",
+    "serie": "Rikos",
     "duration": 93,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K16",
     "img": "8271",
-    "url": "ardennen-d",
-    "extraurl": ""
+    "url": "ardennen-d"
 }, {
     "date": "2017-05-11",
     "time": "21:00",
     "theater": "Omena 4",
     "title": "Back for Good",
     "director": "Spengler",
+    "serie": "Perhe",
     "duration": 91,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K12",
     "img": "8577",
-    "url": "back-for-good",
-    "extraurl": ""
+    "url": "back-for-good"
 }, {
     "date": "2017-05-11",
     "time": "21:00",
     "theater": "Sello 5",
     "title": "Eastern Business",
     "director": "Cobileanski",
+    "serie": "Matka",
     "duration": 84,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "S",
     "img": "8322",
-    "url": "afacerea-est",
-    "extraurl": ""
+    "url": "afacerea-est"
 }, {
     "date": "2017-05-11",
     "time": "21:00",
     "theater": "Tapiolasali",
     "title": "Orphan",
     "director": "Pallières",
+    "serie": "Särmikäs",
     "duration": 111,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K16",
     "img": "8473",
-    "url": "orpheline",
-    "extraurl": ""
+    "url": "orpheline"
 }, {
     "date": "2017-05-11",
     "time": "21:15",
     "theater": "Louhisali",
     "title": "Never Ever",
     "director": "Jacquot",
+    "serie": "Rakkaus",
     "duration": 86,
     "subtitles": "eng",
     "number": "1/3",
     "rating": "K12",
     "img": "8455",
-    "url": "a-jamais",
-    "extraurl": ""
+    "url": "a-jamais"
 }, {
     "date": "2017-05-11",
     "time": "21:30",
     "theater": "Kino Tapiola",
     "title": "A Taste of Ink",
     "director": "Simon",
+    "serie": "Vastakkain",
     "duration": 80,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8545",
-    "url": "compte-tes-blessures",
-    "extraurl": ""
+    "url": "compte-tes-blessures"
 }, {
     "date": "2017-05-12",
     "time": "09:00",
     "theater": "Hanasaari",
     "title": "Oskarin Amerikka",
     "director": "Iversen",
+    "serie": "Junior Ciné",
     "duration": 79,
     "subtitles": "fin",
     "number": "3/3",
     "rating": "K7",
     "img": "8485",
-    "url": "oskars-amerika",
-    "extraurl": ""
+    "url": "oskars-amerika"
 }, {
     "date": "2017-05-12",
     "time": "09:30",
     "theater": "Kino Tapiola",
     "title": "Onni suosii rohkeaa",
     "director": "Lechner",
+    "serie": "Junior Ciné",
     "duration": 96,
     "subtitles": "fin",
     "number": "1/3",
     "rating": "K7",
     "img": "7823",
-    "url": "ente-gut-madchen-allein-zu-haus",
-    "extraurl": ""
+    "url": "ente-gut-madchen-allein-zu-haus"
 }, {
     "date": "2017-05-12",
     "time": "11:00",
     "theater": "Hanasaari",
     "title": "Kun vielä elämme",
     "director": "Kouyaté",
+    "serie": "Junior Ciné",
     "duration": 91,
     "subtitles": "fin",
     "number": "2/2",
     "rating": "K7",
     "img": "8411",
-    "url": "medan-vi-lever",
-    "extraurl": ""
+    "url": "medan-vi-lever"
 }, {
     "date": "2017-05-12",
     "time": "11:30",
     "theater": "Kino Tapiola",
     "title": "Pitkä matka kouluun",
     "director": "Klausmann",
+    "serie": "Junior Ciné",
     "duration": 90,
     "subtitles": "fin",
     "number": "3/3",
     "rating": "K7",
     "img": "8497",
-    "url": "nicht-ohne-uns",
-    "extraurl": ""
+    "url": "nicht-ohne-uns"
 }, {
     "date": "2017-05-12",
     "time": "13:15",
     "theater": "Kino Tapiola",
     "title": "Räjähtävää teinirakkautta",
     "director": "Erichsen",
+    "serie": "Junior Ciné",
     "duration": 85,
     "subtitles": "fin",
     "number": "3/3",
     "rating": "K12",
     "img": "8503",
-    "url": "vindmollernes-sus",
-    "extraurl": ""
+    "url": "vindmollernes-sus"
 }, {
     "date": "2017-05-12",
     "time": "14:00",
     "theater": "Louhisali",
     "title": "Departure",
     "director": "Steggall",
+    "serie": "Rakkaus",
     "duration": 109,
     "subtitles": "",
     "number": "2/3",
     "rating": "K12",
     "img": "8310",
-    "url": "departure",
-    "extraurl": ""
+    "url": "departure"
 }, {
     "date": "2017-05-12",
     "time": "14:15",
     "theater": "Tapiolasali",
     "title": "Original Bliss",
     "director": "Taddicken",
+    "serie": "Palo",
     "duration": 102,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K12",
     "img": "8470",
-    "url": "gleissendes-gluck",
-    "extraurl": ""
+    "url": "gleissendes-gluck"
 }, {
     "date": "2017-05-12",
     "time": "16:00",
     "theater": "Louhisali",
     "title": "A Wedding",
     "director": "Streker",
+    "serie": "Perhe",
     "duration": 98,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8443",
-    "url": "noces",
-    "extraurl": ""
+    "url": "noces"
 }, {
     "date": "2017-05-12",
     "time": "16:15",
     "theater": "Tapiolasali",
     "title": "The Sense of an Ending",
     "director": "Batra",
+    "serie": "Rakkaus",
     "duration": 108,
     "subtitles": "",
     "number": "2/2",
     "rating": "K12",
     "img": "8524",
-    "url": "sense-of-an-ending-the",
-    "extraurl": ""
+    "url": "sense-of-an-ending-the"
 }, {
     "date": "2017-05-12",
     "time": "17:00",
     "theater": "Kino Tapiola",
     "title": "The Young Offenders",
     "director": "Foott",
+    "serie": "Särmikäs",
     "duration": 83,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8585",
-    "url": "young-offenders-the",
-    "extraurl": ""
+    "url": "young-offenders-the"
 }, {
     "date": "2017-05-12",
     "time": "17:00",
     "theater": "Omena 4",
     "title": "Safari",
     "director": "Seidl",
+    "serie": "Särmikäs",
     "duration": 90,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K16",
     "img": "8518",
-    "url": "safari",
-    "extraurl": ""
+    "url": "safari"
 }, {
     "date": "2017-05-12",
     "time": "17:00",
     "theater": "Omena 7",
     "title": "Home",
     "director": "Troch",
+    "serie": "Vastakkain",
     "duration": 103,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K16",
     "img": "8363",
-    "url": "home",
-    "extraurl": ""
+    "url": "home"
 }, {
     "date": "2017-05-12",
     "time": "17:00",
     "theater": "Sello 4",
     "title": "King of the Belgians",
     "director": "Brosens & Woodworth",
+    "serie": "Matka",
     "duration": 94,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "S",
     "img": "8405",
-    "url": "king-of-the-belgians",
-    "extraurl": ""
+    "url": "king-of-the-belgians"
 }, {
     "date": "2017-05-12",
     "time": "17:00",
     "theater": "Sello 5",
     "title": "50 is the New 30",
     "director": "Lemercier",
+    "serie": "Rakkaus",
     "duration": 97,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K7",
     "img": "8554",
-    "url": "marie-francine",
-    "extraurl": ""
+    "url": "marie-francine"
 }, {
     "date": "2017-05-12",
     "time": "17:15",
     "theater": "Omena 3",
     "title": "In the Blood",
     "director": "Heisterberg",
+    "serie": "Palo",
     "duration": 104,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8372",
-    "url": "i-blodet",
-    "extraurl": ""
+    "url": "i-blodet"
 }, {
     "date": "2017-05-12",
     "time": "18:00",
     "theater": "Hanasaari",
     "title": "Heartstone",
     "director": "Guðmundsson",
+    "serie": "Vastakkain",
     "duration": 129,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K16",
     "img": "8354",
-    "url": "hjartasteinn",
-    "extraurl": ""
+    "url": "hjartasteinn"
 }, {
     "date": "2017-05-12",
     "time": "18:00",
     "theater": "Louhisali",
     "title": "Afterimage",
     "director": "Wajda",
+    "serie": "Taide",
     "duration": 100,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K12",
     "img": "8574",
-    "url": "powidoki",
-    "extraurl": ""
+    "url": "powidoki"
 }, {
     "date": "2017-05-12",
     "time": "18:15",
     "theater": "Tapiolasali",
     "title": "The Giant",
     "director": "Nyholm",
+    "serie": "Matka",
     "duration": 90,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8343",
-    "url": "jatten",
-    "extraurl": ""
+    "url": "jatten"
 }, {
     "date": "2017-05-12",
     "time": "18:45",
     "theater": "Kino Tapiola",
     "title": "A Date for Mad Mary",
     "director": "Thornton",
+    "serie": "Särmikäs",
     "duration": 82,
     "subtitles": "",
     "number": "3/3",
     "rating": "K12",
     "img": "8301",
-    "url": "date-for-mad-mary-a",
-    "extraurl": ""
+    "url": "date-for-mad-mary-a"
 }, {
     "date": "2017-05-12",
     "time": "18:45",
     "theater": "Omena 4",
     "title": "On the Milky Road",
     "director": "Kusturica",
+    "serie": "Rakkaus",
     "duration": 125,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K12",
     "img": "8467",
-    "url": "na-mlecnom-putu",
-    "extraurl": ""
+    "url": "na-mlecnom-putu"
 }, {
     "date": "2017-05-12",
     "time": "18:45",
     "theater": "Sello 4",
     "title": "A Taste of Ink",
     "director": "Simon",
+    "serie": "Vastakkain",
     "duration": 80,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8545",
-    "url": "compte-tes-blessures",
-    "extraurl": ""
+    "url": "compte-tes-blessures"
 }, {
     "date": "2017-05-12",
     "time": "19:00",
     "theater": "Omena 7",
     "title": "The Day Will Come",
     "director": "Nielsen",
+    "serie": "Vastakkain",
     "duration": 110,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K16",
     "img": "8598",
-    "url": "der-kommer-en-dag",
-    "extraurl": ""
+    "url": "der-kommer-en-dag"
 }, {
     "date": "2017-05-12",
     "time": "19:00",
     "theater": "Sello 5",
     "title": "The Eavesdropper",
     "director": "Kruithof",
+    "serie": "Rikos",
     "duration": 93,
     "subtitles": "fin",
     "number": "2/3",
     "rating": "K12",
     "img": "8325",
-    "url": "mecanique-de-lombre-la",
-    "extraurl": ""
+    "url": "mecanique-de-lombre-la"
 }, {
     "date": "2017-05-12",
     "time": "19:15",
     "theater": "Omena 3",
     "title": "Still Life",
     "director": "Alpi",
+    "serie": "Särmikäs",
     "duration": 82,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K16",
     "img": "8542",
-    "url": "gorge-coeur-ventre",
-    "extraurl": ""
+    "url": "gorge-coeur-ventre"
 }, {
     "date": "2017-05-12",
     "time": "20:30",
     "theater": "Kino Tapiola",
     "title": "Kills on Wheels",
     "director": "Till",
+    "serie": "Rikos",
     "duration": 103,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "K12",
     "img": "8402",
-    "url": "tiszta-szivvel",
-    "extraurl": ""
+    "url": "tiszta-szivvel"
 }, {
     "date": "2017-05-12",
     "time": "20:45",
     "theater": "Sello 4",
     "title": "Axolotl Overkill",
     "director": "Hegemann",
+    "serie": "Palo",
     "duration": 94,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8284",
-    "url": "axolotl-overkill",
-    "extraurl": ""
+    "url": "axolotl-overkill"
 }, {
     "date": "2017-05-12",
     "time": "21:00",
     "theater": "Omena 3",
     "title": "The Fury of a Patient Man",
     "director": "Arévalo",
+    "serie": "Rikos",
     "duration": 91,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K16",
     "img": "8340",
-    "url": "tarde-para-la-ira",
-    "extraurl": ""
+    "url": "tarde-para-la-ira"
 }, {
     "date": "2017-05-12",
     "time": "21:00",
     "theater": "Omena 7",
     "title": "Orphan",
     "director": "Pallières",
+    "serie": "Särmikäs",
     "duration": 111,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K16",
     "img": "8473",
-    "url": "orpheline",
-    "extraurl": ""
+    "url": "orpheline"
 }, {
     "date": "2017-05-12",
     "time": "21:00",
     "theater": "Sello 5",
     "title": "The Ardennes",
     "director": "Pront",
+    "serie": "Rikos",
     "duration": 93,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K16",
     "img": "8271",
-    "url": "ardennen-d",
-    "extraurl": ""
+    "url": "ardennen-d"
 }, {
     "date": "2017-05-12",
     "time": "21:15",
     "theater": "Omena 4",
     "title": "Playground",
     "director": "Kowalski",
+    "serie": "Särmikäs",
     "duration": 81,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K16",
     "img": "8500",
-    "url": "plac-zabaw",
-    "extraurl": ""
+    "url": "plac-zabaw"
 }, {
     "date": "2017-05-13",
     "time": "12:45",
     "theater": "Omena 3",
     "title": "Departure",
     "director": "Steggall",
+    "serie": "Rakkaus",
     "duration": 109,
     "subtitles": "",
     "number": "3/3",
     "rating": "K12",
     "img": "8310",
-    "url": "departure",
-    "extraurl": ""
+    "url": "departure"
 }, {
     "date": "2017-05-13",
     "time": "13:00",
     "theater": "Kino Tapiola",
     "title": "Donkeyote",
     "director": "Pereira",
+    "serie": "Matka",
     "duration": 86,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "S",
     "img": "8316",
-    "url": "donkeyote",
-    "extraurl": ""
+    "url": "donkeyote"
 }, {
     "date": "2017-05-13",
     "time": "13:00",
     "theater": "Omena 4",
     "title": "Home",
     "director": "Troch",
+    "serie": "Vastakkain",
     "duration": 103,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K16",
     "img": "8363",
-    "url": "home",
-    "extraurl": ""
+    "url": "home"
 }, {
     "date": "2017-05-13",
     "time": "13:00",
     "theater": "Omena 7",
     "title": "Willy the First",
     "director": "Boukherma, Boukherma, Gautier & Thomas",
+    "serie": "Vastakkain",
     "duration": 82,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K7",
     "img": "8452",
-    "url": "willy-1er",
-    "extraurl": ""
+    "url": "willy-1er"
 }, {
     "date": "2017-05-13",
     "time": "14:45",
     "theater": "Kino Tapiola",
     "title": "Dreaming of Wine",
     "director": "Fernández de Castro",
+    "serie": "Palo",
     "duration": 68,
     "subtitles": "eng",
     "number": "2/a",
     "rating": "S",
     "img": "8319",
-    "url": "priorat",
-    "extraurl": ""
+    "url": "priorat"
 }, {
     "date": "2017-05-13",
     "time": "14:45",
     "theater": "Omena 3",
     "title": "The King's Choice",
     "director": "Poppe",
+    "serie": "Menneisyys",
     "duration": 133,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8408",
-    "url": "kongens-nei",
-    "extraurl": ""
+    "url": "kongens-nei"
 }, {
     "date": "2017-05-13",
     "time": "14:45",
     "theater": "Omena 7",
     "title": "Paths",
     "director": "Miera",
+    "serie": "Perhe",
     "duration": 108,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8491",
-    "url": "weg-ein",
-    "extraurl": ""
+    "url": "weg-ein"
 }, {
     "date": "2017-05-13",
     "time": "15:00",
     "theater": "Omena 4",
     "title": "King of the Belgians",
     "director": "Brosens & Woodworth",
+    "serie": "Matka",
     "duration": 94,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "S",
     "img": "8405",
-    "url": "king-of-the-belgians",
-    "extraurl": ""
+    "url": "king-of-the-belgians"
 }, {
     "date": "2017-05-13",
     "time": "15:00",
     "theater": "Sello 4",
     "title": "The Man",
     "director": "Sieling",
+    "serie": "Taide",
     "duration": 94,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8425",
-    "url": "mesteren",
-    "extraurl": ""
+    "url": "mesteren"
 }, {
     "date": "2017-05-13",
     "time": "15:00",
     "theater": "Sello 5",
     "title": "Requiem for Mrs. J.",
     "director": "Vuletić",
+    "serie": "Perhe",
     "duration": 94,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8512",
-    "url": "requiem-for-mrs-j",
-    "extraurl": ""
+    "url": "requiem-for-mrs-j"
 }, {
     "date": "2017-05-13",
     "time": "16:15",
     "theater": "Kino Tapiola",
     "title": "J: Beyond Flamenco",
     "director": "Saura",
+    "serie": "Palo",
     "duration": 90,
     "subtitles": "eng",
     "number": "1/2",
     "rating": "S",
     "img": "8378",
-    "url": "jota-la",
-    "extraurl": ""
+    "url": "jota-la"
 }, {
     "date": "2017-05-13",
     "time": "17:00",
     "theater": "Omena 4",
     "title": "A Kid",
     "director": "Lioret",
+    "serie": "Perhe",
     "duration": 98,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8396",
-    "url": "fils-de-jean-le",
-    "extraurl": ""
+    "url": "fils-de-jean-le"
 }, {
     "date": "2017-05-13",
     "time": "17:00",
     "theater": "Omena 7",
     "title": "The Distinguished Citizen",
     "director": "Duprat & Cohn",
+    "serie": "Matka",
     "duration": 117,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8313",
-    "url": "ciudadano-ilustre-el",
-    "extraurl": ""
+    "url": "ciudadano-ilustre-el"
 }, {
     "date": "2017-05-13",
     "time": "17:00",
     "theater": "Sello 4",
     "title": "Julie and the Shoe Factory",
     "director": "Testut & Calori",
+    "serie": "Yhteiskunta",
     "duration": 90,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "S",
     "img": "8633",
-    "url": "sur-quel-pied-danser",
-    "extraurl": ""
+    "url": "sur-quel-pied-danser"
 }, {
     "date": "2017-05-13",
     "time": "17:00",
     "theater": "Sello 5",
     "title": "Robert Doisneau",
     "director": "Deroudille",
+    "serie": "Taide",
     "duration": 77,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "S",
     "img": "8582",
-    "url": "robert-doisneau-le-revolte-du-merveilleux",
-    "extraurl": ""
+    "url": "robert-doisneau-le-revolte-du-merveilleux"
 }, {
     "date": "2017-05-13",
     "time": "17:15",
     "theater": "Omena 3",
     "title": "The Hippopotamus",
     "director": "Jencks",
+    "serie": "Särmikäs",
     "duration": 86,
     "subtitles": "",
     "number": "3/3",
     "rating": "K12",
     "img": "8357",
-    "url": "hippopotamus-the",
-    "extraurl": ""
+    "url": "hippopotamus-the"
 }, {
     "date": "2017-05-13",
     "time": "18:00",
     "theater": "Kino Tapiola",
     "title": "Move! Dance Your Life",
     "director": "Jean-Noël",
+    "serie": "Palo",
     "duration": 76,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "S",
     "img": "8446",
-    "url": "move-dance-your-life",
-    "extraurl": ""
+    "url": "move-dance-your-life"
 }, {
     "date": "2017-05-13",
     "time": "18:45",
     "theater": "Sello 5",
     "title": "The Graduation",
     "director": "Simon",
+    "serie": "Palo",
     "duration": 121,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "S",
     "img": "8346",
-    "url": "concours-le",
-    "extraurl": ""
+    "url": "concours-le"
 }, {
     "date": "2017-05-13",
     "time": "19:00",
     "theater": "Omena 3",
     "title": "Stefan Zweig",
     "director": "Schrader",
+    "serie": "Menneisyys",
     "duration": 106,
     "subtitles": "fin",
     "number": "3/3",
     "rating": "K7",
     "img": "8539",
-    "url": "vor-der-morgenrote",
-    "extraurl": ""
+    "url": "vor-der-morgenrote"
 }, {
     "date": "2017-05-13",
     "time": "19:00",
     "theater": "Sello 4",
     "title": "Egon Schiele",
     "director": "Berner",
+    "serie": "Taide",
     "duration": 110,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8328",
-    "url": "egon-schiele-tod-und-madchen",
-    "extraurl": ""
+    "url": "egon-schiele-tod-und-madchen"
 }, {
     "date": "2017-05-13",
     "time": "19:15",
     "theater": "Omena 4",
     "title": "Kills on Wheels",
     "director": "Till",
+    "serie": "Rikos",
     "duration": 103,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K12",
     "img": "8402",
-    "url": "tiszta-szivvel",
-    "extraurl": ""
+    "url": "tiszta-szivvel"
 }, {
     "date": "2017-05-13",
     "time": "19:15",
     "theater": "Omena 7",
     "title": "Still Life",
     "director": "Alpi",
+    "serie": "Särmikäs",
     "duration": 82,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K16",
     "img": "8542",
-    "url": "gorge-coeur-ventre",
-    "extraurl": ""
+    "url": "gorge-coeur-ventre"
 }, {
     "date": "2017-05-13",
     "time": "19:30",
     "theater": "Kino Tapiola",
     "title": "Light Thereafter",
     "director": "Božanov",
+    "serie": "Taide",
     "duration": 102,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8422",
-    "url": "light-thereafter",
-    "extraurl": ""
+    "url": "light-thereafter"
 }, {
     "date": "2017-05-13",
     "time": "21:00",
     "theater": "Omena 3",
     "title": "Axolotl Overkill",
     "director": "Hegemann",
+    "serie": "Palo",
     "duration": 94,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8284",
-    "url": "axolotl-overkill",
-    "extraurl": ""
+    "url": "axolotl-overkill"
 }, {
     "date": "2017-05-13",
     "time": "21:00",
     "theater": "Omena 7",
     "title": "Secluded",
     "director": "Fløe",
+    "serie": "Perhe",
     "duration": 82,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K16",
     "img": "8521",
-    "url": "afskaret",
-    "extraurl": ""
+    "url": "afskaret"
 }, {
     "date": "2017-05-13",
     "time": "21:00",
     "theater": "Sello 4",
     "title": "The Young Offenders",
     "director": "Foott",
+    "serie": "Särmikäs",
     "duration": 83,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8585",
-    "url": "young-offenders-the",
-    "extraurl": ""
+    "url": "young-offenders-the"
 }, {
     "date": "2017-05-13",
     "time": "21:00",
     "theater": "Sello 5",
     "title": "Thanks Boss!",
     "director": "Ruffin",
+    "serie": "Yhteiskunta",
     "duration": 83,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "S",
     "img": "8548",
-    "url": "merci-patron",
-    "extraurl": ""
+    "url": "merci-patron"
 }, {
     "date": "2017-05-13",
     "time": "21:15",
     "theater": "Omena 4",
     "title": "The Eavesdropper",
     "director": "Kruithof",
+    "serie": "Rikos",
     "duration": 93,
     "subtitles": "fin",
     "number": "3/3",
     "rating": "K12",
     "img": "8325",
-    "url": "mecanique-de-lombre-la",
-    "extraurl": ""
+    "url": "mecanique-de-lombre-la"
 }, {
     "date": "2017-05-13",
     "time": "21:30",
     "theater": "Kino Tapiola",
     "title": "Never Ever",
     "director": "Jacquot",
+    "serie": "Rakkaus",
     "duration": 86,
     "subtitles": "eng",
     "number": "2/3",
     "rating": "K12",
     "img": "8455",
-    "url": "a-jamais",
-    "extraurl": ""
+    "url": "a-jamais"
 }, {
     "date": "2017-05-14",
     "time": "12:00",
     "theater": "Kino Tapiola",
     "title": "The Life and Films of Ken Loach",
     "director": "Osmond",
+    "serie": "Palo",
     "duration": 93,
     "subtitles": "",
     "number": "3/3",
     "rating": "K12",
     "img": "8428",
-    "url": "versus-the-life-and-films-of-ken-loach",
-    "extraurl": ""
+    "url": "versus-the-life-and-films-of-ken-loach"
 }, {
     "date": "2017-05-14",
     "time": "13:30",
     "theater": "Hanasaari",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "14/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-14",
     "time": "14:00",
     "theater": "Kino Tapiola",
     "title": "Austerlitz",
     "director": "Loznitsa",
+    "serie": "Menneisyys",
     "duration": 94,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K7",
     "img": "8280",
-    "url": "austerlitz",
-    "extraurl": ""
+    "url": "austerlitz"
 }, {
     "date": "2017-05-14",
     "time": "14:00",
     "theater": "Omena 3",
     "title": "50 is the New 30",
     "director": "Lemercier",
+    "serie": "Rakkaus",
     "duration": 97,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K7",
     "img": "8554",
-    "url": "marie-francine",
-    "extraurl": ""
+    "url": "marie-francine"
 }, {
     "date": "2017-05-14",
     "time": "14:00",
     "theater": "Omena 7",
     "title": "Donkeyote",
     "director": "Pereira",
+    "serie": "Matka",
     "duration": 86,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "S",
     "img": "8316",
-    "url": "donkeyote",
-    "extraurl": ""
+    "url": "donkeyote"
 }, {
     "date": "2017-05-14",
     "time": "14:00",
     "theater": "Sello 4",
     "title": "The Fabulous Patars",
     "director": "Reine",
+    "serie": "Perhe",
     "duration": 98,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K7",
     "img": "8334",
-    "url": "cigarettes-et-chocolat-chaud",
-    "extraurl": ""
+    "url": "cigarettes-et-chocolat-chaud"
 }, {
     "date": "2017-05-14",
     "time": "14:00",
     "theater": "Sello 5",
     "title": "Life Beyond Me",
     "director": "Peyon",
+    "serie": "Perhe",
     "duration": 95,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8419",
-    "url": "vie-ailleurs-une",
-    "extraurl": ""
+    "url": "vie-ailleurs-une"
 }, {
     "date": "2017-05-14",
     "time": "14:15",
     "theater": "Omena 4",
     "title": "Move! Dance Your Life",
     "director": "Jean-Noël",
+    "serie": "Palo",
     "duration": 76,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "S",
     "img": "8446",
-    "url": "move-dance-your-life",
-    "extraurl": ""
+    "url": "move-dance-your-life"
 }, {
     "date": "2017-05-14",
     "time": "15:45",
     "theater": "Kino Tapiola",
     "title": "A Woman's Life",
     "director": "Brizé",
+    "serie": "Rakkaus",
     "duration": 119,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8607",
-    "url": "vie-une",
-    "extraurl": ""
+    "url": "vie-une"
 }, {
     "date": "2017-05-14",
     "time": "15:45",
     "theater": "Omena 4",
     "title": "In Loco Parentis",
     "director": "Ní Chianáin & Rane",
+    "serie": "Palo",
     "duration": 99,
     "subtitles": "",
     "number": "3/3",
     "rating": "S",
     "img": "8369",
-    "url": "in-loco-parentis",
-    "extraurl": ""
+    "url": "in-loco-parentis"
 }, {
     "date": "2017-05-14",
     "time": "15:45",
     "theater": "Omena 7",
     "title": "Enclave",
     "director": "Radovanović",
+    "serie": "Vastakkain",
     "duration": 92,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8605",
-    "url": "enklava",
-    "extraurl": ""
+    "url": "enklava"
 }, {
     "date": "2017-05-14",
     "time": "15:45",
     "theater": "Sello 4",
     "title": "All the Beauty",
     "director": "Greibrokk",
+    "serie": "Rakkaus",
     "duration": 90,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K12",
     "img": "8259",
-    "url": "alt-det-vakre",
-    "extraurl": ""
+    "url": "alt-det-vakre"
 }, {
     "date": "2017-05-14",
     "time": "15:45",
     "theater": "Sello 5",
     "title": "A Kid",
     "director": "Lioret",
+    "serie": "Perhe",
     "duration": 98,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8396",
-    "url": "fils-de-jean-le",
-    "extraurl": ""
+    "url": "fils-de-jean-le"
 }, {
     "date": "2017-05-14",
     "time": "16:00",
     "theater": "Omena 3",
     "title": "J: Beyond Flamenco",
     "director": "Saura",
+    "serie": "Palo",
     "duration": 90,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "S",
     "img": "8378",
-    "url": "jota-la",
-    "extraurl": ""
+    "url": "jota-la"
 }, {
     "date": "2017-05-14",
     "time": "16:30",
     "theater": "Hanasaari",
     "title": "Animaatioita pienimmille",
     "director": "",
+    "serie": "Junior Ciné",
     "duration": 30,
     "subtitles": "",
     "number": "15/15",
     "rating": "S",
     "img": "8627",
-    "url": "animaatioita-pienimmille",
-    "extraurl": ""
+    "url": "animaatioita-pienimmille"
 }, {
     "date": "2017-05-14",
     "time": "17:30",
     "theater": "Omena 7",
     "title": "Light Thereafter",
     "director": "Božanov",
+    "serie": "Taide",
     "duration": 102,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8422",
-    "url": "light-thereafter",
-    "extraurl": ""
+    "url": "light-thereafter"
 }, {
     "date": "2017-05-14",
     "time": "17:30",
     "theater": "Sello 4",
     "title": "Cezanne and I",
     "director": "Thompson",
+    "serie": "Taide",
     "duration": 117,
     "subtitles": "fin",
     "number": "3/3",
     "rating": "K7",
     "img": "8295",
-    "url": "cezanne-et-moi",
-    "extraurl": ""
+    "url": "cezanne-et-moi"
 }, {
     "date": "2017-05-14",
     "time": "17:45",
     "theater": "Omena 4",
     "title": "Away",
     "director": "Blair",
+    "serie": "Matka",
     "duration": 109,
     "subtitles": "",
     "number": "3/3",
     "rating": "K16",
     "img": "8283",
-    "url": "away",
-    "extraurl": ""
+    "url": "away"
 }, {
     "date": "2017-05-14",
     "time": "17:45",
     "theater": "Sello 5",
     "title": "Paris la blanche",
     "director": "Terki",
+    "serie": "Rakkaus",
     "duration": 81,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "S",
     "img": "8488",
-    "url": "paris-la-blanche",
-    "extraurl": ""
+    "url": "paris-la-blanche"
 }, {
     "date": "2017-05-14",
     "time": "18:00",
     "theater": "Kino Tapiola",
     "title": "Marie Curie",
     "director": "Sehr",
+    "serie": "Taide",
     "duration": 95,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8431",
-    "url": "marie-curie",
-    "extraurl": ""
+    "url": "marie-curie"
 }, {
     "date": "2017-05-14",
     "time": "18:00",
     "theater": "Omena 3",
     "title": "Requiem for Mrs. J.",
     "director": "Vuletić",
+    "serie": "Perhe",
     "duration": 94,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8512",
-    "url": "requiem-for-mrs-j",
-    "extraurl": ""
+    "url": "requiem-for-mrs-j"
 }, {
     "date": "2017-05-14",
     "time": "19:30",
     "theater": "Omena 7",
     "title": "Egon Schiele",
     "director": "Berner",
+    "serie": "Taide",
     "duration": 110,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8328",
-    "url": "egon-schiele-tod-und-madchen",
-    "extraurl": ""
+    "url": "egon-schiele-tod-und-madchen"
 }, {
     "date": "2017-05-14",
     "time": "19:45",
     "theater": "Omena 4",
     "title": "The Fixer",
     "director": "Sitaru",
+    "serie": "Vastakkain",
     "duration": 98,
     "subtitles": "eng",
     "number": "2/2",
     "rating": "K16",
     "img": "8337",
-    "url": "fixeur",
-    "extraurl": ""
+    "url": "fixeur"
 }, {
     "date": "2017-05-14",
     "time": "19:45",
     "theater": "Sello 4",
     "title": "The King's Choice",
     "director": "Poppe",
+    "serie": "Menneisyys",
     "duration": 133,
     "subtitles": "eng",
     "number": "3/3",
     "rating": "K12",
     "img": "8408",
-    "url": "kongens-nei",
-    "extraurl": ""
+    "url": "kongens-nei"
 }, {
     "date": "2017-05-14",
     "time": "20:00",
     "theater": "Kino Tapiola",
     "title": "Hulluna onnesta",
     "director": "Virzì",
+    "serie": "Première",
     "duration": 118,
     "subtitles": "fin + swe",
     "number": "1/3",
     "rating": "",
     "img": "8742",
-    "url": "pazza-gioia-la",
-    "extraurl": ""
+    "url": "pazza-gioia-la"
 }, {
     "date": "2017-05-14",
     "time": "20:00",
     "theater": "Omena 3",
     "title": "Hulluna onnesta",
     "director": "Virzì",
+    "serie": "Première",
     "duration": 118,
     "subtitles": "fin + swe",
     "number": "2/3",
     "rating": "",
     "img": "8742",
-    "url": "pazza-gioia-la",
-    "extraurl": ""
+    "url": "pazza-gioia-la"
 }, {
     "date": "2017-05-14",
     "time": "20:00",
     "theater": "Sello 5",
     "title": "Hulluna onnesta",
     "director": "Virzì",
+    "serie": "Première",
     "duration": 118,
     "subtitles": "fin + swe",
     "number": "3/3",
     "rating": "",
     "img": "8742",
-    "url": "pazza-gioia-la",
-    "extraurl": ""
+    "url": "pazza-gioia-la"
 } ]
