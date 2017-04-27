@@ -219,11 +219,12 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		FB.ui({
 			method: 	'share',
 			description: titles.join(", "),
+			title:      'Espoo Ciné 2017: Kalenteri',
 			picture: 	'http://www.espoocine.fi/2017/fi/Image/8250/paakuva.jpg',
-			href: 		"http://www.espoocine.fi/2017/fi/ohjelmisto/kalenteri" + "#/share/" + userRef.key + "/" + $scope.sharecount
+			href: 		"http://www.espoocine.fi/2017/fi/elokuvat/kalenteri" + "#/share/" + userRef.key + "/" + $scope.sharecount
 		}, function(response) {
 			userRef.child('sharecount').set($scope.sharecount)
-			console.log("SHARE DONE?", response)
+			// console.log("SHARE DONE", response)
 		})
 	}
 
@@ -287,11 +288,12 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		})
 	}
 
-	window.FB && FB.init({
-		appId      : '1207489822615275',
+	FB.init({
+		appId      : '1504498216507859', //2017 [re: 2015]
+		// status     : true,  // fetch login status on page load
 		cookie     : true,  // enable cookies to allow the server to access the session
 		xfbml      : true,  // parse social plugins on this page
-		version    : 'v2.7' // use graph api version 2.5
+		version    : 'v2.7' // use graph api version <2.9 so share picture & description works
 	})
 
 	// FB.getLoginStatus(fbStatusChangeCallback)
