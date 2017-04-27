@@ -99,7 +99,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	}
 
 	$scope.numberKlik = function(screening) {
-		$scope.scrollTarget = $filter('nextscreeningid')(screening)
+		$scope.scrollTarget = screening.next
 	}
 
 	$scope.friendKlik = function(friend) {

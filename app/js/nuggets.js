@@ -31,7 +31,7 @@ datanuggetrorApp.controller("DataNuggetController", function($scope, $http) {
 		window.DATA = $scope.data
 
 		console.log("DATA NUGGETS DONE", $scope.data)
-		console.log("try copy(DATA) or JSON.stringify(DATA) ! !")
+		console.info("try copy(DATA) or JSON.stringify(DATA) ! !")
 	})
 
 	// ultimate nuggetrium data format for easy pooping
@@ -70,6 +70,7 @@ datanuggetrorApp.controller("DataNuggetController", function($scope, $http) {
 			// console.log(screening.title, datetime)
 
 			screening.id       = getScreeningId(screening)
+			screening.next     = undefined
 			screening.datetime = datetime.toISOString() // could be in data.json
 			screening.dateId   = getDateId(datetime)
 			screening.timeslot = getTimeslot(screening.time)
@@ -79,15 +80,15 @@ datanuggetrorApp.controller("DataNuggetController", function($scope, $http) {
 			screening.timeslotdiff = (datetime-timeslotdatetime)/1000/60
 
 			if (screening.id in data.screenings)
-				console.log("DUPLICATE SCREENING ID", screening.id)
+				console.warn("DUPLICATE SCREENING ID", screening.id)
 
 			data.screenings[screening.id] = screening
 
 			var slug = screening.url
 			if (! (slug in data.slugs)) {
-				data.slugs[slug] = 0
+				data.slugs[slug] = []
 			}
-			data.slugs[slug]++
+			data.slugs[slug].push(screening.id)
 
 			if (! (screening.dateId in data.days)) {
 				data.days[screening.dateId] = angular.copy(dayObject)
@@ -114,6 +115,13 @@ datanuggetrorApp.controller("DataNuggetController", function($scope, $http) {
 			data.days[screening.dateId].timeslots[screening.timeslot].count++
 		})
 
+		console.log("ROUND 1 DONE")
+
+		// ROUND 2. process next screening ids'.
+		angular.forEach(screenings, function(screening) {
+			data.screenings[screening.id].next = nextScreeningId(screening, data.slugs)
+		})
+
 		// POST-PROCESS HACKS FOR EMPTY SLOTS
 		data.days["su-07"].timeslots[17] = angular.copy(timeslotsObject[17])
 		data.days["su-07"].timeslots[17].theaters[config.theaters[0]].push(null)
@@ -128,6 +136,7 @@ datanuggetrorApp.controller("DataNuggetController", function($scope, $http) {
 	}
 
 	function getScreeningId(screening) {
+		if (! screening.number) return screening.url
 		return [screening.url, screening.number.split("/")[0]].join("-")
 	}
 
@@ -143,5 +152,12 @@ datanuggetrorApp.controller("DataNuggetController", function($scope, $http) {
 		for (var i = 0; i < timeslots.length; i++)
 			if (i == timeslots.length-1 || h >= timeslots[i] && h < timeslots[i+1])
 				return timeslots[i]
+	}
+
+	function nextScreeningId(screening, slugs) {
+		let ids = slugs[screening.url]
+		let now = ids.indexOf(screening.id)
+		let next = (now + 1) % ids.length
+		return ids[next]
 	}
 })
