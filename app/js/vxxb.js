@@ -318,14 +318,6 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 				return
 			}
 
-			// HELLO TODO TESTING HERE
-			response.data.push(
-				{
-					id: "10154451710904189",
-					name: "DEBUG-PEKKA"
-				}
-			)
-
 			var userRef = firebaseUserRef()
 			if (! userRef) {
 				console.warn("GOT FRIENDS? NO FIREBASE LOGIN")
