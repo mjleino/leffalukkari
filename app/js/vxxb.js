@@ -31,6 +31,7 @@ app.value('duScrollOffset', 82)
 
 app.controller("LeffalukkariController", function($scope, $http, $filter, $timeout, $localStorage, $document, $locale) {
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
+	$scope.help = { }
 	$scope.now = new Date()
 	$scope.today = getDateId($scope.now)
 	$scope.user = null
@@ -92,7 +93,12 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 		if (screening.id in $scope.$storage.selected)
 			delete $scope.$storage.selected[screening.id]
-		else $scope.$storage.selected[screening.id] = Date.now()
+		else {
+			$scope.$storage.selected[screening.id] = Date.now()
+
+			if (! $scope.help.dofbshareShown) $scope.help.dofbshare = true
+			$scope.help.dofbshareShown = true
+		}
 
 		firebaseMerge()
 
@@ -108,10 +114,10 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		else friend.hidden = ! friend.hidden
 	}
 
-	$scope.help = function(first) {
-		$scope.search.help = !!first || ! $scope.search.help
+	$scope.helpKlik = function(first) {
+		$scope.help.show = !!first || ! $scope.help.show
 		$scope.$storage.helpShown = true
-		if (! first) ga('send', 'event', $scope.search.help ? 'click' : 'unclick', 'help')
+		if (! first) ga('send', 'event', $scope.help.show ? 'click' : 'unclick', 'help')
 	}
 
 	$scope.myFestival = function() {
@@ -242,7 +248,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 			console.info("GOT FB SHARE")
 			firebaseMergeShare(data, share)
 			$scope.search.fbshare = data.key
-			$scope.help(true) // SHARING IS CARING
+			$scope.helpKlik(true) // SHARING IS CARING
 		})
 
 		// $scope.myFestival() // FESTIV?
@@ -491,7 +497,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 	// INIT FB SHARE & HELP
 	$scope.fbShareCheck()
-	if (! $scope.$storage.helpShown) $scope.help(true)
+	if (! $scope.$storage.helpShown) $scope.helpKlik(true)
 })
 
 // DIRECTIVE & FILTER

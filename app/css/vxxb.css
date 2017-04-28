@@ -319,6 +319,62 @@ mark {
 	margin-top: 1px; /* ? */
 }
 
+/* TOOLTIP HELP SYSTEM */
+
+.tooltip {
+	color: white;
+	background-color: #333;
+	border: solid 3px #333;
+	padding: 4px;
+	padding-left: 8px;
+	font-size: 13px;
+
+	position: absolute;
+	z-index: 10;
+	left: 0%;
+	top: 100%;
+	width: 200px;
+	/*white-space: nowrap;*/
+
+	transition: opacity 0.5s, visibility 0s;
+}
+.tooltip:not(.active) {
+	transition: opacity 0.5s, visibility 0s 0.5s;
+	visibility: hidden;
+	opacity: 0;
+}
+.tooltip:before {
+	border: solid;
+	border-color: #333 transparent;
+	border-width: 0px 6px 6px 6px;
+	content: "";
+	left: 8px;
+	top: -8px; /* :before border + .tooltip border */
+	position: absolute;
+}
+.tooltip.right {
+	left: auto;
+	right: 0%;
+}
+.tooltip.right:before {
+	left: auto;
+	right: 8px;
+}
+.tooltip > button {
+	float: right;
+	border: none;
+	background: none;
+}
+.tooltip > button:not(:hover) {
+	opacity: .7;
+}
+.tooltip > button > span {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+
 /* SCREENING STUFF */
 
 screening {
@@ -489,7 +545,6 @@ td:last-child .fb-friends span {
 	right: 50%;
 	left: auto;
 }
-
 
 .screening>.top, .screening>.bottom {
 	padding: 4px;

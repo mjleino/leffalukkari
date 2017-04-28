@@ -33,8 +33,8 @@
 				<li id="search-film">
 					<input id="search" type="search" placeholder="{{ i18n.searchfilm }}…" aria-label="{{ i18n.searchfilm }}" ng-model="search.text">
 				</li>
-				<li id="help" ng-class="{active: search.help, share: search.fbshare}">
-					<a href="#help" title="{{ i18n.help }}" ng-click="help(); $event.preventDefault()">?</a>
+				<li id="help" ng-class="{active: help.show, share: search.fbshare}">
+					<a href="#help" title="{{ i18n.help }}" ng-click="helpKlik(); $event.preventDefault()">?</a>
 					<aside help></aside>
 				</li>
 				<li id="fb-login" ng-class="{ logged: user }">
@@ -42,6 +42,12 @@
 						<img ng-src="{{ user.photoURL }}" alt="facebook" title="{{ i18n.logout }} ({{ user.displayName }})">
 						<span title="{{ i18n.fbconnect }}" class="typcn typcn-social-facebook"></span>
 					</a>
+					<aside class="tooltip right" ng-class="{active: help.dofbshare && ! user}">
+						<button class="close" ng-click="help.dofbshare=false">
+							<span aria-hidden="true">×</span>
+						</button>
+						{{ i18n.dofbconnect }}
+					</aside>
 				</li>
 				<li id="fb-share" ng-if="user">
 					<a href='{{ "https://www.facebook.com/sharer/sharer.php?u=http://www.espoocine.fi/2017/fi/elokuvat/kalenteri#share/" + user.uid }}' target="_blank" title="{{ i18n.fbshare }}" ng-click="fbShare($event);">
