@@ -44,7 +44,7 @@
 					</a>
 				</li>
 				<li id="fb-share" ng-if="user">
-					<a href='{{ "https://www.facebook.com/sharer/sharer.php?u=http://www.espoocine.fi/2017/fi/ohjelmisto/kalenteri%23/share/" + user.providerData[0].uid }}' target="_blank" title="{{ i18n.fbshare }}" ng-click="fbShare($event);">
+					<a href='{{ "https://www.facebook.com/sharer/sharer.php?u=http://www.espoocine.fi/2017/fi/elokuvat/kalenteri#share/" + user.uid }}' target="_blank" title="{{ i18n.fbshare }}" ng-click="fbShare($event);">
 						{{ i18n.share }}
 					</a>
 				</li>
