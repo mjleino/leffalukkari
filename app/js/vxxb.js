@@ -9,16 +9,17 @@ __   _(_|_) | _____(_)_ __   ___ (_) __ _| |_   (_) __ _ _ __ (_) |_ ___ \n\
                      |_|       |__/                |___/                 ")
 
 // FIREBASE INIT
-var config = {
-	apiKey: "AIzaSyANhCceiEJfJAVliYu1fv_s7X52zE2OGoM",
-	authDomain: "leffalukkari.firebaseapp.com",
-	databaseURL: "https://leffalukkari.firebaseio.com",
-	projectId: "leffalukkari",
-	storageBucket: "leffalukkari.appspot.com",
-	messagingSenderId: "97795109066"
+var firebaseConfig = {
+	apiKey: "AIzaSyBEOPf5wjz_1ZHHXTOaD26jK00eM7NWo7I",
+	authDomain: "espoocine2017.firebaseapp.com",
+	databaseURL: "https://espoocine2017.firebaseio.com",
+	projectId: "espoocine2017",
+	storageBucket: "espoocine2017.appspot.com",
+	messagingSenderId: "256524825671",
+	userPath: "users/",
+	facebookPath: "facebook/"
 }
-firebase.initializeApp(config)
-var firebaseUserPath = "espoocine/2017/users/"
+firebase.initializeApp(firebaseConfig)
 
 var app = angular.module("appLeffalukkari", ["ngSanitize", "duScroll", "ngStorage"])
 
@@ -228,16 +229,6 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		})
 	}
 
-	$scope.fbLogin = function() {
-		if ($scope.user) {
-			ga('send', 'event', 'click', 'firebaseSignOut')
-			$scope.firebaseSignOut()
-		} else {
-			ga('send', 'event', 'click', 'firebaseSignIn')
-			$scope.firebaseSignIn()
-		}
-	}
-
 	// check if we arrived at a facebook share hash, sync that friend
 	$scope.fbShareCheck = function() {
 		var split = location.hash.split("/")
@@ -247,8 +238,8 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		var share = split[3]
 
 		// TEMPORARY FRIEND
-		firebase.database().ref(firebaseUserPath + id).once('value').then(function(data) {
-			console.log("GOT FB SHARE")
+		firebase.database().ref(firebaseConfig.userPath + id).once('value').then(function(data) {
+			console.info("GOT FB SHARE")
 			firebaseMergeShare(data, share)
 			$scope.search.fbshare = data.key
 			$scope.help(true) // SHARING IS CARING
@@ -257,33 +248,98 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		// $scope.myFestival() // FESTIV?
 	}
 
-	function fbStatusChangeCallback(response) {
-		console.log('fbStatusChangeCallback', response)
-
-		if (response.status === 'connected') {
-			fbSyncFriends()
+	$scope.fbLogin = function() {
+		if ($scope.user) {
+			ga('send', 'event', 'click', 'fbLogout')
+			// FB.logout()
+			firebaseSignOut()
+		} else {
+			ga('send', 'event', 'click', 'fbLogin')
+			FB.login(function(response) {
+				// console.log("FB.login", response)
+			}, {scope: 'email,user_friends'})
 		}
 	}
 
-	function fbCheckLoginState() {
-		FB.getLoginStatus(fbStatusChangeCallback)
+	function isUserEqual(facebookAuthResponse, firebaseUser) {
+		if (firebaseUser) {
+			var providerData = firebaseUser.providerData
+			for (var i = 0; i < providerData.length; i++) {
+				if (providerData[i].providerId === firebase.auth.FacebookAuthProvider.PROVIDER_ID &&
+					providerData[i].uid === facebookAuthResponse.userID) {
+					return true
+				}
+			}
+		}
+		return false
+	}
+
+	function fbStatusChangeCallback(event) {
+		console.log('fbStatusChangeCallback', event)
+
+		if (event.authResponse) {
+			// User is signed-in Facebook.
+			var unsubscribe = firebase.auth().onAuthStateChanged(function(firebaseUser) {
+				unsubscribe() // JUST A SINGLE AUTH STATE CHANGED
+
+				// Check if we are already signed-in Firebase with the correct user.
+				if (!isUserEqual(event.authResponse, firebaseUser)) {
+					var credential = firebase.auth.FacebookAuthProvider.credential(event.authResponse.accessToken)
+					firebaseSignIn(credential)
+				} else {
+					// User is already signed-in Firebase with the correct user.
+					// We don't need to re-auth the Firebase connection.
+					// console.log("ALREADY_SIGNED_IN")
+				}
+			})
+
+			// NOTE: we might not have firebase login here. we double-shoot friend sync. (1)
+			fbSyncFriends()
+		} else {
+			// User is signed-out of Facebook.
+			firebaseSignOut()
+		}
 	}
 
 	function fbSyncFriends() {
-		if (! $scope.user) {
-			console.log("GOT FRIENDS; NO FIREBASE LOGIN")
-			return
-		}
+		// SORRY SIR. can't have friends if no firebase login.
+		if (! $scope.user) return
 
 		FB.api('/me/friends', function(response) {
 			console.log('fbSyncFriends', response)
+			if (! response.data) {
+				console.warn("GET FRIENDS? NO FACEBOOK LOGIN")
+				return
+			}
+
+			// HELLO TODO TESTING HERE
+			response.data.push(
+				{
+					id: "10154451710904189",
+					name: "DEBUG-PEKKA"
+				}
+			)
+
 			var userRef = firebaseUserRef()
-			if (! response.data) return
+			if (! userRef) {
+				console.warn("GOT FRIENDS? NO FIREBASE LOGIN")
+				return
+			}
 
 			response.data.forEach(function(friend) {
-				userRef.child('friends').child(friend.id).set(friend.name)
-				// ALSO NOTIFY MY FRIENDS. SPAM ALERT.
-				firebase.database().ref(firebaseUserPath + friend.id + '/friends/' + userRef.key).set($scope.user.displayName)
+				// map friends' facebookId → firebaseId
+				firebase.database().ref(firebaseConfig.facebookPath + friend.id).once('value').then(function(data) {
+					var fid = data.val()
+					if (! fid) {
+						console.warn("FRIEND HAS NEVER LOGGED IN?", friend)
+						return
+					}
+
+					userRef.child('friends').child(fid).set(friend.name)
+
+					// ALSO NOTIFY MY FRIENDS. SPAM ALERT.
+					firebase.database().ref(firebaseConfig.userPath + fid + '/friends/' + userRef.key).set($scope.user && $scope.user.displayName)
+				})
 			})
 		})
 	}
@@ -297,35 +353,34 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	})
 
 	// FB.getLoginStatus(fbStatusChangeCallback)
-	// FB.Event.subscribe('auth.authResponseChange', fbStatusChangeCallback)
+	FB.Event.subscribe('auth.authResponseChange', fbStatusChangeCallback)
 
 	// FIREBASE STUFF
 
-	var provider = new firebase.auth.FacebookAuthProvider()
-	provider.addScope('user_friends')
-	// TODO: PUBLISH
-
 	function firebaseUserRef() {
-		if (! $scope.user) return
-		// return firebase.database().ref(firebaseUserPath + $scope.user.uid)
-		// NOTE: WE USE FACEBOOK ID
-		// TODO: when would there be more than one providerData
-		return firebase.database().ref(firebaseUserPath + $scope.user.providerData[0].uid)
+		if (! firebase.auth().currentUser) return null
+		return firebase.database().ref(firebaseConfig.userPath + firebase.auth().currentUser.uid)
 	}
 
-	$scope.firebaseSignIn = function() {
-		firebase.auth().signInWithPopup(provider).then(function(result) {
-			// This gives you a Facebook Access Token. You can use it to access the Facebook API.
-			$scope.accessToken = result.credential.accessToken
-		}).catch(function(error) {
+	$scope.firebaseLogin = function() {
+		if ($scope.user) {
+			ga('send', 'event', 'click', 'firebaseSignOut')
+			firebaseSignOut()
+		} else {
+			ga('send', 'event', 'click', 'firebaseSignIn')
+			firebaseSignIn()
+		}
+	}
+
+	function firebaseSignIn(credential) {
+		firebase.auth().signInWithCredential(credential).catch(function(error) {
 			console.log("LOGIN ERROR", error)
 		})
 	}
 
-	$scope.firebaseSignOut = function() {
-		// SHOULD WE REMOVE FRIENDS?
-		firebase.auth().signOut().then(function() {
-		}, function(error) {
+	function firebaseSignOut() {
+		// should we remove ourself from friends' lists?
+		firebase.auth().signOut().catch(function(error) {
 			console.log("LOGOUT ERROR", error)
 		})
 	}
@@ -333,12 +388,46 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	firebase.auth().onAuthStateChanged(function(user) {
 		console.log("FIREBASE", user ? "LOGIN" : "LOGOUT", user)
 
-		$timeout(function() {
-			$scope.user = user
-			firebaseListen()
-			window.FB && FB.getLoginStatus(fbStatusChangeCallback)
-		})
+		$scope.user = user
+		if (! user) $scope.friends = { }
+
+		// give angular time to breathe
+		$timeout(function() { })
+
+		// publish our provider data
+		firebaseSync()
+		firebaseListen()
+
+		// we have firebase login, let's do facebook 
+		if (user && FB.getUserID()) fbSyncFriends()
+		else if (user) FB.getLoginStatus()
 	})
+
+	function firebaseSync() {
+		var userRef = firebaseUserRef()
+		if (! userRef) return
+
+		for (var i = 0; i < $scope.user.providerData.length; i++) {
+			var data = $scope.user.providerData[i]
+
+			// $scope.user.updateProfile({
+			// 	displayName: response.name,
+			// 	photoURL: "http://graph.facebook.com/" + response.id + "/picture?type=square"
+			// })
+
+			// our name might always have changed
+			userRef.child("name").set(data.displayName)
+
+			// https://github.com/firebase/firebaseui-web/issues/95
+			if (data.providerId == firebase.auth.FacebookAuthProvider.PROVIDER_ID) {
+				userRef.child("photoURL").set("http://graph.facebook.com/" + data.uid + "/picture?type=square")
+			} else {
+				userRef.child("photoURL").set(data.photoURL)
+			}
+
+			firebase.database().ref(data.providerId.replace(/\.com$/, "")).child(data.uid).set($scope.user.uid)
+		}
+	}
 
 	function firebaseMerge(selected) {
 		console.log("firebaseMerge", selected && selected.val())
@@ -351,7 +440,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 			})
 		// otherwise, overwrite localStorage --> firebase
 		else {
-			firebaseUserRef().child("/selected").set($scope.$storage.selected)
+			firebaseUserRef().child("selected").set($scope.$storage.selected)
 		}
 	}
 
@@ -374,18 +463,8 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	}
 
 	function firebaseListen() {
-		if (! $scope.user) {
-			$scope.friends = { }
-			return
-		}
-
-		// TODO: DOESN'T WORK ON FIRST LOGIN ? ?
 		var userRef = firebaseUserRef()
-
-		// TODO: only do this on facebook login; not every auth state change
-		userRef.child("name").set($scope.user.displayName)
-		userRef.child("email").set($scope.user.email)
-		userRef.child("photoURL").set($scope.user.photoURL)
+		if (! userRef) return
 
 		userRef.child("sharecount").on('value', function(data) {
 			$scope.sharecount = data.val()
@@ -396,15 +475,15 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		})
 
 		userRef.child("friends").on('child_added', function(data) {
-			console.log("FRIEND_ADDED", data.key, data.val())
-			firebase.database().ref(firebaseUserPath + data.key).on('value', firebaseMergeFriend)
+			console.info("FRIEND_ADDED", data.key, data.val())
+			firebase.database().ref(firebaseConfig.userPath + data.key).on('value', firebaseMergeFriend)
 		})
 
 		userRef.child("friends").on('child_removed', function(data) {
-			console.log("FRIEND_REMOVED", data.key, data.val())
-			firebase.database().ref(firebaseUserPath + data.key).off()
+			console.info("FRIEND_REMOVED", data.key, data.val())
+			firebase.database().ref(firebaseConfig.userPath + data.key).off()
 			$timeout(function() {
-				$scope.friends[data.key] = null
+				delete $scope.friends[data.key]
 			})
 		})
 	}
