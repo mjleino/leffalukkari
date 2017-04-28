@@ -397,8 +397,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		firebaseListen()
 
 		// we have firebase login, let's do facebook 
-		if (user && FB.getUserID()) fbSyncFriends()
-		else if (user) FB.getLoginStatus()
+		if (user) FB.getLoginStatus()
 	})
 
 	function firebaseSync() {
