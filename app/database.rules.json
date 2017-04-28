@@ -1,0 +1,28 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    "$provider": {
+      "$id": {
+        // https://firebase.google.com/docs/reference/security/database/#variables
+        ".write": "$id === auth.token.firebase.identities[$provider+'.com'][0]"
+      }
+    },
+    "users": {
+      "$uid": {
+        // unauthenticated can read facebook share
+        ".read": true,
+        ".write": "$uid === auth.uid",
+        // i can announce myself inside anyone's friend list
+        "friends": {
+          "$id": {
+            ".write": "$id === auth.uid"
+          }
+        },
+        // TODO: unauthenticated reads should be limited here
+        "share": {
+          ".read": true
+        }
+      }
+    }
+  }
+}
