@@ -297,11 +297,11 @@ mark {
 	float: right;
 }
 
-#fb-friends:not(.myfestival) > li.hidden {
+#fb-friends > li.hidden {
 	opacity: 0.4;
 }
 
-#fb-friends.myfestival > li.myfestival > a {
+#fb-friends > li.myfestival > a {
 	color: #fff;
 	background-color: #52ae32;
 }

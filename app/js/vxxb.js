@@ -37,6 +37,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	$scope.user = null
 	$scope.friends = { }
 	$scope.sharecount = 0
+	$scope.search.friendfestival = 0
 
 	$scope.$storage = $localStorage.$default({
 		2017: {
@@ -110,8 +111,9 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	}
 
 	$scope.friendKlik = function(friend) {
-		if ($scope.search.myfestival) friend.myfestival = ! friend.myfestival
-		else friend.hidden = ! friend.hidden
+		friend.myfestival = ! friend.myfestival
+		$scope.search.friendfestival += friend.myfestival ? 1 : -1
+		ga('send', 'event', friend.myfestival ? 'click' : 'unclick', 'friend')
 	}
 
 	$scope.helpKlik = function(first) {
@@ -125,13 +127,14 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		ga('send', 'event', $scope.search.myfestival ? 'click' : 'unclick', 'myfestival')
 	}
 
-	// filter function checking if screening is selected or fb-shared
+	// filter checking if (in myfestival mode) screening or sibling is selected
 	$scope.myFestivalCheck = function(screeningOrId, index, array) {
-		if (! $scope.search.myfestival) {
+		if (! screeningOrId) return undefined
+
+		if (! $scope.search.myfestival && ! $scope.search.friendfestival) {
 			delete $scope.selectedCopy
 			return true
 		}
-		if (! screeningOrId) return false
 
 		var id = angular.isObject(screeningOrId) ? screeningOrId.id : screeningOrId
 
@@ -148,7 +151,7 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 				friendSelected++
 		})
 
-		return userSelected || friendSelected
+		return $scope.search.myfestival && userSelected || friendSelected
 	}
 
 	// filter function checking if search matches screening
