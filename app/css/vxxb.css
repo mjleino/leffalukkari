@@ -293,6 +293,7 @@ mark {
 
 #fb-friends > li {
 	/*display: inline-block;*/
+	padding-right: 8px;
 	margin-bottom: 0;
 	float: right;
 }
@@ -308,9 +309,6 @@ mark {
 
 #fb-friends > li > a {
 	padding-left: 0;
-}
-#fb-friends > li > a > span {
-	padding-right: 8px;
 }
 
 #fb-friends img {

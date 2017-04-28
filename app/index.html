@@ -64,7 +64,9 @@
 					   ng-click="$event.preventDefault(); friendKlik(friend);"
 					   ontouchstart="this.classList.toggle('hover')">
 						<img ng-src="{{ friend.photoURL }}" alt="{{ friend.name }}">
-						<span>{{ friend.name.split(' ')[0] }} ({{ friend.selected | count }})</span>
+						<span>{{ friend.name.split(' ')[0] }}
+							<span ng-if="friend.selected | count">({{ friend.selected | count }})</span>
+						</span>
 					</a>
 				</li>
 			</ul>
