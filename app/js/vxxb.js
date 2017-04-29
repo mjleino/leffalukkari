@@ -248,8 +248,8 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 		// TEMPORARY FRIEND
 		firebase.database().ref(firebaseConfig.userPath + id).once('value').then(function(data) {
-			console.info("GOT FB SHARE")
-			firebaseMergeShare(data, share)
+			console.info("GOT FB SHARE", id, share)
+			firebaseMergeFriend(data, share)
 			$scope.search.fbshare = data.key
 			$scope.helpKlik(true) // SHARING IS CARING
 		})
@@ -444,21 +444,19 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		}
 	}
 
-	function firebaseMergeFriend(friend) {
+	function firebaseMergeFriend(friend, share) {
 		// console.log("firebaseMergeFriend", friend.val())
-		$timeout(function() {
-			$scope.friends[friend.key] = friend.val()
-		})
-	}
+		if (! friend.val()) return // friend might be deleted :[
+		if ($scope.search.fbshare == friend.key) return // friend might be static share
 
-	function firebaseMergeShare(friend, share) {
-		console.log("firebaseMergeShare", friend.val())
 		$timeout(function() {
 			$scope.friends[friend.key] = friend.val()
-			$scope.friends[friend.key].myfestival = true
+
 			// LOL THIS HACK. temporarily set share as this friendos selected screenings.
-			if (share) $scope.friends[friend.key].selected = $scope.friends[friend.key].share[share]
-			console.log("HACK", share, $scope.friends[friend.key].selected)
+			if (share) {
+				console.info("HACK selected=share[" + share + "]", $scope.friends[friend.key])
+				$scope.friends[friend.key].selected = $scope.friends[friend.key].share[share]
+			}
 		})
 	}
 
