@@ -295,6 +295,9 @@ mark {
 	padding: 4px 0;
 	background-color: #e4e4e4;
 }
+#fb-friends.help {
+	padding-right: 280px;
+}
 
 #fb-friends > li {
 	/*display: inline-block;*/
