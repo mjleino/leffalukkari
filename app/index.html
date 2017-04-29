@@ -24,7 +24,7 @@
 		<nav>
 			<ul id="days">
 				<li ng-repeat="day in data.days"
-					ng-class="{today: day.id == today}"
+					ng-class="{today: day.date == today}"
 					du-scrollspy="{{ day.id }}">
 					<a href="#{{ day.id }}" title="{{ day.date | date:'shortDate' }}" du-smooth-scroll>
 						<time datetime="{{ day.date }}">{{ day.date | date:"EEE d" }}</time>

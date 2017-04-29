@@ -33,7 +33,8 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 	$scope.search = { } // https://github.com/oblador/angular-scroll/issues/43
 	$scope.help = { }
 	$scope.now = new Date()
-	$scope.today = getDateId($scope.now)
+	// NOTE: returns date according to local timezone
+	$scope.today = $filter('date')($scope.now, 'yyyy-MM-dd')
 	$scope.user = null
 	$scope.friends = { }
 	$scope.sharecount = 0
@@ -72,10 +73,12 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 			return document.getElementById('su-28')
 		}, function(value, old) {
 			if (! value) return
-			if (! containsDate($scope.now, $scope.data.days)) return
+
+			var day = findDayByDate($scope.today, $scope.data.days)
+			if (! day) return
 
 			// console.log("YO!! scrolling in today", $scope.today)
-			$scope.scrollTo($scope.today)
+			$scope.scrollTo(day.id)
 		}
 	)
 
@@ -191,18 +194,11 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 		return [screening.url, screening.number.split("/")[0]].join("-")
 	}
 
-	function getDateId(d) {
-		return $filter('date')(d, 'EEE-dd')
-	}
-
-	function containsDate(date, days) {
-		// NOTE: returns date according to local timezone
-		var today = $filter('date')(date, 'yyyy-MM-dd')
+	function findDayByDate(date, days) {
 		for (var d in days) {
-			// console.log(today, "vs", days[d].date)
-			if (today == days[d].date) return true
+			// console.log(date, "vs", days[d].date)
+			if (date == days[d].date) return days[d]
 		}
-		return false
 	}
 
 	// FACEBOOK STUFF
