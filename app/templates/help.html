@@ -8,9 +8,12 @@
 
 <section class="share" lang="fi" ng-if="locale=='fi'">
 	<h2>B O O M !</h2>
-	<p>Ystäväsi <b>{{ friends[search.fbshare].name.split(' ')[0] }}</b> jakoi oman Ciné -kalenterinsa. Hänen valitsemat näytökset on merkattu hänen profiilikuvalla.</p>
-	<p>OMAT FESTARIT -painikkeella näet valitsemasi elokuvat ja niiden vaihto&shy;ehtoiset näytökset, sekä ystäväsi valitsemat näytökset.</p>
-	<p>Jaa oma festarisi Facebookiin, niin ystäväsi löytävät samoihin näytöksiin!</p>
+	<p>Ystäväsi <b>{{ friends[search.fbshare].name.split(' ')[0] }}</b> jakoi Ciné-kalenterinsa. Hänen valitsemat näytökset on merkattu
+		<img class="fb" ng-src="{{ friends[search.fbshare].photoURL }}" alt="{{ friends[search.fbshare].name }}">.
+	</p>
+	<p>{{ friends[search.fbshare].name.split(' ')[0] | uppercase }} -painikkeella näet pelkästään ystäväsi valitsemat näytökset.</p>
+	<p>OMAT FESTARIT -painikkeella näet valitsemasi elokuvat ja niiden vaihto&shy;ehtoiset näytökset.</p>
+	<p>Jaa oma festarisi Facebookiin, niin ystävät löytävät samoihin näytöksiin!</p>
 </section>
 
 <section class="direct" lang="en" ng-if="locale=='en'">
@@ -23,9 +26,12 @@
 
 <section class="share" lang="en" ng-if="locale=='en'">
 	<h2>B O O M !</h2>
-	<p>Your friend <b>{{ friends[search.fbshare].name.split(' ')[0] }}</b> shared their Ciné calendar. Their chosen screenings are marked with their profile picture.</p>
-	<p>MY FESTIVAL button shows the films you chose, their alternative screenings, and the screenings your friend chose.</p>
-	<p>Share your festival to Facebook, so more friends find their way to screenings with you!</p>
+	<p>Your friend <b>{{ friends[search.fbshare].name.split(' ')[0] }}</b> shared their Ciné calendar. Their screenings are marked with
+		<img class="fb" ng-src="{{ friends[search.fbshare].photoURL }}" alt="{{ friends[search.fbshare].name }}">.
+	</p>
+	<p>{{ friends[search.fbshare].name.split(' ')[0] | uppercase }} button shows only their chosen screenings.</p>
+	<p>MY FESTIVAL button shows the films you chose and their alternative screenings.</p>
+	<p>Share your festival to Facebook, and more friends find the same screenings!</p>
 </section>
 
 <p><a href="#help" ng-click="helpKlik(); $event.preventDefault()">O K</a></p>

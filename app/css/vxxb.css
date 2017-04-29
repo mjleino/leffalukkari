@@ -284,6 +284,11 @@ mark {
 	to   { opacity: 0.5; }
 }
 
+#help img.fb {
+	width: 1.4em;
+	border-radius: 50%;
+}
+
 #fb-friends {
 	/*float: right;*/
 	margin-top: 0;
