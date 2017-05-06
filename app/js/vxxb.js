@@ -132,12 +132,13 @@ app.controller("LeffalukkariController", function($scope, $http, $filter, $timeo
 
 	// filter checking if (in myfestival mode) screening or sibling is selected
 	$scope.myFestivalCheck = function(screeningOrId, index, array) {
-		if (! screeningOrId) return undefined
-
 		if (! $scope.search.myfestival && ! $scope.search.friendfestival) {
 			delete $scope.selectedCopy
 			return true
 		}
+
+		// check after myfestival to keep empty timeslot null-hack working
+		if (! screeningOrId) return undefined
 
 		var id = angular.isObject(screeningOrId) ? screeningOrId.id : screeningOrId
 
