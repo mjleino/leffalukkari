@@ -578,7 +578,7 @@
       "serie": "Perhe",
       "duration": 98,
       "subtitles": "eng",
-      "number": "1/3",
+      "number": "1/2",
       "rating": "K12",
       "img": "8396",
       "url": "fils-de-jean-le",
@@ -838,12 +838,12 @@
       "serie": "Erikoisnäytös",
       "duration": 80,
       "subtitles": "",
-      "number": "1/1",
+      "number": "1/2",
       "rating": "K7",
       "img": "8509",
       "url": "tortue-rouge-la",
       "id": "tortue-rouge-la-1",
-      "next": "tortue-rouge-la-1",
+      "next": "tortue-rouge-la-2",
       "datetime": "2017-05-07T10:00:00.000Z",
       "dateId": "su-07",
       "timeslot": 13,
@@ -4659,12 +4659,12 @@
       "serie": "Perhe",
       "duration": 98,
       "subtitles": "eng",
-      "number": "2/3",
+      "number": "2/2",
       "rating": "K12",
       "img": "8396",
       "url": "fils-de-jean-le",
       "id": "fils-de-jean-le-2",
-      "next": "fils-de-jean-le-3",
+      "next": "fils-de-jean-le-1",
       "datetime": "2017-05-13T14:00:00.000Z",
       "dateId": "la-13",
       "timeslot": 17,
@@ -5251,21 +5251,21 @@
       "timeslot": 15,
       "timeslotdiff": 45
     },
-    "fils-de-jean-le-3": {
+    "tortue-rouge-la-2": {
       "date": "2017-05-14",
       "time": "15:45",
       "theater": "Sello 5",
-      "title": "A Kid",
-      "director": "Lioret",
-      "serie": "Perhe",
-      "duration": 98,
-      "subtitles": "eng",
-      "number": "3/3",
-      "rating": "K12",
-      "img": "8396",
-      "url": "fils-de-jean-le",
-      "id": "fils-de-jean-le-3",
-      "next": "fils-de-jean-le-1",
+      "title": "The Red Turtle",
+      "director": "Dudok de Wit",
+      "serie": "Erikoisnäytös",
+      "duration": 80,
+      "subtitles": "",
+      "number": "2/2",
+      "rating": "K7",
+      "img": "8509",
+      "url": "tortue-rouge-la",
+      "id": "tortue-rouge-la-2",
+      "next": "tortue-rouge-la-1",
       "datetime": "2017-05-14T12:45:00.000Z",
       "dateId": "su-14",
       "timeslot": 15,
@@ -7150,7 +7150,7 @@
               "alt-det-vakre-2"
             ],
             "Sello 5": [
-              "fils-de-jean-le-3"
+              "tortue-rouge-la-2"
             ],
             "Omena 3": [
               "jota-la-2"
@@ -7341,8 +7341,7 @@
     ],
     "fils-de-jean-le": [
       "fils-de-jean-le-1",
-      "fils-de-jean-le-2",
-      "fils-de-jean-le-3"
+      "fils-de-jean-le-2"
     ],
     "sieranevada": [
       "sieranevada-1",
@@ -7393,7 +7392,8 @@
       "hjertestart-1"
     ],
     "tortue-rouge-la": [
-      "tortue-rouge-la-1"
+      "tortue-rouge-la-1",
+      "tortue-rouge-la-2"
     ],
     "robert-doisneau-le-revolte-du-merveilleux": [
       "robert-doisneau-le-revolte-du-merveilleux-1",
